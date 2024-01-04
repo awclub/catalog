@@ -1,4 +1,4 @@
-# AIA Podcast's AI Tools Catalog
+# AIA Podcast's AI Tools Catalog / Каталог ИИ-сервисов от AIA Podcast
 This is a catalog of tools that have been mentioned in the [AIA Podcast](https://itbeard.com/aia). 
 These tools are AI-powered and can be useful in programming, content creation, and increasing your effectiveness
 
