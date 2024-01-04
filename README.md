@@ -1,6 +1,6 @@
-# AIA Podcast's AI Tools Catalog / Каталог ИИ-сервисов от AIA Podcast
+# AIA Podcast's AI Tools Catalog
 This is a catalog of tools that have been mentioned in the [AIA Podcast](https://itbeard.com/aia). 
-These tools are AI-powered and can be useful in programming, content creation, and increasing your effectiveness
+These tools are AI-powered and can be useful in programming, content creation, and increasing your effectiveness.
 
 
 ### How do I add my service to the catalog?
@@ -13,3 +13,22 @@ Make a fork of this repository, then make improvements and send a PR (Pull Reque
 
 ### How can I report a closed or inoperative tool from the catalog?
 You can create an Issue with type "[Сlosed or inoperative tool report](https://github.com/awclub/catalog/issues/new?assignees=&labels=closed+tool%2C+inoperative+tool&projects=&template=%D1%81losed-or-inoperative-tool-report.md&title=)". Then, we will review the tool and decide whether to remove it from the catalog or not.
+
+
+---
+
+# Каталог ИИ-сервисов от AIA Podcast
+Это каталог ИИ-сервисов и инструментов, которые упоминались в [AIA Podcast](https://itbeard.com/aia). 
+Эти инструменты работают на основе искусственного интеллекта и могут быть полезны в программировании, создании контента и повышении эффективности вашей работы.
+
+
+### Как добавить сервис в каталог?
+Зайдите в наш чат в [Telegram](https://t.me/aiapodcast) и пришлите нам ссылку на сервис с кратким описанием. Если сервис окажется достаточно полезным и интересным, мы обсудим его в следующем эпизоде AIA Podcast, а затем добавим в наш каталог. Это единственный способ попасть в каталог.
+
+### Как добавить улучшения в каталог?
+Сделайте форк этого репозитория, затем внесите улучшения и отправьте PR (Pull Request) в наш репозиторий. Также вы можете создать Issue с типом "[Feature request](https://github.com/awclub/catalog/issues/new?assignees=&labels=feature&projects=&template=feature_request.md&title=)" и описанием улучшения, мы рассмотрим его и внедрим, если решим, что оно приемлемо и имеет смысл.
+
+
+### Как сообщить о закрытом или неработающем сервисе из каталога?
+Вы можете создать Issue с типом "[Сlosed or inoperative tool report](https://github.com/awclub/catalog/issues/new?assignees=&labels=closed+tool%2C+inoperative+tool&projects=&template=%D1%81losed-or-inoperative-tool-report.md&title=)". Затем мы рассмотрим запрос и решим, удалять сервис из каталога или нет.
+
