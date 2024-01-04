@@ -63,7 +63,7 @@ function displayServices(searchTerm = '') {
                 ${localization.mentionedIn}: <a href="${service.episodeUrl}" target="_blank">${service.episodeName}</a>
             </p>
             <div class="tags">${service.tags.map(tag => `<span class="tag">${tag}</span>`).join(' ')}</div>
-            <div class="date">${service.date}</div> <!-- Добавляем дату -->
+            <div class="date">${toLocalDateString(service.date)}</div> <!-- Добавляем дату -->
         `;
         servicesList.appendChild(serviceElement);
     });
@@ -79,6 +79,12 @@ function displayServices(searchTerm = '') {
     // Обновляем отображение выбранного тега и показываем кнопку сброса
     tagName.textContent = selectedTag;
     resetButton.style.display = selectedTag ? 'inline' : 'none';
+}
+
+toLocalDateString = function(inputDate) {
+    let date = new Date(inputDate);
+    let options = { year: 'numeric', month: 'long', day: 'numeric' };
+    return date.toLocaleDateString(currentLanguage, options);
 }
 
 // Добавляем обработчик события на кнопку сброса
