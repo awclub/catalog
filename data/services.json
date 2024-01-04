@@ -1,0 +1,38 @@
+[
+    {
+        "name": "MateOS",
+        "url": "https://www.mate-os.com",
+        "description": {
+            "en": "Copilot for your operating system. It can interact with your operating system through screen photos and file system access and perform simple tasks. From the creators of Machinet",
+            "ru": "Копайлот для вашей операционной системы. По фотографии экрана и через доступ к файловой системе может взаимодействовать с вашей операционной системуо и выполнять простые задачи. От создателей Machinet"
+        },
+        "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
+        "episodeName": "AIA Podcast #24",
+        "date": "2024-01-04",
+        "tags": ["programming", "chat", "copilot"]
+    },
+    {
+        "name": "CodeRabbit",
+        "url": "https://coderabbit.ai/",
+        "description": {
+            "en": "Assistant in the creation and management of pulrequests, smart codereviews",
+            "ru": "Помощник в создании и управлении пулреквестами, умный кодревью"
+        },
+        "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
+        "episodeName": "AIA Podcast #24",
+        "date": "2024-01-04",
+        "tags": ["programming"]
+    },
+    {
+        "name": "Self-Operating Computer Framework",
+        "url": "https://github.com/OthersideAI/self-operating-computer",
+        "description": {
+            "en": "A framework that views a screen and decides to perform a series of mouse and keyboard actions to achieve a goal. Analogous to MateOS. Requires access to the GPT-4V API",
+            "ru": "Фреймворк, который просматривает экран и принимает решение о выполнении ряда действий с помощью мыши и клавиатуры для достижения цели. Аналог MateOS. Требует доступ к GPT-4V API"
+        },
+        "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
+        "episodeName": "AIA Podcast #24",
+        "date": "2024-01-04",
+        "tags": ["programming", "chat", "copilot", "open-source", "gpt-4v"]
+    }
+]

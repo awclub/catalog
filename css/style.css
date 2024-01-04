@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+#search-box {
+    width: 100%; /* Задаем ширину 100% */
+    box-sizing: border-box; /* Учитываем padding и border в общей ширине */
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.service-item {
+    position: relative;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.date {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: gray
+}
+
+.tag {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 2px 5px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+#services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.service-item {
+    width: 300px;
+    margin-right: 15px;
+    /* другие стили */
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    margin: 0 10px;
+    color: #333;
+    padding: 5px;
+    display: block;
+}
+
+@media screen and (max-width: 640px) {
+    .service-item {
+        width: 100%;
+        margin-right: 0;
+    }
+}
