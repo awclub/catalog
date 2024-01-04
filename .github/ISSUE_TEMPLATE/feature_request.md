@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest an idea for this catalog
+about: Suggest an idea for this catalog / Идея для каталога
 title: ''
 labels: feature
 assignees: ''
