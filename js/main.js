@@ -51,7 +51,14 @@ document.getElementById('search-box').addEventListener('input', function(event) 
     displayServices(searchTerm);
 });
 
-let selectedTag = '';
+let selectedTags = [];
+
+function containsAllTags(service, tags) {
+    const serviceTags = service.tags
+      .map(tag => tag.toLowerCase());
+
+    return tags.every(tag => serviceTags.includes(tag));
+}
 
 function displayServices(searchTerm = '') {
     const servicesList = document.getElementById('services-list');
@@ -65,7 +72,7 @@ function displayServices(searchTerm = '') {
         service.episodeName.toLowerCase().includes(searchTerm)||
         service.episodeUrl.toLowerCase().includes(searchTerm)||
         service.url.toLowerCase().includes(searchTerm)) &&
-        (selectedTag === '' || service.tags.some(tag => tag.toLowerCase().includes(selectedTag.toLowerCase()))) // преобразование тегов в нижний регистр
+        (!selectedTags?.length || containsAllTags(service, selectedTags)) // преобразование тегов в нижний регистр
     )
     .sort((a, b) => new Date(b.date) - new Date(a.date)) // Сортировка сервисов по дате в обратном порядке
     .forEach(service => {
@@ -86,14 +93,16 @@ function displayServices(searchTerm = '') {
     // Добавляем обработчик события на теги
     document.querySelectorAll('.tag').forEach(tagElement => {
         tagElement.addEventListener('click', function() {
-            selectedTag = this.textContent;
+            if (!selectedTags.includes(this.textContent)) {
+                selectedTags = [ ...selectedTags, this.textContent ];
+            }
             displayServices();
         });
     });
 
     // Обновляем отображение выбранного тега и показываем кнопку сброса
-    tagName.textContent = selectedTag;
-    resetButton.style.display = selectedTag ? 'inline' : 'none';
+    tagName.textContent = selectedTags.join(', ');
+    resetButton.style.display = selectedTags?.length ? 'inline' : 'none';
 }
 
 toLocalDateString = function(inputDate) {
@@ -104,7 +113,7 @@ toLocalDateString = function(inputDate) {
 
 // Добавляем обработчик события на кнопку сброса
 document.getElementById('reset-button').addEventListener('click', function() {
-    selectedTag = '';
+    selectedTags = [];
     displayServices();
 });
 

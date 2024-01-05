@@ -33,7 +33,7 @@ main {
     border: 1px solid #ddd;
     border-radius: 10px;
     margin: 10px 0;
-    padding: 10px 25px;
+    padding: 10px 25px 25px 25px;
     background-color: rgb(241, 235, 244);
 }
 
