@@ -54,13 +54,17 @@ main {
     color: gray
 }
 
+#selectedTags {
+    display: inline-block;
+}
+
 .tag {
     display: inline-block;
     background-color: #bdbce9;
     color: #fff;
     border-radius: 3px;
     padding: 2px 7px;
-    margin: 2px;
+    margin: 2px 6px 2px 0;
     cursor: pointer;
 }
 
