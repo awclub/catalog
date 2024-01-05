@@ -24,7 +24,8 @@ document.addEventListener('DOMContentLoaded', async function() {
 
 async function loadServices() {
     try {
-        const response = await fetch('data/services.json');
+        
+        const response = await fetch(`data/services.json?${new Date().getTime()}`);
         servicesData = await response.json();
         displayServices();
     } catch (error) {
