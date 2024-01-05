@@ -1,4 +1,5 @@
 let currentLanguage = 'en';
+let appUrl = 'https://awclub.github.io/catalog/';
 let servicesData = [];
 let localization = {};
 
@@ -6,6 +7,19 @@ document.addEventListener('DOMContentLoaded', async function() {
     await loadLocalization();
     await loadServices();
     document.getElementById('lang-switch').addEventListener('click', toggleLanguage);
+
+    // Получаем параметры URL
+    const urlParams = new URLSearchParams(window.location.search);
+
+    // Проверяем, есть ли параметр search
+    if (urlParams.has('search')) {
+        let searchValue = decodeURIComponent(urlParams.get('search'));// Заменяем все вхождения %2F на /
+
+        // Находим поле поиска и устанавливаем значение
+        let searchBox = document.querySelector('#search-box');
+        searchBox.value = searchValue;
+        displayServices(searchValue);
+    }
 });
 
 async function loadServices() {
