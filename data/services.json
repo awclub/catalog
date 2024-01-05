@@ -1,5 +1,77 @@
 [
     {
+        "name": "Mixtral 8x7B",
+        "url": "https://mistral.ai/news/mixtral-of-experts/",
+        "description": {
+            "en": "The most powerful opsensor LLM at the end of 2023. Superior to GPT-3.5. Runs on inexpensive server hardware. French.",
+            "ru": "Самая мощная опенсорсная LLM на момент конца 2023 года. Превосходит GPT-3.5. Запускается на недорогом серверном железе. Французская."
+        },
+        "episodeUrl": "https://youtu.be/FVe2t1mX0s4",
+        "episodeName": "AIA Podcast #23",
+        "date": "2023-12-15",
+        "tags": ["llm", "open-source"]
+    },
+    {
+        "name": "Yi-34B",
+        "url": "https://huggingface.co/01-ai/Yi-34B-Chat",
+        "description": {
+            "en": "Powerful LLM, supports Chinese well, with a 200k context window",
+            "ru": "Мощная LLM, хорошо поддерживает китайский язык, с контекстным окном в 200k"
+        },
+        "episodeUrl": "https://youtu.be/96aG4F9EAiE",
+        "episodeName": "AIA Podcast #22",
+        "date": "2023-12-01",
+        "tags": ["llm", "open-source"]
+    },
+    {
+        "name": "Starling-7B",
+        "url": "https://huggingface.co/berkeley-nest/Starling-LM-7B-alpha",
+        "description": {
+            "en": "An open large language model (LLM) trained by Reinforcement Learning from AI Feedback (RLAIF). Can compete with GPT-3.5.",
+            "ru": "Открытая LLM, обученная методом Reinforcement Learning from AI Feedback. Может потягаться с GPT-3.5"
+        },
+        "episodeUrl": "https://youtu.be/96aG4F9EAiE",
+        "episodeName": "AIA Podcast #22",
+        "date": "2023-12-01",
+        "tags": ["llm", "open-source"]
+    },
+    {
+        "name": "Оля и Штучный Интеллект",
+        "url": "https://open.spotify.com/show/21k4S7x41XvrAKczLJ5wcH",
+        "description": {
+            "en": "AI-generated podcast. Generated from expresso.today email newsletter",
+            "ru": "Генерируемый ИИ подкаст. Генерируется из емейл-рассылки expresso.today"
+        },
+        "episodeUrl": "https://youtu.be/96aG4F9EAiE",
+        "episodeName": "AIA Podcast #22",
+        "date": "2023-12-01",
+        "tags": ["podcast"]
+    },
+    {
+        "name": "AlgoHack",
+        "url": "https://algohack.app/",
+        "description": {
+            "en": "Interview emulator and leetcode solution copilot.",
+            "ru": "Эмулятор собеседований и копайлот решения литкода."
+        },
+        "episodeUrl": "https://youtu.be/96aG4F9EAiE",
+        "episodeName": "AIA Podcast #22",
+        "date": "2023-12-01",
+        "tags": ["programming", "leetcode", "gpt"]
+    },
+    {
+        "name": "FaceFusion",
+        "url": "https://github.com/facefusion/facefusion",
+        "description": {
+            "en": "Opensor-based simple tool for creating deepfake images and videos. Has the ability to connect external server capacity.",
+            "ru": "Опенсорсный простой инструмент для создания deepfake изображений и видео. Имеет возможность подключать внешние серверные мощности."
+        },
+        "episodeUrl": "https://youtu.be/FVe2t1mX0s4",
+        "episodeName": "AIA Podcast #23",
+        "date": "2023-12-15",
+        "tags": ["deepfake", "open-source", "local"]
+    },
+    {
         "name": "MateOS",
         "url": "https://www.mate-os.com",
         "description": {
@@ -33,6 +105,54 @@
         "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
         "episodeName": "AIA Podcast #24",
         "date": "2024-01-04",
-        "tags": ["programming", "chat", "copilot", "open-source", "gpt-4v"]
+        "tags": ["programming", "chat", "copilot", "open-source", "gpt"]
+    },
+    {
+        "name": "DeepSeek Coder",
+        "url": "https://github.com/deepseek-ai/deepseek-coder/",
+        "description": {
+            "en": "An opsensor-based LLM for programming. 1.3B, 5.7B, 6.7B and 33B paramaters.",
+            "ru": "Опенсорсная LLM для программирования. 1.3B, 5.7B, 6.7B и 33B парамтеров."
+        },
+        "episodeUrl": "https://youtu.be/FVe2t1mX0s4",
+        "episodeName": "AIA Podcast #23",
+        "date": "2023-12-15",
+        "tags": ["programming", "llm", "open-source", "local"]
+    },
+    {
+        "name": "OpenRouter",
+        "url": "https://openrouter.ai",
+        "description": {
+            "en": "A unified online-interface for LLMs. Deposit money into your account and use a variety of subscription-based LLMs. Similar to Poe.com",
+            "ru": "Унифицированный онлайн-интерфейс для LLM. Кладешь деньги на счет и используешь разнообразные LLM по подписке. Похоже на Poe.com"
+        },
+        "episodeUrl": "https://youtu.be/FVe2t1mX0s4",
+        "episodeName": "AIA Podcast #23",
+        "date": "2023-12-15",
+        "tags": ["llm", "interface"]
+    },
+    {
+        "name": "LM Studio",
+        "url": "https://lmstudio.ai/",
+        "description": {
+            "en": "A user-friendly interface to quickly run opencore LLMs locally on your computer.",
+            "ru": "Удобный интерфейс для быстрого запуска опенсорсных LLM локально на вашем компьютере."
+        },
+        "episodeUrl": "https://youtu.be/FVe2t1mX0s4",
+        "episodeName": "AIA Podcast #23",
+        "date": "2023-12-15",
+        "tags": ["llm", "interface", "local"]
+    },
+    {
+        "name": "Reddit-каталог UI для LLM",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1847qt6/llm_webui_recommendations/",
+        "description": {
+            "en": "A list on Reddit of different interfaces for working with local LLMs, from simple to complex.",
+            "ru": "Список на Реддите разные интерфейсов для работы с локальными LLM, от простых до сложных."
+        },
+        "episodeUrl": "https://youtu.be/FVe2t1mX0s4",
+        "episodeName": "AIA Podcast #23",
+        "date": "2023-12-15",
+        "tags": ["llm", "interface", "catalog"]
     }
 ]

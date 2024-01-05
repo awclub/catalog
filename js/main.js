@@ -1,4 +1,4 @@
-let currentLanguage = 'en';
+let currentLanguage = 'ru';
 let appUrl = 'https://awclub.github.io/catalog/';
 let servicesData = [];
 let localization = {};
@@ -114,7 +114,7 @@ document.getElementById('search-box').addEventListener('input', function(event) 
 });
 
 async function toggleLanguage() {
-    currentLanguage = currentLanguage === 'en' ? 'ru' : 'en';
+    currentLanguage = currentLanguage === 'ru' ? 'en' : 'ru';
     await loadLocalization();
     updateLocalization();
     displayServices(); // Перерисовка списка сервисов с учетом нового языка
