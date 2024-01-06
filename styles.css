@@ -186,6 +186,8 @@ footer a {
     width: 100%;
     border-radius: 5px;
     transition: background-color 0.3s;
+    font-size: 1em;
+    cursor: pointer;
 }
 
 .settings-content button:hover {
@@ -199,6 +201,8 @@ footer a {
     font-size: 24px;
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
+    width: 150px;
+    text-align: right;
 }
 
 .settings-menu:hover .settings-content {

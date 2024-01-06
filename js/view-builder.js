@@ -1,10 +1,10 @@
 import { toLocalDateString } from './extensions.js';
 
 export class ViewBuilder {
-    constructor(servicesData, currentLanguage, localization) {
+    constructor(servicesData, localizationData) {
         this.servicesData = servicesData;
-        this.currentLanguage = currentLanguage;
-        this.localization = localization;
+        this.localizationData = localizationData;
+        this.currentLanguage = localStorage.getItem('currentLanguage');
     }
 
 
@@ -45,7 +45,7 @@ export class ViewBuilder {
             <a href="${service.url}" target="_blank"><h3>${service.name}</h3></a>
             <p>${service.description[this.currentLanguage]}</p>
             <p>
-                ${this.localization.mentionedIn}: <a href="${service.episodeUrl}" target="_blank">${service.episodeName}</a>
+                ${this.localizationData.mentionedIn}: <a href="${service.episodeUrl}" target="_blank">${service.episodeName}</a>
             </p>
             <div class="tagGroupPlaceholder"></div>
             <div class="date">${toLocalDateString(service.date, this.currentLanguage)}</div> <!-- Добавляем дату -->

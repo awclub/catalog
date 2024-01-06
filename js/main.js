@@ -1,24 +1,29 @@
-import { loadLocalization, updateLocalization } from './localization.js';
+import { loadLocalization, updateStaticLocalizations } from './localization.js';
 import { ViewBuilder } from './view-builder.js';
 import { loadServices } from './db.js';
 
-let currentLanguage = 'ru';
 let servicesData = [];
-let localization = {};
+let localizationData = {};
 
 // On document loaded
 document.addEventListener('DOMContentLoaded', async function() {
-    localization = await loadLocalization(currentLanguage);
+    // set currentLanguage
+    let currentLanguage = localStorage.getItem('currentLanguage') || 'ru'; // default language is Russian
+    let langToggleButton = document.getElementById('lang-switch');
+    langToggleButton.textContent = currentLanguage === 'ru' ? '🌐 English' : '🌐 Русский';
+    langToggleButton.addEventListener('click', toggleLanguage);
+
+    // get data
+    localizationData = await loadLocalization(currentLanguage);
     servicesData = await loadServices();
-    let viewBuilder = new ViewBuilder(servicesData, currentLanguage, localization);
-    document.getElementById('lang-switch').addEventListener('click', toggleLanguage);
+    let viewBuilder = new ViewBuilder(servicesData, currentLanguage, localizationData);
 
     // set theme
+    let savedTheme = localStorage.getItem('theme') || 'dark'; // default theme is light
     let themeToggleButton = document.getElementById('theme-toggle');
-    themeToggleButton.addEventListener('click', toggleTheme);
-    let savedTheme = localStorage.getItem('theme') || 'light';
     document.body.setAttribute('data-theme', savedTheme);
-    document.getElementById('theme-toggle').textContent = savedTheme === 'dark' ? 'Light Mode' : 'Dark Mode';
+    themeToggleButton.addEventListener('click', toggleTheme);
+    themeToggleButton.textContent = savedTheme === 'dark' ? 'Light Mode' : 'Dark Mode';
 
     // "search" param processing
     let urlParams = new URLSearchParams(window.location.search);
@@ -29,31 +34,42 @@ document.addEventListener('DOMContentLoaded', async function() {
         searchBox.value = searchValue;
     }
 
+    updateStaticLocalizations(localizationData);
     viewBuilder.displayServices(searchValue);
 });
 
 // Add event listener to reset button
 document.getElementById('reset-button').addEventListener('click', function() {
-    let searchBox = document.querySelector('#search-box');
     localStorage.setItem('selectedTags', JSON.stringify(null));
-    let viewBuilder = new ViewBuilder(servicesData, currentLanguage, localization);
+
+    let searchBox = document.querySelector('#search-box');
+    let viewBuilder = new ViewBuilder(servicesData, localizationData);
     viewBuilder.displayServices(searchBox.value);
 });
 
 // Add event listener for the search box
 document.getElementById('search-box').addEventListener('input', function(event) {
     let searchValue = event.target.value.toLowerCase();
-    let viewBuilder = new ViewBuilder(servicesData, currentLanguage, localization);
+    let viewBuilder = new ViewBuilder(servicesData, localizationData);
     viewBuilder.displayServices(searchValue);
 });
 
 async function toggleLanguage() {
-    currentLanguage = currentLanguage === 'ru' ? 'en' : 'ru';
-    localization = await loadLocalization(currentLanguage);
-    updateLocalization(localization);
+    let currentLanguage = localStorage.getItem('currentLanguage')
 
+    // toggle language
+    currentLanguage = currentLanguage === 'ru' ? 'en' : 'ru';
+    localizationData = await loadLocalization(currentLanguage);
+    updateStaticLocalizations(localizationData);
+
+    // Update button text
+    document.getElementById('lang-switch').textContent = currentLanguage === 'ru' ? '🌐 English' : '🌐 Русский';
+    // Save currentLanguage preference
+    localStorage.setItem('currentLanguage', currentLanguage);
+
+    // Rerender services
     let searchBox = document.querySelector('#search-box');
-    let viewBuilder = new ViewBuilder(servicesData, currentLanguage, localization);
+    let viewBuilder = new ViewBuilder(servicesData, localizationData);
     viewBuilder.displayServices(searchBox.value);
 }
 
