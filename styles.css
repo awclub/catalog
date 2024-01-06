@@ -78,6 +78,12 @@ main {
     margin: 10px auto;
     font-size: 1em;
     background-color: rgb(241, 235, 244);
+    border: 1px solid #ddd;
+    border-radius: 4px;;
+}
+
+#search-box:focus {
+    outline: none;
 }
 
 .service-item {
