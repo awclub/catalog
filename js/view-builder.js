@@ -1,10 +1,10 @@
 import { toLocalDateString } from './extensions.js';
 
 export class ViewBuilder {
-    constructor(servicesData, localizationData) {
+    constructor(servicesData, localizationData, currentLanguage) {
         this.servicesData = servicesData;
         this.localizationData = localizationData;
-        this.currentLanguage = localStorage.getItem('currentLanguage');
+        this.currentLanguage = localStorage.getItem('currentLanguage') || 'ru'; // default language is Russian
     }
 
 
