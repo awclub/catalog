@@ -11,7 +11,8 @@ export class ViewBuilder {
     // Display services processing
     displayServices(searchTerm = '') {
         const servicesList = document.getElementById('services-list');
-        const selectedTagsElement = document.getElementById('selectedTags');
+        const selectedTagsElement = document.getElementById('selected-tags');
+        const selectedTagsBoxElement = document.getElementById('selected-tags-box');
         const resetButton = document.getElementById('reset-button');
 
         servicesList.innerHTML = '';
@@ -28,10 +29,12 @@ export class ViewBuilder {
         let selectedTags = JSON.parse(localStorage.getItem('selectedTags'));
         if(selectedTags) {
             selectedTagsElement.replaceChildren(...this.buildSelectedTags(selectedTags));
-            resetButton.style.display = selectedTags?.length ? 'inline' : 'none';
+            resetButton.style.display = 'inline';
+            selectedTagsBoxElement.style.display ='block';
         } else {
             selectedTagsElement.replaceChildren();
             resetButton.style.display = 'none';
+            selectedTagsBoxElement.style.display = 'none';
         }
     }
 

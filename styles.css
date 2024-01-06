@@ -110,9 +110,14 @@ main {
     color: rgb(128, 128, 128)
 }
 
-#selectedTags {
+#selected-tags {
     display: inline-block;
     margin: 10px;
+}
+
+#reset-button {  
+    font-size: 0.95em;
+    cursor: pointer;
 }
 
 .tag {
