@@ -4,5 +4,6 @@
     "mentionedIn": "Упомянут в",
     "githubCodeLinkText": "Код на GitHub",
     "podcastChatLinkText": "Чат подкаста",
-    "podcastLinkText": "AIA Podcast"
+    "podcastLinkText": "AIA Podcast",
+    "resetButtonText": "Сбросить"
 }

@@ -4,5 +4,6 @@
     "mentionedIn": "Mentioned in",
     "githubCodeLinkText": "Code on GitHub",
     "podcastChatLinkText": "Podcast chat",
-    "podcastLinkText": "AIA Podcast"
+    "podcastLinkText": "AIA Podcast",
+    "resetButtonText": "Reset"
 }

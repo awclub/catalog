@@ -10,5 +10,6 @@ export function updateStaticLocalizations(localization) {
     document.getElementById('podcast-link').textContent = localization.podcastLinkText;
     document.getElementById('podcast-chat-link').textContent = localization.podcastChatLinkText;
     document.getElementById('github-code-link').textContent = localization.githubCodeLinkText;
+    document.getElementById('reset-button').innerText = localization.resetButtonText;
     document.title = localization.headerTitle;
 }
