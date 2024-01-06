@@ -49,10 +49,12 @@ document.getElementById('search-box').addEventListener('input', function(event) 
 
 async function toggleLanguage() {
     currentLanguage = currentLanguage === 'ru' ? 'en' : 'ru';
-    await loadLocalization(localization, currentLanguage);
+    localization = await loadLocalization(currentLanguage);
     updateLocalization(localization);
+
+    let searchBox = document.querySelector('#search-box');
     let viewBuilder = new ViewBuilder(servicesData, currentLanguage, localization);
-    viewBuilder.displayServices(searchValue);
+    viewBuilder.displayServices(searchBox.value);
 }
 
 function toggleTheme() {
