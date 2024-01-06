@@ -1,5 +1,29 @@
 [ 
     {
+        "name": "Amazon CodeWhisperer",
+        "url": "https://aws.amazon.com/codewhisperer/",
+        "description": {
+            "en": "Amazon CodeWhisperer generates code suggestions ranging from snippets to full functions in real time in the IDE based on your comments and existing code. It also supports CLI completions and natural-language-to-bash translation in the command line.",
+            "ru": "Amazon CodeWhisperer генерирует предложения кода в реальном времени, начиная от фрагментов и заканчивая полными функциями, в среде разработки на основе ваших комментариев и существующего кода. Также он поддерживает автодополнение в интерфейсе командной строки и перевод естественного языка в команды bash."
+        },
+        "episodeUrl": "https://youtu.be/pRMdKRsZHyU?t=10585",
+        "episodeName": "AIA Podcast #9",
+        "date": "2023-06-06",
+        "tags": ["copilot", "programming"]
+    },
+    {
+        "name": "CodiumAI",
+        "url": "https://www.codium.ai/",
+        "description": {
+            "en": "CodiumAI plugs into users’ integrated development environment and suggests meaningful tests for their suite, as code. It does this by exploring and analyzing users’ code, docstrings, and comments and by interacting with the developer.",
+            "ru": "CodiumAI подключается к интегрированной среде разработки пользователей и предлагает значимые тесты для их набора, как код. Он делает это, исследуя и анализируя код пользователей, строки документации и комментарии, а также взаимодействуя с разработчиком."
+        },
+        "episodeUrl": "https://youtu.be/nl1lx07ZjIg?t=9023",
+        "episodeName": "AIA Podcast #11",
+        "date": "2023-07-02",
+        "tags": ["copilot", "programming", "tests", "pr-agent"]
+    },
+    {
         "name": "Zephyr 7B",
         "url": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta",
         "description": {
