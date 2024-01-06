@@ -1,18 +1,69 @@
-body {
-    font-family: 'Roboto', Arial, sans-serif;
+:root {
+    /* Light Theme Colors */
+    --background-color: #fff;
+    --text-color: #333;
+    --link-color: #1a73e8;
+    --header-bg-color: #f1ebf4;
+    --service-item-bg-color: #f1ebf4;
+    --button-bg-color: #e2e2e2;
+    --button-text-color: #333;
+    --tag-bg-color: #9c94d3;
+    --tag-text-color: #fff;
 }
 
-a {
-    color: #333;
+/* Dark Theme Colors */
+[data-theme="dark"] {
+    --background-color: #1a1b1e;
+    --text-color: #f5f5f5;
+    --link-color: #4a90e2;
+    --header-bg-color: #26272b;
+    --service-item-bg-color: #2f3035;
+    --button-bg-color: #3b3c40;
+    --button-text-color: #f5f5f5;
+    --tag-bg-color: #7b769e;
+    --tag-text-color: #e1e1e1;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 header {
-    background-color: rgb(241, 235, 244);
+    background-color: var(--header-bg-color);
     border-radius: 10px;
     padding: 10px;
     text-align: center;
     max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: background-color 0.3s;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 10px;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 main {
@@ -21,20 +72,23 @@ main {
 }
 
 #search-box {
-    width: 100%; /* Задаем ширину 100% */
-    box-sizing: border-box; /* Учитываем padding и border в общей ширине */
+    width: 100%;
+    box-sizing: border-box;
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px auto;
     font-size: 1em;
+    background-color: rgb(241, 235, 244);
 }
 
 .service-item {
     position: relative;
     border: 1px solid #ddd;
     border-radius: 10px;
-    margin: 10px 0;
+    margin: 10px;
     padding: 10px 25px 25px 25px;
-    background-color: rgb(241, 235, 244);
+    background-color: var(--service-item-bg-color);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: background-color 0.3s;
 }
 
 .service-item h3 {
@@ -43,29 +97,27 @@ main {
     font-size: 1.2em;
 }
 
-#lang-switch{
-    font-size: 1em;
-}
-
 .date {
     position: absolute;
     right: 5px;
     bottom: 5px;
-    color: gray
+    color: rgb(128, 128, 128)
 }
 
 #selectedTags {
     display: inline-block;
+    margin: 10px;
 }
 
 .tag {
     display: inline-block;
-    background-color: #bdbce9;
-    color: #fff;
+    background-color: var(--tag-bg-color);
+    color: var(--tag-text-color);
     border-radius: 3px;
     padding: 2px 7px;
     margin: 2px 6px 2px 0;
     cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 #services-list {
@@ -76,7 +128,6 @@ main {
 
 .service-item {
     width: 300px;
-    margin-right: 15px;
 }
 
 footer {
@@ -94,10 +145,74 @@ footer a {
     padding: 5px;
 }
 
+.settings-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.settings-content {
+    display: none;
+    position: absolute;
+    background-color: var(--button-bg-color);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+    border-radius: 5px;
+    padding: 10px;
+    top: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.settings-content button {
+    color: var(--button-text-color);
+    background-color: var(--button-bg-color);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border: none;
+    text-align: left;
+    width: 100%;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.settings-content button:hover {
+    border-left: 4px solid var(--link-color);
+}
+
+#settings-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.settings-menu:hover .settings-content {
+    display: block;
+    animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
 @media screen and (max-width: 640px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .settings-menu {
+        align-self: center;
+    }
+
     .service-item {
         width: 100%;
-        margin-right: 0;
     }
 
     #header{

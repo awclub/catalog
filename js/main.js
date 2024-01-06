@@ -11,6 +11,12 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     // Получаем параметры URL
     const urlParams = new URLSearchParams(window.location.search);
+    const themeToggleButton = document.getElementById('theme-toggle');
+    themeToggleButton.addEventListener('click', toggleTheme);
+
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    document.body.setAttribute('data-theme', savedTheme);
+    document.getElementById('theme-toggle').textContent = savedTheme === 'dark' ? 'Light Mode' : 'Dark Mode';
 
     // Проверяем, есть ли параметр search
     if (urlParams.has('search')) {
@@ -107,6 +113,17 @@ async function toggleLanguage() {
     await loadLocalization();
     updateLocalization();
     displayServices(); // Перерисовка списка сервисов с учетом нового языка
+}
+
+function toggleTheme() {
+    const currentTheme = document.body.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.body.setAttribute('data-theme', newTheme);
+
+    // Update button text
+    document.getElementById('theme-toggle').textContent = newTheme === 'dark' ? 'Light Mode' : 'Dark Mode';
+    // Save theme preference
+    localStorage.setItem('theme', newTheme);
 }
 
 /**
