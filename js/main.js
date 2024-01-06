@@ -2,6 +2,7 @@ let currentLanguage = 'ru';
 let appUrl = 'https://awclub.github.io/catalog/';
 let servicesData = [];
 let localization = {};
+let selectedTags = [];
 
 document.addEventListener('DOMContentLoaded', async function() {
     await loadLocalization();
@@ -51,57 +52,35 @@ document.getElementById('search-box').addEventListener('input', function(event) 
     displayServices(searchTerm);
 });
 
-let selectedTags = [];
-
-function containsAllTags(service, tags) {
+function containsAllTags(service, tags = []) {
     const serviceTags = service.tags
       .map(tag => tag.toLowerCase());
 
     return tags.every(tag => serviceTags.includes(tag));
 }
 
+function isSuitableServiceBySearchTerm(service, searchTerm) {
+    return service.name.toLowerCase().includes(searchTerm) ||
+      service.description[currentLanguage].toLowerCase().includes(searchTerm.toLowerCase()) ||
+      service.episodeName.toLowerCase().includes(searchTerm) ||
+      service.episodeUrl.toLowerCase().includes(searchTerm) ||
+      service.url.toLowerCase().includes(searchTerm);
+}
+
 function displayServices(searchTerm = '') {
     const servicesList = document.getElementById('services-list');
-    const tagName = document.getElementById('tag-name');
+    const selectedTagsElement = document.getElementById('selectedTags');
     const resetButton = document.getElementById('reset-button');
 
     servicesList.innerHTML = ''; // Очистка списка
-    servicesData.filter(service => 
-        (service.name.toLowerCase().includes(searchTerm) || 
-        service.description[currentLanguage].toLowerCase().includes(searchTerm.toLowerCase()) ||
-        service.episodeName.toLowerCase().includes(searchTerm)||
-        service.episodeUrl.toLowerCase().includes(searchTerm)||
-        service.url.toLowerCase().includes(searchTerm)) &&
-        (!selectedTags?.length || containsAllTags(service, selectedTags)) // преобразование тегов в нижний регистр
-    )
+    servicesData.filter(service => isSuitableServiceBySearchTerm(service, searchTerm) && containsAllTags(service, selectedTags))
     .sort((a, b) => new Date(b.date) - new Date(a.date)) // Сортировка сервисов по дате в обратном порядке
     .forEach(service => {
-        const serviceElement = document.createElement('div');
-        serviceElement.className = 'service-item';
-        serviceElement.innerHTML = `
-            <a href="${service.url}" target="_blank"><h3>${service.name}</h3></a>
-            <p>${service.description[currentLanguage]}</p>
-            <p>
-                ${localization.mentionedIn}: <a href="${service.episodeUrl}" target="_blank">${service.episodeName}</a>
-            </p>
-            <div class="tags">${service.tags.map(tag => `<span class="tag">${tag}</span>`).join(' ')}</div>
-            <div class="date">${toLocalDateString(service.date)}</div> <!-- Добавляем дату -->
-        `;
-        servicesList.appendChild(serviceElement);
-    });
-
-    // Добавляем обработчик события на теги
-    document.querySelectorAll('.tag').forEach(tagElement => {
-        tagElement.addEventListener('click', function() {
-            if (!selectedTags.includes(this.textContent)) {
-                selectedTags = [ ...selectedTags, this.textContent ];
-            }
-            displayServices();
-        });
+        servicesList.appendChild(buildServiceItemElement(service));
     });
 
     // Обновляем отображение выбранного тега и показываем кнопку сброса
-    tagName.textContent = selectedTags.join(', ');
+    selectedTagsElement.replaceChildren(...buildSelectedTags(selectedTags));
     resetButton.style.display = selectedTags?.length ? 'inline' : 'none';
 }
 
@@ -128,4 +107,95 @@ async function toggleLanguage() {
     await loadLocalization();
     updateLocalization();
     displayServices(); // Перерисовка списка сервисов с учетом нового языка
+}
+
+/**
+ * @param tagName {string}
+ * @returns function
+ */
+function selectTag(tagName) {
+    return function () {
+        if (!selectedTags.includes(tagName)) {
+            selectedTags = [ ...selectedTags, tagName ];
+        }
+        displayServices();
+    }
+}
+
+/**
+ * @param tagName {string}
+ * @returns function
+ */
+function unSelectTag(tagName) {
+    return function () {
+        selectedTags = selectedTags.filter(tag => tag !== tagName);
+        displayServices();
+    };
+}
+
+/////////////// HTML element builders ///////////////
+/**
+ * @param service {{
+ *    url: string,
+ *    name: string,
+ *    description: string,
+ *    mentionedIn: string,
+ *    episodeUrl: string,
+ *    episodeName: string,
+ *    date: string,
+ *    tags: string[]
+ *  }}
+ * @returns {HTMLDivElement}
+ */
+function buildServiceItemElement(service) {
+    const serviceElement = document.createElement('div');
+    serviceElement.className = 'service-item';
+    serviceElement.innerHTML = `
+        <a href="${service.url}" target="_blank"><h3>${service.name}</h3></a>
+        <p>${service.description[currentLanguage]}</p>
+        <p>
+            ${localization.mentionedIn}: <a href="${service.episodeUrl}" target="_blank">${service.episodeName}</a>
+        </p>
+        <div id="tagGroupPlaceholder"></div>
+        <div class="date">${toLocalDateString(service.date)}</div> <!-- Добавляем дату -->
+    `;
+    serviceElement.querySelector("#tagGroupPlaceholder")
+      .replaceWith(buildTagGroupElement(service.tags, selectTag));
+    return serviceElement;
+}
+
+/**
+ * @param tags {string[]}
+ * @param tagCallback {(string) => function }
+ * @returns {HTMLDivElement}
+ */
+function buildTagGroupElement(tags, tagCallback = () => {}) {
+    const tagGroupElement = document.createElement('div');
+    tagGroupElement.className = 'tags';
+    tagGroupElement.innerHTML = '<div id="tagsPlaceholder"></div>';
+    tagGroupElement.querySelector('#tagsPlaceholder')
+      .replaceWith(...tags.map(tag => buildTagItemElement(tag, tagCallback)));
+    return tagGroupElement;
+}
+
+/**
+ * @param tags {string[]}
+ * @returns {HTMLSpanElement[]}
+ */
+function buildSelectedTags(tags = []) {
+    return tags.map(tag => buildTagItemElement(tag, unSelectTag));
+
+}
+
+/**
+ * @param tagName {string}
+ * @param tagCallback {(string) => function }
+ * @returns {HTMLSpanElement}
+ */
+function buildTagItemElement(tagName, tagCallback = () => {}) {
+    const tagElement =  document.createElement('span');
+    tagElement.className = 'tag';
+    tagElement.innerText = tagName;
+    tagElement.addEventListener('click', tagCallback(tagName));
+    return tagElement;
 }
