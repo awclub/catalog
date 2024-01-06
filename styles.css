@@ -224,7 +224,10 @@ footer a {
     }
 
     .settings-menu {
-        align-self: center;
+        position: absolute;
+        display: inline-block;
+        top: 30px;
+        right: 7px;
     }
 
     .service-item {
