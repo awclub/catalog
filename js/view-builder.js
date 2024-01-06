@@ -27,7 +27,7 @@ export class ViewBuilder {
 
         // Update the display of selected tags and show the reset button
         let selectedTags = JSON.parse(localStorage.getItem('selectedTags'));
-        if(selectedTags) {
+        if(selectedTags && selectedTags.length > 0) {
             selectedTagsElement.replaceChildren(...this.buildSelectedTags(selectedTags));
             resetButton.style.display = 'inline';
             selectedTagsBoxElement.style.display ='block';
@@ -97,7 +97,7 @@ export class ViewBuilder {
     unSelectTag(tagName) {
         return () => {
             let selectedTags = JSON.parse(localStorage.getItem('selectedTags'));
-            selectedTags =selectedTags.filter(tag => tag !== tagName);
+            selectedTags = selectedTags.filter(tag => tag !== tagName);
             localStorage.setItem('selectedTags', JSON.stringify(selectedTags));
 
             // Trigger "displayServices" through the search box "input" event
