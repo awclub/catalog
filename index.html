@@ -31,7 +31,10 @@
         </div>
     </header>
     <main>
-        <input type="text" id="search-box" placeholder="Поиск сервисов...">
+        <div class="search-container">
+            <input id="search-box" type="text" placeholder="Поиск сервисов..."/>
+            <span id="clean-search" class="clear-button">&times;</span>
+        </div>
         <div id="selected-tags-box">
             <div id="selected-tags"></div>
             <button id="reset-button" style="display: none;">Reset</button>

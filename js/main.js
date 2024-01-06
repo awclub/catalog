@@ -34,6 +34,20 @@ document.addEventListener('DOMContentLoaded', async function() {
         searchBox.value = searchValue;
     }
 
+    // set search box settings
+    const searchBox = document.getElementById('search-box');
+    const cleanSearchButton = document.getElementById('clean-search');
+
+    searchBox.addEventListener('input', () => {
+        cleanSearchButton.style.display = searchBox.value ? 'block' : 'none';
+    });
+
+    cleanSearchButton.addEventListener('click', () => {
+        searchBox.value = '';
+        viewBuilder.displayServices(searchBox.value);
+        cleanSearchButton.style.display = 'none';
+    });
+
     updateStaticLocalizations(localizationData);
     viewBuilder.displayServices(searchValue);
 });

@@ -71,6 +71,11 @@ main {
     margin: 0 auto;
 }
 
+.search-container {
+    position: relative;
+    display: block;
+}
+
 #search-box {
     width: 100%;
     box-sizing: border-box;
@@ -84,6 +89,18 @@ main {
 
 #search-box:focus {
     outline: none;
+}
+
+#clean-search {
+    position: absolute;
+    right: 12px;
+    top: 28px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: none;
+    color: #555;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .service-item {
