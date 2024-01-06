@@ -29,7 +29,7 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     margin: 0;
-    background-image: url('../images/background.png');
+    background-image: url('./images/background.png');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
