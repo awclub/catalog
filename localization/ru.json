@@ -1,5 +1,8 @@
 {
     "headerTitle": "Каталог ИИ-сервисов от AIA Podcast",
     "searchPlaceholder": "Поиск сервисов...",
-    "mentionedIn": "Упомянут в"
+    "mentionedIn": "Упомянут в",
+    "githubCodeLinkText": "Код на GitHub",
+    "podcastChatLinkText": "Чат подкаста",
+    "podcastLinkText": "AIA Podcast"
 }

@@ -1,5 +1,8 @@
 {
     "headerTitle": "AIA Podcast's AI Tools Catalog",
     "searchPlaceholder": "Search services...",
-    "mentionedIn": "Mentioned in"
+    "mentionedIn": "Mentioned in",
+    "githubCodeLinkText": "Code on GitHub",
+    "podcastChatLinkText": "Podcast chat",
+    "podcastLinkText": "AIA Podcast"
 }
