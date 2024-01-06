@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     // get data
     localizationData = await loadLocalization(currentLanguage);
     servicesData = await loadServices();
-    let viewBuilder = new ViewBuilder(servicesData, currentLanguage, localizationData);
+    let viewBuilder = new ViewBuilder(servicesData, localizationData);
 
     // set theme
     let savedTheme = localStorage.getItem('theme') || 'dark'; // default theme is light
