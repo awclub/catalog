@@ -1,5 +1,5 @@
 import { loadLocalization, updateStaticLocalizations } from './localization.js';
-import { ViewBuilder } from './view-builder.js';
+import { AutoCompleteInput, ViewBuilder } from './view-builder.js';
 import { loadServices } from './db.js';
 
 let servicesData = [];
@@ -19,6 +19,25 @@ document.addEventListener('DOMContentLoaded', async function() {
     localizationData = await loadLocalization(currentLanguage);
     servicesData = await loadServices();
     let viewBuilder = new ViewBuilder(servicesData, localizationData);
+
+    // tags management
+    const uniqueAvailableTags = Object.keys(
+      servicesData
+        .flatMap(service => service.tags)
+        .reduce((prev, curr) => {
+            prev[curr] = true;
+            return prev
+        }, {})
+    );
+    new AutoCompleteInput(
+      'tags-autocomplete',
+      uniqueAvailableTags,
+      viewBuilder.getSelectedTags,
+      viewBuilder.selectTag
+    );
+
+    // lang switch
+    document.getElementById('lang-switch').addEventListener('click', toggleLanguage);
 
     // set theme
     let siteColorTheme = 

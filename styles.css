@@ -14,7 +14,7 @@
 }
 
 /* Light Theme Colors */
-[data-theme="light"] {    
+[data-theme="light"] {
     --background-color: #fff;
     --text-color: #333;
     --link-color: #1a73e8;
@@ -172,6 +172,41 @@ main {
     bottom: 5px;
     color: rgb(128, 128, 128)
 }
+/* Style the input and autocomplete container */
+.autocomplete {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the items (options) */
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete-items div:hover {
+    background-color: #e9e9e9;
+}
+
+/* When navigating through the items using the arrow keys */
+.autocomplete-active {
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+}
+
 
 #selected-tags {
     display: inline-block;
@@ -314,7 +349,7 @@ footer a {
     #podcast-name {
         border-bottom-width: 2px;
     }
-    
+
     #aw-club {
         font-size: 0.7em;
     }
@@ -322,7 +357,7 @@ footer a {
     #settings-button {
         width: 80px;
     }
-    
+
     .search-container {
         padding: 0 10px;
     }
