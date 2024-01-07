@@ -11,6 +11,12 @@
     --tag-bg-color: #7b769e;
     --tag-text-color: #e1e1e1;
     --aw-club-color: #a449ee;
+    --autocomplete-item-text-color: #e1e1e1;
+    --autocomplete-item-bg-color: #6d609d;
+    --autocomplete-item-text-color-hover: #fff;
+    --autocomplete-item-bg-color-hover: #524980;
+    --autocomplete-item-text-color-active: #e1e1e1;
+    --autocomplete-item-bg-color-active: #423465;
 }
 
 /* Light Theme Colors */
@@ -26,6 +32,12 @@
     --tag-bg-color: #9c94d3;
     --tag-text-color: #fff;
     --aw-club-color: #7e34bb;
+    --autocomplete-item-text-color: #e1e1e1;
+    --autocomplete-item-bg-color: #9c94d3;
+    --autocomplete-item-text-color-hover: #fff;
+    --autocomplete-item-bg-color-hover: #524980;
+    --autocomplete-item-text-color-active: #e1e1e1;
+    --autocomplete-item-bg-color-active: #423465;
 }
 
 body {
@@ -121,19 +133,22 @@ main {
     padding: 0;
 }
 
-#search-box {
-    width: 100%;
+.text-input {
+    font-size: 1em;
     box-sizing: border-box;
     padding: 10px;
-    margin: 10px auto;
-    font-size: 1em;
     background-color: rgb(241, 235, 244);
     border: 1px solid #ddd;
     border-radius: 10px;
 }
 
-#search-box:focus {
+.text-input:focus {
     outline: none;
+}
+
+#search-box {
+    width: 100%;
+    margin: 10px auto;
 }
 
 #clean-search {
@@ -181,6 +196,11 @@ main {
 /* Style the items (options) */
 .autocomplete-items {
     position: absolute;
+    box-sizing: border-box;
+    border-radius: 10px;
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
     border: 1px solid #d4d4d4;
     border-bottom: none;
     border-top: none;
@@ -190,27 +210,29 @@ main {
     right: 0;
 }
 
-.autocomplete-items div {
-    padding: 10px;
+.autocomplete-item {
+    padding: 8px;
     cursor: pointer;
-    background-color: #fff;
+    color: var(--autocomplete-item-text-color);
+    background-color: var(--autocomplete-item-bg-color);
     border-bottom: 1px solid #d4d4d4;
 }
 
-.autocomplete-items div:hover {
-    background-color: #e9e9e9;
+.autocomplete-item:hover {
+    background-color: var(--autocomplete-item-bg-color-hover);
+    color: var(--autocomplete-item-text-color-hover);
 }
 
 /* When navigating through the items using the arrow keys */
 .autocomplete-active {
-    background-color: DodgerBlue !important;
-    color: #ffffff;
+    background-color: var(--autocomplete-item-bg-color-active) !important;
+    color: var(--autocomplete-item-text-color-active);
 }
 
 
 #selected-tags {
     display: inline-block;
-    margin: 10px;
+    margin: 6px 0 6px 10px;
 }
 
 #reset-button {  
@@ -222,6 +244,7 @@ main {
     display: inline-block;
     background-color: var(--tag-bg-color);
     color: var(--tag-text-color);
+    font-size: 1em;
     border-radius: 3px;
     padding: 2px 7px;
     margin: 2px 6px 2px 0;

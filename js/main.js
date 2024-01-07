@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', async function() {
             return prev
         }, {})
     );
+    uniqueAvailableTags.sort();
     new AutoCompleteInput(
       'tags-autocomplete',
       uniqueAvailableTags,
