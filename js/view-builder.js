@@ -119,10 +119,11 @@ export class ViewBuilder {
     }
 
     isSuitableServiceBySearchTerm(service, searchTerm, currentLanguage) {
+        searchTerm = searchTerm.toLowerCase();
         return service.name.toLowerCase().includes(searchTerm) ||
-        service.description[currentLanguage].toLowerCase().includes(searchTerm.toLowerCase()) ||
-        service.episodeName.toLowerCase().includes(searchTerm) ||
-        service.episodeUrl.toLowerCase().includes(searchTerm) ||
+        service.description[currentLanguage].toLowerCase().includes(searchTerm) ||
+        service.mentions.some(mention => mention.episodeUrl.toLowerCase().startsWith(searchTerm)) ||
+        service.mentions.some(mention => mention.episodeName.toLowerCase().includes(searchTerm)) ||
         service.url.toLowerCase().includes(searchTerm);
     }
 }
