@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         searchBox.value = searchValue;
     }
 
-    // set search box settings
+    // set search box
     const searchBox = document.getElementById('search-box');
     const cleanSearchButton = document.getElementById('clean-search');
 
