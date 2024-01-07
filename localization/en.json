@@ -1,5 +1,6 @@
 {
-    "headerTitle": "AIA Podcast's AI Tools Catalog",
+    "title": "AI tools catalog by AIA Podcast",
+    "header": "AI tools catalog by <a id=\"podcast-name\" target=\"_blank\" href=\"https://itbeard.com/aia\">AIA Podcast</a> <a id=\"aw-club\"  target=\"_blank\" href=\"https:/aw.club\">&  Anywhere Club</a>",
     "searchPlaceholder": "Search services...",
     "mentionedIn": "Mentioned in",
     "githubCodeLinkText": "Code on GitHub",

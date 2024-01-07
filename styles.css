@@ -9,6 +9,7 @@
     --button-text-color: #f5f5f5;
     --tag-bg-color: #7b769e;
     --tag-text-color: #e1e1e1;
+    --aw-club-color: #a449ee;
 }
 
 /* Light Theme Colors */
@@ -22,6 +23,7 @@
     --button-text-color: #333;
     --tag-bg-color: #9c94d3;
     --tag-text-color: #fff;
+    --aw-club-color: #7e34bb;
 }
 
 body {
@@ -54,6 +56,46 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.title-container img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.title-container #header {
+    margin: 0 0 0 5px;
+}
+
+#podcast-name {
+    white-space: nowrap;
+    color: var(--text-color);;
+    border-bottom: 3px dotted var(--text-color);;
+    transition: 0.3s;
+}
+
+#podcast-name:hover {
+    text-decoration: none;
+    color: var(--aw-club-color);
+    border-bottom-color: var(--aw-club-color);
+}
+
+#aw-club {
+    white-space: nowrap;
+    color: var(--aw-club-color);
+    text-decoration: none;
+    transition: color 0.3s;
+    margin-left: 3px;
+    font-size: 0.5em;
+    font-style: italic;
 }
 
 a {
@@ -253,5 +295,22 @@ footer a {
 
     #header{
         font-size: 1.5em;
+    }
+
+    .title-container img {
+        width: 55px;
+        height: 55px;
+    }
+
+    #podcast-name {
+        border-bottom-width: 2px;
+    }
+    
+    #aw-club {
+        font-size: 0.7em;
+    }
+
+    #settings-button {
+        width: 80px;
     }
 }
