@@ -1,6 +1,6 @@
 {
     "title": "Каталог ИИ-сервисов от AIA Podcast",
-    "header": "Каталог ИИ-сервисов от <a id=\"podcast-name\" target=\"_blank\" href=\"https://itbeard.com/aia\">AIA Podcast</a> <a id=\"aw-club\"  target=\"_blank\" href=\"https:/aw.club\">&  Anywhere Club</a>",
+    "header": "Каталог ИИ-сервисов от <a id=\"podcast-name\" target=\"_blank\" href=\"https://itbeard.com/aia\">AIA Podcast</a> <a id=\"aw-club\"  target=\"_blank\" href=\"https://aw.club\">&  Anywhere Club</a>",
     "searchPlaceholder": "Поиск сервисов...",
     "mentionedIn": "Упомянут в",
     "githubCodeLinkText": "Код на GitHub",
