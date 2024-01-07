@@ -46,7 +46,8 @@ export class ViewBuilder {
             <a href="${service.url}" target="_blank"><h3>${service.name}</h3></a>
             <p>${service.description[this.currentLanguage]}</p>
             <p>
-                ${this.localizationData.mentionedIn}: <a href="${service.episodeUrl}" target="_blank">${service.episodeName}</a>
+                ${this.localizationData.mentionedIn}: 
+                ${service.mentions.map(mention => `<a href="${mention.episodeUrl}" target="_blank">${mention.episodeName}</a>`).join(', ')}
             </p>
             <div class="tagGroupPlaceholder"></div>
             <div class="date">${toLocalDateString(service.date, this.currentLanguage)}</div> <!-- Добавляем дату -->

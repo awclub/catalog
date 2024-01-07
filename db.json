@@ -1,4 +1,4 @@
-[ 
+[
     {
         "name": "Amazon CodeWhisperer",
         "url": "https://aws.amazon.com/codewhisperer/",
@@ -6,10 +6,17 @@
             "en": "Amazon CodeWhisperer generates code suggestions ranging from snippets to full functions in real time in the IDE based on your comments and existing code. It also supports CLI completions and natural-language-to-bash translation in the command line.",
             "ru": "Amazon CodeWhisperer генерирует предложения кода в реальном времени, начиная от фрагментов и заканчивая полными функциями, в среде разработки на основе ваших комментариев и существующего кода. Также он поддерживает автодополнение в интерфейсе командной строки и перевод естественного языка в команды bash."
         },
-        "episodeUrl": "https://youtu.be/pRMdKRsZHyU?t=10585",
-        "episodeName": "AIA Podcast #9",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/pRMdKRsZHyU?t=10585",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
         "date": "2023-06-06",
-        "tags": ["copilot", "programming"]
+        "tags": [
+            "copilot",
+            "programming"
+        ]
     },
     {
         "name": "CodiumAI",
@@ -18,10 +25,19 @@
             "en": "CodiumAI plugs into users’ integrated development environment and suggests meaningful tests for their suite, as code. It does this by exploring and analyzing users’ code, docstrings, and comments and by interacting with the developer.",
             "ru": "CodiumAI подключается к интегрированной среде разработки пользователей и предлагает значимые тесты для их набора, как код. Он делает это, исследуя и анализируя код пользователей, строки документации и комментарии, а также взаимодействуя с разработчиком."
         },
-        "episodeUrl": "https://youtu.be/nl1lx07ZjIg?t=9023",
-        "episodeName": "AIA Podcast #11",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/nl1lx07ZjIg?t=9023",
+                "episodeName": "AIA Podcast #11"
+            }
+        ],
         "date": "2023-07-02",
-        "tags": ["copilot", "programming", "tests", "pr-agent"]
+        "tags": [
+            "copilot",
+            "programming",
+            "tests",
+            "pr-agent"
+        ]
     },
     {
         "name": "Zephyr 7B",
@@ -30,10 +46,17 @@
             "en": "Opsensor-based LLM built on Mistral and operating at the LLaMa 2 70B level.",
             "ru": "Опенсорсная LLM, построенная на базе Mistral и работающая на уровне LLaMa 2 70B."
         },
-        "episodeUrl": "https://youtu.be/rj0BhwHYs6M?si=KEdGt4jbC006raIG&t=11655",
-        "episodeName": "AIA Podcast #20",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/rj0BhwHYs6M?si=KEdGt4jbC006raIG&t=11655",
+                "episodeName": "AIA Podcast #20"
+            }
+        ],
         "date": "2023-11-04",
-        "tags": ["llm", "open-source"]
+        "tags": [
+            "llm",
+            "open-source"
+        ]
     },
     {
         "name": "jina-embeddings-v2",
@@ -42,10 +65,17 @@
             "en": "An 8k tokenized context open source model from German company Jina AI, quite undemanding on resources and quite smart.",
             "ru": "Опенсорс-модель на 8k токенов контекста от немецкой компании Jina AI, весьма нетребовательная к ресурсам и достаточно умная."
         },
-        "episodeUrl": "https://youtu.be/rj0BhwHYs6M?si=KEdGt4jbC006raIG&t=11655",
-        "episodeName": "AIA Podcast #20",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/rj0BhwHYs6M?si=KEdGt4jbC006raIG&t=11655",
+                "episodeName": "AIA Podcast #20"
+            }
+        ],
         "date": "2023-11-04",
-        "tags": ["llm", "open-source"]
+        "tags": [
+            "llm",
+            "open-source"
+        ]
     },
     {
         "name": "Fact Check Explorer",
@@ -54,10 +84,17 @@
             "en": "Google's factchecking tool. You can view the history of articles and images appearing in the search index.",
             "ru": "Инструмент для фактчекинга от Google. Можно просматривать историю появления статей и изображений в поисковом индексе."
         },
-        "episodeUrl": "https://youtu.be/rj0BhwHYs6M?si=mJB_tVHn10FyS01T",
-        "episodeName": "AIA Podcast #20",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/rj0BhwHYs6M?si=mJB_tVHn10FyS01T",
+                "episodeName": "AIA Podcast #20"
+            }
+        ],
         "date": "2023-11-04",
-        "tags": ["google", "deepfake"]
+        "tags": [
+            "google",
+            "deepfake"
+        ]
     },
     {
         "name": "WatsonX Code Assistant",
@@ -66,10 +103,17 @@
             "en": "Enterprice service from IBM for help in programming. Can generate code, give code recommendations and translate programs from one language to another. It is said that IBM is slowly migrating programs written in COBOL to normal programming languages through it.",
             "ru": "Энтерпрайс сервис от IBM для помощи в программировании. Умеет генерировать код, давать рекомендации по коду и переводить программы с одних языков на другие. Говаривают, что IBM через него потихоньку мигрируют программы написанные на COBOL на нормальные языки программирования."
         },
-        "episodeUrl": "https://youtu.be/rj0BhwHYs6M?si=mJB_tVHn10FyS01T",
-        "episodeName": "AIA Podcast #20",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/rj0BhwHYs6M?si=mJB_tVHn10FyS01T",
+                "episodeName": "AIA Podcast #20"
+            }
+        ],
         "date": "2023-11-04",
-        "tags": ["programming", "ibm"]
+        "tags": [
+            "programming",
+            "ibm"
+        ]
     },
     {
         "name": "AI Pin",
@@ -78,10 +122,17 @@
             "en": "The wearable gadget, designed to interact with LLM via voice and gesture control, has a projector screen. Created by ex-Apple employees, it made a lot of noise, but it doesn't look serious.",
             "ru": "Носимый гаджет, предназначенный для взаимодействия с LLM через голосовое и жестовое управление, имеет экран-проектор. Создается экс сотрудниками Apple, наделал шуму, но выглядит несерьезно."
         },
-        "episodeUrl": "https://youtu.be/YQbACHDehVA?si=LZr15mh7rYPm_DEq&t=4099",
-        "episodeName": "AIA Podcast #21",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/YQbACHDehVA?si=LZr15mh7rYPm_DEq&t=4099",
+                "episodeName": "AIA Podcast #21"
+            }
+        ],
         "date": "2023-11-17",
-        "tags": ["hardware", "speech"]
+        "tags": [
+            "hardware",
+            "speech"
+        ]
     },
     {
         "name": "Grok",
@@ -90,10 +141,17 @@
             "en": "A noisy chatbot from Ilon Musk and the company xAI. Powered by the LLM Grok-1. Available on Twitter (x) with a Premium+ subscription. Works no better than GPT-3.5.",
             "ru": "Нашумевший чат-бот от Илона Маска и компании xAI. Работает на базе LLM Grok-1. Доступен в твиттере (x) по подписке \"Premium+\". Работает не лучше GPT-3.5."
         },
-        "episodeUrl": "https://youtu.be/YQbACHDehVA?si=IOKVblGtzM8htoa7&t=4776",
-        "episodeName": "AIA Podcast #21",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/YQbACHDehVA?si=IOKVblGtzM8htoa7&t=4776",
+                "episodeName": "AIA Podcast #21"
+            }
+        ],
         "date": "2023-11-17",
-        "tags": ["llm", "musk"]
+        "tags": [
+            "llm",
+            "musk"
+        ]
     },
     {
         "name": "Suno AI",
@@ -102,22 +160,36 @@
             "en": "An AI music creation tool that allows users to generate their own songs based on textual cues. Generates both music and lyrics, you can use your own lyrics. A leader in the direction and as of the end of 2023. Great at making raps 😊",
             "ru": "ИИ-инструмент для создания музыки, который позволяет пользователям генерировать собственные песни на основе текстовых подсказок. Генерирует и музыку и текст, можно использовать свой текст. Лидер направления и на момент конца 2023 года. Шикарно делает рэп 😊"
         },
-        "episodeUrl": "https://youtu.be/YQbACHDehVA?si=KLSdl-ZytUz65GGF&t=9725",
-        "episodeName": "AIA Podcast #21",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/YQbACHDehVA?si=KLSdl-ZytUz65GGF&t=9725",
+                "episodeName": "AIA Podcast #21"
+            }
+        ],
         "date": "2023-11-17",
-        "tags": ["music", "speech"]
+        "tags": [
+            "music",
+            "speech"
+        ]
     },
-     {
+    {
         "name": "plugin surf",
         "url": "https://plugin.surf",
         "description": {
             "en": "ChatGPT plugins & GPTs directory that allows users to find and vote for the best plugins.",
             "ru": "Каталог плагинов ChatGPT и GPTs, который позволяет пользователям найти и проголосовать за лучшие плагины."
         },
-        "episodeUrl": "https://youtu.be/YQbACHDehVA?si=KLSdl-ZytUz65GGF&t=9725",
-        "episodeName": "AIA Podcast #21",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/YQbACHDehVA?si=KLSdl-ZytUz65GGF&t=9725",
+                "episodeName": "AIA Podcast #21"
+            }
+        ],
         "date": "2023-11-17",
-        "tags": ["catalog", "gpts"]
+        "tags": [
+            "catalog",
+            "gpts"
+        ]
     },
     {
         "name": "Leonardo.AI",
@@ -126,10 +198,17 @@
             "en": "Service that allows users to create professional level graphics. Under the hood uses different diffusion models. It has API and paid subscription.",
             "ru": "Сервис, который позволяет пользователям создавать графику профессионального уровня. Под капотом использует разные дифузионн модели. Имеет API и платную подписку."
         },
-        "episodeUrl": "https://youtu.be/YQbACHDehVA?si=F_DqoJ0pnUfwpItq&t=9195",
-        "episodeName": "AIA Podcast #21",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/YQbACHDehVA?si=F_DqoJ0pnUfwpItq&t=9195",
+                "episodeName": "AIA Podcast #21"
+            }
+        ],
         "date": "2023-11-17",
-        "tags": ["graphics", "api"]
+        "tags": [
+            "graphics",
+            "api"
+        ]
     },
     {
         "name": "Mixtral 8x7B",
@@ -138,10 +217,17 @@
             "en": "The most powerful opsensor LLM at the end of 2023 created by French company Mistral. Superior to GPT-3.5. Runs on inexpensive server hardware. French.",
             "ru": "Самая мощная опенсорсная LLM на момент конца 2023 года от компании французской Mistral. Превосходит GPT-3.5. Запускается на недорогом серверном железе."
         },
-        "episodeUrl": "https://youtu.be/FVe2t1mX0s4",
-        "episodeName": "AIA Podcast #23",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/FVe2t1mX0s4",
+                "episodeName": "AIA Podcast #23"
+            }
+        ],
         "date": "2023-12-15",
-        "tags": ["llm", "open-source"]
+        "tags": [
+            "llm",
+            "open-source"
+        ]
     },
     {
         "name": "Yi-34B",
@@ -150,10 +236,17 @@
             "en": "Powerful LLM, supports Chinese well, with a 200k context window",
             "ru": "Мощная LLM, хорошо поддерживает китайский язык, с контекстным окном в 200k"
         },
-        "episodeUrl": "https://youtu.be/96aG4F9EAiE",
-        "episodeName": "AIA Podcast #22",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/96aG4F9EAiE",
+                "episodeName": "AIA Podcast #22"
+            }
+        ],
         "date": "2023-12-01",
-        "tags": ["llm", "open-source"]
+        "tags": [
+            "llm",
+            "open-source"
+        ]
     },
     {
         "name": "Starling-7B",
@@ -162,10 +255,17 @@
             "en": "An open large language model (LLM) trained by Reinforcement Learning from AI Feedback (RLAIF). Can compete with GPT-3.5.",
             "ru": "Открытая LLM, обученная методом Reinforcement Learning from AI Feedback. Может потягаться с GPT-3.5"
         },
-        "episodeUrl": "https://youtu.be/96aG4F9EAiE",
-        "episodeName": "AIA Podcast #22",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/96aG4F9EAiE",
+                "episodeName": "AIA Podcast #22"
+            }
+        ],
         "date": "2023-12-01",
-        "tags": ["llm", "open-source"]
+        "tags": [
+            "llm",
+            "open-source"
+        ]
     },
     {
         "name": "Оля и Штучный Интеллект",
@@ -174,10 +274,16 @@
             "en": "AI-generated podcast. Generated from expresso.today email newsletter",
             "ru": "Генерируемый ИИ подкаст. Генерируется из емейл-рассылки expresso.today"
         },
-        "episodeUrl": "https://youtu.be/96aG4F9EAiE",
-        "episodeName": "AIA Podcast #22",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/96aG4F9EAiE",
+                "episodeName": "AIA Podcast #22"
+            }
+        ],
         "date": "2023-12-01",
-        "tags": ["podcast"]
+        "tags": [
+            "podcast"
+        ]
     },
     {
         "name": "AlgoHack",
@@ -186,10 +292,18 @@
             "en": "Interview emulator and leetcode solution copilot.",
             "ru": "Эмулятор собеседований и копайлот решения литкода."
         },
-        "episodeUrl": "https://youtu.be/96aG4F9EAiE",
-        "episodeName": "AIA Podcast #22",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/96aG4F9EAiE",
+                "episodeName": "AIA Podcast #22"
+            }
+        ],
         "date": "2023-12-01",
-        "tags": ["programming", "leetcode", "gpt"]
+        "tags": [
+            "programming",
+            "leetcode",
+            "gpt"
+        ]
     },
     {
         "name": "Gemini",
@@ -198,10 +312,18 @@
             "en": "A multimodal model from Google & DeepMind, which is the successor to PaLM-2 and runs under the hood of Bard. One of the main competitors of GPT-4.",
             "ru": "Мультимодальная модель от Google & DeepMind, которая является преемником PaLM-2 и работает под капотом у Bard. Один из основных конкурентов GPT-4."
         },
-        "episodeUrl": "https://youtu.be/FVe2t1mX0s4?si=x7UH7b4mVCTjz02a&t=804",
-        "episodeName": "AIA Podcast #23",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/FVe2t1mX0s4?si=x7UH7b4mVCTjz02a&t=804",
+                "episodeName": "AIA Podcast #23"
+            }
+        ],
         "date": "2023-12-15",
-        "tags": ["deepmind", "llm", "multimodal"]
+        "tags": [
+            "deepmind",
+            "llm",
+            "multimodal"
+        ]
     },
     {
         "name": "Jetbrains AI",
@@ -210,10 +332,17 @@
             "en": "JetBrains AI-programming toolkit: autocomplete, chat and other stuff. Replace GitHub Copilot & GitHub Copilot Chat. Works in JetBrains IDE family and costs money.",
             "ru": "Набор ИИ-инструментов от JetBrains для программирования: автокомплит, чат и другие штучки. ЗАмена GitHub Copilot & GitHub Copilot Chat. Работает в семействе IDE от JetBrains и стоит денег."
         },
-        "episodeUrl": "https://youtu.be/FVe2t1mX0s4?si=0MXMKUYUsnk5ekpz&t=5214",
-        "episodeName": "AIA Podcast #23",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/FVe2t1mX0s4?si=0MXMKUYUsnk5ekpz&t=5214",
+                "episodeName": "AIA Podcast #23"
+            }
+        ],
         "date": "2023-12-15",
-        "tags": ["programming", "chat"]
+        "tags": [
+            "programming",
+            "chat"
+        ]
     },
     {
         "name": "Audiobox",
@@ -222,10 +351,18 @@
             "en": "Foundation research model for audio generation created by Meta Research. It can generate voices and sound effects using a combination of voice inputs and natural language text prompts. There's a cool demo mode.",
             "ru": "Модель для генерации звука от Меты. Может генерировать голоса и звуковые эффекты, используя комбинацию голосового ввода и текстовых подсказок на естественном языке. Есть крутой демо-режим."
         },
-        "episodeUrl": "https://youtu.be/FVe2t1mX0s4?si=x08ucV3cwCcysvqB&t=1764",
-        "episodeName": "AIA Podcast #23",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/FVe2t1mX0s4?si=x08ucV3cwCcysvqB&t=1764",
+                "episodeName": "AIA Podcast #23"
+            }
+        ],
         "date": "2023-12-15",
-        "tags": ["audio", "speech", "meta"]
+        "tags": [
+            "audio",
+            "speech",
+            "meta"
+        ]
     },
     {
         "name": "Seamless Communication",
@@ -234,10 +371,18 @@
             "en": "Family of AI research open source models from Meta that enable more natural and authentic communication across languages.",
             "ru": "Семейство моделей с открытым исходным кодом от Meta, которые обеспечивают более естественное и аутентичное общение на разных языках."
         },
-        "episodeUrl": "https://youtu.be/FVe2t1mX0s4?si=x08ucV3cwCcysvqB&t=1764",
-        "episodeName": "AIA Podcast #23",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/FVe2t1mX0s4?si=x08ucV3cwCcysvqB&t=1764",
+                "episodeName": "AIA Podcast #23"
+            }
+        ],
         "date": "2023-12-15",
-        "tags": ["speech", "nlp", "meta"]
+        "tags": [
+            "speech",
+            "nlp",
+            "meta"
+        ]
     },
     {
         "name": "Imagine",
@@ -246,10 +391,17 @@
             "en": "Image generation service from Meta. It is based on the Emu model.",
             "ru": "Сервис по генерации изображений от Meta. Работает на базе модели Emu."
         },
-        "episodeUrl": "https://youtu.be/FVe2t1mX0s4?si=x08ucV3cwCcysvqB&t=1764",
-        "episodeName": "AIA Podcast #23",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/FVe2t1mX0s4?si=x08ucV3cwCcysvqB&t=1764",
+                "episodeName": "AIA Podcast #23"
+            }
+        ],
         "date": "2023-12-15",
-        "tags": ["graphics", "meta"]
+        "tags": [
+            "graphics",
+            "meta"
+        ]
     },
     {
         "name": "FaceFusion",
@@ -258,10 +410,18 @@
             "en": "Opensor-based simple tool for creating deepfake images and videos. Has the ability to connect external server capacity.",
             "ru": "Опенсорсный простой инструмент для создания deepfake изображений и видео. Имеет возможность подключать внешние серверные мощности."
         },
-        "episodeUrl": "https://youtu.be/FVe2t1mX0s4",
-        "episodeName": "AIA Podcast #23",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/FVe2t1mX0s4",
+                "episodeName": "AIA Podcast #23"
+            }
+        ],
         "date": "2023-12-15",
-        "tags": ["deepfake", "open-source", "local"]
+        "tags": [
+            "deepfake",
+            "open-source",
+            "local"
+        ]
     },
     {
         "name": "Stable Zero123",
@@ -270,10 +430,18 @@
             "en": "image-to-3D model by StabilityAI",
             "ru": "image-to-3D модель от компании StabilityAI"
         },
-        "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
-        "episodeName": "AIA Podcast #24",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
+                "episodeName": "AIA Podcast #24"
+            }
+        ],
         "date": "2024-01-04",
-        "tags": ["3d", "model", "stabilityai"]
+        "tags": [
+            "3d",
+            "model",
+            "stabilityai"
+        ]
     },
     {
         "name": "FunSearch",
@@ -282,10 +450,18 @@
             "en": "LLM from DeepMind, which for the first time was able to come up with solutions to math problems that are more optimal than what mathematicians have come up with to date.",
             "ru": "LLM от DeepMind, которая впервые сумела предложить решения математических задач, более оптимальные, чем те, которые придумали математики на сегодняшний день."
         },
-        "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
-        "episodeName": "AIA Podcast #24",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
+                "episodeName": "AIA Podcast #24"
+            }
+        ],
         "date": "2024-01-04",
-        "tags": ["llm", "deepmind", "science"]
+        "tags": [
+            "llm",
+            "deepmind",
+            "science"
+        ]
     },
     {
         "name": "VideoPoet",
@@ -294,10 +470,18 @@
             "en": "LLM for zero-shot video generation. Can't try it live yet (like a lot of Google's ii development), works at GEN-1 level, but it's specifically LLM, which could be a breakthrough.",
             "ru": "LLM для создания видео. Пока нельзя попробовать в жизни (как и многие ии-разработки Гугла), работает на уровне GEN-1, но это именно LLM, что может быть прорывом."
         },
-        "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
-        "episodeName": "AIA Podcast #24",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
+                "episodeName": "AIA Podcast #24"
+            }
+        ],
         "date": "2024-01-04",
-        "tags": ["llm", "video", "google"]
+        "tags": [
+            "llm",
+            "video",
+            "google"
+        ]
     },
     {
         "name": "threestudio",
@@ -306,10 +490,18 @@
             "en": "Unified framework for 3D content creation from text prompts, single images, and few-shot images, by lifting 2D text-to-image generation models.",
             "ru": "Унифицированная фреймворк для создания 3D-контента из текстовых промптов, одиночных изображений и изображений с несколькими кадрами используя 2D text-to-image модели."
         },
-        "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
-        "episodeName": "AIA Podcast #24",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
+                "episodeName": "AIA Podcast #24"
+            }
+        ],
         "date": "2024-01-04",
-        "tags": ["3d", "framework", "open-source"]
+        "tags": [
+            "3d",
+            "framework",
+            "open-source"
+        ]
     },
     {
         "name": "Copilot",
@@ -318,10 +510,18 @@
             "en": "Chatbot service from Microsoft. Works from the browser. Not to be confused with other Copilots 😅",
             "ru": "Чат-бот сервис от Microsoft. Работает из бразура. Не путать с другими Копайлотами 😅"
         },
-        "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
-        "episodeName": "AIA Podcast #24",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
+                "episodeName": "AIA Podcast #24"
+            }
+        ],
         "date": "2024-01-04",
-        "tags": ["microsoft", "chat", "copilot"]
+        "tags": [
+            "microsoft",
+            "chat",
+            "copilot"
+        ]
     },
     {
         "name": "MateOS",
@@ -330,10 +530,23 @@
             "en": "Copilot for your operating system. It can interact with your operating system through screen photos and file system access and perform simple tasks. From the creators of Machinet",
             "ru": "Копайлот для вашей операционной системы. По фотографии экрана и через доступ к файловой системе может взаимодействовать с вашей операционной системуо и выполнять простые задачи. От создателей Machinet"
         },
-        "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
-        "episodeName": "AIA Podcast #24",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
+                "episodeName": "AIA Podcast #24"
+            },
+
+            {
+                "episodeUrl": "https://youtu.be/ktCjF86avfo",
+                "episodeName": "AIA Special #6"
+            }
+        ],
         "date": "2024-01-04",
-        "tags": ["programming", "chat", "copilot"]
+        "tags": [
+            "programming",
+            "chat",
+            "copilot"
+        ]
     },
     {
         "name": "CodeRabbit",
@@ -342,10 +555,16 @@
             "en": "Assistant in the creation and management of pulrequests, smart codereviews",
             "ru": "Помощник в создании и управлении пулреквестами, умный кодревью"
         },
-        "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
-        "episodeName": "AIA Podcast #24",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
+                "episodeName": "AIA Podcast #24"
+            }
+        ],
         "date": "2024-01-04",
-        "tags": ["programming"]
+        "tags": [
+            "programming"
+        ]
     },
     {
         "name": "Self-Operating Computer Framework",
@@ -354,10 +573,21 @@
             "en": "Framework that views a screen and decides to perform a series of mouse and keyboard actions to achieve a goal. Analogous to MateOS. Requires access to the GPT-4V API",
             "ru": "Фреймворк, который просматривает экран и принимает решение о выполнении ряда действий с помощью мыши и клавиатуры для достижения цели. Аналог MateOS. Требует доступ к GPT-4V API"
         },
-        "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
-        "episodeName": "AIA Podcast #24",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
+                "episodeName": "AIA Podcast #24"
+            }
+        ],
         "date": "2024-01-04",
-        "tags": ["programming", "chat", "copilot", "open-source", "gpt", "framework"]
+        "tags": [
+            "programming",
+            "chat",
+            "copilot",
+            "open-source",
+            "gpt",
+            "framework"
+        ]
     },
     {
         "name": "DeepSeek Coder",
@@ -366,10 +596,19 @@
             "en": "An opsensor-based LLM for programming. 1.3B, 5.7B, 6.7B and 33B paramaters.",
             "ru": "Опенсорсная LLM для программирования. 1.3B, 5.7B, 6.7B и 33B парамтеров."
         },
-        "episodeUrl": "https://youtu.be/FVe2t1mX0s4",
-        "episodeName": "AIA Podcast #23",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/FVe2t1mX0s4",
+                "episodeName": "AIA Podcast #23"
+            }
+        ],
         "date": "2023-12-15",
-        "tags": ["programming", "llm", "open-source", "local"]
+        "tags": [
+            "programming",
+            "llm",
+            "open-source",
+            "local"
+        ]
     },
     {
         "name": "OpenRouter",
@@ -378,10 +617,17 @@
             "en": "A unified online-interface for LLMs. Deposit money into your account and use a variety of subscription-based LLMs. Similar to Poe.com",
             "ru": "Унифицированный онлайн-интерфейс для LLM. Кладешь деньги на счет и используешь разнообразные LLM по подписке. Похоже на Poe.com"
         },
-        "episodeUrl": "https://youtu.be/FVe2t1mX0s4",
-        "episodeName": "AIA Podcast #23",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/FVe2t1mX0s4",
+                "episodeName": "AIA Podcast #23"
+            }
+        ],
         "date": "2023-12-15",
-        "tags": ["llm", "interface"]
+        "tags": [
+            "llm",
+            "interface"
+        ]
     },
     {
         "name": "LM Studio",
@@ -390,10 +636,18 @@
             "en": "A user-friendly interface to quickly run opencore LLMs locally on your computer.",
             "ru": "Удобный интерфейс для быстрого запуска опенсорсных LLM локально на вашем компьютере."
         },
-        "episodeUrl": "https://youtu.be/FVe2t1mX0s4",
-        "episodeName": "AIA Podcast #23",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/FVe2t1mX0s4",
+                "episodeName": "AIA Podcast #23"
+            }
+        ],
         "date": "2023-12-15",
-        "tags": ["llm", "interface", "local"]
+        "tags": [
+            "llm",
+            "interface",
+            "local"
+        ]
     },
     {
         "name": "Reddit-каталог UI для LLM",
@@ -402,9 +656,17 @@
             "en": "A list on Reddit of different interfaces for working with local LLMs, from simple to complex.",
             "ru": "Список на Реддите разные интерфейсов для работы с локальными LLM, от простых до сложных."
         },
-        "episodeUrl": "https://youtu.be/FVe2t1mX0s4",
-        "episodeName": "AIA Podcast #23",
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/FVe2t1mX0s4",
+                "episodeName": "AIA Podcast #23"
+            }
+        ],
         "date": "2023-12-15",
-        "tags": ["llm", "interface", "catalog"]
+        "tags": [
+            "llm",
+            "interface",
+            "catalog"
+        ]
     }
 ]
