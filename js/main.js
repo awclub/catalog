@@ -21,11 +21,13 @@ document.addEventListener('DOMContentLoaded', async function() {
     let viewBuilder = new ViewBuilder(servicesData, localizationData);
 
     // set theme
-    let savedTheme = localStorage.getItem('theme') || 'dark'; // default theme is light
+    let siteColorTheme = 
+        localStorage.getItem('theme') || 
+        (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'); // default theme is dark
     let themeToggleButton = document.getElementById('theme-toggle');
-    document.body.setAttribute('data-theme', savedTheme);
+    document.body.setAttribute('data-theme', siteColorTheme);
     themeToggleButton.addEventListener('click', toggleTheme);
-    themeToggleButton.textContent = savedTheme === 'dark' ? 'Light Mode' : 'Dark Mode';
+    themeToggleButton.textContent = siteColorTheme === 'dark' ? 'Light Mode' : 'Dark Mode';
 
     // "search" param processing
     let urlParams = new URLSearchParams(window.location.search);

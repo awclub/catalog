@@ -9,7 +9,6 @@ export class ViewBuilder {
             (['ru', 'uk', 'be'].some(lang => navigator.language.startsWith(lang)) ? 'ru' : 'en'); // default language is English
     }
 
-
     // Display services processing
     displayServices(searchTerm = '') {
         const servicesList = document.getElementById('services-list');
