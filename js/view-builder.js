@@ -4,7 +4,9 @@ export class ViewBuilder {
     constructor(servicesData, localizationData) {
         this.servicesData = servicesData;
         this.localizationData = localizationData;
-        this.currentLanguage = localStorage.getItem('currentLanguage') || 'ru'; // default language is Russian
+        this.currentLanguage = 
+            localStorage.getItem('currentLanguage') ||
+            (['ru', 'uk', 'be'].some(lang => navigator.language.startsWith(lang)) ? 'ru' : 'en'); // default language is English
     }
 
 

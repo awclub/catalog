@@ -8,7 +8,9 @@ let localizationData = {};
 // On document loaded
 document.addEventListener('DOMContentLoaded', async function() {
     // set currentLanguage
-    let currentLanguage = localStorage.getItem('currentLanguage') || 'ru'; // default language is Russian
+    let currentLanguage = 
+        localStorage.getItem('currentLanguage') || 
+        (['ru', 'uk', 'be'].some(lang => navigator.language.startsWith(lang)) ? 'ru' : 'en'); // default language is English
     let langToggleButton = document.getElementById('lang-switch');
     langToggleButton.textContent = currentLanguage === 'ru' ? '🌐 English' : '🌐 Русский';
     langToggleButton.addEventListener('click', toggleLanguage);

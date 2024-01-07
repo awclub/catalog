@@ -42,7 +42,7 @@ header {
     padding: 10px;
     text-align: center;
     max-width: 1200px;
-    margin: 20px auto;
+    margin: 20px auto 10px auto;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: background-color 0.3s;
 }
