@@ -37,9 +37,6 @@ document.addEventListener('DOMContentLoaded', async function() {
       viewBuilder.selectTag
     );
 
-    // lang switch
-    document.getElementById('lang-switch').addEventListener('click', toggleLanguage);
-
     // set theme
     let siteColorTheme = 
         localStorage.getItem('theme') || 
