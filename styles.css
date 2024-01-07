@@ -17,6 +17,8 @@
     --autocomplete-item-bg-color-hover: #524980;
     --autocomplete-item-text-color-active: #e1e1e1;
     --autocomplete-item-bg-color-active: #423465;
+    --reset-btn-bg-color: rgba(158, 98, 208, 0.7);
+    --reset-btn-text-color: #d2d2d2;
 }
 
 /* Light Theme Colors */
@@ -38,6 +40,8 @@
     --autocomplete-item-bg-color-hover: #524980;
     --autocomplete-item-text-color-active: #e1e1e1;
     --autocomplete-item-bg-color-active: #423465;
+    --reset-btn-bg-color: rgba(102, 50, 136, 0.7);
+    --reset-btn-text-color: #f3e7e7;
 }
 
 body {
@@ -197,7 +201,6 @@ main {
 .autocomplete-items {
     position: absolute;
     box-sizing: border-box;
-    border-radius: 10px;
     max-height: 250px;
     overflow-x: hidden;
     overflow-y: auto;
@@ -236,8 +239,14 @@ main {
 }
 
 #reset-button {  
-    font-size: 0.95em;
+    font-size: 1.2em;
     cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    background-color: var(--reset-btn-bg-color);
+    color: var(--reset-btn-text-color);
+    padding: 5px;
 }
 
 .tag {
