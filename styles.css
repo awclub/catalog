@@ -11,10 +11,18 @@
     --tag-bg-color: #7b769e;
     --tag-text-color: #e1e1e1;
     --aw-club-color: #a449ee;
+    --autocomplete-item-text-color: #e1e1e1;
+    --autocomplete-item-bg-color: #6d609d;
+    --autocomplete-item-text-color-hover: #fff;
+    --autocomplete-item-bg-color-hover: #524980;
+    --autocomplete-item-text-color-active: #e1e1e1;
+    --autocomplete-item-bg-color-active: #423465;
+    --reset-btn-bg-color: rgba(158, 98, 208, 0.7);
+    --reset-btn-text-color: #d2d2d2;
 }
 
 /* Light Theme Colors */
-[data-theme="light"] {    
+[data-theme="light"] {
     --background-color: #fff;
     --text-color: #333;
     --link-color: #1a73e8;
@@ -26,6 +34,14 @@
     --tag-bg-color: #9c94d3;
     --tag-text-color: #fff;
     --aw-club-color: #7e34bb;
+    --autocomplete-item-text-color: #e1e1e1;
+    --autocomplete-item-bg-color: #9c94d3;
+    --autocomplete-item-text-color-hover: #fff;
+    --autocomplete-item-bg-color-hover: #524980;
+    --autocomplete-item-text-color-active: #e1e1e1;
+    --autocomplete-item-bg-color-active: #423465;
+    --reset-btn-bg-color: rgba(102, 50, 136, 0.7);
+    --reset-btn-text-color: #f3e7e7;
 }
 
 body {
@@ -121,19 +137,22 @@ main {
     padding: 0;
 }
 
-#search-box {
-    width: 100%;
+.text-input {
+    font-size: 1em;
     box-sizing: border-box;
     padding: 10px;
-    margin: 10px auto;
-    font-size: 1em;
     background-color: rgb(241, 235, 244);
     border: 1px solid #ddd;
     border-radius: 10px;
 }
 
-#search-box:focus {
+.text-input:focus {
     outline: none;
+}
+
+#search-box {
+    width: 100%;
+    margin: 10px auto;
 }
 
 #clean-search {
@@ -172,21 +191,69 @@ main {
     bottom: 5px;
     color: rgb(128, 128, 128)
 }
+/* Style the input and autocomplete container */
+.autocomplete {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the items (options) */
+.autocomplete-items {
+    position: absolute;
+    box-sizing: border-box;
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.autocomplete-item {
+    padding: 8px;
+    cursor: pointer;
+    color: var(--autocomplete-item-text-color);
+    background-color: var(--autocomplete-item-bg-color);
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete-item:hover {
+    background-color: var(--autocomplete-item-bg-color-hover);
+    color: var(--autocomplete-item-text-color-hover);
+}
+
+/* When navigating through the items using the arrow keys */
+.autocomplete-active {
+    background-color: var(--autocomplete-item-bg-color-active) !important;
+    color: var(--autocomplete-item-text-color-active);
+}
+
 
 #selected-tags {
     display: inline-block;
-    margin: 10px;
+    margin: 6px 0 6px 10px;
 }
 
 #reset-button {  
-    font-size: 0.95em;
+    font-size: 1.2em;
     cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    background-color: var(--reset-btn-bg-color);
+    color: var(--reset-btn-text-color);
+    padding: 5px;
 }
 
 .tag {
     display: inline-block;
     background-color: var(--tag-bg-color);
     color: var(--tag-text-color);
+    font-size: 1em;
     border-radius: 3px;
     padding: 2px 7px;
     margin: 2px 6px 2px 0;
@@ -314,7 +381,7 @@ footer a {
     #podcast-name {
         border-bottom-width: 2px;
     }
-    
+
     #aw-club {
         font-size: 0.7em;
     }
@@ -322,7 +389,7 @@ footer a {
     #settings-button {
         width: 80px;
     }
-    
+
     .search-container {
         padding: 0 10px;
     }

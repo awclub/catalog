@@ -31,7 +31,7 @@
         <div class="header-container">
             <div class="title-container">
                 <img src="./images/favicon.png" alt="logo">
-                <h1 id="header">Каталог ИИ-сервисов от 
+                <h1 id="header">Каталог ИИ-сервисов от
                     <a id="podcast-name" target="_blank" href="https://itbeard.com/aia">AIA Podcast</a>
                     <a id="aw-club"  target="_blank" href="https:/aw.club">&  Anywhere Club</a>
                 </h1>
@@ -49,12 +49,16 @@
     </header>
     <main>
         <div class="search-container">
-            <input id="search-box" type="text" placeholder="Поиск сервисов..."/>
+            <input id="search-box" class="text-input" type="text" placeholder="Поиск сервисов..."/>
             <span id="clean-search" class="clear-button">&times;</span>
         </div>
         <div id="selected-tags-box">
             <div id="selected-tags"></div>
-            <button id="reset-button" style="display: none;">Reset</button>
+            <div id="tags-autocomplete" class="autocomplete">
+                <input id="tags-autocomplete-input" class="text-input autocomplete-input" type="text" placeholder="Введите тэг...">
+                <div class="autocomplete-items"></div>
+            </div>
+            <button id="reset-button" style="display: none;">&#8634;</button>
         </div>
         <div id="services-list"></div>
     </main>
