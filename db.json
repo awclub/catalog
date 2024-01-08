@@ -1,5 +1,107 @@
 [
     {
+        "name": "Rewind Pendant",
+        "url": "https://www.rewind.ai/pendant",
+        "description": {
+            "en": "An AI pendant from Rewind that records everything you say in a day and does a self-reference.  It's designed to keep the data private and works through an assistant on your computer (the wearable device itself only records information). Now you can search by what you said for the day. Costs $59 on pre-order, not yet released.",
+            "ru": "ИИ-кулон от компании Rewind, который записывает всё что вы говорите за день и делает саморизацию.  Заточен на приватность данных и работает через помощника на компьютере (само носимое устройство только записывает информацию). Теперь можно искать по тому, что ты сказал за деть. Стоит 59 долларов по предзаказу, пока не релизнулось."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=ldmr9aeb4co&t=7830s",
+                "episodeName": "AIA Podcast #18"
+            }
+        ],
+        "date": "2023-10-03",
+        "tags": [
+            "hardware",
+            "speech",
+            "summarisation"
+        ]
+    },
+    {
+        "name": "Stable LM 3B",
+        "url": "https://huggingface.co/stabilityai/stablelm-3b-4e1t",
+        "description": {
+            "en": "LLM from Stability AI that is compact and can run on portable devices. It is competitive with other language models with more parameters and can be used for a variety of tasks including text generation, translation and summarization.",
+            "ru": "LLM от компании Stability AI, которая отличается компактностью и может работать на портативных устройствах.Она конкурентоспособна по сравнению с другими языковыми моделями, имеющими большее количество параметров, и может использоваться для решения различных задач, включая генерацию, перевод и резюмирование текстов."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=ldmr9aeb4co&t=6830s",
+                "episodeName": "AIA Podcast #18"
+            }
+        ],
+        "date": "2023-10-03",
+        "tags": [
+            "llm",
+            "open-source",
+            "programming",
+            "stabilityai"
+        ]
+    },
+    {
+        "name": "Mistral 7b",
+        "url": "https://github.com/mistralai/mistral-src",
+        "description": {
+            "en": "Opensor model from the French company Mistral, which will run on your hardware. Comparable in quality to LLaMa2, but cheaper/faster. Apache 2 license, they plan to make money on products.",
+            "ru": "Опенсорсная модель от французской комании Mistral, которая запустится на вашем железе. Сопоставима по качеству с LLaMa2, но дешевле/быстрее. Лицензия Apache 2, зарабатывать планируют на продуктах."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=ldmr9aeb4co&t=6830s",
+                "episodeName": "AIA Podcast #18"
+            }
+        ],
+        "date": "2023-10-03",
+        "tags": [
+            "llm",
+            "open-source",
+            "programming"
+        ]
+    },
+    {
+        "name": "Amazon Bedrock",
+        "url": "https://aws.amazon.com/bedrock/",
+        "description": {
+            "en": "A cloud-based managed service through which LLMs, Diffusion Networks, and Foundational Models from leading companies such as AI21 Labs, Anthropic, Cohere, Meta, Stability AI, and Amazon can be lightly utilized through a single API. Endorsement.",
+            "ru": "Облачный managed-сервис, через который слегка можно использовать LLM, диффузионных сетей и Foundational Models от ведущих компаний, таких как AI21 Labs, Anthropic, Cohere, Meta, Stability AI, и Amazon через единый API. Одобряемс."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=ldmr9aeb4co&t=6382s",
+                "episodeName": "AIA Podcast #18"
+            }
+        ],
+        "date": "2023-10-03",
+        "tags": [
+            "amazon",
+            "api",
+            "programming",
+            "cloud"
+        ]
+    },
+    {
+        "name": "Ray-Ban Meta Smart Glasses",
+        "url": "https://www.meta.com/pl/en/smart-glasses/",
+        "description": {
+            "en": "Smart glasses from Meta and Ray-Ban, supposedly with AI integration. In fact, they can listen to you, transmit the information to your smartphone and further to the Internet, and then voice the answer. Nothing new.",
+            "ru": "Умные очки от Meta и Ray-Ban, якобы с интеграцией ИИ. На самом деле умеют слушать вас, передовать информацию на смартфон и дальше в интернет, а потом озвучивать ответ. Ничег онового."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=ldmr9aeb4co&t=5138s",
+                "episodeName": "AIA Podcast #18"
+            }
+        ],
+        "date": "2023-10-03",
+        "tags": [
+            "hardware",
+            "meta",
+            "glass"
+        ]
+    },
+    {
         "name": "KUBIYA",
         "url": "https://www.kubiya.ai",
         "description": {
