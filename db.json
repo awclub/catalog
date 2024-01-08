@@ -1,5 +1,66 @@
 [
     {
+        "name": "KUBIYA",
+        "url": "https://www.kubiya.ai",
+        "description": {
+            "en": "ChatGPT for DevOps. Communicate with your engineering platforms using LLM. A virtual team partner to handle DevOps requests so you can do everything else. Interesting stuff. There's a paid subscription and integrations to Confluence, Jira, Slack and other systems.",
+            "ru": "ChatGPT для DevOps’ов. Общайтесь с вашими инженерными платформами с помощью LLM. Виртуальный партнер по команде для обработки запросов DevOps, чтобы вы могли заниматься всем остальным. Интересная штука. Есть платная подписка и интеграции в Confluence, Jira, Slack и другие системы."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=PwEbN93GU5U&t=6700s",
+                "episodeName": "AIA Podcast #19"
+            }
+        ],
+        "date": "2023-10-19",
+        "tags": [
+            "devops",
+            "programming",
+            "chat"
+        ]
+    },
+    {
+        "name": "GPTDiscord",
+        "url": "https://github.com/Kav-K/GPTDiscord",
+        "description": {
+            "en": "GPT interface for Discord. ChatGPT-style conversations, image generation, AI moderation, custom indexes/knowledgebase, YouTube summarisation and more.",
+            "ru": "GPT-интерфейс для Discord. Беседы в стиле ChatGPT, генерация изображений, ИИ-модерация, пользовательские индексы/база знаний, самморизатор YouTube и многое другое."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=PwEbN93GU5U&t=6700s",
+                "episodeName": "AIA Podcast #19"
+            }
+        ],
+        "date": "2023-10-19",
+        "tags": [
+            "open-source",
+            "bot",
+            "discord",
+            "chat"
+        ]
+    },
+    {
+        "name": "ChatGPT AutoExpert",
+        "url": "https://github.com/spdustin/ChatGPT-AutoExpert",
+        "description": {
+            "en": "Interesting library of custom instructions for ChatGPT (non-coding) and ChatGPT Advanced Data Analysis (coding).",
+            "ru": "Интересная библиотека custom instructions для ChatGPT (non-coding) и ChatGPT Advanced Data Analysis (для программирования)."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=PwEbN93GU5U&t=6700s",
+                "episodeName": "AIA Podcast #19"
+            }
+        ],
+        "date": "2023-10-19",
+        "tags": [
+            "catalog",
+            "gpts",
+            "programming"
+        ]
+    },
+    {
         "name": "Amazon CodeWhisperer",
         "url": "https://aws.amazon.com/codewhisperer/",
         "description": {
