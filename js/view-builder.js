@@ -1,5 +1,20 @@
 import { toLocalDateString } from './extensions.js';
 
+// try to fix the main color in svg or import it here like asset
+const SHARE_ICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg"
+     width="24"
+     height="24"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="3"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/>
+        <polyline points="16 6 12 2 8 6"/>
+        <line x1="12" x2="12" y1="2" y2="15"/>
+</svg>`;
+
 export class ViewBuilder {
     constructor(servicesData, localizationData) {
         this.servicesData = servicesData;
@@ -10,7 +25,7 @@ export class ViewBuilder {
     }
 
     // Display services processing
-    displayServices(searchTerm = '') {
+    displayServicesBySearchString(searchTerm = '') {
         const servicesList = document.getElementById('services-list');
         const selectedTagsElement = document.getElementById('selected-tags');
         const resetButton = document.getElementById('reset-button');
@@ -35,10 +50,41 @@ export class ViewBuilder {
         }
     }
 
+    displayServicesById(id) {
+        const servicesList = document.getElementById('services-list');
+        const selectedTagsElement = document.getElementById('selected-tags');
+
+        servicesList.innerHTML = '';
+        this.servicesData
+          .filter(service => service.id.startsWith(id))
+          .forEach(service => {
+              servicesList.appendChild(
+                this.buildServiceItemElement(service));
+          });
+        selectedTagsElement.replaceChildren();
+    }
+
+    putSearchStringToClipboard(value, callback) {
+        const position = window.location.href.indexOf('?');
+        const domain = position === -1 ? window.location.href : window.location.href.substring(0, position);
+        const serviceId = encodeURIComponent(value).substring(0, 5);
+        const url = `${domain}?id=${serviceId}`;
+        navigator.clipboard.writeText(url)
+          .then(() => callback('Copied'))
+          .catch((e) => {
+              callback('Unknown error');
+              console.error('error occurred while service url is copied', e);
+          });
+    }
+
     buildServiceItemElement(service) {
         const serviceElement = document.createElement('div');
         serviceElement.className = 'service-item';
         serviceElement.innerHTML = `
+            <button type="button" class="copy-to-clipboard">
+                ${SHARE_ICON_SVG}
+            </button>
+            <span class="info-text"><span>Copied</span></span>
             <a href="${service.url}" target="_blank"><h3>${service.name}</h3></a>
             <p>${service.description[this.currentLanguage]}</p>
             <p>
@@ -50,7 +96,22 @@ export class ViewBuilder {
         `;
         serviceElement.querySelector(".tagGroupPlaceholder")
             .replaceWith(this.buildTagGroupElement(service.tags, this.selectTag));
+        serviceElement.querySelector('.copy-to-clipboard')
+          .addEventListener('click', () => this.putSearchStringToClipboard(service.id, this.showInfoMessage(serviceElement)));
         return serviceElement;
+    }
+
+    showInfoMessage(serviceElement) {
+        const tooltip = serviceElement.querySelector('.info-text');
+        const infoSpan = tooltip.querySelector('span');
+        return (message) => {
+            infoSpan.innerText = message;
+            tooltip.style.display = 'inline-block';
+            setTimeout(() => {
+                infoSpan.innerText = '';
+                tooltip.style.display = 'none';
+            }, 1000);
+        }
     }
 
     buildTagGroupElement(tags, tagCallback = () => {}) {
