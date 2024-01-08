@@ -6,5 +6,8 @@
     "githubCodeLinkText": "Код на GitHub",
     "podcastChatLinkText": "Чат подкаста",
     "podcastLinkText": "AIA Podcast",
-    "searchTagsPlaceholder": "Поиск по тегам..."
+    "searchTagsPlaceholder": "Поиск по тегам...",
+    "sortingLegend": "Сортировка",
+    "sortingByNameId": "Имя",
+    "sortingByDateId": "Дата"
 }

@@ -156,29 +156,31 @@ function sortServices(services) {
         constants.sortindByDateDesc; // default sorting order by date descending
     let sortByNameButton = document.getElementById('sort-by-name');
     let sortByDateButton = document.getElementById('sort-by-date');
+    let sortByNameButtonArrowSpan = document.getElementById('sort-by-name-arrowspan');
+    let sortByDateButtonArrowSpan = document.getElementById('sort-by-date-arrowspan');
     sortByNameButton.className = '';
     sortByDateButton.className = '';
-    sortByDateButton.innerHTML = "Date &darr;";
+    sortByDateButtonArrowSpan.innerHTML = "&darr;";
 
     if(sortingOrder === constants.sortindByNameAsc) {
         services = services.sort((a, b) => a.name.localeCompare(b.name));
         sortByNameButton.className = 'hovered';
-        sortByNameButton.innerHTML = "Name &uarr;";
+        sortByNameButtonArrowSpan.innerHTML = "&uarr;";
     } else if(sortingOrder === constants.sortindByNameDesc) {
         services = services.sort((a, b) => b.name.localeCompare(a.name));
         sortByNameButton.className = 'hovered';
-        sortByNameButton.innerHTML = "Name &darr;";
+        sortByNameButtonArrowSpan.innerHTML = "&darr;";
     } else if(sortingOrder === constants.sortindByDateAsc) {
         services = services.sort((a, b) => a.date.localeCompare(b.date));
         sortByDateButton.className = 'hovered';
-        sortByDateButton.innerHTML = "Date &uarr;";
+        sortByDateButtonArrowSpan.innerHTML = "&uarr;";
     } else if(sortingOrder === constants.sortindByDateDesc) {
         services = services.sort((a, b) => b.date.localeCompare(a.date));
         sortByDateButton.className = 'hovered';
-        sortByDateButton.innerHTML = "Date &darr;";
+        sortByDateButtonArrowSpan.innerHTML = "&darr;";
     } else { // default sorting order by date descending
         sortByDateButton.className = 'hovered';
-        sortByDateButton.innerHTML = "Date &darr;";
+        sortByDateButtonArrowSpan.innerHTML = "&darr;";
     }
 
     return services;

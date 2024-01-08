@@ -10,5 +10,8 @@ export function updateStaticLocalizations(localization) {
     document.getElementById('podcast-chat-link').textContent = localization.podcastChatLinkText;
     document.getElementById('github-code-link').textContent = localization.githubCodeLinkText;
     document.getElementById('tags-autocomplete-input').placeholder = localization.searchTagsPlaceholder;
+    document.getElementById('sorting-legend').textContent = localization.sortingLegend;
+    document.getElementById('sort-by-name-namespan').textContent = localization.sortingByNameId;
+    document.getElementById('sort-by-date-namespan').textContent = localization.sortingByDateId;
     document.title = localization.title;
 }
