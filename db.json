@@ -1,5 +1,6 @@
 [
     {
+        "id": "01e1a1a9-d3ab-4190-8e4f-943406da4280",
         "name": "Machinet",
         "url": "https://www.machinet.net/",
         "description": {
@@ -21,6 +22,7 @@
         ]
     },
     {
+        "id": "5f8bb73e-dc1b-4c8e-bcdf-4debcab71338",
         "name": "Pika",
         "url": "https://pika.art",
         "description": {
@@ -41,6 +43,7 @@
         ]
     },
     {
+        "id": "aea57d2c-0203-498b-8f83-e3723028e445",
         "name": "Claude Instant",
         "url": "https://www.anthropic.com/index/releasing-claude-instant-1-2",
         "description": {
@@ -61,6 +64,7 @@
         ]
     },
     {
+        "id": "dfc72ba6-d161-416e-a515-82509a137177",
         "name": "StableCode",
         "url": "https://github.com/Stability-AI/StableCode",
         "description": {
@@ -83,6 +87,7 @@
         ]
     },
     {
+        "id": "7b56ea34-e1b9-4a5e-8527-dc166ff8b244",
         "name": "AudioCraft",
         "url": "https://github.com/facebookresearch/audiocraft",
         "description": {
@@ -105,6 +110,7 @@
         ]
     },
     {
+        "id": "fca009fa-20a8-4727-9f04-502dabcec5eb",
         "name": "Project IDX",
         "url": "https://idx.dev/",
         "description": {
@@ -125,6 +131,7 @@
         ]
     },
     {
+        "id": "d18f64f9-900c-4663-ac51-e27edc1945db",
         "name": "Be Fake",
         "url": "https://befakeai.com/",
         "description": {
@@ -144,6 +151,7 @@
         ]
     },
     {
+        "id": "462991ad-ea57-4a06-a7bf-e965dc1bf507",
         "name": "Sakana AI",
         "url": "https://sakana.ai",
         "description": {
@@ -163,6 +171,7 @@
         ]
     },
     {
+        "id": "3986bb37-e738-49a1-a516-342a7ed23ce7",
         "name": "Code Lama",
         "url": "https://github.com/facebookresearch/codellama",
         "description": {
@@ -185,6 +194,7 @@
         ]
     },
     {
+        "id": "4e3251c3-daa0-4898-b457-c33d3a465a86",
         "name": "Duet AI",
         "url": "https://www.microsoft.com/en-us/research/project/vall-e-x/vall-e/",
         "description": {
@@ -204,6 +214,7 @@
         ]
     },
     {
+        "id": "67faf15f-7992-494d-a658-2e914be00f1d",
         "name": "VALL-E (X)",
         "url": "https://www.microsoft.com/en-us/research/project/vall-e-x/vall-e/",
         "description": {
@@ -224,6 +235,7 @@
         ]
     },
     {
+        "id": "8fe872f3-cdc1-4355-8936-4b0b3c2dc716",
         "name": "Qwen-VL",
         "url": "https://github.com/QwenLM/Qwen-VL",
         "description": {
@@ -244,6 +256,7 @@
         ]
     },
     {
+        "id": "f4598fcc-22e4-4945-a37f-71fda2c4943a",
         "name": "MetaGPT",
         "url": "https://github.com/geekan/MetaGPT",
         "description": {
@@ -264,6 +277,7 @@
         ]
     },
     {
+        "id": "83015181-33b6-40f9-be28-753d3a85e2fc",
         "name": "ChatDev",
         "url": "https://github.com/openbmb/chatdev",
         "description": {
@@ -284,6 +298,7 @@
         ]
     },
     {
+        "id": "9957dde7-18a7-4ed6-baa4-37415081d9f1",
         "name": "DALL-E 3",
         "url": "https://openai.com/dall-e-3",
         "description": {
@@ -304,6 +319,7 @@
         ]
     },
     {
+        "id": "df781959-dd01-44f3-b7e2-7704881759f9",
         "name": "Gobi",
         "url": "https://www.heygen.com",
         "description": {
@@ -332,6 +348,7 @@
         ]
     },
     {
+        "id": "40f40bda-bfe1-4cf8-aeff-1db9d223a400",
         "name": "HeyGen",
         "url": "https://www.heygen.com",
         "description": {
@@ -353,6 +370,7 @@
         ]
     },
     {
+        "id": "0bbed209-619d-4e1f-bbcc-b990ec024e00",
         "name": "Rewind Pendant",
         "url": "https://www.rewind.ai/pendant",
         "description": {
@@ -373,6 +391,7 @@
         ]
     },
     {
+        "id": "418c390c-ed5f-4d33-9720-374fbcee7b7c",
         "name": "Stable LM 3B",
         "url": "https://huggingface.co/stabilityai/stablelm-3b-4e1t",
         "description": {
@@ -395,6 +414,7 @@
         ]
     },
     {
+        "id": "15a74b4a-0a73-47c9-9efc-ab92980ac0ac",
         "name": "Mistral 7b",
         "url": "https://github.com/mistralai/mistral-src",
         "description": {
@@ -415,6 +435,7 @@
         ]
     },
     {
+        "id": "98b5467d-f81c-479d-9b30-ca777406bb4a",
         "name": "Amazon Bedrock",
         "url": "https://aws.amazon.com/bedrock/",
         "description": {
@@ -436,6 +457,7 @@
         ]
     },
     {
+        "id": "3165a85f-c69f-4548-870c-be22e264ba16",
         "name": "Ray-Ban Meta Smart Glasses",
         "url": "https://www.meta.com/pl/en/smart-glasses/",
         "description": {
@@ -456,6 +478,7 @@
         ]
     },
     {
+        "id": "41ee577a-4b85-4c7f-88e2-ed4ab771de90",
         "name": "KUBIYA",
         "url": "https://www.kubiya.ai",
         "description": {
@@ -476,6 +499,7 @@
         ]
     },
     {
+        "id": "72ad4d22-da12-4433-a81d-4d73edb0e95e",
         "name": "GPTDiscord",
         "url": "https://github.com/Kav-K/GPTDiscord",
         "description": {
@@ -497,6 +521,7 @@
         ]
     },
     {
+        "id": "83934f62-08c9-4e8e-89f5-9ddd211c2c23",
         "name": "ChatGPT AutoExpert",
         "url": "https://github.com/spdustin/ChatGPT-AutoExpert",
         "description": {
@@ -517,6 +542,7 @@
         ]
     },
     {
+        "id": "2d7021c5-7e7f-4c62-bb54-11df92f051e1",
         "name": "Amazon CodeWhisperer",
         "url": "https://aws.amazon.com/codewhisperer/",
         "description": {
@@ -536,6 +562,7 @@
         ]
     },
     {
+        "id": "5e319f6e-f28e-4664-b92a-513c0e537ca0",
         "name": "CodiumAI",
         "url": "https://www.codium.ai/",
         "description": {
@@ -557,6 +584,7 @@
         ]
     },
     {
+        "id": "9e9a6e20-2aca-44ad-ad88-c485dd6859ff",
         "name": "Zephyr 7B",
         "url": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta",
         "description": {
@@ -577,6 +605,7 @@
         ]
     },
     {
+        "id": "d75d6016-4f93-4e17-ad0b-1a9793133d6c",
         "name": "jina-embeddings-v2",
         "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en",
         "description": {
@@ -597,6 +626,7 @@
         ]
     },
     {
+        "id": "2cbdf16e-1401-49d9-a2a2-95709f2c34fb",
         "name": "Fact Check Explorer",
         "url": "https://toolbox.google.com/factcheck/explorer/search/list:recent;hl=en",
         "description": {
@@ -616,6 +646,7 @@
         ]
     },
     {
+        "id": "c7f96e89-b978-453e-a43d-4e7eb445953c",
         "name": "Tongyi Qianwen 2.0",
         "url": "https://tongyi.aliyun.com",
         "description": {
@@ -636,6 +667,7 @@
         ]
     },
     {
+        "id": "4fe1131c-0c94-4ce7-b37b-7ee91fdf1eec",
         "name": "WatsonX Code Assistant",
         "url": "https://www.ibm.com/products/watsonx-code-assistant",
         "description": {
@@ -655,6 +687,7 @@
         ]
     },
     {
+        "id": "15f892c2-3206-4ee7-b5de-2a17638fa568",
         "name": "AI Pin",
         "url": "https://hu.ma.ne/aipin",
         "description": {
@@ -674,6 +707,7 @@
         ]
     },
     {
+        "id": "ac12f502-2e9b-4d9f-9ef2-c5988e822a2d",
         "name": "Grok",
         "url": "https://grok.x.ai",
         "description": {
@@ -693,6 +727,7 @@
         ]
     },
     {
+        "id": "4c211f9f-9dfc-4ed1-b908-5b76a48a60a8",
         "name": "Suno AI",
         "url": "https://www.suno.ai",
         "description": {
@@ -712,6 +747,7 @@
         ]
     },
     {
+        "id": "a672bc85-48a2-410f-9c05-624cc572be18",
         "name": "plugin surf",
         "url": "https://plugin.surf",
         "description": {
@@ -731,6 +767,7 @@
         ]
     },
     {
+        "id": "8e3317d4-eabb-4520-a04e-02cf1f2c5c7d",
         "name": "Leonardo.AI",
         "url": "https://leonardo.ai",
         "description": {
@@ -750,6 +787,7 @@
         ]
     },
     {
+        "id": "a18a2d37-9f6f-460a-a9e4-d8b6d7d866fb",
         "name": "Mixtral 8x7B",
         "url": "https://mistral.ai/news/mixtral-of-experts/",
         "description": {
@@ -770,6 +808,7 @@
         ]
     },
     {
+        "id": "8f7111fd-b7d0-4b19-8248-9b28511a2b25",
         "name": "Yi-34B",
         "url": "https://huggingface.co/01-ai/Yi-34B-Chat",
         "description": {
@@ -790,6 +829,7 @@
         ]
     },
     {
+        "id": "2b32d6a4-37b7-4059-8e18-abc95772a1ab",
         "name": "PartyRock",
         "url": "https://partyrock.aws/",
         "description": {
@@ -810,6 +850,7 @@
         ]
     },
     {
+        "id": "af2aeb2b-5d1b-45df-b22b-038d6ee196bd",
         "name": "Starling-7B",
         "url": "https://huggingface.co/berkeley-nest/Starling-LM-7B-alpha",
         "description": {
@@ -830,6 +871,7 @@
         ]
     },
     {
+        "id": "bba7b5d6-0a2b-4be7-8539-b540473eb1c0",
         "name": "Оля и Штучный Интеллект",
         "url": "https://open.spotify.com/show/21k4S7x41XvrAKczLJ5wcH",
         "description": {
@@ -848,6 +890,7 @@
         ]
     },
     {
+        "id": "9caf035f-8702-4d84-a2e2-05cf0594828c",
         "name": "AlgoHack",
         "url": "https://algohack.app/",
         "description": {
@@ -868,6 +911,7 @@
         ]
     },
     {
+        "id": "5421ad08-756f-477d-b067-736ed134260e",
         "name": "Gemini",
         "url": "https://deepmind.google/technologies/gemini/#introduction",
         "description": {
@@ -889,6 +933,7 @@
         ]
     },
     {
+        "id": "63e29501-5fd2-492a-a426-fed18f945c46",
         "name": "Jetbrains AI",
         "url": "https://www.jetbrains.com/ai/",
         "description": {
@@ -910,6 +955,7 @@
         ]
     },
     {
+        "id": "744ccf91-1282-489f-ba35-fc8004a6fe95",
         "name": "Audiobox",
         "url": "https://audiobox.metademolab.com/",
         "description": {
@@ -930,6 +976,7 @@
         ]
     },
     {
+        "id": "58819641-37cf-4c88-b2a4-a572eba3c290",
         "name": "Seamless Communication",
         "url": "https://ai.meta.com/research/seamless-communication",
         "description": {
@@ -954,6 +1001,7 @@
         ]
     },
     {
+        "id": "48f56b88-3299-40d1-a7d7-625d3ec46e4a",
         "name": "Imagine",
         "url": "https://imagine.meta.com",
         "description": {
@@ -973,6 +1021,7 @@
         ]
     },
     {
+        "id": "1ea54c6c-52e9-4e0e-97f2-4b63f4c5d239",
         "name": "FaceFusion",
         "url": "https://github.com/facefusion/facefusion",
         "description": {
@@ -993,6 +1042,7 @@
         ]
     },
     {
+        "id": "eff4a66f-ad73-47fd-9738-7201ca40d69f",
         "name": "Stable Zero123",
         "url": "https://huggingface.co/stabilityai/stable-zero123",
         "description": {
@@ -1014,6 +1064,7 @@
         ]
     },
     {
+        "id": "5ae866db-a6c7-4899-b15c-50885d4e35f7",
         "name": "FunSearch",
         "url": "https://github.com/google-deepmind/funsearch",
         "description": {
@@ -1035,6 +1086,7 @@
         ]
     },
     {
+        "id": "0338c646-f90c-49a6-9523-bf5132ac296c",
         "name": "VideoPoet",
         "url": "https://sites.research.google/videopoet/",
         "description": {
@@ -1056,6 +1108,7 @@
         ]
     },
     {
+        "id": "60b81b5a-516e-4950-821a-e1801601f27b",
         "name": "threestudio",
         "url": "https://github.com/threestudio-project/threestudio",
         "description": {
@@ -1077,6 +1130,7 @@
         ]
     },
     {
+        "id": "a7c40808-7e0f-4ebf-82ac-00a5d2513463",
         "name": "Copilot",
         "url": "https://copilot.microsoft.com",
         "description": {
@@ -1097,6 +1151,7 @@
         ]
     },
     {
+        "id": "3a5e33c1-cf90-454b-a043-ca04baa64ce7",
         "name": "MateOS",
         "url": "https://www.mate-os.com",
         "description": {
@@ -1121,6 +1176,7 @@
         ]
     },
     {
+        "id": "564d076a-ec4f-4614-a9a0-1431d4f76c7c",
         "name": "Midjourney 6",
         "url": "https://www.midjourney.com/",
         "description": {
@@ -1142,6 +1198,7 @@
         ]
     },
     {
+        "id": "afe02a7d-967c-42f7-acc0-561d503b6267",
         "name": "CodeRabbit",
         "url": "https://coderabbit.ai/",
         "description": {
@@ -1160,6 +1217,7 @@
         ]
     },
     {
+        "id": "6c1f751a-1b98-4b15-ab65-53bea8ae1218",
         "name": "Self-Operating Computer Framework",
         "url": "https://github.com/OthersideAI/self-operating-computer",
         "description": {
@@ -1183,6 +1241,7 @@
         ]
     },
     {
+        "id": "d1e8c65f-d1b4-4727-80fc-0018c8d5caa6",
         "name": "DeepSeek Coder",
         "url": "https://github.com/deepseek-ai/deepseek-coder/",
         "description": {
@@ -1205,6 +1264,7 @@
         ]
     },
     {
+        "id": "467eacd4-10c6-4fe8-b822-704f67027537",
         "name": "OpenRouter",
         "url": "https://openrouter.ai",
         "description": {
@@ -1224,6 +1284,7 @@
         ]
     },
     {
+        "id": "61a8ccfe-15e7-4b8d-a90b-fab62e7d3c34",
         "name": "LM Studio",
         "url": "https://lmstudio.ai/",
         "description": {
@@ -1244,6 +1305,7 @@
         ]
     },
     {
+        "id": "414cec84-427f-41af-bc1c-70bf57cbb472",
         "name": "Reddit-каталог UI для LLM",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1847qt6/llm_webui_recommendations/",
         "description": {
