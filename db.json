@@ -1202,8 +1202,8 @@
         "name": "CodeRabbit",
         "url": "https://coderabbit.ai/",
         "description": {
-            "en": "Assistant in the creation and management of pulrequests, smart codereviews",
-            "ru": "Помощник в создании и управлении пулреквестами, умный кодревью"
+            "en": "Assistant in the creation and management of pulrequests, smart codereviews.",
+            "ru": "Помощник в создании и управлении пулреквестами, умный кодревью."
         },
         "mentions": [
             {
@@ -1213,7 +1213,8 @@
         ],
         "date": "2024-01-04",
         "tags": [
-            "programming"
+            "programming",
+            "codereview"
         ]
     },
     {
