@@ -88,27 +88,25 @@ document.getElementById('search-box').addEventListener('input', function(event) 
 });
 
 // Add event listeners for the sorting services
-document.getElementById('sort-by-name-asc').addEventListener('click', function() {
+document.getElementById('sort-by-name').addEventListener('click', function() {
     const constants = new Constants();
-    localStorage.setItem('sortingOrder', constants.sortindByNameAsc);
+    let currentSortingOrder = localStorage.getItem('sortingOrder');
+    if(currentSortingOrder === constants.sortindByNameAsc) {
+        localStorage.setItem('sortingOrder', constants.sortindByNameDesc);
+    } else {
+        localStorage.setItem('sortingOrder', constants.sortindByNameAsc);
+    }
     renderServices();
 });
 
-document.getElementById('sort-by-name-desc').addEventListener('click', function() {
+document.getElementById('sort-by-date').addEventListener('click', function() {
     const constants = new Constants();
-    localStorage.setItem('sortingOrder', constants.sortindByNameDesc);
-    renderServices();
-});
-
-document.getElementById('sort-by-date-asc').addEventListener('click', function() {
-    const constants = new Constants();
-    localStorage.setItem('sortingOrder', constants.sortindByDateAsc);
-    renderServices();
-});
-
-document.getElementById('sort-by-date-desc').addEventListener('click', function() {
-    const constants = new Constants();
-    localStorage.setItem('sortingOrder', constants.sortindByDateDesc);
+    let currentSortingOrder = localStorage.getItem('sortingOrder');
+    if(currentSortingOrder === constants.sortindByDateAsc) {
+        localStorage.setItem('sortingOrder', constants.sortindByDateDesc);
+    } else {
+        localStorage.setItem('sortingOrder', constants.sortindByDateAsc);
+    }
     renderServices();
 });
 
@@ -152,29 +150,35 @@ function renderServices(searchValue) {
 }
 
 function sortServices(services) {
-    document.getElementById('sort-by-name-asc').className = '';
-    document.getElementById('sort-by-name-desc').className = '';
-    document.getElementById('sort-by-date-asc').className = '';
-    document.getElementById('sort-by-date-desc').className = '';
     const constants = new Constants();
     const sortingOrder = 
         localStorage.getItem('sortingOrder') || 
-        constants.sortindByDateDesc; // default sorting order
+        constants.sortindByDateDesc; // default sorting order by date descending
+    let sortByNameButton = document.getElementById('sort-by-name');
+    let sortByDateButton = document.getElementById('sort-by-date');
+    sortByNameButton.className = '';
+    sortByDateButton.className = '';
+    sortByDateButton.innerHTML = "Date &darr;";
 
     if(sortingOrder === constants.sortindByNameAsc) {
         services = services.sort((a, b) => a.name.localeCompare(b.name));
-        document.getElementById('sort-by-name-asc').className = 'hovered';
+        sortByNameButton.className = 'hovered';
+        sortByNameButton.innerHTML = "Name &uarr;";
     } else if(sortingOrder === constants.sortindByNameDesc) {
         services = services.sort((a, b) => b.name.localeCompare(a.name));
-        document.getElementById('sort-by-name-desc').className = 'hovered';
+        sortByNameButton.className = 'hovered';
+        sortByNameButton.innerHTML = "Name &darr;";
     } else if(sortingOrder === constants.sortindByDateAsc) {
         services = services.sort((a, b) => a.date.localeCompare(b.date));
-        document.getElementById('sort-by-date-asc').className = 'hovered';
+        sortByDateButton.className = 'hovered';
+        sortByDateButton.innerHTML = "Date &uarr;";
     } else if(sortingOrder === constants.sortindByDateDesc) {
         services = services.sort((a, b) => b.date.localeCompare(a.date));
-        document.getElementById('sort-by-date-desc').className = 'hovered';
-    } else {
-        document.getElementById('sort-by-date-desc').className = 'hovered';
+        sortByDateButton.className = 'hovered';
+        sortByDateButton.innerHTML = "Date &darr;";
+    } else { // default sorting order by date descending
+        sortByDateButton.className = 'hovered';
+        sortByDateButton.innerHTML = "Date &darr;";
     }
 
     return services;
