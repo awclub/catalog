@@ -33,6 +33,9 @@ export class ViewBuilder {
             selectedTagsElement.replaceChildren();
             resetButton.style.display = 'none';
         }
+
+        // Update the display of services count 
+        document.getElementById('services-count').textContent = servicesList.children.length;
     }
 
     buildServiceItemElement(service) {
