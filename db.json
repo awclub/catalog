@@ -1,5 +1,130 @@
 [
     {
+        "name": "Machinet",
+        "url": "https://www.machinet.net/",
+        "description": {
+            "en": "The best AI assistant for programming. Embeds into your IDE, understands project context, has many context operations, provides AI chat. Works most ideally with Java, but supports other languages as well.",
+            "ru": "Лучший ИИ-ассистент для программирования. Встраивается в вашу IDE, понимает контекст проекта, имеет множество контекстных операций, предоставляет ИИ-чат. Идеальнее всего работает с Java, но поддерживает и другие языки."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=kHVRBaKIjOc&t=10225s",
+                "episodeName": "AIA Podcast #14"
+            }
+        ],
+        "date": "2023-08-12",
+        "tags": [
+            "copilot",
+            "programming",
+            "chat",
+            "ide"
+        ]
+    },
+    {
+        "name": "Pika",
+        "url": "https://pika.art",
+        "description": {
+            "en": "Text-to-video and image-to-video service. Generates dynamic videos based on text or images. The main competitor of Gen-2.",
+            "ru": "Text-to-video и image-to-vide сервис. Генерирует динамические видео по тексту либо картинкам. Главный конкурент Gen-2."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=kHVRBaKIjOc&t=6140s",
+                "episodeName": "AIA Podcast #14"
+            }
+        ],
+        "date": "2023-08-12",
+        "tags": [
+            "video",
+            "text-to-video",
+            "image-to-video"
+        ]
+    },
+    {
+        "name": "Claude Instant",
+        "url": "https://www.anthropic.com/index/releasing-claude-instant-1-2",
+        "description": {
+            "en": "Antropic's LLM, a lighter version of the Claude model, but just as powerful. You can try it through Poe.com.",
+            "ru": "LLM от Antropic, облегченная версия модели Claude, но не уступает ей по мощности. Можно попробовать через Poe.com."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=kHVRBaKIjOc&t=5602s",
+                "episodeName": "AIA Podcast #14"
+            }
+        ],
+        "date": "2023-08-12",
+        "tags": [
+            "antropic",
+            "model",
+            "llm"
+        ]
+    },
+    {
+        "name": "StableCode",
+        "url": "https://github.com/Stability-AI/StableCode",
+        "description": {
+            "en": "StabilityAI's LLM for programming based on BigCode. It supports languages such as Python, Java, JavaScript, C++ and others. It uses Rotary Position Embedding (RoPE) for better code generation.  Exists on 3B parameters.",
+            "ru": "LLM от StabilityAI для программирования, основанна на BigCode. Поддерживает такие языки, как Python, Java, JavaScript, C++ и другие. Для лучшей генерации кода использует Rotary Position Embedding (RoPE).  Существует на 3B параметров."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=kHVRBaKIjOc&t=2700s",
+                "episodeName": "AIA Podcast #14"
+            }
+        ],
+        "date": "2023-08-12",
+        "tags": [
+            "programming",
+            "stabilityai",
+            "model",
+            "llm",
+            "open-source"
+        ]
+    },
+    {
+        "name": "AudioCraft",
+        "url": "https://github.com/facebookresearch/audiocraft",
+        "description": {
+            "en": "PyTorch library for generating audio from text (by prompts, text-to-music). Utilizes optional models from Meta: AudioGen, MusicGen and EnCodec.",
+            "ru": "Библиотека PyTorch для генерации аудио из текста (по промптам, text-to-music). Использует опенсорсные модели от Meta: AudioGen, MusicGen и EnCodec."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=kHVRBaKIjOc&t=2700s",
+                "episodeName": "AIA Podcast #14"
+            }
+        ],
+        "date": "2023-08-12",
+        "tags": [
+            "meta",
+            "music",
+            "model",
+            "open-source",
+            "text-to-music"
+        ]
+    },
+    {
+        "name": "Project IDX",
+        "url": "https://idx.dev/",
+        "description": {
+            "en": "Google's browser-based IDE with artificial intelligence support for building full-featured web and multiplatform applications. Offers integration with Firebase hosting and Google cloud features. Still in testing phase, but you can get on the waitlist.",
+            "ru": "Браузерная IDE от Google с поддержкой искусственного интеллекта для создания полнофункциональных веб-приложений и мультиплатформенных приложений. Предлагает интеграцию с хостингом Firebase и облачными функциями Google. Пока в стадии тестирования, но можно встать в вэйтлист."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=kHVRBaKIjOc&t=1706s",
+                "episodeName": "AIA Podcast #14"
+            }
+        ],
+        "date": "2023-08-12",
+        "tags": [
+            "ide",
+            "google",
+            "programming"
+        ]
+    },
+    {
         "name": "Be Fake",
         "url": "https://befakeai.com/",
         "description": {
@@ -286,8 +411,7 @@
         "tags": [
             "llm",
             "model",
-            "open-source",
-            "programming"
+            "open-source"
         ]
     },
     {
@@ -780,7 +904,9 @@
         "date": "2023-12-15",
         "tags": [
             "programming",
-            "chat"
+            "chat",
+            "ide",
+            "copilot"
         ]
     },
     {
@@ -883,7 +1009,8 @@
         "tags": [
             "3d",
             "model",
-            "stabilityai"
+            "stabilityai",
+            "image-to-3D"
         ]
     },
     {
@@ -945,7 +1072,8 @@
         "tags": [
             "3d",
             "framework",
-            "open-source"
+            "open-source",
+            "text-to-image"
         ]
     },
     {
