@@ -179,6 +179,63 @@ main {
     font-weight: bold;
 }
 
+.sorting-fieldbox {
+    border-color: #ffffff40;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.settings-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.settings-content {
+    display: none;
+    position: absolute;
+    background-color: var(--button-bg-color);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+    border-radius: 5px;
+    padding: 10px;
+    top: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.settings-content button {
+    color: var(--button-text-color);
+    background-color: var(--button-bg-color);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border: none;
+    text-align: left;
+    width: 100%;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.settings-content button:hover {
+    border-left: 4px solid var(--link-color);
+}
+
+.settings-content .sorting-fieldbox button {
+    padding: 5px 10px;
+    margin: 7px 5px;
+}
+
+.settings-content .sorting-fieldbox button:hover,
+.settings-content .sorting-fieldbox button.hovered {
+    border-left: 4px solid var(--link-color);
+    padding: 5px 7px;
+}
+
 .service-item {
     position: relative;
     border: 1px solid var(--service-item-border-color);
@@ -318,44 +375,6 @@ footer a {
     color: #333;
     padding: 5px;
     display: inline-block;
-}
-
-.settings-menu {
-    position: relative;
-    display: inline-block;
-}
-
-.settings-content {
-    display: none;
-    position: absolute;
-    background-color: var(--button-bg-color);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    right: 0;
-    border-radius: 5px;
-    padding: 10px;
-    top: 100%;
-    transition: all 0.3s ease-in-out;
-}
-
-.settings-content button {
-    color: var(--button-text-color);
-    background-color: var(--button-bg-color);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    border: none;
-    text-align: left;
-    width: 100%;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    font-size: 1em;
-    cursor: pointer;
-}
-
-.settings-content button:hover {
-    border-left: 4px solid var(--link-color);
 }
 
 #settings-button {

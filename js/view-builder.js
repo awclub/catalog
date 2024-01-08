@@ -19,7 +19,6 @@ export class ViewBuilder {
         this.servicesData
           .filter(service => this.isSuitableServiceBySearchTerm(service, searchTerm, this.currentLanguage) &&
             this.containsAllTags(service.tags))
-          .sort((a, b) => new Date(b.date) - new Date(a.date))
           .forEach(service => {
               servicesList.appendChild(
                 this.buildServiceItemElement(service));

@@ -1,9 +1,12 @@
 import { loadLocalization, updateStaticLocalizations } from './localization.js';
 import { AutoCompleteInput, ViewBuilder } from './view-builder.js';
 import { loadServices } from './db.js';
+import { Constants } from './constants.js';
 
 let servicesData = [];
 let localizationData = {};
+
+/** Listeners */
 
 // On document loaded
 document.addEventListener('DOMContentLoaded', async function() {
@@ -18,6 +21,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     // get data
     localizationData = await loadLocalization(currentLanguage);
     servicesData = await loadServices();
+    servicesData = sortServices(servicesData);
     let viewBuilder = new ViewBuilder(servicesData, localizationData);
 
     // tags management
@@ -64,30 +68,51 @@ document.addEventListener('DOMContentLoaded', async function() {
     });
 
     cleanSearchButton.addEventListener('click', () => {
-        searchBox.value = '';
-        viewBuilder.displayServices(searchBox.value);
+        renderServices('');
         cleanSearchButton.style.display = 'none';
     });
 
     updateStaticLocalizations(localizationData);
-    viewBuilder.displayServices(searchValue);
+    renderServices(searchValue);
 });
 
 // Add event listener to reset button
 document.getElementById('reset-button').addEventListener('click', function() {
     localStorage.setItem('selectedTags', JSON.stringify(null));
-
-    let searchBox = document.querySelector('#search-box');
-    let viewBuilder = new ViewBuilder(servicesData, localizationData);
-    viewBuilder.displayServices(searchBox.value);
+    renderServices();
 });
 
 // Add event listener for the search box
 document.getElementById('search-box').addEventListener('input', function(event) {
-    let searchValue = event.target.value.toLowerCase();
-    let viewBuilder = new ViewBuilder(servicesData, localizationData);
-    viewBuilder.displayServices(searchValue);
+    renderServices(event.target.value);
 });
+
+// Add event listeners for the sorting services
+document.getElementById('sort-by-name-asc').addEventListener('click', function() {
+    const constants = new Constants();
+    localStorage.setItem('sortingOrder', constants.sortindByNameAsc);
+    renderServices();
+});
+
+document.getElementById('sort-by-name-desc').addEventListener('click', function() {
+    const constants = new Constants();
+    localStorage.setItem('sortingOrder', constants.sortindByNameDesc);
+    renderServices();
+});
+
+document.getElementById('sort-by-date-asc').addEventListener('click', function() {
+    const constants = new Constants();
+    localStorage.setItem('sortingOrder', constants.sortindByDateAsc);
+    renderServices();
+});
+
+document.getElementById('sort-by-date-desc').addEventListener('click', function() {
+    const constants = new Constants();
+    localStorage.setItem('sortingOrder', constants.sortindByDateDesc);
+    renderServices();
+});
+
+/** Functions */
 
 async function toggleLanguage() {
     let currentLanguage = localStorage.getItem('currentLanguage')
@@ -101,11 +126,7 @@ async function toggleLanguage() {
     document.getElementById('lang-switch').textContent = currentLanguage === 'ru' ? '🌐 English' : '🌐 Русский';
     // Save currentLanguage preference
     localStorage.setItem('currentLanguage', currentLanguage);
-
-    // Rerender services
-    let searchBox = document.querySelector('#search-box');
-    let viewBuilder = new ViewBuilder(servicesData, localizationData);
-    viewBuilder.displayServices(searchBox.value);
+    renderServices();
 }
 
 function toggleTheme() {
@@ -117,5 +138,45 @@ function toggleTheme() {
     document.getElementById('theme-toggle').textContent = newTheme === 'dark' ? 'Light Mode' : 'Dark Mode';
     // Save theme preference
     localStorage.setItem('theme', newTheme);
+}
+
+function renderServices(searchValue) {
+    let searchBox = document.querySelector('#search-box');
+    if (searchValue || searchValue === '') {
+        searchBox.value = searchValue.toLowerCase();
+    }
+
+    servicesData = sortServices(servicesData);
+    let viewBuilder = new ViewBuilder(servicesData, localizationData);
+    viewBuilder.displayServices(searchBox.value);
+}
+
+function sortServices(services) {
+    document.getElementById('sort-by-name-asc').className = '';
+    document.getElementById('sort-by-name-desc').className = '';
+    document.getElementById('sort-by-date-asc').className = '';
+    document.getElementById('sort-by-date-desc').className = '';
+    const constants = new Constants();
+    const sortingOrder = 
+        localStorage.getItem('sortingOrder') || 
+        constants.sortindByDateDesc; // default sorting order
+
+    if(sortingOrder === constants.sortindByNameAsc) {
+        services = services.sort((a, b) => a.name.localeCompare(b.name));
+        document.getElementById('sort-by-name-asc').className = 'hovered';
+    } else if(sortingOrder === constants.sortindByNameDesc) {
+        services = services.sort((a, b) => b.name.localeCompare(a.name));
+        document.getElementById('sort-by-name-desc').className = 'hovered';
+    } else if(sortingOrder === constants.sortindByDateAsc) {
+        services = services.sort((a, b) => a.date.localeCompare(b.date));
+        document.getElementById('sort-by-date-asc').className = 'hovered';
+    } else if(sortingOrder === constants.sortindByDateDesc) {
+        services = services.sort((a, b) => b.date.localeCompare(a.date));
+        document.getElementById('sort-by-date-desc').className = 'hovered';
+    } else {
+        document.getElementById('sort-by-date-desc').className = 'hovered';
+    }
+
+    return services;
 }
 
