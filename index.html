@@ -49,17 +49,27 @@
     </header>
     <main>
         <div class="search-container">
-            <input id="search-box" class="text-input" type="text" placeholder="Поиск сервисов..."/>
+            <input 
+                id="search-box" 
+                class="text-input" 
+                type="text" 
+                placeholder="Поиск по названию и описанию..."/>
             <span id="clean-search" class="clear-button">&times;</span>
         </div>
+
         <div id="selected-tags-box">
-            <div id="selected-tags"></div>
             <div id="tags-autocomplete" class="autocomplete">
-                <input id="tags-autocomplete-input" class="text-input autocomplete-input" type="text" placeholder="Введите тэг...">
+                <input 
+                    id="tags-autocomplete-input" 
+                    class="text-input autocomplete-input" 
+                    type="text" 
+                    placeholder="Поиск по тегам..." />
                 <div class="autocomplete-items"></div>
             </div>
-            <button id="reset-button" style="display: none;">&#8634;</button>
+            <div id="selected-tags"></div>
+            <button id="reset-button" title="reset">&#8634;</button>
         </div>
+
         <div id="services-list"></div>
     </main>
     <footer>

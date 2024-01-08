@@ -18,6 +18,7 @@
     --autocomplete-item-text-color-active: #e1e1e1;
     --autocomplete-item-bg-color-active: #423465;
     --reset-btn-bg-color: rgba(158, 98, 208, 0.7);
+    --reset-btn-bg-color-hover: rgba(158, 98, 208, 0.9);
     --reset-btn-text-color: #d2d2d2;
 }
 
@@ -41,6 +42,7 @@
     --autocomplete-item-text-color-active: #e1e1e1;
     --autocomplete-item-bg-color-active: #423465;
     --reset-btn-bg-color: rgba(102, 50, 136, 0.7);
+    --reset-btn-bg-color-hover: rgba(102, 50, 136, 0.9);
     --reset-btn-text-color: #f3e7e7;
 }
 
@@ -129,21 +131,31 @@ a:hover {
 main {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 .search-container {
     position: relative;
-    display: block;
+    display: inline-block;
     padding: 0;
+    width: 320px;
+}
+
+#selected-tags-box {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .text-input {
     font-size: 1em;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 5px 10px;
     background-color: rgb(241, 235, 244);
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .text-input:focus {
@@ -157,8 +169,8 @@ main {
 
 #clean-search {
     position: absolute;
-    right: 20px;
-    top: 28px;
+    right: 10px;
+    top: 24px;
     transform: translateY(-50%);
     cursor: pointer;
     display: none;
@@ -204,9 +216,11 @@ main {
     max-height: 250px;
     overflow-x: hidden;
     overflow-y: auto;
-    border: 1px solid #d4d4d4;
+    border: 1px solid #d4d4d455;  
+    border-radius: 8px;
     border-bottom: none;
     border-top: none;
+    border-right: none;
     z-index: 99;
     top: 100%;
     left: 0;
@@ -218,7 +232,7 @@ main {
     cursor: pointer;
     color: var(--autocomplete-item-text-color);
     background-color: var(--autocomplete-item-bg-color);
-    border-bottom: 1px solid #d4d4d4;
+    border-bottom: 1px dashed #d4d4d435;
 }
 
 .autocomplete-item:hover {
@@ -235,18 +249,33 @@ main {
 
 #selected-tags {
     display: inline-block;
-    margin: 6px 0 6px 10px;
+    margin: 0px 0 0px 10px;
 }
 
+#selected-tags .tag {
+    margin: 0px 6px 0px 0;
+}
+
+
+
 #reset-button {  
-    font-size: 1.2em;
+    display: none;
+    font-size: 1em;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 50%;
     border: none;
     font-weight: bold;
     background-color: var(--reset-btn-bg-color);
     color: var(--reset-btn-text-color);
     padding: 5px;
+    width: 28px;
+    height: 28px;
+}
+
+#reset-button:hover {  
+    background-color: var(--reset-btn-bg-color-hover);
+    color: var(--reset-btn-text-color);
+    transition: 0.3s;
 }
 
 .tag {
@@ -367,6 +396,7 @@ footer a {
 
     .service-item {
         width: 100%;
+        margin: 10px 0;
     }
 
     #header{
@@ -391,6 +421,13 @@ footer a {
     }
 
     .search-container {
-        padding: 0 10px;
+        width: 100%;
+        display: block;
+    }
+
+
+    #selected-tags-box {
+        display: block;
+        margin-left: 0px;
     }
 }
