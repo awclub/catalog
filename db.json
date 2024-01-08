@@ -1,5 +1,124 @@
 [
     {
+        "name": "Be Fake",
+        "url": "https://befakeai.com/",
+        "description": {
+            "en": "A social network that encourages the creation of fake content. Sounds like the perfect Instagram. Contains special tools for photo processing through prompts.",
+            "ru": "Соцсеть, которая поощрает создание фейкового контента. Похоже на идеальный инстаграм. Содержит специальные инструменты для обработки фото через промпты."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=TqXnD3Kp67o&t=8688s",
+                "episodeName": "AIA Podcast #15"
+            }
+        ],
+        "date": "2023-08-22",
+        "tags": [
+            "social network",
+            "fake"
+        ]
+    },
+    {
+        "name": "Sakana AI",
+        "url": "https://sakana.ai",
+        "description": {
+            "en": "A Tokyo-based startup that has set out to develop swarm AI based on small LLMs. Created by two ex-Google employees. ",
+            "ru": "Токийский стартап, вознамерившийся разработать роевой ИИ на базе небольших LLM. Создан двумя экс-сотрудниками Google."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=TqXnD3Kp67o&t=3642s",
+                "episodeName": "AIA Podcast #15"
+            }
+        ],
+        "date": "2023-08-22",
+        "tags": [
+            "llm",
+            "swarm"
+        ]
+    },
+    {
+        "name": "Code Lama",
+        "url": "https://github.com/facebookresearch/codellama",
+        "description": {
+            "en": "A family of open-source models from Meta for programming. There are versions on 7B, 13B and 34B. Based on Llama 2.",
+            "ru": "Семейство опенсорсных моделей от Meta для программирования. Есть версии на 7B, 13B и 34B. Построена на базе Llama 2."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=TqXnD3Kp67o&t=815s",
+                "episodeName": "AIA Podcast #15"
+            }
+        ],
+        "date": "2023-08-22",
+        "tags": [
+            "llm",
+            "model",
+            "programming",
+            "open-source",
+            "meta"
+        ]
+    },
+    {
+        "name": "Duet AI",
+        "url": "https://www.microsoft.com/en-us/research/project/vall-e-x/vall-e/",
+        "description": {
+            "en": "An AI assistant developed by Google and embedded in their services.",
+            "ru": "ИИ-ассистент, разработанный Google и встраиваемый в их сервисы."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=W7lOUPAr0PU&t=2405s",
+                "episodeName": "AIA Podcast #16"
+            }
+        ],
+        "date": "2023-09-07",
+        "tags": [
+            "assistant",
+            "google"
+        ]
+    },
+    {
+        "name": "VALL-E (X)",
+        "url": "https://www.microsoft.com/en-us/research/project/vall-e-x/vall-e/",
+        "description": {
+            "en": "A neurocode language model for speech synthesis. AI for voice cloning. Through the use of Zero Shot, can reproduce a voice in detail over 3 seconds of audio. Can reproduce accent, emotional coloration of phrase, acoustic features of the room.",
+            "ru": "Нейрокодовая языковая модель для синтеза речи. ИИ для клонирования голоса. Благодаря использованию Zero Shot, может по 3 секундам аудио детально воспроизвести голос. Может воспроизвести акцент, эмоциональную окраску фразы, акустические особенности помещения."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=W7lOUPAr0PU&t=2706s",
+                "episodeName": "AIA Podcast #16"
+            }
+        ],
+        "date": "2023-09-07",
+        "tags": [
+            "speech",
+            "model",
+            "microsoft"
+        ]
+    },
+    {
+        "name": "Qwen-VL",
+        "url": "https://github.com/QwenLM/Qwen-VL",
+        "description": {
+            "en": "Alibaba's family of Chinese opensource LLMs. Plus version overtakes Gemini Pro.",
+            "ru": "Семейство китайская опенсорсных LLM от Alibaba. Версия Plus обгоняет Gemini Pro."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=W7lOUPAr0PU&t=5135s",
+                "episodeName": "AIA Podcast #16"
+            }
+        ],
+        "date": "2023-09-07",
+        "tags": [
+            "llm",
+            "model",
+            "china"
+        ]
+    },
+    {
         "name": "MetaGPT",
         "url": "https://github.com/geekan/MetaGPT",
         "description": {
@@ -68,8 +187,16 @@
         },
         "mentions": [
             {
+                "episodeUrl": "https://www.youtube.com/watch?v=TqXnD3Kp67o&t=8214s",
+                "episodeName": "AIA Podcast #15"
+            },
+            {
                 "episodeUrl": "https://www.youtube.com/watch?v=G9f3FyO70MU&t=3008s",
                 "episodeName": "AIA Podcast #17"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=FVe2t1mX0s4&t=6440s",
+                "episodeName": "AIA Podcast #23"
             }
         ],
         "date": "2023-09-23",
@@ -361,7 +488,27 @@
         "date": "2023-11-04",
         "tags": [
             "google",
-            "deepfake"
+            "fake"
+        ]
+    },
+    {
+        "name": "Tongyi Qianwen 2.0",
+        "url": "https://tongyi.aliyun.com",
+        "description": {
+            "en": "Chinese multimodal public model from Alibaba for several hundred billion parameters. Comparable to GPT-4.",
+            "ru": "Китайская мультимодальная публичная модель от Alibaba на несколько сотен миллиардов парраметров. Соизмерима с GPT-4."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/rj0BhwHYs6M?si=mJB_tVHn10FyS01T",
+                "episodeName": "AIA Podcast #20"
+            }
+        ],
+        "date": "2023-11-04",
+        "tags": [
+            "llm",
+            "model",
+            "china"
         ]
     },
     {
@@ -519,6 +666,26 @@
         ]
     },
     {
+        "name": "PartyRock",
+        "url": "https://partyrock.aws/",
+        "description": {
+            "en": "Sandbox by Amazon Bedrock, through which you can build small applications using opensor and other models: Stable Diffusion XL, Claude, Titan, Jurassic, Command.",
+            "ru": "Песочница от Amazon Bedrock, через которую можно строить небольшие приложения используя опенсорсные и другие модели: Stable Diffusion XL, Claude, Titan, Jurassic, Command."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=96aG4F9EAiE&t=3515s",
+                "episodeName": "AIA Podcast #22"
+            }
+        ],
+        "date": "2023-12-01",
+        "tags": [
+            "llm",
+            "amazon",
+            "sandbox"
+        ]
+    },
+    {
         "name": "Starling-7B",
         "url": "https://huggingface.co/berkeley-nest/Starling-LM-7B-alpha",
         "description": {
@@ -640,10 +807,14 @@
         "name": "Seamless Communication",
         "url": "https://ai.meta.com/research/seamless-communication",
         "description": {
-            "en": "Family of AI research open source models from Meta that enable more natural and authentic communication across languages.",
-            "ru": "Семейство моделей с открытым исходным кодом от Meta, которые обеспечивают более естественное и аутентичное общение на разных языках."
+            "en": "Family of AI research open source models from Meta that enable more natural and authentic communication across languages. Included SeamlessExpressive, SeamlessStreaming, SeamlessM4T v2 & Seamless.",
+            "ru": "Семейство моделей с открытым исходным кодом от Meta, которые обеспечивают более естественное и аутентичное общение на разных языках. Включает в себя Included SeamlessExpressive, SeamlessStreaming, SeamlessM4T v2 и Seamless."
         },
         "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=TqXnD3Kp67o&t=1315s",
+                "episodeName": "AIA Podcast #15"
+            },
             {
                 "episodeUrl": "https://youtu.be/FVe2t1mX0s4?si=x08ucV3cwCcysvqB&t=1764",
                 "episodeName": "AIA Podcast #23"
