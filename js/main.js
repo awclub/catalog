@@ -171,11 +171,15 @@ function sortServices(services) {
         sortByNameButton.className = 'hovered';
         sortByNameButtonArrowSpan.innerHTML = "&darr;";
     } else if(sortingOrder === constants.sortindByDateAsc) {
-        services = services.sort((a, b) => a.date.localeCompare(b.date));
+        services = services
+            .sort((a, b) => a.name.localeCompare(b.name))
+            .sort((a, b) => a.date.localeCompare(b.date));
         sortByDateButton.className = 'hovered';
         sortByDateButtonArrowSpan.innerHTML = "&uarr;";
     } else if(sortingOrder === constants.sortindByDateDesc) {
-        services = services.sort((a, b) => b.date.localeCompare(a.date));
+        services = services
+            .sort((a, b) => a.name.localeCompare(b.name))
+            .sort((a, b) => b.date.localeCompare(a.date));
         sortByDateButton.className = 'hovered';
         sortByDateButtonArrowSpan.innerHTML = "&darr;";
     } else { // default sorting order by date descending

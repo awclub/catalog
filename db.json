@@ -1,5 +1,106 @@
 [
     {
+        "name": "MetaGPT",
+        "url": "https://github.com/geekan/MetaGPT",
+        "description": {
+            "en": "A framework for creating a virtual software development office. Powered by AI agents. You set it up, give them a task, get code. Supports GPT API, Gemini, ZhipuAI, Ollama, OpenLLM and other LLM providers.",
+            "ru": "Фреймворк по созданию виртуального офиса по разработке ПО. Работает на ИИ-агентах. Настраиваете, даете им задачу, получаете код. Поддерживают GPT API, Gemini, ZhipuAI, Ollama, OpenLLM и других провайдеров LLM."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=G9f3FyO70MU&t=8885s",
+                "episodeName": "AIA Podcast #17"
+            }
+        ],
+        "date": "2023-09-23",
+        "tags": [
+            "programming",
+            "agents",
+            "virtual office"
+        ]
+    },
+    {
+        "name": "ChatDev",
+        "url": "https://github.com/openbmb/chatdev",
+        "description": {
+            "en": "A virtual software development company. Operates through AI agents who fulfill the roles of CEO, product director, technology director, programmer, reviewer, tester, and designer. Agents in ChatDev collaborate and perform the tasks of designing, coding, testing, and documenting real code. Just give them a task!",
+            "ru": "Виртуальная компания по разработке ПО. Работает через ИИ агентов, выполняющих роли CEO, директора по продуктам, директора по технологиям, программиста, рецензента, тестировщика, дизайнера. Агенты в ChatDev сотрудничают и выполняют задачи проектирования, кодирования, тестирования и документирования реального кода. Просто дайте им задачу!"
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=G9f3FyO70MU&t=8885s",
+                "episodeName": "AIA Podcast #17"
+            }
+        ],
+        "date": "2023-09-23",
+        "tags": [
+            "programming",
+            "agents",
+            "virtual office"
+        ]
+    },
+    {
+        "name": "DALL-E 3",
+        "url": "https://openai.com/dall-e-3",
+        "description": {
+            "en": "A diffusion model from OpenAI that draws graphics as good as Midjourney 5 and StableDiffusion XL. It is used inside ChatGPT. Perfectly understands short prompts and draws text reasonably well.",
+            "ru": "Диффузионная модель от OpenAI, рисующая графику не хуже Midjourney 5 и StableDiffusion XL. Используется внтури ChatGPT. Отлично понимает короткие промпты и сносно рисует текст."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=G9f3FyO70MU&t=3008s",
+                "episodeName": "AIA Podcast #17"
+            }
+        ],
+        "date": "2023-09-23",
+        "tags": [
+            "diffusion",
+            "model",
+            "graphics"
+        ]
+    },
+    {
+        "name": "Gobi",
+        "url": "https://www.heygen.com",
+        "description": {
+            "en": "Ghost Multimodal LLM from OpenAI. Was supposed to be a replacement for GPT-4, but development was stopped for unknown reasons.",
+            "ru": "Призрачная мультимодальная LLM от компании OpenAI. Должна была стать заменой GPT-4, но разработка была остановлена по неизвестным причинам."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=G9f3FyO70MU&t=3008s",
+                "episodeName": "AIA Podcast #17"
+            }
+        ],
+        "date": "2023-09-23",
+        "tags": [
+            "llm",
+            "openai",
+            "model"
+        ]
+    },
+    {
+        "name": "HeyGen",
+        "url": "https://www.heygen.com",
+        "description": {
+            "en": "A service for creating digital avatars, including your own, which realistically read out text. Also the service is engaged in \"animation\" of images, and gorgeous production ready re-sounding video with lip-synchronization. AIA's favorite service. And it's very hyped.",
+            "ru": "Сервис по созданию цифровых аватаров, в том числе своих, которые реалистично зачитывают текст. Также сервис занимается \"оживлением\" изображений, и шикарной production ready переозвучкой видео с синхронизацией губ. Любимый сервис AIA. И очень хайповый."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=G9f3FyO70MU&t=1405s",
+                "episodeName": "AIA Podcast #17"
+            }
+        ],
+        "date": "2023-09-23",
+        "tags": [
+            "video",
+            "speech",
+            "lipsync",
+            "dubbing"
+        ]
+    },
+    {
         "name": "Rewind Pendant",
         "url": "https://www.rewind.ai/pendant",
         "description": {
@@ -201,7 +302,7 @@
             "copilot",
             "programming",
             "tests",
-            "pr-agent"
+            "codereview"
         ]
     },
     {
@@ -708,7 +809,6 @@
                 "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
                 "episodeName": "AIA Podcast #24"
             },
-
             {
                 "episodeUrl": "https://youtu.be/ktCjF86avfo",
                 "episodeName": "AIA Special #6"
@@ -719,6 +819,27 @@
             "programming",
             "chat",
             "copilot"
+        ]
+    },
+    {
+        "name": "Midjourney 6",
+        "url": "https://www.midjourney.com/",
+        "description": {
+            "en": "Another version of the diffusion model from Midjourney, drawing super-realistic graphics. A leader in the field of AI graphics. The source of a lot of wake photos. Available via Discord, but web-version is coming soon.",
+            "ru": "Очередная версия диффузионной модели от Midjourney, рисующая суперреалистичную графику. Лидер сферы ИИ-графики. Источник кучи вейковых фото. Доступен через Discord, но скоро будет web-версия"
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
+                "episodeName": "AIA Podcast #24"
+            }
+        ],
+        "date": "2024-01-04",
+        "tags": [
+            "diffusion",
+            "graphics",
+            "model",
+            "photorealism"
         ]
     },
     {
