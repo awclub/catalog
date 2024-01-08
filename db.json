@@ -196,10 +196,10 @@
     {
         "id": "4e3251c3-daa0-4898-b457-c33d3a465a86",
         "name": "Duet AI",
-        "url": "https://www.microsoft.com/en-us/research/project/vall-e-x/vall-e/",
+        "url": "https://cloud.google.com/duet-ai",
         "description": {
-            "en": "An AI assistant developed by Google and embedded in their services.",
-            "ru": "ИИ-ассистент, разработанный Google и встраиваемый в их сервисы."
+            "en": "An AI assistant developed by Google and embedded in their services. Can code, write, and do other things.",
+            "ru": "ИИ-ассистент, разработанный Google и встраиваемый в их сервисы. Может писать кот, тексты и делать другие вещи."
         },
         "mentions": [
             {
@@ -210,7 +210,8 @@
         "date": "2023-09-07",
         "tags": [
             "assistant",
-            "google"
+            "google",
+            "programming"
         ]
     },
     {
