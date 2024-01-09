@@ -392,7 +392,7 @@ main {
 }
 
 .copy-to-clipboard svg {
-    height: 20px;
+    height: 18px;
     transition: 0.3s;
     color: var(--copy-to-clipboard-btn-color);
 }
