@@ -73,7 +73,11 @@ document.addEventListener('DOMContentLoaded', async function() {
     });
 
     updateStaticLocalizations(localizationData);
-    renderServices(searchValue);
+    if (urlParams.has('id')) {
+        viewBuilder.displayServicesById(urlParams.get('id'));
+    } else {
+        renderServices(searchValue);
+    }
 });
 
 // Add event listener to reset button
@@ -138,6 +142,7 @@ function toggleTheme() {
     localStorage.setItem('theme', newTheme);
 }
 
+// todo: use separate component that is responsible for Service Filtering management
 function renderServices(searchValue) {
     let searchBox = document.querySelector('#search-box');
     if (searchValue || searchValue === '') {
@@ -146,7 +151,7 @@ function renderServices(searchValue) {
 
     servicesData = sortServices(servicesData);
     let viewBuilder = new ViewBuilder(servicesData, localizationData);
-    viewBuilder.displayServices(searchBox.value);
+    viewBuilder.displayServicesBySearchString(searchBox.value);
 }
 
 function sortServices(services) {
