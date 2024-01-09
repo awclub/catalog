@@ -65,7 +65,6 @@ body {
 header {
     padding: 10px;
     text-align: center;
-    max-width: 1200px;
     margin: 10px auto 0px auto;
     transition: background-color 0.3s;
 }
@@ -78,9 +77,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
+}
+
+header,
+main,
+footer {
+    max-width: 1200px;
 }
 
 .title-container {
@@ -145,7 +149,6 @@ a:hover {
 }
 
 main {
-    max-width: 1200px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -253,14 +256,20 @@ main {
 }
 
 .service-item {
+    width: 335px;
     position: relative;
     border: 1px solid var(--service-item-border-color);
     border-radius: 10px;
-    margin: 10px;
+    margin: 10px 0;
     padding: 10px 25px 25px 25px;
     background-color: var(--service-item-bg-color);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     transition: background-color 0.3s;
+}
+
+.service-item:nth-child(3n+1),
+.service-item:nth-child(3n+2) {
+    margin-right: 20px;
 }
 
 .service-item h3 {
@@ -366,11 +375,7 @@ main {
 #services-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-}
-
-.service-item {
-    width: 300px;
+    justify-content: start;
 }
 
 .copy-to-clipboard {
@@ -423,7 +428,6 @@ footer {
     padding: 10px;
     text-align: center;
     margin: 0px auto 10px auto;
-    max-width: 1200px;
 }
 
 footer div {
@@ -460,7 +464,37 @@ footer a {
     to { opacity: 1; transform: translateY(0); }
 }
 
-@media screen and (max-width: 640px) {
+
+@media screen and (max-width: 1220px) {
+    header,
+    main,
+    footer {
+        max-width: 794px;
+    }
+
+    .service-item:nth-child(3n+1),
+    .service-item:nth-child(3n+2) {
+        margin-right: 0px;
+    }
+
+    .service-item:nth-child(2n+1) {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 814px) {
+    .service-item:nth-child(3n+1),
+    .service-item:nth-child(3n+2),
+    .service-item:nth-child(2n+1) {
+        margin-right: 0px;
+    }
+
+    header,
+    main,
+    footer {
+        max-width: 600px;
+    }
+
     .header-container {
         flex-direction: column;
         align-items: center;
