@@ -1,5 +1,6 @@
 import { loadLocalization, updateStaticLocalizations } from './localization.js';
-import { AutoCompleteInput, ViewBuilder } from './view-builder.js';
+import { ViewBuilder } from './view-builder.js';
+import { AutoCompleteInput } from './auto-complete-input.js';
 import { loadServices } from './db.js';
 import { Constants } from './constants.js';
 
@@ -50,7 +51,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     themeToggleButton.addEventListener('click', toggleTheme);
     themeToggleButton.textContent = siteColorTheme === 'dark' ? 'Light Mode' : 'Dark Mode';
 
-    // "search" param processing
+    // "search" & "id" param processing
     let urlParams = new URLSearchParams(window.location.search);
     let searchValue = '';
     if (urlParams.has('search')) {
@@ -58,10 +59,18 @@ document.addEventListener('DOMContentLoaded', async function() {
         let searchBox = document.querySelector('#search-box');
         searchBox.value = searchValue;
     }
+    if (urlParams.has('id')) {
+        searchValue = decodeURIComponent(urlParams.get('id'));
+        let searchBox = document.querySelector('#search-box');
+        searchBox.value = searchValue;
+    }
 
     // set search box
     const searchBox = document.getElementById('search-box');
     const cleanSearchButton = document.getElementById('clean-search');
+    if(searchBox.value) {
+        cleanSearchButton.style.display = 'block';
+    }  
 
     searchBox.addEventListener('input', () => {
         cleanSearchButton.style.display = searchBox.value ? 'block' : 'none';
@@ -73,11 +82,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     });
 
     updateStaticLocalizations(localizationData);
-    if (urlParams.has('id')) {
-        viewBuilder.displayServicesById(urlParams.get('id'));
-    } else {
-        renderServices(searchValue);
-    }
+    renderServices(searchValue);
 });
 
 // Add event listener to reset button
@@ -144,14 +149,14 @@ function toggleTheme() {
 
 // todo: use separate component that is responsible for Service Filtering management
 function renderServices(searchValue) {
+    servicesData = sortServices(servicesData);
+    let viewBuilder = new ViewBuilder(servicesData, localizationData);
     let searchBox = document.querySelector('#search-box');
-    if (searchValue || searchValue === '') {
+    if ((searchValue || searchValue === '')){
         searchBox.value = searchValue.toLowerCase();
     }
 
-    servicesData = sortServices(servicesData);
-    let viewBuilder = new ViewBuilder(servicesData, localizationData);
-    viewBuilder.displayServicesBySearchString(searchBox.value);
+    viewBuilder.displayServices(searchBox.value);
 }
 
 function sortServices(services) {

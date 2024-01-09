@@ -20,7 +20,8 @@
     --reset-btn-bg-color: rgba(158, 98, 208, 0.7);
     --reset-btn-bg-color-hover: rgba(158, 98, 208, 0.9);
     --reset-btn-text-color: #d2d2d2;
-    --copy-to-clipboard-btn-color: #d2d2d2;
+    --copy-to-clipboard-btn-color: #6b6a6a;
+    --copy-to-clipboard-btn-color-hover: #d2d2d2;
 }
 
 /* Light Theme Colors */
@@ -45,7 +46,8 @@
     --reset-btn-bg-color: rgba(102, 50, 136, 0.7);
     --reset-btn-bg-color-hover: rgba(102, 50, 136, 0.9);
     --reset-btn-text-color: #f3e7e7;
-    --copy-to-clipboard-btn-color: #272833;
+    --copy-to-clipboard-btn-color: #a7a7a7;
+    --copy-to-clipboard-btn-color-hover: #404040;
 }
 
 body {
@@ -102,6 +104,7 @@ header {
     height: 70px;
     border-radius: 50%;
     margin-right: 10px;
+    display: inherit;
 }
 
 .title-container #header {
@@ -384,9 +387,13 @@ main {
 }
 
 .copy-to-clipboard svg {
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    transition: 0.3s;
     color: var(--copy-to-clipboard-btn-color);
+}
+
+.copy-to-clipboard svg:hover {
+    color: var(--copy-to-clipboard-btn-color-hover);
 }
 
 .copy-to-clipboard:hover {
@@ -395,7 +402,9 @@ main {
 
 .info-text {
     position: absolute;
-    display: none;
+    opacity: 0;
+    display: inline-block;
+    transition: opacity 0.5s;
     z-index: 999;
     top: -21px;
     right: -3px;
@@ -404,10 +413,10 @@ main {
 .info-text > span {
     display: inline-block;
     font-weight: bold;
-    color: rgb(39, 210, 85);
-    background-color: rgba(121, 220, 121, 0.7);
-    padding: 4px;
-    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(148, 148, 148);
+    padding: 4px 6px;
+    border-radius: 8px;
     box-sizing: border-box;
 }
 
