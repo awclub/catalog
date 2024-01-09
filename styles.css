@@ -256,7 +256,7 @@ main {
 }
 
 .service-item {
-    width: 335px;
+    width: 334px;
     position: relative;
     border: 1px solid var(--service-item-border-color);
     border-radius: 10px;
