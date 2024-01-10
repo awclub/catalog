@@ -46,7 +46,7 @@
         "url": "https://github.com/GreyDGL/PentestGPT",
         "description": {
             "en": "An open source AI tool for automating program security testing. Works on GPT API, but also supports other LLMs.",
-            "ru": "ИИ-инструмент с открытым исходным кодом для автоматизации  тестирования безопасности программ. Работает на GPT API ,но также поддерживает другие LLMs."
+            "ru": "ИИ-инструмент с открытым исходным кодом для автоматизации тестирования безопасности программ. Работает на GPT API, но также поддерживает другие LLMs."
         },
         "mentions": [
             {
@@ -67,7 +67,7 @@
         "url": "https://github.com/XingangPan/DragGAN",
         "description": {
             "en": "An AI tool that allows you to change the physics of objects in images: rotate, change perspective, proportions, sizes, and so on. It looks very good.",
-            "ru": "Опенсорсный ИИ-инструмент, позволяющий изменять физику обьектов на изображениях: поворачивать, изменят ьперспективу, пропорции, размеры и прочее. Выглядит очень неплохо."
+            "ru": "Опенсорсный ИИ-инструмент, позволяющий изменять физику обьектов на изображениях: поворачивать, изменять перспективу, пропорции, размеры и прочее. Выглядит очень неплохо."
         },
         "mentions": [
             {
