@@ -1,5 +1,118 @@
 [
     {
+        "id": "778f9caf-11fa-4e76-b646-23d0e7afb2ec",
+        "name": "YouTube Scribe",
+        "url": "https://www.shoki.app/",
+        "description": {
+            "en": "Samarizes and transcribes YouTube videos in 12 languages.",
+            "ru": "Самаризирует и транскрибирует видеоролики в YouTube на 12 языках."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=nl1lx07ZjIg&t=9240s",
+                "episodeName": "AIA Podcast #11"
+            }
+        ],
+        "date": "2023-06-30",
+        "tags": [
+            "transcription",
+            "summarisation",
+            "youtube"
+        ]
+    },
+    {
+        "id": "7a33ad30-88ca-4546-ac6f-0411647dc9ef",
+        "name": "Palette FM",
+        "url": "https://palette.fm/",
+        "description": {
+            "en": "Service for coloring black and white photos.",
+            "ru": "Сервис по раскрашиванию черно-белх фотографий."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=nl1lx07ZjIg&t=9240s",
+                "episodeName": "AIA Podcast #11"
+            }
+        ],
+        "date": "2023-06-30",
+        "tags": [
+            "graphics",
+            "photo"
+        ]
+    },
+    {
+        "id": "81bdf9be-f037-4345-a63a-64f9d763a2ee",
+        "name": "PentestGPT",
+        "url": "https://github.com/GreyDGL/PentestGPT",
+        "description": {
+            "en": "An open source AI tool for automating program security testing. Works on GPT API, but also supports other LLMs.",
+            "ru": "ИИ-инструмент с открытым исходным кодом для автоматизации  тестирования безопасности программ. Работает на GPT API ,но также поддерживает другие LLMs."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=nl1lx07ZjIg&t=9240s",
+                "episodeName": "AIA Podcast #11"
+            }
+        ],
+        "date": "2023-06-30",
+        "tags": [
+            "programming",
+            "cybersecurity",
+            "open-source"
+        ]
+    },
+    {
+        "id": "7c7454de-14e0-41c1-9656-6a81f072373a",
+        "name": "Drag Your GAN",
+        "url": "https://github.com/XingangPan/DragGAN",
+        "description": {
+            "en": "An AI tool that allows you to change the physics of objects in images: rotate, change perspective, proportions, sizes, and so on. It looks very good.",
+            "ru": "Опенсорсный ИИ-инструмент, позволяющий изменять физику обьектов на изображениях: поворачивать, изменят ьперспективу, пропорции, размеры и прочее. Выглядит очень неплохо."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=nl1lx07ZjIg&t=5180s",
+                "episodeName": "AIA Podcast #11"
+            }
+        ],
+        "date": "2023-06-30",
+        "tags": [
+            "3d",
+            "graphics",
+            "open-source"
+        ]
+    },
+    {
+        "id": "3a010950-a834-496b-8a5e-3a4df6a9517b",
+        "name": "GPT-Engineer",
+        "url": "https://github.com/AntonOsika/gpt-engineer",
+        "description": {
+            "en": "An opensource tool that can write turnkey code using the GPT API. You give it a task, it polls you and produces ready code. It works on an agent-based architecture. The most popular product in the sphere of turnkey code writing by AI agents.",
+            "ru": "Опенсорсный инструмент, который с помощью GPT API может писать код под ключ. Вы задаете ему задачу, он опрашивает вас и выдает готовы код. Работает на агентной архитектуре. Самый популярный продукт в сфере написания кода под ключ ИИ-агентами."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=nl1lx07ZjIg&t=5025s",
+                "episodeName": "AIA Podcast #11"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=C79FV_YujSg&t=475s",
+                "episodeName": "AIA Special #12"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=9y_lG6WsiOQ",
+                "episodeName": "AIA Special #1"
+            }
+        ],
+        "date": "2023-06-30",
+        "tags": [
+            "open-source",
+            "programming",
+            "virtual office",
+            "gpt"
+        ]
+    },
+    {
         "id": "c7b1d579-b9e5-41dc-a4f6-da00181e2a05",
         "name": "Stable Doodle",
         "url": "https://clipdrop.co/stable-doodle",
@@ -745,12 +858,12 @@
         "name": "CodiumAI",
         "url": "https://www.codium.ai/",
         "description": {
-            "en": "CodiumAI plugs into users’ integrated development environment and suggests meaningful tests for their suite, as code. It does this by exploring and analyzing users’ code, docstrings, and comments and by interacting with the developer.",
-            "ru": "CodiumAI подключается к интегрированной среде разработки пользователей и предлагает значимые тесты для их набора, как код. Он делает это, исследуя и анализируя код пользователей, строки документации и комментарии, а также взаимодействуя с разработчиком."
+            "en": "A service that knows how to write quality Unit tests using project context, context menus, in different styles and under a variety of boundary conditions. An excellent assistant for any developer.",
+            "ru": "Сервис, который умеет писать качественные Unit тесты, используя контекст проекта, контекстные меню, в разных стилях и по разнообразным граничным условиям. Отличное помощник для любого разработчика."
         },
         "mentions": [
             {
-                "episodeUrl": "https://youtu.be/nl1lx07ZjIg?t=9023",
+                "episodeUrl": "https://www.youtube.com/watch?v=nl1lx07ZjIg&t=9024s",
                 "episodeName": "AIA Podcast #11"
             }
         ],
@@ -1121,6 +1234,10 @@
         },
         "mentions": [
             {
+                "episodeUrl": "https://www.youtube.com/watch?v=nl1lx07ZjIg&t=2135s",
+                "episodeName": "AIA Podcast #11"
+            },
+            {
                 "episodeUrl": "https://youtu.be/FVe2t1mX0s4?si=0MXMKUYUsnk5ekpz&t=5214",
                 "episodeName": "AIA Podcast #23"
             }
@@ -1356,16 +1473,20 @@
     },
     {
         "id": "564d076a-ec4f-4614-a9a0-1431d4f76c7c",
-        "name": "Midjourney 6",
+        "name": "Midjourney",
         "url": "https://www.midjourney.com/",
         "description": {
-            "en": "Another version of the diffusion model from Midjourney, drawing super-realistic graphics. A leader in the field of AI graphics. The source of a lot of wake photos. Available via Discord, but web-version is coming soon.",
-            "ru": "Очередная версия диффузионной модели от Midjourney, рисующая суперреалистичную графику. Лидер сферы ИИ-графики. Источник кучи вейковых фото. Доступен через Discord, но скоро будет web-версия"
+            "en": "Diffusion model from Midjourney, drawing super-realistic graphics. A leader in the field of AI graphics, latest version - Midjourney 6. The source of a lot of wake photos. Available via Discord, but web-version is coming soon.",
+            "ru": "Диффузионной модели от Midjourney, рисующая суперреалистичную графику. Лидер сферы ИИ-графики, текущая версия - Midjourney 6. Источник кучи вейковых фото. Доступен через Discord, но скоро будет web-версия"
         },
         "mentions": [
             {
+                "episodeUrl": "https://www.youtube.com/watch?v=nl1lx07ZjIg&t=4625s",
+                "episodeName": "AIA Podcast #11 (v5.2)"
+            },
+            {
                 "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
-                "episodeName": "AIA Podcast #24"
+                "episodeName": "AIA Podcast #24 (v6)"
             }
         ],
         "date": "2024-01-04",
