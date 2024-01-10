@@ -1,5 +1,90 @@
 [
     {
+        "id": "c7b1d579-b9e5-41dc-a4f6-da00181e2a05",
+        "name": "Stable Doodle",
+        "url": "https://clipdrop.co/stable-doodle",
+        "description": {
+            "en": "Stability AI sketch-to-image tool that converts a simple drawing into a good quality image.",
+            "ru": "Инструмент от Stability AI для преобразования эскизов в изображения, который превращает простой рисунок в развесистое изображение."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=C79FV_YujSg&t=4680s",
+                "episodeName": "AIA Podcast #12"
+            }
+        ],
+        "date": "2023-07-14",
+        "tags": [
+            "diffusion",
+            "stabilityai",
+            "model",
+            "graphics"
+        ]
+    },
+    {
+        "id": "ccc4d07e-ad91-407c-956c-b99279afc5a3",
+        "name": "Claude 2",
+        "url": "https://www.anthropic.com/index/claude-2",
+        "description": {
+            "en": "LLM from Antropic, has 200k context window, which is the largest at the moment. GPT-4 competitor. You could try it through Poe.com.",
+            "ru": "LLM от Antropic, имеет 200k контекстное окно, что является наибольшим на данный момент. Конкурент GPT-4. Можно попробовать через Poe.com."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=C79FV_YujSg&t=3845s",
+                "episodeName": "AIA Podcast #12"
+            }
+        ],
+        "date": "2023-07-14",
+        "tags": [
+            "llm",
+            "model",
+            "antropic"
+        ]
+    },
+    {
+        "id": "b090ad76-4440-4e52-8ede-a7a75ce7742c",
+        "name": "Windows Copilot",
+        "url": "https://www.microsoft.com/en-us/windows/copilot-ai-features",
+        "description": {
+            "en": "Microsoft's AI assistant built into the Windows operating system. It works on the basis of GPT. Replaces Cortana, can control computer settings and so on.",
+            "ru": "ИИ-ассистент от Microsoft, встроенный в операционную систему Windows. Работаест на базе GPT. Заменил Cortana, может управлять настройками компьютера и прочее."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=C79FV_YujSg&t=3655s",
+                "episodeName": "AIA Podcast #12"
+            }
+        ],
+        "date": "2023-07-14",
+        "tags": [
+            "copilot",
+            "microsoft"
+        ]
+    },
+    {
+        "id": "545e6d29-6b06-47b3-8ff2-bd0d42735cc4",
+        "name": "OpenAI Platform",
+        "url": "https://platform.openai.com/",
+        "description": {
+            "en": "Platform from OpenAI for accessing GPT API, GPT-4V API and others.",
+            "ru": "Платформа от OpenAI для доступа к GPT API, GPT-4V API и другим API компании."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=C79FV_YujSg&t=1390s",
+                "episodeName": "AIA Podcast #12"
+            }
+        ],
+        "date": "2023-07-14",
+        "tags": [
+            "api",
+            "llm",
+            "foundational",
+            "gpt"
+        ]
+    },
+    {
         "id": "c1e085fa-2e90-4a26-95b0-2a4890ea4908",
         "name": "Pi",
         "url": "https://pi.ai",
@@ -41,7 +126,8 @@
         "tags": [
             "diffusion",
             "stabilityai",
-            "model"
+            "model",
+            "graphics"
         ]
     },
     {
@@ -61,7 +147,8 @@
         "date": "2023-07-27",
         "tags": [
             "programming",
-            "pullrequest"
+            "pullrequest",
+            "gpt"
         ]
     },
     {
@@ -138,8 +225,8 @@
         "name": "Claude Instant",
         "url": "https://www.anthropic.com/index/releasing-claude-instant-1-2",
         "description": {
-            "en": "Antropic's LLM, a lighter version of the Claude model, but just as powerful. You can try it through Poe.com.",
-            "ru": "LLM от Antropic, облегченная версия модели Claude, но не уступает ей по мощности. Можно попробовать через Poe.com."
+            "en": "Antropic's LLM, a lighter version of the Claude 2 model, but just as powerful. You can try it through Poe.com.",
+            "ru": "LLM от Antropic, облегченная версия модели Claude 2, но не уступает ей по мощности. Можно попробовать через Poe.com."
         },
         "mentions": [
             {
