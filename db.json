@@ -67,7 +67,7 @@
         "url": "https://github.com/XingangPan/DragGAN",
         "description": {
             "en": "An AI tool that allows you to change the physics of objects in images: rotate, change perspective, proportions, sizes, and so on. It looks very good.",
-            "ru": "Опенсорсный ИИ-инструмент, позволяющий изменять физику обьектов на изображениях: поворачивать, изменять перспективу, пропорции, размеры и прочее. Выглядит очень неплохо."
+            "ru": "Опенсорсный ИИ-инструмент, позволяющий изменять физику объектов на изображениях: поворачивать, изменять перспективу, пропорции, размеры и прочее. Выглядит очень неплохо."
         },
         "mentions": [
             {
@@ -161,7 +161,7 @@
         "url": "https://www.microsoft.com/en-us/windows/copilot-ai-features",
         "description": {
             "en": "Microsoft's AI assistant built into the Windows operating system. It works on the basis of GPT. Replaces Cortana, can control computer settings and so on.",
-            "ru": "ИИ-ассистент от Microsoft, встроенный в операционную систему Windows. Работаест на базе GPT. Заменил Cortana, может управлять настройками компьютера и прочее."
+            "ru": "ИИ-ассистент от Microsoft, встроенный в операционную систему Windows. Работает на базе GPT. Заменил Cortana, может управлять настройками компьютера и прочее."
         },
         "mentions": [
             {
@@ -203,7 +203,7 @@
         "url": "https://pi.ai",
         "description": {
             "en": "An AI chatbot developed by Inflection. The company intends to build a personalized conversational AI and has two models in its portfolio: Inflection-1 and Inflection-2. The latter performs slightly better than Google's PaLM 2 & Meta's LLaMa 2 according to test results.",
-            "ru": "ИИ-чат, разработанный компанией Inflection. Компания намерена построить персонализированый conversational AI, имеют в портфолио две модели: Inflection-1 и Inflection-2. Последняя по результатам тестов работает чуть лучше PaLM 2 от Google и LLaMa 2 от Meta."
+            "ru": "ИИ-чат, разработанный компанией Inflection. Компания намерена построить персонализированный conversational AI, имеют в портфолио две модели: Inflection-1 и Inflection-2. Последняя по результатам тестов работает чуть лучше PaLM 2 от Google и LLaMa 2 от Meta."
         },
         "mentions": [
             {
@@ -227,7 +227,7 @@
         "url": "https://stability.ai/news/stable-diffusion-sdxl-1-announcement",
         "description": {
             "en": "An opensource diffusion model that can draw any graphics, including photorealistic ones. Midjourney's main competitor.",
-            "ru": "Опенсорстная дифузионная модель, которая может рисовать любую графику, в том числе и фотореалистичную. Главный конкурент Midjourney."
+            "ru": "Опенсорстная диффузионная модель, которая может рисовать любую графику, в том числе и фотореалистичную. Главный конкурент Midjourney."
         },
         "mentions": [
             {
@@ -249,7 +249,7 @@
         "url": "https://github.com/irgolic/AutoPR",
         "description": {
             "en": "An open source library that allows you to self-samorize pullrequests, automatically generate READ.me, manage project TODOs, and other things using the GPT API.",
-            "ru": "Открытая библиотека, позволяющая делат ьсаморизацию пулреквестов, автоматически генерировать READ.me, управлять TODO проекта, и другие штуки с помощью GPT API."
+            "ru": "Открытая библиотека, позволяющая делать саморизацию пулреквестов, автоматически генерировать READ.me, управлять TODO проекта, и другие штуки с помощью GPT API."
         },
         "mentions": [
             {
@@ -360,7 +360,7 @@
         "url": "https://github.com/Stability-AI/StableCode",
         "description": {
             "en": "StabilityAI's LLM for programming based on BigCode. It supports languages such as Python, Java, JavaScript, C++ and others. It uses Rotary Position Embedding (RoPE) for better code generation.  Exists on 3B parameters.",
-            "ru": "LLM от StabilityAI для программирования, основанна на BigCode. Поддерживает такие языки, как Python, Java, JavaScript, C++ и другие. Для лучшей генерации кода использует Rotary Position Embedding (RoPE).  Существует на 3B параметров."
+            "ru": "LLM от StabilityAI для программирования, основана на BigCode. Поддерживает такие языки, как Python, Java, JavaScript, C++ и другие. Для лучшей генерации кода использует Rotary Position Embedding (RoPE).  Существует на 3B параметров."
         },
         "mentions": [
             {
@@ -427,7 +427,7 @@
         "url": "https://befakeai.com/",
         "description": {
             "en": "A social network that encourages the creation of fake content. Sounds like the perfect Instagram. Contains special tools for photo processing through prompts.",
-            "ru": "Соцсеть, которая поощрает создание фейкового контента. Похоже на идеальный инстаграм. Содержит специальные инструменты для обработки фото через промпты."
+            "ru": "Соцсеть, которая поощряет создание фейкового контента. Похоже на идеальный Instagram. Содержит специальные инструменты для обработки фото через промпты."
         },
         "mentions": [
             {
@@ -859,7 +859,7 @@
         "url": "https://www.codium.ai/",
         "description": {
             "en": "A service that knows how to write quality Unit tests using project context, context menus, in different styles and under a variety of boundary conditions. An excellent assistant for any developer.",
-            "ru": "Сервис, который умеет писать качественные Unit тесты, используя контекст проекта, контекстные меню, в разных стилях и по разнообразным граничным условиям. Отличное помощник для любого разработчика."
+            "ru": "Сервис, который умеет писать качественные Unit тесты, используя контекст проекта, контекстные меню, в разных стилях и по разнообразным граничным условиям. Отличный помощник для любого разработчика."
         },
         "mentions": [
             {
