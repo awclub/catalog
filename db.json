@@ -1,5 +1,92 @@
 [
     {
+        "id": "c1e085fa-2e90-4a26-95b0-2a4890ea4908",
+        "name": "Pi",
+        "url": "https://pi.ai",
+        "description": {
+            "en": "An AI chatbot developed by Inflection. The company intends to build a personalized conversational AI and has two models in its portfolio: Inflection-1 and Inflection-2. The latter performs slightly better than Google's PaLM 2 & Meta's LLaMa 2 according to test results.",
+            "ru": "ИИ-чат, разработанный компанией Inflection. Компания намерена построить персонализированый conversational AI, имеют в портфолио две модели: Inflection-1 и Inflection-2. Последняя по результатам тестов работает чуть лучше PaLM 2 от Google и LLaMa 2 от Meta."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=bUzvIJrjrKM&t=5260s",
+                "episodeName": "AIA Podcast #13"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=96aG4F9EAiE&t=5225s",
+                "episodeName": "AIA Podcast #22"
+            }
+        ],
+        "date": "2023-07-27",
+        "tags": [
+            "chat",
+            "llm"
+        ]
+    },
+    {
+        "id": "173f2d4a-7b3a-449f-829f-434fc5eb8f48",
+        "name": "Stable Diffusion XL",
+        "url": "https://stability.ai/news/stable-diffusion-sdxl-1-announcement",
+        "description": {
+            "en": "An opensource diffusion model that can draw any graphics, including photorealistic ones. Midjourney's main competitor.",
+            "ru": "Опенсорстная дифузионная модель, которая может рисовать любую графику, в том числе и фотореалистичную. Главный конкурент Midjourney."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=bUzvIJrjrKM&t=4425s",
+                "episodeName": "AIA Podcast #13"
+            }
+        ],
+        "date": "2023-07-27",
+        "tags": [
+            "diffusion",
+            "stabilityai",
+            "model"
+        ]
+    },
+    {
+        "id": "a96a2ac8-1e0a-49b5-9a98-0a0cad23aa66",
+        "name": "AutoPR",
+        "url": "https://github.com/irgolic/AutoPR",
+        "description": {
+            "en": "An open source library that allows you to self-samorize pullrequests, automatically generate READ.me, manage project TODOs, and other things using the GPT API.",
+            "ru": "Открытая библиотека, позволяющая делат ьсаморизацию пулреквестов, автоматически генерировать READ.me, управлять TODO проекта, и другие штуки с помощью GPT API."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/bUzvIJrjrKM?si=Lajr3RivLeGmbrmJ&t=9063",
+                "episodeName": "AIA Podcast #13"
+            }
+        ],
+        "date": "2023-07-27",
+        "tags": [
+            "programming",
+            "pullrequest"
+        ]
+    },
+    {
+        "id": "6f0053d9-02d2-4d40-8da8-ea25317a7f23",
+        "name": "LLaMa 2",
+        "url": "https://ai.meta.com/llama/",
+        "description": {
+            "en": "The first truly worthwhile LLM. Developed by Meta, has specific restrictions concerning large companies. There are versions 7, 13 and 70B.",
+            "ru": "Первая действительно стоящая опенсорсная LLM. Разработана компанией Meta, имеет специфичные ограничения, касающиеся крупных компаний. Есть версии 7, 13 и 70B."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=bUzvIJrjrKM&t=1213s",
+                "episodeName": "AIA Podcast #13"
+            }
+        ],
+        "date": "2023-07-27",
+        "tags": [
+            "llm",
+            "model",
+            "open-source",
+            "meta"
+        ]
+    },
+    {
         "id": "01e1a1a9-d3ab-4190-8e4f-943406da4280",
         "name": "Machinet",
         "url": "https://www.machinet.net/",
@@ -1219,7 +1306,8 @@
         "date": "2024-01-04",
         "tags": [
             "programming",
-            "codereview"
+            "codereview",
+            "pullrequest"
         ]
     },
     {
