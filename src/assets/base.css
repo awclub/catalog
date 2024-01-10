@@ -1,0 +1,76 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --background-color: #fff;
+  --text-color: #333;
+  --link-color: #1a73e8;
+  --header-bg-color: #f1ebf4;
+  --service-item-bg-color: #f1ebf4;
+  --service-item-border-color: #ddd;
+  --button-bg-color: #e2e2e2;
+  --button-text-color: #333;
+  --tag-bg-color: #9c94d3;
+  --tag-text-color: #fff;
+  --aw-club-color: #7e34bb;
+  --autocomplete-item-text-color: #e1e1e1;
+  --autocomplete-item-bg-color: #9c94d3;
+  --autocomplete-item-text-color-hover: #fff;
+  --autocomplete-item-bg-color-hover: #524980;
+  --autocomplete-item-text-color-active: #e1e1e1;
+  --autocomplete-item-bg-color-active: #423465;
+  --reset-btn-bg-color: rgba(102, 50, 136, 0.7);
+  --reset-btn-bg-color-hover: rgba(102, 50, 136, 0.9);
+  --reset-btn-text-color: #f3e7e7;
+  }
+
+  :root.dark {
+    --background-color: #1a1b1e;
+    --text-color: #f5f5f5;
+    --link-color: #4a90e2;
+    --header-bg-color: #26272b;
+    --service-item-bg-color: #2f3035;
+    --service-item-border-color: #ddd2;
+    --button-bg-color: #3b3c40;
+    --button-text-color: #f5f5f5;
+    --tag-bg-color: #7b769e;
+    --tag-text-color: #e1e1e1;
+    --aw-club-color: #a449ee;
+    --autocomplete-item-text-color: #e1e1e1;
+    --autocomplete-item-bg-color: #6d609d;
+    --autocomplete-item-text-color-hover: #fff;
+    --autocomplete-item-bg-color-hover: #524980;
+    --autocomplete-item-text-color-active: #e1e1e1;
+    --autocomplete-item-bg-color-active: #423465;
+    --reset-btn-bg-color: rgba(158, 98, 208, 0.7);
+    --reset-btn-bg-color-hover: rgba(158, 98, 208, 0.9);
+    --reset-btn-text-color: #d2d2d2;
+  }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--text-color);
+  background: var(--background-color);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-size: 15px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  background-image: url('./src/assets/background.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  transition: background-color 0.3s, color 0.3s;
+}
