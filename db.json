@@ -1,5 +1,233 @@
 [
     {
+        "id": "c185109d-13cf-4236-8f81-de35248ede7f",
+        "name": "Replit AI",
+        "url": "https://replit.com/ai",
+        "description": {
+            "en": "Former Ghostwriter, AI code generator and copilot for onlay IDE from Repplit.",
+            "ru": "Бывший Ghostwriter, AI-код генериатор и копайлот для онлай IDE от Repplit."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=11050s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "ide",
+            "copilot",
+            "programming"
+        ]
+    },
+    {
+        "id": "effd5def-97bd-4344-a23a-8dc04141d382",
+        "name": "Twelve Labs",
+        "url": "twelvelabs.io",
+        "description": {
+            "en": "Powerful and seamless video search AI-based service. Platform offers a state-of-the-art video understanding technology that enables context-specific search and insights, replacing ineffective keyword tagging. Works well even with long videous.",
+            "ru": "Мощный сервис поиска в видео на основе искусственного интеллекта. Платформа предлагает технологию, которая обеспечивает контекстно-зависимый поиск и понимание, заменяя неэффективные теги ключевых слов. Работает даже с длинными видеороликами."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=11050s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "video",
+            "search"
+        ]
+    },
+    {
+        "id": "7aaa3713-62d1-475a-808d-33f8d2d4ba99",
+        "name": "localGPT",
+        "url": "https://github.com/PromtEngineer/localGPT",
+        "description": {
+            "en": "Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.",
+            "ru": "Общайтесь с документами на вашем локальном железе с помощью моделей GPT. На 100% приватно и конфиденциально."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=11050s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "productivity",
+            "open-source"
+        ]
+    },
+    {
+        "id": "f3a8fcbd-3285-45ba-995a-9cdadb712c81",
+        "name": "SuperAGI",
+        "url": "https://github.com/TransformerOptimus/SuperAGI",
+        "description": {
+            "en": "A dev-first open source autonomous AI agent framework. Enabling developers to build, manage & run useful autonomous agents quickly and reliably. It has the ability to work with the file system and invoke third-party services.",
+            "ru": "Программерский фреймворк с открытым исходным кодом для создания автономных ИИ-агентов. Позволяет разработчикам быстро и надежно создавать, управлять и запускать автономные агенты. Имеет возможность работать с файловой системой и вызывать сторонние сервисы."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=11050s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "agents",
+            "programming",
+            "open-source",
+            "framework"
+        ]
+    },
+    {
+        "id": "1f47bc74-efcd-4983-bee6-50d1c99ae65c",
+        "name": "Prompt Explorer",
+        "url": "https://prompts.ray.so/code",
+        "description": {
+            "en": "Promt base for programming.",
+            "ru": "База промтов для программирования."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=11050s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "catalog",
+            "prompting"
+        ]
+    },
+    {
+        "id": "8dd96cb9-ce2b-4294-bc76-05c06ceb56e0",
+        "name": "ControlNet",
+        "url": "https://github.com/lllyasviel/ControlNet",
+        "description": {
+            "en": "A neural network structure used to control diffusion models by adding additional conditions. It allows generating images from references, crossing images, making intricate graphics.",
+            "ru": "Нейросетевая структура, используемая для управления диффузионными моделями путем добавления дополнительных условий. Позволяет генерировать изображения по референсам, скрещивать изображения, делать замысловатую графику."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=11050s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "model",
+            "graphics"
+        ]
+    },
+    {
+        "id": "afaea11d-9d4f-49bc-aa45-a59d0c9fd50f",
+        "name": "Quick QR Art",
+        "url": "https://quickqr.art/",
+        "description": {
+            "en": "A service for creating artistic QR codes. Powered by Stable Diffusion & ControlNet.",
+            "ru": "Сервис по созданию художественных QR-кодов. Работает на Stable Diffusion & ControlNet."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=11050s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "art",
+            "graphics",
+            "qr",
+            "api"
+        ]
+    },
+    {
+        "id": "b59032f8-30ec-4075-b1eb-ca504b2c8df8",
+        "name": "Albus",
+        "url": "https://albus.org/",
+        "description": {
+            "en": "An AI service that helps increase productivity through interactive mainboards, kanvas, and notes generated by AI. Just write an idea and Albus will describe and visualize it. The platform allows users to focus on generating ideas and creating content.",
+            "ru": "ИИ-сервис, помогающий повысить продуктивность через интерактивные майндборды, канвасы и заметки, которые генерирует ИИ. Просто напишите идею, а Альбус ее опишет и визуализирует. Платформа позволяет пользователям сосредоточиться на генерировании идей и создании контента."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=11050s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "productivity",
+            "mindmap",
+            "notes"
+        ]
+    },
+    {
+        "id": "d65b86cc-282e-4328-ab21-09382b59bef4",
+        "name": "Clipdrop Uncrop",
+        "url": "https://clipdrop.co/uncrop",
+        "description": {
+            "en": "A service that enables image enhancement using image completion by generative AI.",
+            "ru": "Сервис, позволяющий расширять изобращения с помощью достраивания изображения генеративным ИИ."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=11050s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "graphics",
+            "photo"
+        ]
+    },
+    {
+        "id": "8b4d8393-a831-477b-bd2a-cd1a7ac0cb85",
+        "name": "Gen-2",
+        "url": "https://research.runwayml.com/gen2",
+        "description": {
+            "en": "Gen-2 is a multimodal AI system developed by Runway Research that can generate short novel videos using text, images, or video clips. This is the service that spawned the famous \"Cthulhu Bride Wedding\" video.",
+            "ru": "Gen-2 - это мультимодальный AI-сервис, разработанный компанией Runway Research, который может генерировать короткие видеоролики, используя текст, изображения или видеоклипы. Именно этот сервис породил знаменитый ролик \"Свадьба невесты ктулху\""
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=6310s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "video",
+            "text-to-video",
+            "runway"
+        ]
+    },
+    {
+        "id": "0de67eff-bac8-4eda-97e0-f20e07fcff70",
+        "name": "Falcon",
+        "url": "https://huggingface.co/blog/falcon",
+        "description": {
+            "en": "A family of large language models created by the Institute for Technology Innovation in Abu Dhabi and released under the Apache 2.0 license. It has versions in 7B, 40B and 180B. The 180B version is one of the largest of its kind at the moment.",
+            "ru": "Семейство больших языковых моделей, созданное Институтом технологических инноваций в Абу-Даби и выпущенное под лицензией Apache 2.0. Имеет версии на 7B, 40B и 180B. Версия на 180B одна из крупнейших опенсорсных на данный момент."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=4720s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "llm",
+            "model",
+            "open-source"
+        ]
+    },
+    {
         "id": "778f9caf-11fa-4e76-b646-23d0e7afb2ec",
         "name": "YouTube Scribe",
         "url": "https://www.shoki.app/",
@@ -1608,7 +1836,7 @@
     },
     {
         "id": "414cec84-427f-41af-bc1c-70bf57cbb472",
-        "name": "Reddit-каталог UI для LLM",
+        "name": "Reddit-catalog of LLM's UI",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1847qt6/llm_webui_recommendations/",
         "description": {
             "en": "A list on Reddit of different interfaces for working with local LLMs, from simple to complex.",
