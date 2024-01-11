@@ -1,5 +1,236 @@
 [
     {
+        "id": "a640550a-2cdf-4ae3-94c7-fcb44b788f63",
+        "name": "Perplexity",
+        "url": "https://www.perplexity.ai",
+        "description": {
+            "en": "A search service that uses LLM to provide instant answers to questions by searching for information. Provides a completely new approach to information search, in fact it is a competitor of Google. Has free and paid subscriptions, uses both GPT API and its own models.",
+            "ru": "Поисковый сервис, использующий LLM для предоставления мгновенных ответов на вопросы путем поиска информации. Предоставляет совершенно новый подход к поиску информации, по факту это конкурент Google. Имеет бесплатную и платную подписки, использует как GPT API, так и свои собственные модели."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "hhttps://www.youtube.com/watch?v=pRMdKRsZHyU&t=10565s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "search",
+            "llm"
+        ]
+    },
+    {
+        "id": "fea6982c-ebe9-41dd-a9a1-fd66d2f693a0",
+        "name": "privateGPT",
+        "url": "https://github.com/imartinez/privateGPT",
+        "description": {
+            "en": "Interact with your documents using the power of GPT, 100% privately, no data leaks, locally on your computer.",
+            "ru": "Взаимодействуйте с документами, используя возможности GPT, 100% конфиденциальность, никаких утечек данных, вс ё локально на вашем железе."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "hhttps://www.youtube.com/watch?v=pRMdKRsZHyU&t=10565s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "productivity",
+            "open-source"
+        ]
+    },
+    {
+        "id": "a06373cb-c592-406d-a077-056a4ace1b98",
+        "name": "Amazon CodeWhisperer",
+        "url": "https://aws.amazon.com/codewhisperer/",
+        "description": {
+            "en": "Free autocomplete for code from Amazon. A good analog of Github Copilot. Also able to do securitized code scanning and reference tracking.",
+            "ru": "Бесплатный автокомплит для кода от Amazon. Хороший аналог Github Copilot. Также способен делать секьюрити-сканирование кода и следить за референсами."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "hhttps://www.youtube.com/watch?v=pRMdKRsZHyU&t=10565s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "amazon",
+            "copilot",
+            "programming",
+            "security"
+        ]
+    },
+    {
+        "id": "395af83a-6895-411d-bea3-b65489c41183",
+        "name": "Massively Multilingual Speech",
+        "url": "https://ai.facebook.com/blog/multilingual-model-speech-recognition",
+        "description": {
+            "en": "Project expands speech technology from about 100 languages to over 1,000 by building a single multilingual speech recognition model supporting over 1,100 languages, language identification models able to identify over 4,000 languages, pretrained models supporting over 1,400 languages, and text-to-speech models for over 1,100 languages. C3PO 😅",
+            "ru": "Multilingual модель распознавания речи, поддерживающая более 1100 языков, способная определять более 4000 языков, поддерживающая более 1400 языков, и имеющая возможность преобразования текста в речь для более 1100 языков. C3PO 😅"
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=7545s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "meta",
+            "speech-to-text",
+            "text-to-speech",
+            "open-source",
+            "speech"
+        ]
+    },
+    {
+        "id": "c5afbaa3-dcc2-491d-8910-7ab3953fc220",
+        "name": "watsonx.ai",
+        "url": "https://github.com/jqin4749/MindVideo",
+        "description": {
+            "en": "IBM's enterprise studio for AI builders. Part of the IBM watsonx. Platform that brings together new generative AI capabilities, powered by foundation models and traditional machine learning.",
+            "ru": "Корпоративная студия IBM для разработчиков ИИ-сервисов. Часть проекта IBM watsonx. Платформа, объединяющая новые возможности GenAI, основанные на foundation моделях и традиционном машинном обучении."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=7480s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "ibm",
+            "programming",
+            "enterprise"
+        ]
+    },
+    {
+        "id": "ca0dc228-6c15-4f57-8435-d35ea22b9e72",
+        "name": "MinD-Video",
+        "url": "https://github.com/jqin4749/MindVideo",
+        "description": {
+            "en": "Framework for high-quality video reconstruction from brain recording.",
+            "ru": "Фреймворк для высококачественной реконструкции видео с записей мозга."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=5970s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "framework",
+            "science",
+            "video"
+        ]
+    },
+    {
+        "id": "33cf7d6d-b7e4-4e6b-927a-2c8f7ef83ccc",
+        "name": "Mojo 🔥",
+        "url": "https://www.adobe.com/products/firefly.html",
+        "description": {
+            "en": "Programming language for AI developers. Combines the usability of Python with the performance of C, unlocking unparalleled programmability of AI hardware and extensibility of AI models. Created by Modular company. Mojo files use the .mojo or .🔥 file extension.",
+            "ru": "Язык программирования для разработчиков искусственного интеллекта. Сочетает в себе удобство Python и производительность C, открывая беспрецедентные возможности программирования оборудования ИИ и расширения моделей ИИ. Создан компанией Modular. Файлы Mojo имеют расширение .mojo или .🔥"
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=3825s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "programming",
+            "programming language"
+        ]
+    },
+    {
+        "id": "48de56dd-bd7a-44ce-8b27-2500f66a9836",
+        "name": "Adobe Firefly",
+        "url": "https://www.adobe.com/products/firefly.html",
+        "description": {
+            "en": "Generative AI tool from Adobe to help users create art and design elements using simple text prompts. It is available as a standalone web application and is also integrated into Adobe's apps. Firefly offers features such as Text to Image, Text Effects, Generative Fill, and Generative Recolor.",
+            "ru": "Генеративный инструмент искусственного интеллекта от Adobe, помогающий пользователям создавать художественные и дизайнерские элементы с помощью простых текстовых подсказок. Он доступен как отдельное веб-приложение, а также интегрирован в приложения Adobe. Firefly предлагает такие функции, как Text to Image, Text Effects, Generative Fill, и Generative Recolor."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=3385s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "graphics",
+            "adobe"
+        ]
+    },
+    {
+        "id": "2ce71cf7-b412-481c-a2f7-6e4305a736a2",
+        "name": "Neuralangelo",
+        "url": "https://github.com/NVlabs/neuralangelo",
+        "description": {
+            "en": "An AI model that leverages neural networks for 3D reconstruction from 2D video clips. High-Fidelity Neural Surface Reconstruction.",
+            "ru": "Модель искусственного интеллекта, использующая нейронные сети для 3D-реконструкции из 2D-видеоклипов. High-Fidelity Neural Surface Reconstruction."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=2815s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "3d",
+            "video-to-3d",
+            "model"
+        ]
+    },
+    {
+        "id": "a7dd7e8f-1175-4e97-b665-e2058e8c9245",
+        "name": "Microsoft Security Copilot",
+        "url": "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot",
+        "description": {
+            "en": "Platform that detect hidden patterns and respond to threats with generative AI. Available in early access.",
+            "ru": "Платформа для обнаружения скрытых паттернов и реагирования на угрозы с помощью генеративного ИИ. Lоступна в раннем доступе."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=845s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "microsoft",
+            "copilot",
+            "security"
+        ]
+    },
+    {
+        "id": "37c3aff2-e4ce-4d04-9069-e96d6c298571",
+        "name": "Azure AI Studio",
+        "url": "https://azure.microsoft.com/en-us/products/ai-studio",
+        "description": {
+            "en": "Microsoft platform for developing generative AI solutions and custom copilots. A full life cycle tool to build, train, evaluate, and deploy models.",
+            "ru": "Платформа от Microsoft для разработки генеративных ИИ-решений и пользовательских копилотов. Инструмент полного жизненного цикла для создания, обучения и развертывания моделей."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=845s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "microsoft",
+            "api",
+            "cloud",
+            "programming"
+        ]
+    },
+    {
         "id": "c185109d-13cf-4236-8f81-de35248ede7f",
         "name": "Replit AI",
         "url": "https://replit.com/ai",
@@ -216,6 +447,10 @@
         },
         "mentions": [
             {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=8010s",
+                "episodeName": "AIA Podcast #9"
+            },
+            {
                 "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=4720s",
                 "episodeName": "AIA Podcast #10"
             }
@@ -285,7 +520,7 @@
         "date": "2023-06-30",
         "tags": [
             "programming",
-            "cybersecurity",
+            "security",
             "open-source"
         ]
     },
@@ -392,6 +627,10 @@
             "ru": "ИИ-ассистент от Microsoft, встроенный в операционную систему Windows. Работает на базе GPT. Заменил Cortana, может управлять настройками компьютера и прочее."
         },
         "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=845s",
+                "episodeName": "AIA Podcast #9"
+            },
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=C79FV_YujSg&t=3655s",
                 "episodeName": "AIA Podcast #12"
@@ -1167,16 +1406,20 @@
     },
     {
         "id": "c7f96e89-b978-453e-a43d-4e7eb445953c",
-        "name": "Tongyi Qianwen 2.0",
+        "name": "Tongyi Qianwen",
         "url": "https://tongyi.aliyun.com",
         "description": {
-            "en": "Chinese multimodal public model from Alibaba for several hundred billion parameters. Comparable to GPT-4.",
-            "ru": "Китайская мультимодальная публичная модель от Alibaba на несколько сотен миллиардов парраметров. Соизмерима с GPT-4."
+            "en": "Chinese multimodal public model from Alibaba for several hundred billion parameters. Version 2.0 can be comparable to GPT-4.",
+            "ru": "Китайская мультимодальная публичная модель от Alibaba на несколько сотен миллиардов парраметров. Dthcbz 2.0 cоизмерима с GPT-4."
         },
         "mentions": [
             {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=8205s",
+                "episodeName": "AIA Podcast #9 (v1)"
+            },
+            {
                 "episodeUrl": "https://youtu.be/rj0BhwHYs6M?si=mJB_tVHn10FyS01T",
-                "episodeName": "AIA Podcast #20"
+                "episodeName": "AIA Podcast #20 (v2.0)"
             }
         ],
         "date": "2023-11-04",
