@@ -1,5 +1,178 @@
 [
     {
+        "id": "4f080d06-7db5-483d-bfec-4b38bdfa1176",
+        "name": "AutoGen",
+        "url": "https://github.com/microsoft/autogen",
+        "description": {
+            "en": "Microsoft's open-source framework, about the same as crewAI, but older and slightly less functional. In fact, it is used to create llm-applications based on agents.",
+            "ru": "Опенсорсный фреймворк от Microsoft, примерно такой-же как и crewAI, только более старый и чуть менее функциональный. По факту служит для создания llm-приложений на основе агентов."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM&t=5915s",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2023-01-12",
+        "tags": [
+            "programming",
+            "agents",
+            "open-source",
+            "microsoft"
+        ]
+    },
+    {
+        "id": "c1d36544-d739-4931-a890-ecfb07ebd0d0",
+        "name": "crewAI",
+        "url": "https://github.com/joaomdmoura/crewAI",
+        "description": {
+            "en": "An open-source python framework for creating teams of AI agents whose roles you define yourself. There is support for langchain, caches and delegation of tasks between agents. You can connect different LLMs, not only GPT APIs, but also optensource ones. You need to know a little bit of Python programming to build your team.",
+            "ru": "Опенсорсный python-фреймворк для создания команд ИИ-агентов, роли которым вы задаете сами. Есть поддержка лангчейна, кэшей и делегирования задач между агентами. Можно подключать разные LLM, не только GPT API, но и опенсорсные. Надо немного уметь программировать на питоне, что бы собрать свою команду."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM&t=5915s",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2023-01-12",
+        "tags": [
+            "programming",
+            "agents",
+            "open-source"
+        ]
+    },
+    {
+        "id": "dee13f8d-0be2-4877-80eb-76e1982488d7",
+        "name": "WhiteRabbitNeo",
+        "url": "https://www.whiterabbitneo.com",
+        "description": {
+            "en": "LLM on the basis of LLaMa2, which will tell you how to hack wifi or make a traffic sniffer, something that ChatGPT will not tell you. Customized for cybersecurity and white-hat hacking. The 13B model is available as an opensource, the 32B model as a service on the site (10$ per month).",
+            "ru": "LLM на базе зафайнтьюненой LLaMa2, которая расскажет как взломать вайфай или сделать снифер трафика, такое вам в ChatGPT не расскажут. Заточена под задачи кибербезопасности и белый хаккинг. Модель на 13B доступна в опенсорсе, на 32B в виде сервиса на сайте (10$ в месяц)."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM&t=5915s",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2023-01-12",
+        "tags": [
+            "programming",
+            "security",
+            "llm",
+            "model",
+            "open-source"
+        ]
+    },
+    {
+        "id": "d2f3ae09-8509-4174-9747-dbb7cbae7f3a",
+        "name": "GPT Pilot",
+        "url": "https://github.com/Pythagora-io/gpt-pilot",
+        "description": {
+            "en": "A tool that writes software from scratch (similar to GPT Engineer). It has a very handy plugin for VS Code, great for writing all sorts of dummy projects. You describe the task to him, he writes code for you, debugs it together with you, installs dependencies and all that. GPT API will be needed. A fresh approach to programming, perhaps the next step in intelligent code writers.",
+            "ru": "Инструмент, который пишет код под ключ (похож на GPT Engineer). Имеет очень удобный плагин для VS Code, отлично подходит для написания всяких болванок проектов. Вы ему описываете задачу, он вам пишет код, дебажит его вместе с вами, устанавливает зависимости и всё такое. Понадобится GPT API. Свежий подход к программированию, возможно следующий шаг в интеллектуальных кодописателях."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM&t=5915s",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2023-01-12",
+        "tags": [
+            "programming",
+            "agents",
+            "open-source"
+        ]
+    },
+    {
+        "id": "b6ffc84d-db36-4af6-a46f-0f221c85cf4e",
+        "name": "AI Jeannie",
+        "url": "https://marketplace.atlassian.com/apps/1232950/ai-jeannie",
+        "description": {
+            "en": "A plugin that uses the GPT API to write axeptence criteria and draw architectural graphs. Developed by a team from EPAM.",
+            "ru": "Плагин, который с помощью GPT API пишет аксептенс-критерии и рисует архитектурные графики. Разработан командой из EPAM."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM&t=5915s",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2023-01-12",
+        "tags": [
+            "programming",
+            "epam",
+            "jira"
+        ]
+    },
+    {
+        "id": "8e6b5dad-c63e-4ff1-a3a3-dc00d971a017",
+        "name": "DevGPT",
+        "url": "https://www.devgpt.com/",
+        "description": {
+            "en": "Using GenAI to make code pullrequests from simple tasks in Jira. Something similar and replace juns in the future. And yes, I wrote about these guys, they used to do other things, they made pivot.",
+            "ru": "При помощи GenAI делает из простых тасок в Jira пулреквесты с кодом. Что-то похожее и заменить джунов в будущем. И да, я про этих ребят писал, раньше они другим занимались, сделали pivot."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM&t=5915s",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2023-01-12",
+        "tags": [
+            "programming",
+            "pullrequest",
+            "jira"
+        ]
+    },
+    {
+        "id": "9c1433b8-da3a-4ff9-80ca-a5b48034c9ec",
+        "name": "Rabbit R1",
+        "url": "https://www.rabbit.tech/",
+        "description": {
+            "en": "An AI assistant from Rabbit and Teenage Engineering. It has on board a voice-activated AI assistant that can interact with a variety of applications such as Uber, Spotify, etc., as well as recognize objects and search for information. Gadzhem utilizeut LAM (Large Action Model) and may eventually be able to interact with other applications. It has a SIM card slot, camera, speaker, screen, microphone. New interface for interaction with AI systems.",
+            "ru": "ИИ-помощник от компании Rabbit и Teenage Engineering. Имеет на борту голосовой ИИ-помощник, который может взаимодействовать с разнообразными приложениями типа Uber, Spotify и т.д., а так же распознавать объекты и заниматься поиском информации. Гаджем использеут LAM (Large Action Model) и может со временем будет получать возможность взаимодействовать с другими приложениями. Имеет слот для симкарты, камеру, динамик, экран, микрофон. Новый интерфейс для взаимодействия с ИИ-системами."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM&t=3440s",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2023-01-12",
+        "tags": [
+            "hardware",
+            "speech",
+            "gpt",
+            "computer vision"
+        ]
+    },
+    {
+        "id": "637a5bca-38bb-477c-b756-b240170382f2",
+        "name": "MLX",
+        "url": "https://github.com/ml-explore/mlx",
+        "description": {
+            "en": "An array framework for machine learning on Apple silicon, brought to you by Apple machine learning research. MLX allows users to create \"mini\" data centers for LLM on Apple M2 and M3 products, enabling advanced and intensive models to run seamlessly on local devices.",
+            "ru": "Array-фреймворк для машинного обучения на платформе Apple silicon, разработанный специалистами Apple по машинному обучению. MLX позволяет пользователям создавать \"мини\" центры обработки данных для LLM на продуктах Apple M2 и M3, обеспечивая бесперебойную работу продвинутых и интенсивных моделей на локальных устройствах."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM&t=2790s",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2023-01-12",
+        "tags": [
+            "framework",
+            "machine learning",
+            "apple",
+            "programming"
+        ]
+    },
+    {
         "id": "73fdd87a-b802-47d5-8969-f7cbeab10864",
         "name": "Stable Animation SDK",
         "url": "https://stability.ai/news/stable-animation-sdk",
@@ -1300,6 +1473,10 @@
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=W7lOUPAr0PU&t=5135s",
                 "episodeName": "AIA Podcast #16"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM&t=5635s",
+                "episodeName": "AIA Podcast #25"
             }
         ],
         "date": "2023-09-07",
