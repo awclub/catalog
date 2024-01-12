@@ -30,11 +30,9 @@ defineProps({
 
 <style scoped>
 .service-item {
-    max-width: 31.5%;
     position: relative;
     border: 1px solid var(--service-item-border-color);
     border-radius: 10px;
-    margin: 10px;
     padding: 10px 25px 25px 25px;
     background-color: var(--service-item-bg-color);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -42,7 +40,6 @@ defineProps({
 
     @media screen and (max-width: 640px) {
       width: 100%;
-      margin: 10px 0;
     }
 }
 

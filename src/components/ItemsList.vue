@@ -27,8 +27,23 @@ const getServices = computed(() => {
 
 <style scoped>
   .services-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin: 0 10px;
+  }
+
+  @media screen and (max-width: 1100px) {
+    .services-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .services-list {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
 </style>
