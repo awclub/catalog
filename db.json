@@ -1,25 +1,182 @@
 [
     {
-        "id": "354cac6f-9087-4a35-9e89-0a5366b9ed79",
-        "name": "Wonder Studio",
-        "url": "https://wonderdynamics.com",
+        "id": "36ae531c-59cf-43f9-8be9-cac59c2798b2",
+        "name": "Bard",
+        "url": "https://bard.google.com/chat",
         "description": {
-            "en": "AI-powered CG animation online tool that automates VFX work and leaves the artist with the remaining subjective work.",
-            "ru": "Онлайн-инструмент для CG-анимации на основе искусственного интеллекта, который автоматизирует работу VFX и разгружает художников."
+            "en": "A conversational AI tool developed by Google that combines the breadth of the world's knowledge with the power, intelligence, and creativity of large language models. It is a multimodal online chat. The main competitor of ChatGPT.",
+            "ru": " ИИ-инструмент, разработанный Google, который объединяет в себе объем знаний мира с силой, интеллектом и креативностью LLM. Представляет из себя мультимодальный онлайн-чат. Главный конкурент ChatGPT."
         },
         "mentions": [
             {
-                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=7750s",
-                "episodeName": "AIA Podcast #4"
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=2915s",
+                "episodeName": "AIA Podcast #3"
             }
         ],
-        "date": "2023-03-25",
+        "date": "2023-03-10",
         "tags": [
-            "video",
-            "video-to-3d",
-            "3d",
-            "movies", 
-            "graphics"
+            "productivity",
+            "chat",
+            "llm",
+            "diffusion",
+            "foundational",
+            "multimodal",
+            "google"
+        ]
+    },
+    {
+        "id": "7a992286-bdf3-45ad-9b51-fb5442ee161a",
+        "name": "OpenAI API",
+        "url": "https://platform.openai.com/",
+        "description": {
+            "en": "A platform from OpenAI that gives API access to their models: GPT-3.5 turbo, GPT-4, GPT-4 turbo, GPT-4V, DALL-E 3, etc. It is on the basis of these APIs that most of the existing AI products are built.",
+            "ru": "Платформа от OpenAI, дающая доступ через API к их моделям: GPT-3.5 turbo, GPT-4, GPT-4 turbo, GPT-4V, DALL-E 3 и т.д. Именно на базе этих API построено большенство существующих ИИ-продуктов."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "productivity",
+            "programming",
+            "api",
+            "llm",
+            "diffusion",
+            "foundational",
+            "openai"
+        ]
+    },
+    {
+        "id": "6223b52d-be3a-40c9-9497-c3804a300a5f",
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com",
+        "description": {
+            "en": "A service developed by OpenAI that gives a wide range of users access to the company's latest models: GPT-3.5 turbo, GPT-4, GPT-4 turbo, GPT-4V, DALL-E 3 etc. in a convenient online chat format. The fastest growing digital product in the world. Leader in the world of generative AI. The chat itself is a multimodal AI tool that can search for information, recognize images, generate text and images.",
+            "ru": "Сервис, разработанный компанией OpenAI, и дающий  широкому кругу пользователей доступ в удобном виде онлайн-чата к последним моделям компании: GPT-3.5 turbo, GPT-4, GPT-4 turbo, GPT-4V, DALL-E 3 и т.д. Самый быстрорастущий цифровой продукт в мире. Лидер в мире генеративного ИИ. Сам ча тпредставляет из себя мультимодальный ИИ-инструмент, который может заниматься поиском информации, распознаванием изображений, генерацией текста и изображений."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "productivity",
+            "assistant",
+            "llm",
+            "diffusion",
+            "foundational",
+            "openai",
+            "chat",
+            "multimodal"
+        ]
+    },
+    {
+        "id": "6890e060-4ce6-4cad-ab16-7a41dc59eccd",
+        "name": "Github Copilot",
+        "url": "https://github.com/features/copilot",
+        "description": {
+            "en": "The world’s most widely adopted AI developer tool and programming assistant. Tool developed by GitHub and OpenAI that provides code suggestions and completions to developers in real-time.",
+            "ru": "Самый популярный в мире ИИ-инструмент для разработчиков и помощник по программированию. Инструмент, разработанный GitHub и OpenAI, который предоставляет разработчикам code suggestions и продолжение кода в реальном времени."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=1365s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "productivity",
+            "programming",
+            "assistant"
+        ]
+    },
+    {
+        "id": "4bcfbccd-0093-43e6-b63c-283affcf4b87",
+        "name": "Grammarly",
+        "url": "https://www.grammarly.com",
+        "description": {
+            "en": "An AI-powered writing assistant that offers grammar checking, spell checking, and plagiarism detection. It provides comprehensive feedback on spelling, grammar, punctuation, clarity, and writing style. Grammarly is available as a standalone application for desktop use, a browser extension, and a smartphone keyboard. It also offers generative AI capabilities for contextually relevant writing.",
+            "ru": "ИИ-помощник, который предлагает проверку грамматики, правописания и выявление плагиата. Он предоставляет исчерпывающую обратную связь по орфографии, грамматике, пунктуации, четкости и стилю письма. Grammarly доступен в виде отдельного приложения для компьютеров, расширения для браузера и клавиатуры для смартфона. Кроме того, в нем реализовано создание контекстно-значимых текстов с помощью GenAI."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=955s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "language",
+            "translation",
+            "assistant",
+            "productivity"
+        ]
+    },
+    {
+        "id": "8e7598dc-74ac-4cc1-90f2-6873ce5f1355",
+        "name": "DeepL",
+        "url": "https://www.deepl.com/translator",
+        "description": {
+            "en": "The best AI based translation service that offers fast, accurate, and high-quality translations for text in over 25 languages. Strong competitor to Google Translate.",
+            "ru": "Лучший сервис машинного перевода, который предлагает быстрый, точный и качественный перевод текста на более чем 25 языков. Сильный конкурент Google Translate."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=955s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "language",
+            "translation"
+        ]
+    },
+    {
+        "id": "4be894aa-443e-4052-9185-26275dc52af8",
+        "name": "AI Dungeon",
+        "url": "https://aidungeon.com",
+        "description": {
+            "en": "A text-based, AI-generated fantasy simulation game with infinite possibilities. It uses artificial intelligence to generate random storylines in response to player-submitted stimuli. Has a convenient mobile app.",
+            "ru": "Текстовая фэнтезийная ИИ-генерационная игра с бесконечными возможностями. Использует ИИ для генерации случайных сюжетов в ответ на стимулы, предоставленные игроком. Имеется удобное мобильное приложение."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=465s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "game",
+            "chat"
+        ]
+    },
+    {
+        "id": "186f0e5a-aa15-4e41-aa77-4c8efca766b3",
+        "name": "Replica",
+        "url": "https://replika.com/",
+        "description": {
+            "en": "A personalized conversational AI chatbot app created by Luka, Inc. Replika has been used as a way to talk through emotional problems when other human beings aren’t available. It can mimic a person’s behavior and way of communication.",
+            "ru": "Персонализированный чат-бот, созданный Luka, Inc. Replika используется как способ обсудить эмоциональные проблемы, когда другие люди недоступны. Может копировать поведение и манеру общения человека."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=465s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "psychology",
+            "cloning",
+            "chat"
         ]
     },
     {
@@ -62,7 +219,9 @@
         "date": "2023-03-25",
         "tags": [
             "language",
-            "translation"
+            "translation",
+            "assistant",
+            "productivity"
         ]
     },
     {
@@ -202,6 +361,7 @@
         ],
         "date": "2023-03-25",
         "tags": [
+            "productivity",
             "programming",
             "assistant",
             "chat"
@@ -223,6 +383,7 @@
         ],
         "date": "2023-03-25",
         "tags": [
+            "productivity",
             "programming",
             "assistant",
             "chat"
@@ -1071,6 +1232,7 @@
         ],
         "date": "2023-05-16",
         "tags": [
+            "productivity",
             "assistant",
             "programming",
             "chat"
@@ -1179,6 +1341,7 @@
         ],
         "date": "2023-06-02",
         "tags": [
+            "productivity",
             "amazon",
             "assistant",
             "copilot",
@@ -2094,7 +2257,7 @@
         "url": "https://cloud.google.com/duet-ai",
         "description": {
             "en": "An AI assistant developed by Google and embedded in their services. Can code, write, and do other things.",
-            "ru": "ИИ-ассистент, разработанный Google и встраиваемый в их сервисы. Может писать кот, тексты и делать другие вещи."
+            "ru": "ИИ-ассистент, разработанный Google и встраиваемый в их сервисы. Может писать код, тексты и делать другие вещи."
         },
         "mentions": [
             {
@@ -2266,7 +2429,8 @@
             "video",
             "speech",
             "lipsync",
-            "dubbing"
+            "dubbing",
+            "cloning"
         ]
     },
     {
