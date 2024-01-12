@@ -1,5 +1,291 @@
 [
     {
+        "id": "73fdd87a-b802-47d5-8969-f7cbeab10864",
+        "name": "Stable Animation SDK",
+        "url": "https://stability.ai/news/stable-animation-sdk",
+        "description": {
+            "en": "A powerful text-to-animation tool released by Stability AI for artists and developers. It allows users to create high-quality animations using advanced Stable Diffusion models.",
+            "ru": "Мощный инструмент преобразования текста в анимацию, выпущенный компанией Stability AI для художников и разработчиков. Он позволяет создавать высококачественные анимации с использованием передовых моделей Stable Diffusion."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=7067s",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "stabilityai",
+            "open-source",
+            "animation",
+            "graphics",
+            "text-to-animation"
+        ]
+    },
+    {
+        "id": "97c95c44-bbd8-4b84-983a-c52eb0a5e4a9",
+        "name": "Rewind AI",
+        "url": "https://www.rewind.ai/",
+        "description": {
+            "en": "A personalized AI that captures and recalls everything you've seen, said, or heard. It integrates with OpenAI GPT-4. Rewind for iPhone brings new levels of productivity, allowing users to browse, search, and summarize anything they've seen on their phone. Rewind for Mac  is also available (Windows not yet).",
+            "ru": "Персонализированный ИИ, который фиксирует и запоминает все, что вы видели, говорили или слышали. Интегрируется с OpenAI GPT-4. Rewind для iPhone обеспечивает новый уровень продуктивности, позволяя пользователям просматривать, искать и обобщать все, что они видели на своем телефоне. Rewind для Mac также доступен (для Windows пока нет)."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=7350s",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "productivity"
+        ]
+    },
+    {
+        "id": "e0ffe3f7-5c27-4285-b455-e7cbe6da39fc",
+        "name": "Casablanca",
+        "url": "https://www.casablanca.ai",
+        "description": {
+            "en": "A service that creates eye-contact in real-time using GenAI by redrawing the face and eyes in such a way that the person looks like he/she is looking at the camera. It can be used for online calls, etc.",
+            "ru": "Сервис, который в реалтайме с помощью GenAI создает eye-контакт путем перерисовки лица и глаз таким образом, что бы человек выглядел смотрящим в камеру. Применяется на онлайн созвонах и т.д."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=7350s",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "video"
+        ]
+    },
+    {
+        "id": "7f5ecd5e-2ef9-4e40-958b-afc99fba02e8",
+        "name": "Gen-1",
+        "url": "https://research.runwayml.com/gen1",
+        "description": {
+            "en": "Gen-1 is an artificial intelligence-based tool developed by Runway Research that enables video styling through video-to-video mechanics. It has a mobile app.",
+            "ru": "Gen-1 - это инструмент на базе ИИ, разработанный компанией Runway Research, который позволяет стилизовать видео через video-to-video механику. Имеет мобильное приложение."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=7067s",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "video",
+            "video-to-video",
+            "runway"
+        ]
+    },
+    {
+        "id": "6796436f-bc1a-4099-ae91-da5258f54460",
+        "name": "Poe",
+        "url": "https://poe.com",
+        "description": {
+            "en": "A platform from Quora's CEO that gives one-stop access via UI and API to multiple LLMs, including Antropic's Claude, OpenAI's GPT, and others. The platform also provides the ability to create AI bots. It has a paid subscription.",
+            "ru": "Платформа от СЕО Quora, которая дает единый доступ через UI и API к множеству LLM, в том числе Claude от Antropic, GPT от OpenAI и другим. Также платформа предоставляет возможность создавать ИИ-ботов. Имеет платную подписку."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=4570s",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "api",
+            "bot",
+            "llm"
+        ]
+    },
+    {
+        "id": "af3fba8f-7630-4234-bec8-7cee027bad69",
+        "name": "CodeT5",
+        "url": "https://github.com/salesforce/CodeT5",
+        "description": {
+            "en": "A family of LLMs for programming from Salesforce Research. It has two versions: CodeT5 (770M) and CodeT5+ (16B).",
+            "ru": "Семейство LLM для программирования от Salesforce Research. Имеет две версии: CodeT5 (770M) и CodeT5+ (16B)."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/fsfJB0II4vw?si=Jv9YvUGMdjVK09WD&t=4176",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "llm",
+            "model",
+            "programming"
+        ]
+    },
+    {
+        "id": "0290351a-97b6-4df0-b736-f9d8b02d30d9",
+        "name": "StarCoder",
+        "url": "https://huggingface.co/blog/starcoder",
+        "description": {
+            "en": "Opensource LLM for programming. Trained on permissively licensed data from GitHub, including from 80+ programming languages, Git commits, GitHub issues, and Jupyter notebooks. Have 15B version and 35B version (StarCoderBase). Context length of over 8,000 tokens. Created by \"BigCode\" - an open scientific collaboration working on responsible training of large language models for coding applications.",
+            "ru": "LLM по программированию с открытым исходным кодом. Обучаена на разрешенных лицензионных данных с GitHub, в том числе по 80+ языкам программирования, коммитам Git, ишуям GitHub и блокнотам Jupyter. Имеет 15B версию и 35B версию (StarCoderBase). Контекст длиной более 8 000 токенов. Создана \"BigCode\" - открытой научной коллаборацией, работающей над responsible обучением LLMs для программирования."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/fsfJB0II4vw?si=Jv9YvUGMdjVK09WD&t=4176",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "llm",
+            "model",
+            "programming"
+        ]
+    },
+    {
+        "id": "158db90c-125e-44b0-b985-f92405769611",
+        "name": "Transformers Agent",
+        "url": "https://huggingface.co/docs/transformers/transformers_agents",
+        "description": {
+            "en": "An experimental API from HuggingHase that provides a natural language API on top of transformers, which is a set of curated tools and an agent to interpret natural language and use these tools.",
+            "ru": "Экспериментальный API от HuggingHase, предоставляющий API естественного языка поверх трансформаторов, которые представляют собой набор курируемых инструментов и агента для интерпретации естественного языка и использования этих инструментов."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=9y_lG6WsiOQ&t=3396s",
+                "episodeName": "AIA Special #1"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=4000s",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "api",
+            "programming",
+            "agents",
+            "llm"
+        ]
+    },
+    {
+        "id": "9bf195f1-1a14-49f6-9edc-c3b3397e63c1",
+        "name": "LangChain",
+        "url": "https://github.com/langchain-ai/langchain",
+        "description": {
+            "en": "A framework for developing applications powered by language models. It enables applications that are context-aware & can rely on a language model to build chain of reasoning.",
+            "ru": "Фреймворк для разработки приложений на основе LLM. Он позволяет создавать приложения, которые учитывают контекст и могут опираться на языковую модель для построения цепочки рассуждений."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=9y_lG6WsiOQ&t=1930s",
+                "episodeName": "AIA Special #1"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=3600s",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "llm",
+            "framework",
+            "open-source",
+            "programming"
+        ]
+    },
+    {
+        "id": "98d5d617-3af0-42f7-b59a-a99cc976d221",
+        "name": "MusicLM",
+        "url": "https://blog.google/technology/ai/musiclm-google-ai-test-kitchen/",
+        "description": {
+            "en": "AI tool that can turn your text descriptions into music.",
+            "ru": "ИИ-инструмент, способный превратить ваши текстовые описания в музыку."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=920s",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "google",
+            "music",
+            "text-to-music"
+        ]
+    },
+    {
+        "id": "955b1e80-a6b6-491f-a70a-638c5f1bffc4",
+        "name": "Studio Bot",
+        "url": "https://developer.android.com/studio/preview/studio-bot",
+        "description": {
+            "en": "Coding companion for Android development. It's a conversational experience in Android Studio that helps you be more productive by answering Android development queries.",
+            "ru": "Помощник в разработке под Android. Это чат-интерфейс в Android Studio, который помогает вам быть более продуктивным, отвечая на вопросы, связанные с разработкой Android."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "assistant",
+            "programming",
+            "chat"
+        ]
+    },
+    {
+        "id": "93083389-3fc0-4c7e-a7e0-2d21329de88c",
+        "name": "BetterChatGPT",
+        "url": "https://github.com/ztjhz/BetterChatGPT",
+        "description": {
+            "en": "An opensource UI for the GPT API, allowing for ChatGPT-style APIs. Works locally, or can be quickly deployed to Github Pages.",
+            "ru": "Опенсорсный UI для GPT API, позволяющий работать с API в стиле ChatGPT. Работает локально, либо может быть быстро развернут на Github Pages."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "interface",
+            "gpt",
+            "chat"
+        ]
+    },
+    {
+        "id": "ba20acb3-ddc8-40a7-9771-cc49c07db83c",
+        "name": "Auto-GPT",
+        "url": "https://github.com/Significant-Gravitas/AutoGPT",
+        "description": {
+            "en": "The first and largest open source service for working with autonomous AI agents, based on the OpenAI API.",
+            "ru": "Первый и крупнейший сервис с открытым исходным кодом для работы с автономными ИИ-агентами, основанный на API OpenAI."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=9y_lG6WsiOQ",
+                "episodeName": "AIA Special #1"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=z1OGBkYnMZQ&t=3235s",
+                "episodeName": "AIA Podcast #6"
+            }
+        ],
+        "date": "2023-04-21",
+        "tags": [
+            "open-source",
+            "programming",
+            "agents",
+            "framework"
+        ]
+    },
+    {
         "id": "a640550a-2cdf-4ae3-94c7-fcb44b788f63",
         "name": "Perplexity",
         "url": "https://www.perplexity.ai",
@@ -56,6 +342,7 @@
         "date": "2023-06-02",
         "tags": [
             "amazon",
+            "assistant",
             "copilot",
             "programming",
             "security"
@@ -135,6 +422,10 @@
             "ru": "Язык программирования для разработчиков искусственного интеллекта. Сочетает в себе удобство Python и производительность C, открывая беспрецедентные возможности программирования оборудования ИИ и расширения моделей ИИ. Создан компанией Modular. Файлы Mojo имеют расширение .mojo или .🔥"
         },
         "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=4300s",
+                "episodeName": "AIA Podcast #8"
+            },
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=3825s",
                 "episodeName": "AIA Podcast #9"
@@ -533,6 +824,10 @@
             "ru": "Опенсорсный ИИ-инструмент, позволяющий изменять физику объектов на изображениях: поворачивать, изменять перспективу, пропорции, размеры и прочее. Выглядит очень неплохо."
         },
         "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=7350s",
+                "episodeName": "AIA Podcast #8"
+            },
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=nl1lx07ZjIg&t=5180s",
                 "episodeName": "AIA Podcast #11"
