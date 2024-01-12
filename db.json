@@ -1,8 +1,27 @@
 [
     {
+        "id": "607550d9-03a9-48d6-a1e5-892c37ec3cdf",
+        "name": "Futurepedia",
+        "url": "https://www.futurepedia.io",
+        "description": {
+            "en": "Directory of AI services.",
+            "ru": "Каталог ИИ-сервисов."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=3cUOOEVY-U4",
+                "episodeName": "AIA Podcast #5"
+            }
+        ],
+        "date": "2023-04-07",
+        "tags": [
+            "catalog"
+        ]
+    },
+    {
         "id": "4d751c8e-d4ef-4ee7-b999-b0c4707cafa5",
         "name": "Stable Digest",
-        "url": "https://stabledigest.substack.com//",
+        "url": "https://stabledigest.substack.com",
         "description": {
             "en": "Online magazine about AI Art News & Culture by the people, for the people. Created by Stable Foundation.",
             "ru": "Онлайн-журнал о новостях искусства и AI-культуры от людей, для людей. Создается Stable Foundation."
