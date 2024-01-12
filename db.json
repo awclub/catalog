@@ -1,5 +1,188 @@
 [
     {
+        "id": "97b5b711-e68b-4ee4-a6c9-53e6697fd375",
+        "name": "AI Scout – AI Tools Directory",
+        "url": "https://aiscout.net/",
+        "description": {
+            "en": "A catalog of AI tools created by a Reddit user. The catalog includes all the neurons that he and his buddies find useful for work.",
+            "ru": "Каталог ИИ-инструментов, созданный пользователем Reddit. В каталоге указаны все нейронки, которые он с приятелями считают полезными для работы."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=z1OGBkYnMZQ&t=3865s",
+                "episodeName": "AIA Podcast #6"
+            }
+        ],
+        "date": "2023-04-21",
+        "tags": [
+            "catalog"
+        ]
+    },
+    {
+        "id": "2a563988-90dc-42e8-9986-d5dd7ab9eaae",
+        "name": "AIVA",
+        "url": "https://www.aiva.ai/",
+        "description": {
+            "en": "An AI service for generating melodies and music. There is free access.",
+            "ru": "ИИ-сервис по генерации мелодий и музыки. Есть бесплатный доступ."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=z1OGBkYnMZQ&t=3865s",
+                "episodeName": "AIA Podcast #6"
+            }
+        ],
+        "date": "2023-04-21",
+        "tags": [
+            "music"
+        ]
+    },
+    {
+        "id": "f821815d-974a-4c27-853e-5ebb3ce8eeed",
+        "name": "BandLan | Online Audio Mastering",
+        "url": "https://www.bandlab.com/mastering",
+        "description": {
+            "en": "Online AI service for mastering tracks. There is a free period. Good for highlighting bass or mastering by simple settings.",
+            "ru": "Онлайн ИИ-сервис для мастеринга треков. Есть бесплатный период. Хорошо выделяет басы или делает мастеринг по простым настройкам."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=z1OGBkYnMZQ&t=3865s",
+                "episodeName": "AIA Podcast #6"
+            }
+        ],
+        "date": "2023-04-21",
+        "tags": [
+            "music"
+        ]
+    },
+    {
+        "id": "bde26abe-3dd1-4c63-b1b1-5df4c3586792",
+        "name": "Phind",
+        "url": "https://you.com/",
+        "description": {
+            "en": "An AI-powered search assistant that provides personalized responses to queries through chat, using a LLM to deliver human-like conversations and aid in tasks such as web search, content and image creation, and code generation.",
+            "ru": "Поисковый помощник на базе ИИ, который предоставляет персонализированные ответы на запросы через чат, используя LLM для обеспечения человекоподобного общения и помощи в таких задачах, как веб-поиск, создание контента и изображений, а также генерация кода."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=z1OGBkYnMZQ&t=3865s",
+                "episodeName": "AIA Podcast #6"
+            }
+        ],
+        "date": "2023-04-21",
+        "tags": [
+            "search",
+            "llm",
+            "programming"
+        ]
+    },
+    {
+        "id": "9ca5af49-55f5-441b-a03a-3637f9927408",
+        "name": "Phind",
+        "url": "https://www.phind.com",
+        "description": {
+            "en": "A search engine that provides users with instant answers to technical questions. Powered by LLM, it can produce code in response. Users can customize the search results by specifying the domains they would like to see more or less on the filters page, and they can also use the shortcuts! G or! DDG to quickly use Google or DuckDuckgo.",
+            "ru": "Поисковая система, которая предоставляет пользователям мгновенные ответы на технические вопросы. Работает на LLM, может выдавать в ответ код. Пользователи могут настроить результаты поиска, указав домены, которые они хотели бы видеть более или менее на странице фильтров, и они также могут использовать ярлыки! G или! DDG для быстрого использования Google или DuckDuckgo."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=z1OGBkYnMZQ&t=3865s",
+                "episodeName": "AIA Podcast #6"
+            }
+        ],
+        "date": "2023-04-21",
+        "tags": [
+            "search",
+            "llm"
+        ]
+    },
+    {
+        "id": "f5c8047a-6601-45ff-9808-89c054f47260",
+        "name": "Dolly",
+        "url": "https://huggingface.co/databricks/dolly-v2-12b",
+        "description": {
+            "en": "LLM trained for less than $30 to exhibit ChatGPT-like human interactivity (aka instruction-following). Dolly 2.0 - open source  instruction-following LLM, fine-tuned on a human-generated instruction dataset licensed for research and commercial use. 12B parameter language model based on the EleutherAI pythia model family and fine-tuned exclusively on a new, high-quality human generated instruction following dataset, crowdsourced among Databricks employees.",
+            "ru": "LLM, обученный менее чем за 30 долларов, демонстрирует человеческую интерактивность, подобную ChatGPT (также известную как следование инструкциям). Dolly 2.0 - instruction-following LLM с открытым исходным кодом, доработанная на основе набора данных инструкций, созданных человеком, лицензированная для исследований и коммерческого использования. LLM с 12B параметрами, основанная на семействе моделей EleutherAI pythia и отлаженная исключительно на новом высококачественном наборе данных по выполнению инструкций, сгенерированных человеком, который был собран краудсорсингом среди сотрудников Databricks."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=z1OGBkYnMZQ&t=3865s",
+                "episodeName": "AIA Podcast #6"
+            }
+        ],
+        "date": "2023-04-21",
+        "tags": [
+            "open-source",
+            "llm",
+            "model"
+        ]
+    },
+    {
+        "id": "82210870-992d-4f67-b447-8ef351d5d55c",
+        "name": "heygpt",
+        "url": "https://github.com/fuyufjh/heygpt",
+        "description": {
+            "en": "A simple command-line interface for GPT API.",
+            "ru": "Простой command-line интерфейс для GPT API."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=z1OGBkYnMZQ&t=3865s",
+                "episodeName": "AIA Podcast #6"
+            }
+        ],
+        "date": "2023-04-21",
+        "tags": [
+            "gpt",
+            "programming",
+            "open-source",
+            "ui"
+        ]
+    },
+    {
+        "id": "b325fe45-282d-414f-95b9-80203ba48cf1",
+        "name": "BabyAGI",
+        "url": "https://github.com/yoheinakajima/babyagi",
+        "description": {
+            "en": "This Python script is an example of an AI-powered task management system. The system uses OpenAI and vector databases such as Chroma or Weaviate to create, prioritize, and execute tasks. The main idea behind this system is that it creates tasks based on the result of previous tasks and a predefined objective. The script then uses OpenAI's natural language processing (NLP) capabilities to create new tasks based on the objective, and Chroma/Weaviate to store and retrieve task results for context.",
+            "ru": "Этот Python-скрипт является примером системы управления задачами на основе искусственного интеллекта. Система использует API OpenAI и Pinecone для создания, определения приоритетов и выполнения задач. Основная идея этой системы заключается в том, что она создает задачи на основе результатов предыдущих задач и заранее определенной цели. Затем скрипт использует возможности обработки естественного языка (NLP) OpenAI для создания новых задач на основе цели, а Pinecone - для хранения и извлечения результатов задач в контексте. "
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=z1OGBkYnMZQ&t=3865s",
+                "episodeName": "AIA Podcast #6"
+            }
+        ],
+        "date": "2023-04-21",
+        "tags": [
+            "agents",
+            "programming",
+            "open-source"
+        ]
+    },
+    {
+        "id": "3e42ff57-9bf0-46c7-be7d-ac3e9a14dce5",
+        "name": "AgentGPT",
+        "url": "https://github.com/reworkd/AgentGPT",
+        "description": {
+            "en": "A platform that enables users to assemble, configure, and deploy autonomous AI agents in their browser. It leverages OpenAI's GPT-4 or GPT-3.5 APIs to develop AI agents capable of performing a wide range of tasks.",
+            "ru": "Платформа, позволяющая пользователям собирать, настраивать и развертывать автономные ИИ-агенты прямо в браузере. Она использует API OpenAI GPT-4 или GPT-3.5 для разработки ИИ-агентов, способных выполнять широкий спектр задач."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=z1OGBkYnMZQ&t=3865s",
+                "episodeName": "AIA Podcast #6"
+            }
+        ],
+        "date": "2023-04-21",
+        "tags": [
+            "agents",
+            "browser",
+            "open-source"
+        ]
+    },
+    {
         "id": "044c3008-697c-491e-ae29-89c03af70530",
         "name": "DeepFloyd IF",
         "url": "https://github.com/deep-floyd/IF",
