@@ -1,5 +1,105 @@
 [
     {
+        "id": "56a58aee-0c60-4f9a-a228-3848e9283c31",
+        "name": "img2img",
+        "url": "https://chat.openai.com/g/g-SIE5101qP-img2img-image-edit-merge",
+        "description": {
+            "en": "GPTs. Image Copy, Images Merge, Image Edit, Style Transfer. Created by neural.love.",
+            "ru": "GPTs. Копирование изображений, объединение изображений, редактирование изображений, перенос стилей. Создано neural.love."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2024-01-12",
+        "tags": [
+            "gpts",
+            "image-to-image"
+        ]
+    },
+    {
+        "id": "4d1951ec-6dd5-49d4-b5b8-0ce90789adab",
+        "name": "Community Series Navigator",
+        "url": "https://chat.openai.com/g/g-niYp1Goki-community-series-navigator",
+        "description": {
+            "en": "GPTs. Навигатор по сериалу \"Сообщество\".",
+            "ru": "GPTs. Navigator for the series \"Community\"."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2024-01-12",
+        "tags": [
+            "gpts",
+            "movies"
+        ]
+    },
+    {
+        "id": "26b1f613-bb23-4e0d-b9e0-2a15212e57fd",
+        "name": "Irina Vladimirovna",
+        "url": "https://chat.openai.com/g/g-NMhaBUQZa-irina-vladimirovna",
+        "description": {
+            "en": "GPTs. Твой личный тренер по английскому языку. Присылай свой текст на английском, а она буду исправлять его и рассказывать вам о ваших ошибках. Отвечает на уровне B1 с уклоном в британский стиль.",
+            "ru": "GPTs. Your personal English coach. Send your text in English, and it will correct it and tell you about your mistakes. Responds at B1 level with a bias towards British style."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2024-01-12",
+        "tags": [
+            "gpts",
+            "language"
+        ]
+    },
+    {
+        "id": "82bf918a-a039-4930-9b7c-4d9975da1972",
+        "name": "Саммаризатор Иван",
+        "url": "https://chat.openai.com/g/g-4ajRKj4Qx-sammarizator-ivan",
+        "description": {
+            "en": "GPTs. Suammarizer of articles and texts, highlights ri main ideas, googles references, draws an image to summarize.",
+            "ru": "GPTs. Саммаризатор статей и текстов, выделяет ри основных идеи, гуглит ссылки, рисует изображение к саммаризации."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2024-01-12",
+        "tags": [
+            "gpts",
+            "summarisation"
+        ]
+    },
+    {
+        "id": "10635437-b389-4110-be6c-c83a52dc3f34",
+        "name": "Полиглот Дед Максим",
+        "url": "https://chat.openai.com/g/g-iad9Z9DyC-poliglot-ded-maksim",
+        "description": {
+            "en": "GPTs. Translator from any language into Russian.",
+            "ru": "GPTs. Переводчик с любого языка на русский."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2024-01-12",
+        "tags": [
+            "gpts",
+            "language"
+        ]
+    },
+    {
         "id": "97b5b711-e68b-4ee4-a6c9-53e6697fd375",
         "name": "AI Scout – AI Tools Directory",
         "url": "https://aiscout.net/",
@@ -497,7 +597,7 @@
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=alDKhfp10qI&t=8565s",
                 "episodeName": "AIA Podcast #7"
-            },    
+            },
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=7067s",
                 "episodeName": "AIA Podcast #8"
@@ -2023,9 +2123,8 @@
         ],
         "date": "2023-10-19",
         "tags": [
-            "catalog",
-            "gpts",
-            "programming"
+            "programming",
+            "catalog"
         ]
     },
     {
@@ -2253,8 +2352,7 @@
         ],
         "date": "2023-11-17",
         "tags": [
-            "catalog",
-            "gpts"
+            "catalog"
         ]
     },
     {
