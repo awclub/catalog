@@ -1,5 +1,47 @@
 [
     {
+        "id": "4d751c8e-d4ef-4ee7-b999-b0c4707cafa5",
+        "name": "Stable Digest",
+        "url": "https://stabledigest.substack.com//",
+        "description": {
+            "en": "Online magazine about AI Art News & Culture by the people, for the people. Created by Stable Foundation.",
+            "ru": "Онлайн-журнал о новостях искусства и AI-культуры от людей, для людей. Создается Stable Foundation."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=3cUOOEVY-U4&t=8058s",
+                "episodeName": "AIA Podcast #5"
+            }
+        ],
+        "date": "2023-04-07",
+        "tags": [
+            "magazine",
+            "graphics",
+            "stabilityai"
+        ]
+    },
+    {
+        "id": "f4a9d37e-a53b-44ae-9526-4758f8da66e1",
+        "name": "Dudesy",
+        "url": "https://www.youtube.com/@Dudesy",
+        "description": {
+            "en": "AI-generated podcast. Will Sasso and Chad Kultgen kind media experiment.",
+            "ru": "Подкаст, созданный искусственным интеллектом. Медиа-эксперимент от Вилла Сассо и Чада Култгена."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM&t=7160s",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2024-01-12",
+        "tags": [
+            "podcast",
+            "speech",
+            "commedy"
+        ]
+    },
+    {
         "id": "56a58aee-0c60-4f9a-a228-3848e9283c31",
         "name": "img2img",
         "url": "https://chat.openai.com/g/g-SIE5101qP-img2img-image-edit-merge",
