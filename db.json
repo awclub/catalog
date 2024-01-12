@@ -1,5 +1,74 @@
 [
     {
+        "id": "044c3008-697c-491e-ae29-89c03af70530",
+        "name": "DeepFloyd IF",
+        "url": "https://github.com/deep-floyd/IF",
+        "description": {
+            "en": "Open-source text-to-image model with a high degree of photorealism and language understanding. Can draw text well.",
+            "ru": "Text-to-image модель с открытым исходным кодом, обладающая высокой степенью фотореализма и пониманием языка. Может хороши рисовать текст."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=alDKhfp10qI&t=8422s",
+                "episodeName": "AIA Podcast #7"
+            }
+        ],
+        "date": "2023-05-05",
+        "tags": [
+            "diffusion",
+            "model",
+            "open-source",
+            "stabilityai",
+            "graphics",
+            "text-to-image"
+        ]
+    },
+    {
+        "id": "46a172a7-8231-422c-9b26-841f4612ca9f",
+        "name": "Vicuna",
+        "url": "https://lmsys.org/blog/2023-03-30-vicuna/",
+        "description": {
+            "en": "An open-source chatbot trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT.",
+            "ru": "Чатбот с открытым исходным кодом, обученный путем тонкой настройки LLaMA на пользовательских разговорах, собранных в ShareGPT."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=alDKhfp10qI&t=8200s",
+                "episodeName": "AIA Podcast #7"
+            }
+        ],
+        "date": "2023-05-05",
+        "tags": [
+            "llm",
+            "model",
+            "open-source",
+            "chat"
+        ]
+    },
+    {
+        "id": "dceb8129-4071-4edd-b586-a8b0a2a0a526",
+        "name": "StableVicuna",
+        "url": "https://stability.ai/news/stablevicuna-open-source-rlhf-chatbot",
+        "description": {
+            "en": "First large-scale open source chatbot trained via reinforced learning from human feedback (RLHF). StableVicuna is a further instruction fine-tuned and RLHF-trained version of Vicuna v0 13b, which is an instruction fine-tuned LLaMA 13b model.",
+            "ru": "Первый крупномасштабный чатбот с открытым исходным кодом, обученный с помощью усиленного обучения на основе человеческой обратной связи (RLHF). StableVicuna - это версия Vicuna v0 13b, которая представляет собой модель LLaMA 13b с точной настройкой инструкций и RLHF-обучением."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=alDKhfp10qI&t=8200s",
+                "episodeName": "AIA Podcast #7"
+            }
+        ],
+        "date": "2023-05-05",
+        "tags": [
+            "llm",
+            "model",
+            "stabilityai",
+            "open-source",
+            "chat"
+        ]
+    },
+    {
         "id": "4f080d06-7db5-483d-bfec-4b38bdfa1176",
         "name": "AutoGen",
         "url": "https://github.com/microsoft/autogen",
@@ -242,6 +311,10 @@
             "ru": "Gen-1 - это инструмент на базе ИИ, разработанный компанией Runway Research, который позволяет стилизовать видео через video-to-video механику. Имеет мобильное приложение."
         },
         "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=alDKhfp10qI&t=8565s",
+                "episodeName": "AIA Podcast #7"
+            },    
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=7067s",
                 "episodeName": "AIA Podcast #8"
@@ -2423,6 +2496,10 @@
             "ru": "Диффузионной модели от Midjourney, рисующая суперреалистичную графику. Лидер сферы ИИ-графики, текущая версия - Midjourney 6. Источник кучи вейковых фото. Доступен через Discord, но скоро будет web-версия"
         },
         "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=alDKhfp10qI&t=7425s",
+                "episodeName": "AIA Podcast #6 (v5.1)"
+            },
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=nl1lx07ZjIg&t=4625s",
                 "episodeName": "AIA Podcast #11 (v5.2)"
