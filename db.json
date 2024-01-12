@@ -1,5 +1,253 @@
 [
     {
+        "id": "354cac6f-9087-4a35-9e89-0a5366b9ed79",
+        "name": "Wonder Studio",
+        "url": "https://wonderdynamics.com",
+        "description": {
+            "en": "AI-powered CG animation online tool that automates VFX work and leaves the artist with the remaining subjective work.",
+            "ru": "Онлайн-инструмент для CG-анимации на основе искусственного интеллекта, который автоматизирует работу VFX и разгружает художников."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=7750s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "video",
+            "video-to-3d",
+            "3d",
+            "movies", 
+            "graphics"
+        ]
+    },
+    {
+        "id": "354cac6f-9087-4a35-9e89-0a5366b9ed79",
+        "name": "Wonder Studio",
+        "url": "https://wonderdynamics.com",
+        "description": {
+            "en": "AI-powered CG animation online tool that automates VFX work and leaves the artist with the remaining subjective work.",
+            "ru": "Онлайн-инструмент для CG-анимации на основе искусственного интеллекта, который автоматизирует работу VFX и разгружает художников."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=7750s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "video",
+            "video-to-3d",
+            "3d",
+            "movies", 
+            "graphics"
+        ]
+    },
+    {
+        "id": "571d587f-3a36-496f-9162-a6bb5c272efd",
+        "name": "LanguageTool",
+        "url": "https://languagetool.org",
+        "description": {
+            "en": "AI based multilingual spelling, style, and grammar checker that helps correct or paraphrase texts. Grammarly analog but supporting Russian language.",
+            "ru": "Многоязычный ИИ-инструмент, проверяющий правописание, стиль и грамматику, который помогает исправлять или перефразировать тексты. Аналог Grammarly, но поддерживающий русский язык."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=7275s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "language",
+            "translation"
+        ]
+    },
+    {
+        "id": "cd11c278-afaf-443a-90ba-814fbd17a60d",
+        "name": "Waymark Logo",
+        "url": "https://waymark.com/",
+        "description": {
+            "en": "AI generated video for business. A handy tool for advertisers.",
+            "ru": "AI-generated видео для бизнеса. Удобный инструмент для рекламщиков."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=7275s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "video",
+            "advertisement"
+        ]
+    },
+    {
+        "id": "f2824a1c-6897-4c01-ae97-49a37aa47dfd",
+        "name": "Stanford Alpaca",
+        "url": "https://github.com/tatsu-lab/stanford_alpaca",
+        "description": {
+            "en": "One of the first opensource LLMs. Built on top of LLaMA. Has a 7B version.",
+            "ru": "Одна из первых опенсорсных LLM. Построена на базе LLaMA. Имеет версию 7B."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=4680s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "llm",
+            "model",
+            "open-source"
+        ]
+    },
+    {
+        "id": "2841791b-3907-4642-a88c-07d784ec7814",
+        "name": "OpenChatKit",
+        "url": "https://github.com/togethercomputer/OpenChatKit",
+        "description": {
+            "en": "Powerful, open-source base to create both specialized and general purpose models for various applications. The kit includes an instruction-tuned language models, a moderation model, and an extensible retrieval system for including up-to-date responses from custom repositories",
+            "ru": "База с открытым исходным кодом для создания специализированных и универсальных моделей для различных приложений. В комплект входят instruction-tuned языковые модели, moderation-модель и расширяемая retrieval-система для включения актуальных ответов из пользовательских репозиториев."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=4680s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "llm",
+            "open-source",
+            "framework"
+        ]
+    },
+    {
+        "id": "66c29684-db2a-49b4-b298-b98ecadb706f",
+        "name": "Microsoft Designer",
+        "url": "https://designer.microsoft.com/",
+        "description": {
+            "en": "Microsoft's online service for generating images, graphics and working with them.",
+            "ru": "Онлайн сервис от Microsoft по генерации изображений, графики и работы с ней"
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=5911s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "graphics",
+            "copilot"
+        ]
+    },
+    {
+        "id": "45f56e72-195c-47e7-a3fa-0366d0fa518d",
+        "name": "Microsoft 365 Copilot",
+        "url": "https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/",
+        "description": {
+            "en": "A set of AI tools integrated by Microsoft into their Microsoft 365 enterprise products.",
+            "ru": "Набор ИИ-инструментов ,втраиваемых компанией Microsoft в их корпоративные продукты пакета Microsoft 365."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=5911s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "microsoft",
+            "copilot"
+        ]
+    },
+    {
+        "id": "b7dd8db9-532c-4093-9cdf-4b873d72d1dc",
+        "name": "What does this code do?",
+        "url": "https://whatdoesthiscodedo.com/",
+        "description": {
+            "en": "Online tool that uses AI under the hood to explain any piece of code you don't understand. Paste the code, press \"Explain Code\" and AI will output a paragraph explaining what the code is doing.",
+            "ru": "Онлайн-инструмент, использующий ИИ под капотом, который объяснит любой непонятный вам кусок кода. Вставьте код, нажмите \"Explain Code\", и искусственный интеллект выведет абзац, объясняющий, что делает код."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=5255s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "programming"
+        ]
+    },
+    {
+        "id": "1f1e39d9-987d-4edb-b1f5-2efdfabc9bff",
+        "name": "GitHub Copilot Chat",
+        "url": "https://docs.github.com/en/copilot/github-copilot-chat/about-github-copilot-chat",
+        "description": {
+            "en": "Chat that can help you by providing answers to coding related questions directly within a supported IDE. Part of GitHub Copilot & GitHub Copilot X programms.",
+            "ru": "Чат, который поможет вам получить ответы на вопросы, связанные с программированием, прямо в вашей IDE. Часть программ GitHub Copilot & GitHub Copilot X."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=5255s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "programming",
+            "assistant",
+            "chat"
+        ]
+    },
+    {
+        "id": "643521bf-f5a5-4f61-b861-8e07d082bfa6",
+        "name": "Tabnine",
+        "url": "https://www.tabnine.com",
+        "description": {
+            "en": "An AI-powered coding assistant designed to speed up code delivery and keep your code safe. It offers AI-driven code completions, AI code chat, and code generation in popular coding languages and IDEs.",
+            "ru": "Помощник по программированию на базе искусственного интеллекта, призванный ускорить работу над кодом и обеспечить его безопасность. Он предлагает ИИ code completions, чат с искусственным интеллектом и генерацию кода на популярных ЯП. Работает во всех популярных IDE."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=5255s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "programming",
+            "assistant",
+            "chat"
+        ]
+    },
+    {
+        "id": "a7d9a9a5-7450-4431-978c-a51b6db82b70",
+        "name": "The AI Exchange",
+        "url": "https://news.theaiexchange.com",
+        "description": {
+            "en": "Online magazine about AI Operations: how to understand and apply AI to your work.",
+            "ru": "Онлайн-журнал об ИИ: как понять и применить искусственный интеллект в своей работе."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=4555s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "magazine"
+        ]
+    },
+    {
         "id": "607550d9-03a9-48d6-a1e5-892c37ec3cdf",
         "name": "Futurepedia",
         "url": "https://www.futurepedia.io",
@@ -1006,7 +1254,7 @@
     {
         "id": "33cf7d6d-b7e4-4e6b-927a-2c8f7ef83ccc",
         "name": "Mojo 🔥",
-        "url": "https://www.adobe.com/products/firefly.html",
+        "url": "https://www.modular.com/max/mojo",
         "description": {
             "en": "Programming language for AI developers. Combines the usability of Python with the performance of C, unlocking unparalleled programmability of AI hardware and extensibility of AI models. Created by Modular company. Mojo files use the .mojo or .🔥 file extension.",
             "ru": "Язык программирования для разработчиков искусственного интеллекта. Сочетает в себе удобство Python и производительность C, открывая беспрецедентные возможности программирования оборудования ИИ и расширения моделей ИИ. Создан компанией Modular. Файлы Mojo имеют расширение .mojo или .🔥"
@@ -1036,6 +1284,10 @@
             "ru": "Генеративный инструмент искусственного интеллекта от Adobe, помогающий пользователям создавать художественные и дизайнерские элементы с помощью простых текстовых подсказок. Он доступен как отдельное веб-приложение, а также интегрирован в приложения Adobe. Firefly предлагает такие функции, как Text to Image, Text Effects, Generative Fill, и Generative Recolor."
         },
         "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=8090s",
+                "episodeName": "AIA Podcast #4"
+            },    
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=3385s",
                 "episodeName": "AIA Podcast #9"
@@ -2838,6 +3090,10 @@
             "ru": "Диффузионной модели от Midjourney, рисующая суперреалистичную графику. Лидер сферы ИИ-графики, текущая версия - Midjourney 6. Источник кучи вейковых фото. Доступен через Discord, но скоро будет web-версия"
         },
         "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=8090s",
+                "episodeName": "AIA Podcast #4 (v5)"
+            },    
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=alDKhfp10qI&t=7425s",
                 "episodeName": "AIA Podcast #6 (v5.1)"
