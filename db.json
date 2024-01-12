@@ -485,8 +485,8 @@
         "name": "Rabbit R1",
         "url": "https://www.rabbit.tech/",
         "description": {
-            "en": "An AI assistant from Rabbit and Teenage Engineering. It has on board a voice-activated AI assistant that can interact with a variety of applications such as Uber, Spotify, etc., as well as recognize objects and search for information. Gadzhem utilizeut LAM (Large Action Model) and may eventually be able to interact with other applications. It has a SIM card slot, camera, speaker, screen, microphone. New interface for interaction with AI systems.",
-            "ru": "ИИ-помощник от компании Rabbit и Teenage Engineering. Имеет на борту голосовой ИИ-помощник, который может взаимодействовать с разнообразными приложениями типа Uber, Spotify и т.д., а так же распознавать объекты и заниматься поиском информации. Гаджем использеут LAM (Large Action Model) и может со временем будет получать возможность взаимодействовать с другими приложениями. Имеет слот для симкарты, камеру, динамик, экран, микрофон. Новый интерфейс для взаимодействия с ИИ-системами."
+            "en": "An AI assistant from Rabbit. It has on board a voice-activated AI assistant that can interact with a variety of applications such as Uber, Spotify, etc., as well as recognize objects and search for information. Used LAM (Large Action Model) and be able to interact with other applications. It has a SIM card slot, camera, speaker, screen, microphone. New interface for interaction with AI systems.",
+            "ru": "ИИ-помощник от компании Rabbit. Имеет на борту голосовой ИИ-помощник, который может взаимодействовать с разнообразными приложениями типа Uber, Spotify и т.д., а так же распознавать объекты и заниматься поиском информации. Использует LAM (Large Action Model), со временем получит возможность взаимодействовать с другими приложениями. Имеет слот для симкарты, камеру, динамик, экран, микрофон. Новый интерфейс для взаимодействия с ИИ-системами."
         },
         "mentions": [
             {
