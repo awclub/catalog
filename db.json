@@ -55,7 +55,7 @@
         "url": "https://chat.openai.com",
         "description": {
             "en": "A service developed by OpenAI that gives a wide range of users access to the company's latest models: GPT-3.5 turbo, GPT-4, GPT-4 turbo, GPT-4V, DALL-E 3 etc. in a convenient online chat format. The fastest growing digital product in the world. Leader in the world of generative AI. The chat itself is a multimodal AI tool that can search for information, recognize images, generate text and images.",
-            "ru": "Сервис, разработанный компанией OpenAI, и дающий  широкому кругу пользователей доступ в удобном виде онлайн-чата к последним моделям компании: GPT-3.5 turbo, GPT-4, GPT-4 turbo, GPT-4V, DALL-E 3 и т.д. Самый быстрорастущий цифровой продукт в мире. Лидер в мире генеративного ИИ. Сам ча тпредставляет из себя мультимодальный ИИ-инструмент, который может заниматься поиском информации, распознаванием изображений, генерацией текста и изображений."
+            "ru": "Сервис, разработанный компанией OpenAI, и дающий  широкому кругу пользователей доступ в удобном виде онлайн-чата к последним моделям компании: GPT-3.5 turbo, GPT-4, GPT-4 turbo, GPT-4V, DALL-E 3 и т.д. Самый быстрорастущий цифровой продукт в мире. Лидер в мире генеративного ИИ. Сам чат представляет из себя мультимодальный ИИ-инструмент, который может заниматься поиском информации, распознаванием изображений, генерацией текста и изображений."
         },
         "mentions": [
             {
