@@ -30,7 +30,7 @@
         "url": "https://platform.openai.com/",
         "description": {
             "en": "A platform from OpenAI that gives API access to their models: GPT-3.5 turbo, GPT-4, GPT-4 turbo, GPT-4V, DALL-E 3, etc. It is on the basis of these APIs that most of the existing AI products are built.",
-            "ru": "Платформа от OpenAI, дающая доступ через API к их моделям: GPT-3.5 turbo, GPT-4, GPT-4 turbo, GPT-4V, DALL-E 3 и т.д. Именно на базе этих API построено большенство существующих ИИ-продуктов."
+            "ru": "Платформа от OpenAI, дающая доступ через API к их моделям: GPT-3.5 turbo, GPT-4, GPT-4 turbo, GPT-4V, DALL-E 3 и т.д. Именно на базе этих API построено большинство существующих ИИ-продуктов."
         },
         "mentions": [
             {
@@ -250,7 +250,7 @@
         "url": "https://github.com/tatsu-lab/stanford_alpaca",
         "description": {
             "en": "One of the first opensource LLMs. Built on top of LLaMA. Has a 7B version.",
-            "ru": "Одна из первых опенсорсных LLM. Построена на базе LLaMA. Имеет версию 7B."
+            "ru": "Одна из первых LLM с открытым исходным кодом. Построена на базе LLaMA. Имеет версию 7B."
         },
         "mentions": [
             {
@@ -312,7 +312,7 @@
         "url": "https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/",
         "description": {
             "en": "A set of AI tools integrated by Microsoft into their Microsoft 365 enterprise products.",
-            "ru": "Набор ИИ-инструментов ,втраиваемых компанией Microsoft в их корпоративные продукты пакета Microsoft 365."
+            "ru": "Набор ИИ-инструментов, встраиваемых компанией Microsoft в их корпоративные продукты пакета Microsoft 365."
         },
         "mentions": [
             {
@@ -514,8 +514,8 @@
         "name": "Irina Vladimirovna",
         "url": "https://chat.openai.com/g/g-NMhaBUQZa-irina-vladimirovna",
         "description": {
-            "en": "GPTs. Твой личный тренер по английскому языку. Присылай свой текст на английском, а она буду исправлять его и рассказывать вам о ваших ошибках. Отвечает на уровне B1 с уклоном в британский стиль.",
-            "ru": "GPTs. Your personal English coach. Send your text in English, and it will correct it and tell you about your mistakes. Responds at B1 level with a bias towards British style."
+            "en": "GPTs. Your personal English coach. Send your text in English, and it will correct it and tell you about your mistakes. Responds at B1 level with a bias towards British style.",
+            "ru": "GPTs. Твой личный тренер по английскому языку. Присылай свой текст на английском, а она буду исправлять его и рассказывать вам о ваших ошибках. Отвечает на уровне B1 с уклоном в британский стиль."
         },
         "mentions": [
             {
@@ -534,8 +534,8 @@
         "name": "Саммаризатор Иван",
         "url": "https://chat.openai.com/g/g-4ajRKj4Qx-sammarizator-ivan",
         "description": {
-            "en": "GPTs. Suammarizer of articles and texts, highlights ri main ideas, googles references, draws an image to summarize.",
-            "ru": "GPTs. Саммаризатор статей и текстов, выделяет ри основных идеи, гуглит ссылки, рисует изображение к саммаризации."
+            "en": "GPTs. Suammarizer of articles and texts, highlights three main ideas, googles references, draws an image to summarize.",
+            "ru": "GPTs. Резюмировщик статей и текстов, выделяет три основных идеи, гуглит ссылки, рисует изображение к резюмированному ответу."
         },
         "mentions": [
             {
@@ -758,7 +758,7 @@
         "url": "https://github.com/deep-floyd/IF",
         "description": {
             "en": "Open-source text-to-image model with a high degree of photorealism and language understanding. Can draw text well.",
-            "ru": "Text-to-image модель с открытым исходным кодом, обладающая высокой степенью фотореализма и пониманием языка. Может хороши рисовать текст."
+            "ru": "Text-to-image модель с открытым исходным кодом, обладающая высокой степенью фото-реализма и пониманием языка. Может хороши рисовать текст."
         },
         "mentions": [
             {
@@ -827,7 +827,7 @@
         "url": "https://github.com/microsoft/autogen",
         "description": {
             "en": "Microsoft's open-source framework, about the same as crewAI, but older and slightly less functional. In fact, it is used to create llm-applications based on agents.",
-            "ru": "Опенсорсный фреймворк от Microsoft, примерно такой-же как и crewAI, только более старый и чуть менее функциональный. По факту служит для создания llm-приложений на основе агентов."
+            "ru": "Открытый фреймворк от Microsoft, примерно такой-же как и crewAI, только более старый и чуть менее функциональный. По факту служит для создания llm-приложений на основе агентов."
         },
         "mentions": [
             {
@@ -849,7 +849,7 @@
         "url": "https://github.com/joaomdmoura/crewAI",
         "description": {
             "en": "An open-source python framework for creating teams of AI agents whose roles you define yourself. There is support for langchain, caches and delegation of tasks between agents. You can connect different LLMs, not only GPT APIs, but also optensource ones. You need to know a little bit of Python programming to build your team.",
-            "ru": "Опенсорсный python-фреймворк для создания команд ИИ-агентов, роли которым вы задаете сами. Есть поддержка лангчейна, кэшей и делегирования задач между агентами. Можно подключать разные LLM, не только GPT API, но и опенсорсные. Надо немного уметь программировать на питоне, что бы собрать свою команду."
+            "ru": "Открытый python-фреймворк для создания команд ИИ-агентов, роли которым вы задаете сами. Есть поддержка лангчейна, кэшей и делегирования задач между агентами. Можно подключать разные LLM, не только GPT API, но и открытые. Надо немного уметь программировать на питоне, что бы собрать свою команду."
         },
         "mentions": [
             {
@@ -870,7 +870,7 @@
         "url": "https://www.whiterabbitneo.com",
         "description": {
             "en": "LLM on the basis of LLaMa2, which will tell you how to hack wifi or make a traffic sniffer, something that ChatGPT will not tell you. Customized for cybersecurity and white-hat hacking. The 13B model is available as an opensource, the 32B model as a service on the site (10$ per month).",
-            "ru": "LLM на базе зафайнтьюненой LLaMa2, которая расскажет как взломать вайфай или сделать снифер трафика, такое вам в ChatGPT не расскажут. Заточена под задачи кибербезопасности и белый хаккинг. Модель на 13B доступна в опенсорсе, на 32B в виде сервиса на сайте (10$ в месяц)."
+            "ru": "LLM на базе зафайнтьюненой LLaMa2, которая расскажет как взломать вайфай или сделать снифер трафика, такое вам в ChatGPT не расскажут. Заточена под задачи кибербезопасности и белый хаккинг. Модель на 13B доступна в открытом доступе, на 32B в виде сервиса на сайте (10$ в месяц)."
         },
         "mentions": [
             {
@@ -1042,7 +1042,7 @@
         "url": "https://www.casablanca.ai",
         "description": {
             "en": "A service that creates eye-contact in real-time using GenAI by redrawing the face and eyes in such a way that the person looks like he/she is looking at the camera. It can be used for online calls, etc.",
-            "ru": "Сервис, который в реалтайме с помощью GenAI создает eye-контакт путем перерисовки лица и глаз таким образом, что бы человек выглядел смотрящим в камеру. Применяется на онлайн созвонах и т.д."
+            "ru": "Сервис, который в режиме реального времени с помощью GenAI создает eye-контакт путем перерисовки лица и глаз таким образом, что бы человек выглядел смотрящим в камеру. Применяется на онлайн созвонах и т.д."
         },
         "mentions": [
             {
@@ -1128,7 +1128,7 @@
         "url": "https://huggingface.co/blog/starcoder",
         "description": {
             "en": "Opensource LLM for programming. Trained on permissively licensed data from GitHub, including from 80+ programming languages, Git commits, GitHub issues, and Jupyter notebooks. Have 15B version and 35B version (StarCoderBase). Context length of over 8,000 tokens. Created by \"BigCode\" - an open scientific collaboration working on responsible training of large language models for coding applications.",
-            "ru": "LLM по программированию с открытым исходным кодом. Обучаена на разрешенных лицензионных данных с GitHub, в том числе по 80+ языкам программирования, коммитам Git, ишуям GitHub и блокнотам Jupyter. Имеет 15B версию и 35B версию (StarCoderBase). Контекст длиной более 8 000 токенов. Создана \"BigCode\" - открытой научной коллаборацией, работающей над responsible обучением LLMs для программирования."
+            "ru": "LLM по программированию с открытым исходным кодом. Обучена на разрешенных лицензионных данных с GitHub, в том числе по 80+ языкам программирования, коммитам Git, ишуям GitHub и блокнотам Jupyter. Имеет 15B версию и 35B версию (StarCoderBase). Контекст длиной более 8 000 токенов. Создана \"BigCode\" - открытой научной коллаборацией, работающей над responsible обучением LLMs для программирования."
         },
         "mentions": [
             {
@@ -1244,7 +1244,7 @@
         "url": "https://github.com/ztjhz/BetterChatGPT",
         "description": {
             "en": "An opensource UI for the GPT API, allowing for ChatGPT-style APIs. Works locally, or can be quickly deployed to Github Pages.",
-            "ru": "Опенсорсный UI для GPT API, позволяющий работать с API в стиле ChatGPT. Работает локально, либо может быть быстро развернут на Github Pages."
+            "ru": "Открытый UI для GPT API, позволяющий работать с API в стиле ChatGPT. Работает локально, либо может быть быстро развернут на Github Pages."
         },
         "mentions": [
             {
@@ -1311,7 +1311,7 @@
         "url": "https://github.com/imartinez/privateGPT",
         "description": {
             "en": "Interact with your documents using the power of GPT, 100% privately, no data leaks, locally on your computer.",
-            "ru": "Взаимодействуйте с документами, используя возможности GPT, 100% конфиденциальность, никаких утечек данных, вс ё локально на вашем железе."
+            "ru": "Взаимодействуйте с документами, используя возможности GPT, 100% конфиденциальность, никаких утечек данных, всё локально на вашем железе."
         },
         "mentions": [
             {
@@ -1532,7 +1532,7 @@
         "url": "https://replit.com/ai",
         "description": {
             "en": "Former Ghostwriter, AI code generator and copilot for onlay IDE from Repplit.",
-            "ru": "Бывший Ghostwriter, AI-код генериатор и копайлот для онлай IDE от Repplit."
+            "ru": "Бывший Ghostwriter, AI-код генератор и копайлот для онлай IDE от Repplit."
         },
         "mentions": [
             {
@@ -1593,7 +1593,7 @@
         "url": "https://github.com/TransformerOptimus/SuperAGI",
         "description": {
             "en": "A dev-first open source autonomous AI agent framework. Enabling developers to build, manage & run useful autonomous agents quickly and reliably. It has the ability to work with the file system and invoke third-party services.",
-            "ru": "Программерский фреймворк с открытым исходным кодом для создания автономных ИИ-агентов. Позволяет разработчикам быстро и надежно создавать, управлять и запускать автономные агенты. Имеет возможность работать с файловой системой и вызывать сторонние сервисы."
+            "ru": "Фреймворк с открытым исходным кодом для создания автономных ИИ-агентов. Позволяет разработчикам быстро и надежно создавать, управлять и запускать автономные агенты. Имеет возможность работать с файловой системой и вызывать сторонние сервисы. Требует навыков программированияю"
         },
         "mentions": [
             {
@@ -1698,7 +1698,7 @@
         "url": "https://clipdrop.co/uncrop",
         "description": {
             "en": "A service that enables image enhancement using image completion by generative AI.",
-            "ru": "Сервис, позволяющий расширять изобращения с помощью достраивания изображения генеративным ИИ."
+            "ru": "Сервис, позволяющий расширять изображения с помощью достраивания изображения генеративным ИИ."
         },
         "mentions": [
             {
@@ -1718,7 +1718,7 @@
         "url": "https://research.runwayml.com/gen2",
         "description": {
             "en": "Gen-2 is a multimodal AI system developed by Runway Research that can generate short novel videos using text, images, or video clips. This is the service that spawned the famous \"Cthulhu Bride Wedding\" video.",
-            "ru": "Gen-2 - это мультимодальный AI-сервис, разработанный компанией Runway Research, который может генерировать короткие видеоролики, используя текст, изображения или видеоклипы. Именно этот сервис породил знаменитый ролик \"Свадьба невесты ктулху\""
+            "ru": "Gen-2 - это мультимодальный AI-сервис, разработанный компанией Runway Research, который может генерировать короткие видеоролики, используя текст, изображения или видеоклипы. Именно этот сервис породил знаменитый ролик \"Свадьба невесты Ктулху\""
         },
         "mentions": [
             {
@@ -1739,7 +1739,7 @@
         "url": "https://huggingface.co/blog/falcon",
         "description": {
             "en": "A family of large language models created by the Institute for Technology Innovation in Abu Dhabi and released under the Apache 2.0 license. It has versions in 7B, 40B and 180B. The 180B version is one of the largest of its kind at the moment.",
-            "ru": "Семейство больших языковых моделей, созданное Институтом технологических инноваций в Абу-Даби и выпущенное под лицензией Apache 2.0. Имеет версии на 7B, 40B и 180B. Версия на 180B одна из крупнейших опенсорсных на данный момент."
+            "ru": "Семейство больших языковых моделей, созданное Институтом технологических инноваций в Абу-Даби и выпущенное под лицензией Apache 2.0. Имеет версии на 7B, 40B и 180B. Версия на 180B одна из крупнейших открытых на данный момент."
         },
         "mentions": [
             {
@@ -1764,7 +1764,7 @@
         "url": "https://www.shoki.app/",
         "description": {
             "en": "Samarizes and transcribes YouTube videos in 12 languages.",
-            "ru": "Самаризирует и транскрибирует видеоролики в YouTube на 12 языках."
+            "ru": "Резюмирует и транскрибирует видеоролики в YouTube на 12 языках."
         },
         "mentions": [
             {
@@ -1826,7 +1826,7 @@
         "url": "https://github.com/XingangPan/DragGAN",
         "description": {
             "en": "An AI tool that allows you to change the physics of objects in images: rotate, change perspective, proportions, sizes, and so on. It looks very good.",
-            "ru": "Опенсорсный ИИ-инструмент, позволяющий изменять физику объектов на изображениях: поворачивать, изменять перспективу, пропорции, размеры и прочее. Выглядит очень неплохо."
+            "ru": "Открытый ИИ-инструмент, позволяющий изменять физику объектов на изображениях: поворачивать, изменять перспективу, пропорции, размеры и прочее. Выглядит очень неплохо."
         },
         "mentions": [
             {
@@ -1851,7 +1851,7 @@
         "url": "https://github.com/AntonOsika/gpt-engineer",
         "description": {
             "en": "An opensource tool that can write turnkey code using the GPT API. You give it a task, it polls you and produces ready code. It works on an agent-based architecture. The most popular product in the sphere of turnkey code writing by AI agents.",
-            "ru": "Опенсорсный инструмент, который с помощью GPT API может писать код под ключ. Вы задаете ему задачу, он опрашивает вас и выдает готовы код. Работает на агентной архитектуре. Самый популярный продукт в сфере написания кода под ключ ИИ-агентами."
+            "ru": "Открытый инструмент, который с помощью GPT API может писать код под ключ. Вы задаете ему задачу, он опрашивает вас и выдает готовы код. Работает на агентной архитектуре. Самый популярный продукт в сфере написания кода под ключ ИИ-агентами."
         },
         "mentions": [
             {
@@ -1994,7 +1994,7 @@
         "url": "https://stability.ai/news/stable-diffusion-sdxl-1-announcement",
         "description": {
             "en": "An opensource diffusion model that can draw any graphics, including photorealistic ones. Midjourney's main competitor.",
-            "ru": "Опенсорстная диффузионная модель, которая может рисовать любую графику, в том числе и фотореалистичную. Главный конкурент Midjourney."
+            "ru": "Открытая диффузионная модель, которая может рисовать любую графику, в том числе и фотореалистичную. Главный конкурент Midjourney."
         },
         "mentions": [
             {
@@ -2016,7 +2016,7 @@
         "url": "https://github.com/irgolic/AutoPR",
         "description": {
             "en": "An open source library that allows you to self-samorize pullrequests, automatically generate READ.me, manage project TODOs, and other things using the GPT API.",
-            "ru": "Открытая библиотека, позволяющая делать саморизацию пулреквестов, автоматически генерировать READ.me, управлять TODO проекта, и другие штуки с помощью GPT API."
+            "ru": "Открытая библиотека, позволяющая делать резюмирование пулреквестов, автоматически генерировать READ.me, управлять TODO проекта, и другие штуки с помощью GPT API."
         },
         "mentions": [
             {
@@ -2037,7 +2037,7 @@
         "url": "https://ai.meta.com/llama/",
         "description": {
             "en": "The first truly worthwhile LLM. Developed by Meta, has specific restrictions concerning large companies. There are versions 7, 13 and 70B.",
-            "ru": "Первая действительно стоящая опенсорсная LLM. Разработана компанией Meta, имеет специфичные ограничения, касающиеся крупных компаний. Есть версии 7, 13 и 70B."
+            "ru": "Первая действительно стоящая открытая LLM. Разработана компанией Meta, имеет специфичные ограничения, касающиеся крупных компаний. Есть версии 7, 13 и 70B."
         },
         "mentions": [
             {
@@ -2150,7 +2150,7 @@
         "url": "https://github.com/facebookresearch/audiocraft",
         "description": {
             "en": "PyTorch library for generating audio from text (by prompts, text-to-music). Utilizes optional models from Meta: AudioGen, MusicGen and EnCodec.",
-            "ru": "Библиотека PyTorch для генерации аудио из текста (по промптам, text-to-music). Использует опенсорсные модели от Meta: AudioGen, MusicGen и EnCodec."
+            "ru": "Библиотека PyTorch для генерации аудио из текста (по промптам, text-to-music). Использует откртыте модели от Meta: AudioGen, MusicGen и EnCodec."
         },
         "mentions": [
             {
@@ -2234,7 +2234,7 @@
         "url": "https://github.com/facebookresearch/codellama",
         "description": {
             "en": "A family of open-source models from Meta for programming. There are versions on 7B, 13B and 34B. Based on Llama 2.",
-            "ru": "Семейство опенсорсных моделей от Meta для программирования. Есть версии на 7B, 13B и 34B. Построена на базе Llama 2."
+            "ru": "Семейство открытых моделей от Meta для программирования. Есть версии на 7B, 13B и 34B. Построена на базе Llama 2."
         },
         "mentions": [
             {
@@ -2299,7 +2299,7 @@
         "url": "https://github.com/QwenLM/Qwen-VL",
         "description": {
             "en": "Alibaba's family of Chinese opensource LLMs. Plus version overtakes Gemini Pro.",
-            "ru": "Семейство китайская опенсорсных LLM от Alibaba. Версия Plus обгоняет Gemini Pro."
+            "ru": "Семейство китайских открытых LLM от Alibaba. Версия Plus обгоняет Gemini Pro."
         },
         "mentions": [
             {
@@ -2366,7 +2366,7 @@
         "url": "https://openai.com/dall-e-3",
         "description": {
             "en": "A diffusion model from OpenAI that draws graphics as good as Midjourney 5 and StableDiffusion XL. It is used inside ChatGPT. Perfectly understands short prompts and draws text reasonably well.",
-            "ru": "Диффузионная модель от OpenAI, рисующая графику не хуже Midjourney 5 и StableDiffusion XL. Используется внтури ChatGPT. Отлично понимает короткие промпты и сносно рисует текст."
+            "ru": "Диффузионная модель от OpenAI, рисующая графику не хуже Midjourney 5 и StableDiffusion XL. Используется внутри ChatGPT. Отлично понимает короткие промпты и сносно рисует текст."
         },
         "mentions": [
             {
@@ -2439,7 +2439,7 @@
         "url": "https://www.rewind.ai/pendant",
         "description": {
             "en": "An AI pendant from Rewind that records everything you say in a day and does a self-reference.  It's designed to keep the data private and works through an assistant on your computer (the wearable device itself only records information). Now you can search by what you said for the day. Costs $59 on pre-order, not yet released.",
-            "ru": "ИИ-кулон от компании Rewind, который записывает всё что вы говорите за день и делает саморизацию.  Заточен на приватность данных и работает через помощника на компьютере (само носимое устройство только записывает информацию). Теперь можно искать по тому, что ты сказал за деть. Стоит 59 долларов по предзаказу, пока не релизнулось."
+            "ru": "ИИ-кулон от компании Rewind, который записывает всё что вы говорите за день и делает резюмирование.  Заточен на приватность данных и работает через помощника на компьютере (само носимое устройство только записывает информацию). Теперь можно искать по тому, что ты сказал за деть. Стоит 59 долларов по предзаказу, пока не релизнулось."
         },
         "mentions": [
             {
@@ -2483,7 +2483,7 @@
         "url": "https://github.com/mistralai/mistral-src",
         "description": {
             "en": "Opensor model from the French company Mistral, which will run on your hardware. Comparable in quality to LLaMa2, but cheaper/faster. Apache 2 license, they plan to make money on products.",
-            "ru": "Опенсорсная модель от французской комании Mistral, которая запустится на вашем железе. Сопоставима по качеству с LLaMa2, но дешевле/быстрее. Лицензия Apache 2, зарабатывать планируют на продуктах."
+            "ru": "Открытая модель от французской компании Mistral, которая запустится на вашем железе. Сопоставима по качеству с LLaMa2, но дешевле/быстрее. Лицензия Apache 2, зарабатывать планируют на продуктах."
         },
         "mentions": [
             {
@@ -2526,7 +2526,7 @@
         "url": "https://www.meta.com/pl/en/smart-glasses/",
         "description": {
             "en": "Smart glasses from Meta and Ray-Ban, supposedly with AI integration. In fact, they can listen to you, transmit the information to your smartphone and further to the Internet, and then voice the answer. Nothing new.",
-            "ru": "Умные очки от Meta и Ray-Ban, якобы с интеграцией ИИ. На самом деле умеют слушать вас, передовать информацию на смартфон и дальше в интернет, а потом озвучивать ответ. Ничег онового."
+            "ru": "Умные очки от Meta и Ray-Ban, якобы с интеграцией ИИ. На самом деле умеют слушать вас, передавать информацию на смартфон и дальше в интернет, а потом озвучивать ответ. Ничего нового."
         },
         "mentions": [
             {
@@ -2568,7 +2568,7 @@
         "url": "https://github.com/Kav-K/GPTDiscord",
         "description": {
             "en": "GPT interface for Discord. ChatGPT-style conversations, image generation, AI moderation, custom indexes/knowledgebase, YouTube summarisation and more.",
-            "ru": "GPT-интерфейс для Discord. Беседы в стиле ChatGPT, генерация изображений, ИИ-модерация, пользовательские индексы/база знаний, самморизатор YouTube и многое другое."
+            "ru": "GPT-интерфейс для Discord. Беседы в стиле ChatGPT, генерация изображений, ИИ-модерация, пользовательские индексы/база знаний, резюмирование YouTube и многое другое."
         },
         "mentions": [
             {
@@ -2610,7 +2610,7 @@
         "url": "https://aws.amazon.com/codewhisperer/",
         "description": {
             "en": "Amazon CodeWhisperer generates code suggestions ranging from snippets to full functions in real time in the IDE based on your comments and existing code. It also supports CLI completions and natural-language-to-bash translation in the command line.",
-            "ru": "Amazon CodeWhisperer генерирует предложения кода в реальном времени, начиная от фрагментов и заканчивая полными функциями, в среде разработки на основе ваших комментариев и существующего кода. Также он поддерживает автодополнение в интерфейсе командной строки и перевод естественного языка в команды bash."
+            "ru": "Amazon CodeWhisperer генерирует предложения кода в реальном времени, начиная от фрагментов и заканчивая полными функциями, в среде разработки на основе ваших комментариев и существующего кода. Также он поддерживает авто-дополнение в интерфейсе командной строки и перевод естественного языка в команды bash."
         },
         "mentions": [
             {
@@ -2652,7 +2652,7 @@
         "url": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta",
         "description": {
             "en": "Opsensor-based LLM built on Mistral and operating at the LLaMa 2 70B level.",
-            "ru": "Опенсорсная LLM, построенная на базе Mistral и работающая на уровне LLaMa 2 70B."
+            "ru": "Открытая LLM, построенная на базе Mistral и работающая на уровне LLaMa 2 70B."
         },
         "mentions": [
             {
@@ -2673,7 +2673,7 @@
         "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en",
         "description": {
             "en": "An 8k tokenized context open source model from German company Jina AI, quite undemanding on resources and quite smart.",
-            "ru": "Опенсорс-модель на 8k токенов контекста от немецкой компании Jina AI, весьма нетребовательная к ресурсам и достаточно умная."
+            "ru": "Открытая модель на 8k токенов контекста от немецкой компании Jina AI, весьма нетребовательная к ресурсам и достаточно умная."
         },
         "mentions": [
             {
@@ -2694,7 +2694,7 @@
         "url": "https://toolbox.google.com/factcheck/explorer/search/list:recent;hl=en",
         "description": {
             "en": "Google's factchecking tool. You can view the history of articles and images appearing in the search index.",
-            "ru": "Инструмент для фактчекинга от Google. Можно просматривать историю появления статей и изображений в поисковом индексе."
+            "ru": "Инструмент для проверки правдивости информации от Google. Можно просматривать историю появления статей и изображений в поисковом индексе."
         },
         "mentions": [
             {
@@ -2714,7 +2714,7 @@
         "url": "https://tongyi.aliyun.com",
         "description": {
             "en": "Chinese multimodal public model from Alibaba for several hundred billion parameters. Version 2.0 can be comparable to GPT-4.",
-            "ru": "Китайская мультимодальная публичная модель от Alibaba на несколько сотен миллиардов парраметров. Dthcbz 2.0 cоизмерима с GPT-4."
+            "ru": "Китайская мультимодальная публичная модель от Alibaba на несколько сотен миллиардов параметров. Версия 2.0 cоизмерима с GPT-4."
         },
         "mentions": [
             {
@@ -2739,7 +2739,7 @@
         "url": "https://www.ibm.com/products/watsonx-code-assistant",
         "description": {
             "en": "Enterprice service from IBM for help in programming. Can generate code, give code recommendations and translate programs from one language to another. It is said that IBM is slowly migrating programs written in COBOL to normal programming languages through it.",
-            "ru": "Энтерпрайс сервис от IBM для помощи в программировании. Умеет генерировать код, давать рекомендации по коду и переводить программы с одних языков на другие. Говаривают, что IBM через него потихоньку мигрируют программы написанные на COBOL на нормальные языки программирования."
+            "ru": "Энтерпрайз-сервис от IBM для помощи в программировании. Умеет генерировать код, давать рекомендации по коду и переводить программы с одних языков на другие. Говаривают, что IBM через него потихоньку мигрируют программы написанные на COBOL на нормальные языки программирования."
         },
         "mentions": [
             {
@@ -2838,7 +2838,7 @@
         "url": "https://leonardo.ai",
         "description": {
             "en": "Service that allows users to create professional level graphics. Under the hood uses different diffusion models. It has API and paid subscription.",
-            "ru": "Сервис, который позволяет пользователям создавать графику профессионального уровня. Под капотом использует разные дифузионн модели. Имеет API и платную подписку."
+            "ru": "Сервис, который позволяет пользователям создавать графику профессионального уровня. Под капотом использует разные диффузионные модели. Имеет API и платную подписку."
         },
         "mentions": [
             {
@@ -2858,7 +2858,7 @@
         "url": "https://mistral.ai/news/mixtral-of-experts/",
         "description": {
             "en": "The most powerful opsensor LLM at the end of 2023 created by French company Mistral. Superior to GPT-3.5. Runs on inexpensive server hardware. French.",
-            "ru": "Самая мощная опенсорсная LLM на момент конца 2023 года от компании французской Mistral. Превосходит GPT-3.5. Запускается на недорогом серверном железе."
+            "ru": "Самая мощная открытая LLM на момент конца 2023 года от компании французской Mistral. Превосходит GPT-3.5. Запускается на недорогом серверном железе."
         },
         "mentions": [
             {
@@ -2900,7 +2900,7 @@
         "url": "https://partyrock.aws/",
         "description": {
             "en": "Sandbox by Amazon Bedrock, through which you can build small applications using opensor and other models: Stable Diffusion XL, Claude, Titan, Jurassic, Command.",
-            "ru": "Песочница от Amazon Bedrock, через которую можно строить небольшие приложения используя опенсорсные и другие модели: Stable Diffusion XL, Claude, Titan, Jurassic, Command."
+            "ru": "Песочница от Amazon Bedrock, через которую можно строить небольшие приложения используя открытые и другие модели: Stable Diffusion XL, Claude, Titan, Jurassic, Command."
         },
         "mentions": [
             {
@@ -3004,7 +3004,7 @@
         "url": "https://www.jetbrains.com/ai/",
         "description": {
             "en": "JetBrains AI-programming toolkit: autocomplete, chat and other stuff. Replace GitHub Copilot & GitHub Copilot Chat. Works in JetBrains IDE family and costs money.",
-            "ru": "Набор ИИ-инструментов от JetBrains для программирования: автокомплит, чат и другие штучки. ЗАмена GitHub Copilot & GitHub Copilot Chat. Работает в семействе IDE от JetBrains и стоит денег."
+            "ru": "Набор ИИ-инструментов от JetBrains для программирования: автокомплит, чат и другие штучки. Замена GitHub Copilot & GitHub Copilot Chat. Работает в семействе IDE от JetBrains и стоит денег."
         },
         "mentions": [
             {
@@ -3030,7 +3030,7 @@
         "url": "https://audiobox.metademolab.com/",
         "description": {
             "en": "Foundation research model for audio generation created by Meta Research. It can generate voices and sound effects using a combination of voice inputs and natural language text prompts. There's a cool demo mode.",
-            "ru": "Модель для генерации звука от Меты. Может генерировать голоса и звуковые эффекты, используя комбинацию голосового ввода и текстовых подсказок на естественном языке. Есть крутой демо-режим."
+            "ru": "Модель для генерации звука от Meta. Может генерировать голоса и звуковые эффекты, используя комбинацию голосового ввода и текстовых подсказок на естественном языке. Есть крутой демо-режим."
         },
         "mentions": [
             {
@@ -3096,7 +3096,7 @@
         "url": "https://github.com/facefusion/facefusion",
         "description": {
             "en": "Opensor-based simple tool for creating deepfake images and videos. Has the ability to connect external server capacity.",
-            "ru": "Опенсорсный простой инструмент для создания deepfake изображений и видео. Имеет возможность подключать внешние серверные мощности."
+            "ru": "Открытый простой инструмент для создания deepfake изображений и видео. Имеет возможность подключать внешние серверные мощности."
         },
         "mentions": [
             {
@@ -3226,7 +3226,7 @@
         "url": "https://www.mate-os.com",
         "description": {
             "en": "Copilot for your operating system. It can interact with your operating system through screen photos and file system access and perform simple tasks. From the creators of Machinet",
-            "ru": "Копайлот для вашей операционной системы. По фотографии экрана и через доступ к файловой системе может взаимодействовать с вашей операционной системуо и выполнять простые задачи. От создателей Machinet"
+            "ru": "Копайлот для вашей операционной системы. По фотографии экрана и через доступ к файловой системе может взаимодействовать с вашей операционной системой и выполнять простые задачи. От создателей Machinet"
         },
         "mentions": [
             {
@@ -3250,8 +3250,8 @@
         "name": "Midjourney",
         "url": "https://www.midjourney.com/",
         "description": {
-            "en": "Diffusion model from Midjourney, drawing super-realistic graphics. A leader in the field of AI graphics, latest version - Midjourney 6. The source of a lot of wake photos. Available via Discord, but web-version is coming soon.",
-            "ru": "Диффузионной модели от Midjourney, рисующая суперреалистичную графику. Лидер сферы ИИ-графики, текущая версия - Midjourney 6. Источник кучи вейковых фото. Доступен через Discord, но скоро будет web-версия"
+            "en": "Diffusion model from Midjourney, drawing super-realistic graphics. A leader in the field of AI graphics, latest version - Midjourney 6. The source of a lot of fake photos. Available via Discord, but web-version is coming soon.",
+            "ru": "Диффузионной модели от Midjourney, рисующая супер реалистичную графику. Лидер сферы ИИ-графики, текущая версия - Midjourney 6. Источник кучи фейковых фото. Доступен через Discord, но скоро будет web-версия"
         },
         "mentions": [
             {
@@ -3330,7 +3330,7 @@
         "url": "https://github.com/deepseek-ai/deepseek-coder/",
         "description": {
             "en": "An opsensor-based LLM for programming. 1.3B, 5.7B, 6.7B and 33B paramaters.",
-            "ru": "Опенсорсная LLM для программирования. 1.3B, 5.7B, 6.7B и 33B парамтеров."
+            "ru": "Открытая LLM для программирования. 1.3B, 5.7B, 6.7B и 33B парамтеров."
         },
         "mentions": [
             {
@@ -3373,7 +3373,7 @@
         "url": "https://lmstudio.ai/",
         "description": {
             "en": "A user-friendly interface to quickly run opencore LLMs locally on your computer.",
-            "ru": "Удобный интерфейс для быстрого запуска опенсорсных LLM локально на вашем компьютере."
+            "ru": "Удобный интерфейс для быстрого запуска открытых LLM локально на вашем компьютере."
         },
         "mentions": [
             {
