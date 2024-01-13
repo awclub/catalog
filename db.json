@@ -1,11 +1,73 @@
 [
     {
+        "id": "8080b118-80a2-48fa-932b-ec01bf65b730",
+        "name": "BlueWillow",
+        "url": "https://www.bluewillow.ai",
+        "description": {
+            "en": "Бесплатный генератор AI-изображений. Имеет большой дискорд сервер, выкуплен компанией LimeWire.",
+            "ru": "Free AI image generator. Has a large discord server, bought out by LimeWire."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=4188s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "graphics"
+        ]
+    },
+    {
+        "id": "374dc2ca-b309-4191-bc0a-835e88262422",
+        "name": "Stable Diffusion 2",
+        "url": "https://github.com/Stability-AI/stablediffusion",
+        "description": {
+            "en": "Open-source diffusion model that can be used to generate images. Can be launched on a laptop or computer with a good video card.",
+            "ru": "Открытая диффузионная модель, хорошо рисующая графику. Может быть запущена на ноутбуке или компьютере с хорошей видеокартой."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=4188s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "diffusion",
+            "stabilityai",
+            "model",
+            "graphics",
+            "open-source"
+        ]
+    },
+    {
+        "id": "00d8090b-82a8-47f4-b14a-d2fd71f65a30",
+        "name": "Lensa",
+        "url": "https://prisma-ai.com/lensa",
+        "description": {
+            "en": "An all-in-one AI based photo editing app.",
+            "ru": "Универсальное приложение для редактирования фотографий на основе искусственного интеллекта."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=4188s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "graphics",
+            "photo"
+        ]
+    },
+    {
         "id": "36ae531c-59cf-43f9-8be9-cac59c2798b2",
         "name": "Bard",
         "url": "https://bard.google.com/chat",
         "description": {
             "en": "A conversational AI tool developed by Google that combines the breadth of the world's knowledge with the power, intelligence, and creativity of large language models. It is a multimodal online chat. The main competitor of ChatGPT.",
-            "ru": " ИИ-инструмент, разработанный Google, который объединяет в себе объем знаний мира с силой, интеллектом и креативностью LLM. Представляет из себя мультимодальный онлайн-чат. Главный конкурент ChatGPT."
+            "ru": "ИИ-инструмент, разработанный Google, который объединяет в себе объем знаний мира с силой, интеллектом и креативностью LLM. Представляет из себя мультимодальный онлайн-чат. Главный конкурент ChatGPT."
         },
         "mentions": [
             {
@@ -1090,6 +1152,10 @@
         },
         "mentions": [
             {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=3770s",
+                "episodeName": "AIA Podcast #3"
+            },
+            {
                 "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=4570s",
                 "episodeName": "AIA Podcast #8"
             }
@@ -2007,7 +2073,8 @@
             "diffusion",
             "stabilityai",
             "model",
-            "graphics"
+            "graphics",
+            "open-source"
         ]
     },
     {
@@ -2482,7 +2549,7 @@
         "name": "Mistral 7b",
         "url": "https://github.com/mistralai/mistral-src",
         "description": {
-            "en": "Opensor model from the French company Mistral, which will run on your hardware. Comparable in quality to LLaMa2, but cheaper/faster. Apache 2 license, they plan to make money on products.",
+            "en": "Open-source model from the French company Mistral, which will run on your hardware. Comparable in quality to LLaMa2, but cheaper/faster. Apache 2 license, they plan to make money on products.",
             "ru": "Открытая модель от французской компании Mistral, которая запустится на вашем железе. Сопоставима по качеству с LLaMa2, но дешевле/быстрее. Лицензия Apache 2, зарабатывать планируют на продуктах."
         },
         "mentions": [
