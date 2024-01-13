@@ -1,9 +1,13 @@
 import { RouterLink } from 'vue-router'
 
 <script setup>
+import { useTagsStore } from "@/stores/tags.js";
+
 defineProps({
   serviceItem: Object
 })
+
+const tagsStore = useTagsStore();
 </script>
 
 <template>
@@ -22,7 +26,7 @@ defineProps({
             </a>
         </p>
         <div class="tags">
-            <span v-for='tag in serviceItem.tags' :key='tag' class="tag">{{ tag }}</span>
+            <span v-for='tag in serviceItem.tags' :key='tag' class="tag" v-on:click="() => tagsStore.selectTag(tag)">{{ tag }}</span>
         </div>
         <div class="date">{{ serviceItem.date }}</div> <!-- Добавляем дату -->
     </div>

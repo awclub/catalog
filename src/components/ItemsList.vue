@@ -1,10 +1,12 @@
 <script setup>
 import { computed } from 'vue'
-import ServiseItem from './ServiceItem.vue'
+import ServiceItem from './ServiceItem.vue'
 import { useServicesStore } from '../stores/services';
 import { onBeforeMount } from "vue"
+import { useTagsStore } from "@/stores/tags.js";
 
 const servicesStore = useServicesStore();
+const tagsStore = useTagsStore();
 
 onBeforeMount(() => {
   servicesStore.fetchData()
@@ -13,11 +15,16 @@ onBeforeMount(() => {
 const getServices = computed(() => {
   return servicesStore.getServices
 })
+
+const selectedTags = computed(() => {
+  return tagsStore.tags
+})
 </script>
 
 <template>
+  <p>{{ selectedTags }}</p>
   <div v-if="getServices.length" class="services-list">
-    <ServiseItem 
+    <ServiceItem
       v-for='gettersService in getServices' 
       :key='gettersService.id'
       :serviceItem='gettersService'
