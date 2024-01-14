@@ -3,6 +3,7 @@ import { RouterLink } from 'vue-router'
 <script setup>
 import { useTagsStore } from "@/stores/tags.js";
 import TagList from "@/components/TagList.vue";
+import { localDateFilter } from "@/filter/local-date-filter.js";
 
 defineProps({
   serviceItem: Object
@@ -27,7 +28,7 @@ const tagsStore = useTagsStore();
             </a>
         </p>
         <TagList :items="serviceItem.tags" :on-tag-click="tagsStore.selectTag"/>
-        <div class="date">{{ serviceItem.date }}</div> <!-- Добавляем дату -->
+        <div class="date">{{ localDateFilter(serviceItem.date, $i18n.locale) }}</div> <!-- Добавляем дату -->
     </div>
 </template>
 
