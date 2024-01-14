@@ -1,7 +1,7 @@
 <script setup>
-import LocaleSwitcher from './LocaleSwitcher.vue'
 import { RouterLink } from 'vue-router'
 import { useDark, useToggle } from "@vueuse/core";
+import Settings from "@/components/Settings.vue";
 
 const isDark = useDark();
 const toggleDark = useToggle(isDark);
@@ -30,8 +30,8 @@ defineProps({
                 <RouterLink to="/about">About</RouterLink>
                 </nav> -->
             </div>
+          <Settings />
         </div>
-        <LocaleSwitcher />
   <span @click="toggleDark()" v-if="!isDark">🌙</span>
   <span @click="toggleDark()" v-else-if="isDark">☀️</span>
     </header>
