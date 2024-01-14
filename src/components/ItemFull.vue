@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { useServicesStore } from '../stores/services';
 import { onBeforeMount } from "vue"
+import { localDateFilter } from "../filter/local-date-filter.js";
 
 const servicesStore = useServicesStore();
 
@@ -38,7 +39,7 @@ onBeforeMount(() => {
         <div class="tags">
             <span v-for='tag in getCurrentService.tags' :key='tag' class="tag">{{ tag }}</span>
         </div>
-        <div class="date">{{ getCurrentService.date }}</div>
+        <div class="date">{{ localDateFilter(getCurrentService.date, $i18n.locale) }}</div>
     </div>
 </template>
 
