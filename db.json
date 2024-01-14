@@ -864,8 +864,8 @@
         "name": "Community Series Navigator",
         "url": "https://chat.openai.com/g/g-niYp1Goki-community-series-navigator",
         "description": {
-            "en": "GPTs. Навигатор по сериалу \"Сообщество\".",
-            "ru": "GPTs. Navigator for the series \"Community\"."
+            "ru": "GPTs. Навигатор по сериалу \"Сообщество\".",
+            "en": "GPTs. Navigator for the series \"Community\"."
         },
         "mentions": [
             {
