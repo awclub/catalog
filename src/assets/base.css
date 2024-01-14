@@ -4,7 +4,7 @@
   --text-color: #333;
   --link-color: #1a73e8;
   --header-bg-color: #f1ebf4;
-  --service-item-bg-color: #f1ebf4;
+  --service-item-bg-color: rgba(241, 235, 244, 0.8);
   --service-item-border-color: #ddd;
   --button-bg-color: #e2e2e2;
   --button-text-color: #333;
@@ -27,7 +27,7 @@
     --text-color: #f5f5f5;
     --link-color: #4a90e2;
     --header-bg-color: #26272b;
-    --service-item-bg-color: #2f3035;
+    --service-item-bg-color: rgba(47, 48, 53, 0.8);
     --service-item-border-color: #ddd2;
     --button-bg-color: #3b3c40;
     --button-text-color: #f5f5f5;
