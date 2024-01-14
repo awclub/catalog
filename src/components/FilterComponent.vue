@@ -4,6 +4,7 @@ import TagList from "@/components/TagList.vue";
 import AutoCompleteInput from "@/components/AutoComplete.vue";
 import { useServicesStore } from "@/stores/services.js";
 import { computed, onBeforeMount } from "vue";
+import Search from "@/components/Search.vue";
 
 const tagsStore = useTagsStore();
 const servicesStore = useServicesStore();
@@ -19,6 +20,7 @@ const allTags = computed(() => {
 </script>
 
 <template>
+  <Search />
   <div class="selected-tags-box">
     <auto-complete-input
         :placeholder="$t('searchTagsPlaceholder')"
