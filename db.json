@@ -1,11 +1,52 @@
 [
     {
+        "id": "58ed34a2-c5e6-454c-a3a5-0b3846b10350",
+        "name": "Durable",
+        "url": "https://durable.co",
+        "description": {
+            "ru": "Сервис, позволяющий через текстовые промпты генерировать целые вебсайты. Новый подход к созданию сайтов, конкурент классических контрукторов сайтов типа Wix и т.п.",
+            "en": "A service that allows you to generate entire websites through text prompts. A new approach to creating websites, a competitor to classic website builders like Wix, etc."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=CS6-KdkVTtw&t=4860s",
+                "episodeName": "AIA Podcast #2"
+            }
+        ],
+        "date": "2023-02-24",
+        "tags": [
+            "website builder",
+            "productivity"
+        ]
+    },
+    {
+        "id": "349dfe39-cfbf-41b8-99d9-27bd77751b2d",
+        "name": "Riffusion",
+        "url": "https://www.riffusion.com/",
+        "description": {
+            "ru": "Сервис, который позволяет пользователям создавать музыку на основе текстовых промптов. Проект задумывался как эксперимент, музыка в нем генерируется через генерацию изображений с волновым представлением музыки через Stable Diffusion. Генерирует как музыку, так и тексты. В отлии от Suno AI, не имеет платной подписки, не позволяет генерировать музыку по строго заданному тексту, имеет не такое качественное звучание, но позволяет скачивать голос и музыку по отдельности.",
+            "en": "A service that allows users to create music based on text prompts. The project was conceived as an experiment, the music in it is generated through the generation of images with a wave representation of music through Stable Diffusion. Generates both music and lyrics. Unlike Suno AI, it does not have a paid subscription, does not allow you to generate music according to a strictly defined text, has not such a high-quality sound, but allows you to download the voice and music separately."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=CS6-KdkVTtw&t=4385s",
+                "episodeName": "AIA Podcast #2"
+            }
+        ],
+        "date": "2023-02-24",
+        "tags": [
+            "music",
+            "speech",
+            "voice"
+        ]
+    },
+    {
         "id": "c5b9455c-c4e2-4f1b-a257-f68295fdebe0",
         "name": "Synthesia",
         "url": "https://www.synthesia.io",
         "description": {
             "ru": "Сервис по созданию цифровых аватаров, которые реалистично зачитывают текст. Также сервис занимается переозвучкой, клонированием голоса и предоставляет инструменты для создания маркетинговых видео под ключ.",
-            "en": " A service for creating digital avatars that realistically read text. The service also deals with voice-over & dubbing, voice cloning and provides tools for creating  marketing videos."
+            "en": "A service for creating digital avatars that realistically read text. The service also deals with voice-over & dubbing, voice cloning and provides tools for creating  marketing videos."
         },
         "mentions": [
             {
@@ -448,10 +489,14 @@
         "name": "DeepL",
         "url": "https://www.deepl.com/translator",
         "description": {
-            "en": "The best AI based translation service that offers fast, accurate, and high-quality translations for text in over 25 languages. Strong competitor to Google Translate.",
-            "ru": "Лучший сервис машинного перевода, который предлагает быстрый, точный и качественный перевод текста на более чем 25 языков. Сильный конкурент Google Translate."
+            "en": "The best AI based translation service that offers fast, accurate, and high-quality translations for text in over 25 languages. Strong competitor to Google Translate. DeepL Text allows you to improve your texts, in fact being a competitor to Grammarly.",
+            "ru": "Лучший сервис машинного перевода, который предлагает быстрый, точный и качественный перевод текста на более чем 25 языков. Сильный конкурент Google Translate. DeepL Text позволяет улучшать ваши тексты, по факту являясь конкурентом Grammarly."
         },
         "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=CS6-KdkVTtw&t=5090s",
+                "episodeName": "AIA Podcast #2"
+            },
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=955s",
                 "episodeName": "AIA Podcast #3"
@@ -3134,8 +3179,8 @@
         "name": "Suno AI",
         "url": "https://www.suno.ai",
         "description": {
-            "en": "An AI music creation tool that allows users to generate their own songs based on textual cues. Generates both music and lyrics, you can use your own lyrics. A leader in the direction and as of the end of 2023. Great at making raps 😊",
-            "ru": "ИИ-инструмент для создания музыки, который позволяет пользователям генерировать собственные песни на основе текстовых подсказок. Генерирует и музыку и текст, можно использовать свой текст. Лидер направления и на момент конца 2023 года. Шикарно делает рэп 😊"
+            "en": "An AI music creation tool that allows users to generate their own songs based on text prompts. Generates both music and lyrics, you can use your own lyrics. A leader in the direction and as of the end of 2023. Great at making raps 😊",
+            "ru": "ИИ-инструмент для создания музыки, который позволяет пользователям генерировать собственные песни на основе текстовых промптов. Генерирует и музыку и текст, можно использовать свой текст. Лидер направления и на момент конца 2023 года. Шикарно делает рэп 😊"
         },
         "mentions": [
             {
@@ -3146,7 +3191,8 @@
         "date": "2023-11-17",
         "tags": [
             "music",
-            "speech"
+            "speech",
+            "voice"
         ]
     },
     {
