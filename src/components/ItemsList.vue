@@ -4,16 +4,21 @@ import ServiceItem from './ServiceItem.vue'
 import { useServicesStore } from '../stores/services';
 import { onBeforeMount } from "vue"
 import { useServicesFilter } from "@/service/servicesFilter.js";
+import { useOrderStore } from "@/service/orderStore.js";
 
 const servicesStore = useServicesStore();
 const servicesFilter = useServicesFilter();
+const orderStore = useOrderStore();
+
+const comparator = computed(() => orderStore.getSelectedComparator);
 
 onBeforeMount(() => {
   servicesStore.fetchData()
  })
 
 const services = computed(() => {
-  return servicesFilter.applyFilter(servicesStore.getServices);
+  const filtered = servicesFilter.applyFilter(servicesStore.getServices);
+  return filtered.sort(comparator.value);
 })
 </script>
 

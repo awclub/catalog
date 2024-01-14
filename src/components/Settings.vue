@@ -2,6 +2,7 @@
 
 import LocaleChanger from "@/components/LocaleSwitcher.vue";
 import DarkModeSwitcher from "@/components/DarkModeSwitcher.vue";
+import ServicesOrderSelector from "@/components/ServicesOrderSelector.vue";
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import DarkModeSwitcher from "@/components/DarkModeSwitcher.vue";
     <div class="settings-content">
       <LocaleChanger />
       <DarkModeSwitcher />
+      <ServicesOrderSelector />
     </div>
   </div>
 </template>
