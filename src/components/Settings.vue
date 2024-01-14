@@ -1,6 +1,7 @@
 <script setup>
 
 import LocaleChanger from "@/components/LocaleSwitcher.vue";
+import DarkModeSwitcher from "@/components/DarkModeSwitcher.vue";
 </script>
 
 <template>
@@ -10,7 +11,7 @@ import LocaleChanger from "@/components/LocaleSwitcher.vue";
     </button>
     <div class="settings-content">
       <LocaleChanger />
-      <button id="theme-toggle">Dark Mode</button>
+      <DarkModeSwitcher />
     </div>
   </div>
 </template>

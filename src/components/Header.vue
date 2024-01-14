@@ -1,10 +1,6 @@
 <script setup>
 import { RouterLink } from 'vue-router'
-import { useDark, useToggle } from "@vueuse/core";
 import Settings from "@/components/Settings.vue";
-
-const isDark = useDark();
-const toggleDark = useToggle(isDark);
 
 defineProps({
   msg: {
@@ -32,8 +28,6 @@ defineProps({
             </div>
           <Settings />
         </div>
-  <span @click="toggleDark()" v-if="!isDark">🌙</span>
-  <span @click="toggleDark()" v-else-if="isDark">☀️</span>
     </header>
 </template>
 
