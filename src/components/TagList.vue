@@ -16,6 +16,10 @@ const tagsStore = useTagsStore();
 </template>
 
 <style scoped>
+.tags {
+  display: inline-block;
+}
+
 .tag {
   display: inline-block;
   background-color: var(--tag-bg-color);

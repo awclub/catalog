@@ -1,33 +1,31 @@
 import { defineStore } from "pinia";
 import { computed, ref } from "vue";
 
-export const useTagsStore = defineStore('tagsStore', () => {
-  const tags = ref(JSON.parse(localStorage.getItem('selectedTags')) || []);
+const LOCAL_STORAGE_TAGS_KEY = 'selectedTags';
 
-  const availableTags = computed(() => tags);
-
-  const selectTag = (tagName) => {
-    let selectedTags = tags.value;
-    if (!selectedTags?.length) {
-      selectedTags = [tagName];
-    } else if (!selectedTags.includes(tagName)) {
-      selectedTags = [...selectedTags, tagName];
+export const useTagsStore = defineStore('tagsStore', {
+  state: () => ({
+    tags: JSON.parse(localStorage.getItem(LOCAL_STORAGE_TAGS_KEY)) || []
+  }),
+  getters: {
+    getSelectedTags(state) {
+      return state.tags;
     }
-    tags.value = selectedTags;
-    localStorage.setItem('selectedTags', JSON.stringify(selectedTags));
-  };
-
-  const unSelectTag = (tagName) => {
-    const filteredItems = tags.value
-      .filter(tag => tag !== tagName);
-    tags.value = filteredItems;
-    localStorage.setItem('selectedTags', JSON.stringify(filteredItems));
-  };
-
-  return {
-    tags,
-    availableTags,
-    selectTag,
-    unSelectTag
+  },
+  actions: {
+    selectTag(tagName) {
+      if (!this.tags.includes(tagName)) {
+        this.tags = [ ...this.tags, tagName ];
+        localStorage.setItem(LOCAL_STORAGE_TAGS_KEY, JSON.stringify(this.tags));
+      }
+    },
+    unSelectTag(tagName) {
+      this.tags = this.tags.filter(tag => tag !== tagName);
+      localStorage.setItem(LOCAL_STORAGE_TAGS_KEY, JSON.stringify(this.tags));
+    },
+    resetTags() {
+      this.tags = [];
+      localStorage.setItem(LOCAL_STORAGE_TAGS_KEY, '[]');
+    }
   }
-})
+});

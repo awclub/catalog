@@ -10,3 +10,15 @@ a:hover {
   text-decoration: underline;
 }
 
+.text-input {
+  font-size: 1em;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  background-color: rgb(241, 235, 244);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.text-input:focus {
+  outline: none;
+}

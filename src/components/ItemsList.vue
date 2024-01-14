@@ -3,24 +3,26 @@ import { computed } from 'vue'
 import ServiceItem from './ServiceItem.vue'
 import { useServicesStore } from '../stores/services';
 import { onBeforeMount } from "vue"
+import { useServicesFilter } from "@/service/servicesFilter.js";
 
 const servicesStore = useServicesStore();
+const servicesFilter = useServicesFilter();
 
 onBeforeMount(() => {
   servicesStore.fetchData()
  })
 
-const getServices = computed(() => {
-  return servicesStore.getServices
+const services = computed(() => {
+  return servicesFilter.applyFilter(servicesStore.getServices);
 })
 </script>
 
 <template>
-  <div v-if="getServices.length" class="services-list">
+  <div v-if="services.length" class="services-list">
     <ServiceItem
-      v-for='gettersService in getServices' 
-      :key='gettersService.id'
-      :serviceItem='gettersService'
+      v-for='service in services'
+      :key='service.id'
+      :serviceItem='service'
     />
   </div>
 </template>
