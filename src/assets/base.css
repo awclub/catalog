@@ -53,6 +53,10 @@
   font-weight: normal;
 }
 
+strong {
+  font-weight: bolder;
+}
+
 body {
   min-height: 100vh;
   color: var(--text-color);

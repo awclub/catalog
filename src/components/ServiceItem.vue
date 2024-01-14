@@ -1,9 +1,15 @@
 import { RouterLink } from 'vue-router'
 
 <script setup>
+import { useTagsStore } from "@/stores/tags.js";
+import TagList from "@/components/TagList.vue";
+import { localDateFilter } from "@/filter/local-date-filter.js";
+
 defineProps({
   serviceItem: Object
 })
+
+const tagsStore = useTagsStore();
 </script>
 
 <template>
@@ -21,10 +27,8 @@ defineProps({
             {{ mention.episodeName }}
             </a>
         </p>
-        <div class="tags">
-            <span v-for='tag in serviceItem.tags' :key='tag' class="tag">{{ tag }}</span>
-        </div>
-        <div class="date">{{ serviceItem.date }}</div> <!-- Добавляем дату -->
+        <TagList :items="serviceItem.tags" :on-tag-click="tagsStore.selectTag"/>
+        <div class="date">{{ localDateFilter(serviceItem.date, $i18n.locale) }}</div> <!-- Добавляем дату -->
     </div>
 </template>
 
@@ -56,18 +60,6 @@ defineProps({
     right: 5px;
     bottom: 5px;
     color: rgb(128, 128, 128)
-}
-
-.tag {
-    display: inline-block;
-    background-color: var(--tag-bg-color);
-    color: var(--tag-text-color);
-    font-size: 1em;
-    border-radius: 3px;
-    padding: 2px 7px;
-    margin: 2px 6px 2px 0;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
 }
 
 p {

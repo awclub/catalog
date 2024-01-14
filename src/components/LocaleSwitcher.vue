@@ -1,18 +1,25 @@
+<script setup>
+import i18n from "@/i18n/index.js";
+
+const switchLang = (lang) => {
+    i18n.global.locale = lang
+}
+
+</script>
+
 <template>
-<div class="locale-changer">
-    <select v-model="$i18n.locale">
-    <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">
-        {{ lang }}
-    </option>
-    </select>
-</div>
+  <button
+      v-if="$i18n.locale === 'ru'"
+      class="lang-switch"
+      v-on:click="() => switchLang('en')"
+  >🌐 English</button>
+  <button
+      v-else-if="$i18n.locale === 'en'"
+      class="lang-switch"
+      v-on:click="() => switchLang('ru')"
+  >🌐 Русский</button>
 </template>
 
-<script>
-export default {
-name: 'locale-changer',
-data () {
-    return { langs: ['ru', 'en'] }
-}
-}
-</script>
+<style scoped>
+
+</style>
