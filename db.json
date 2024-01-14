@@ -1,11 +1,274 @@
 [
     {
+        "id": "c5b9455c-c4e2-4f1b-a257-f68295fdebe0",
+        "name": "Synthesia",
+        "url": "https://www.synthesia.io",
+        "description": {
+            "ru": "Сервис по созданию цифровых аватаров, которые реалистично зачитывают текст. Также сервис занимается переозвучкой, клонированием голоса и предоставляет инструменты для создания маркетинговых видео под ключ.",
+            "en": " A service for creating digital avatars that realistically read text. The service also deals with voice-over & dubbing, voice cloning and provides tools for creating  marketing videos."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=7565s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "video",
+            "speech",
+            "text-to-speech",
+            "voice",
+            "avatar",
+            "cloning"
+        ]
+    },
+    {
+        "id": "5ec5a2a8-b20f-494a-9a61-2c42fec6b77c",
+        "name": "InstructPix2Pix",
+        "url": "https://github.com/timothybrooks/instruct-pix2pix",
+        "description": {
+            "ru": "Открытая диффузионная модель, позволяющая изменять части изображений по промптам.",
+            "en": "Open-source diffusion model that allows you to change parts of images by prompts."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=7045s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "open-source",
+            "graphics",
+            "diffusion",
+            "model",
+            "image-to-image"
+        ]
+    },
+    {
+        "id": "e6b65096-2469-4ae1-b15d-8fd9db4e40dd",
+        "name": "Whisper",
+        "url": "https://github.com/openai/whisper",
+        "description": {
+            "ru": "Открытая модель от OpenAI, которая позволяет распознавать речь (ASR), переводить речь и идентифицировать язык говорящего.",
+            "en": "OpenAI's open-source model that enables automatic speech recognition (ASR), speech translation, and language identification."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=6650s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "speech recognition",
+            "open-source",
+            "openai",
+            "speech-to-text",
+            "model"
+        ]
+    },
+    {
+        "id": "d01459fd-37a0-4097-88bf-6cf86fd12f15",
+        "name": "Uberduck",
+        "url": "https://www.uberduck.ai",
+        "description": {
+            "ru": "Сервис, который первым научился генерировать музыку с вакалов, в том числе рэп. Именно через него Давид Гуетта сделал свой нашумевший ремикс с голосом Эминема.",
+            "en": "A service that was the first to learn how to generate music with vocals, including rap. It was through him that David Guetta made his famous remix with Eminem's voice."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=6650s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "voice",
+            "text-to-speech",
+            "music"
+        ]
+    },
+    {
+        "id": "e4da281c-32eb-48b4-ab40-f6758aed265c",
+        "name": "Aloud",
+        "url": "https://aloud.area120.google.com/",
+        "description": {
+            "ru": "Официальный партнер YouTube, который делает дублирование youtube-видео на разные языки. Именно через этот сервис происходит дубляж Мистера Биста. Попробовать сервис можно только став избранным авторов YouTube.",
+            "en": "Official YouTube partner that makes dubbing of youtube videos into different languages. It is through this service that the dubbing of Mister Beast takes place. You can try the service only by becoming a selected YouTube author."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=6240s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "youtube",
+            "translation",
+            "speech",
+            "text-to-speech"
+        ]
+    },
+    {
+        "id": "d75a526d-53da-4aa2-ad8a-5670d7fc1cea",
+        "name": "Eightify",
+        "url": "https://eightify.app/",
+        "description": {
+            "en": "An AI browser plugin for YouTube which finds the key points in videos and summarize it as a text.",
+            "ru": "Браузерный плагин для YouTube, который находит ключевые моменты в темах в видео и резюмирует их в виде текста."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=6240s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "youtube",
+            "summarisation"
+        ]
+    },
+    {
+        "id": "da79d672-e794-4439-b439-1b24373039c8",
+        "name": "Generative Recolor",
+        "url": "https://www.adobe.com/products/illustrator/generative-recolor.html",
+        "description": {
+            "en": "An AI-powered instrument in Adobe Illustrator that enables users to recolor artwork using simple text prompts to achieve color variations in seconds. Powered by Adobe Firefly AI.",
+            "ru": "Инструмент в Adobe Illustrator, который позволяет пользователям изменять цвета изображения с помощью простых текстовых промптов, чтобы получить вариации цветов за считанные секунды. Работает на базе Adobe Firefly AI."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "adobe",
+            "graphics"
+        ]
+    },
+    {
+        "id": "dbada191-c421-4bf6-976d-aaa13c8b1d4c",
+        "name": "Generative Fill",
+        "url": "https://www.adobe.com/products/photoshop/generative-fill.html",
+        "description": {
+            "en": "An instrument in Adobe Photoshop that allows users to add, remove, or expand content in images using simple text prompts. Powered by Adobe Firefly AI.",
+            "ru": "Инструмент в Adobe Photoshop, который позволяет добавлять, удалять или расширять изображения с помощью простых текстовых промптов. Работает на базе Adobe Firefly AI."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "adobe",
+            "graphics"
+        ]
+    },
+    {
+        "id": "d0fa7484-2a5f-4f1e-ba14-879eee944320",
+        "name": "Repurpose",
+        "url": "https://repurpose.io",
+        "description": {
+            "en": "A content repurposing tool that allows users to automatically repurpose their content for social media platforms such as YouTube, TikTok, Lives, Podcasts. You do it for one platform, but you get content for many.",
+            "ru": "Инструмент для переработки контента, который позволяет пользователям автоматически перерабатывать свой контент для социальных платформ, таких как YouTube, TikTok, Lives, Podcasts. Делаешь для одной платформы, а получаешь контент для многих."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=6240s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "video",
+            "youtube",
+            "content"
+        ]
+    },
+    {
+        "id": "172098cb-d101-4015-889e-c9860518bf5b",
+        "name": "NVIDIA Maxine SDK",
+        "url": "https://developer.nvidia.com/maxine-early-access",
+        "description": {
+            "en": "A GPU-accelerated SDK that provides developers with AI features to build video conferencing, content creation, and streaming applications. It offers a suite of GPU-accelerated SDKs and cloud-native microservices for deploying AI features that enhance audio, video, and augmented reality effects in real time. Includes three main components: Video Effects, Audio Effects, and Augmented Reality (Live Portrait, Eye Contact, Face Detection etc.).",
+            "ru": "GPU-accelerated SDK, предоставляющий разработчикам возможности ИИ для создания приложений для видеоконференций, создания контента и потоковой передачи данных. Он предлагает набор SDK с GPU-ускорением и облачных нативных микросервисов для развертывания функций ИИ, улучшающих аудио-, видео- и эффекты дополненной реальности в режиме реального времени. Включает три основных компонента: Video Effects, Audio Effects, и Augmented Reality (Live Portrait, Eye Contact, Face Detection и т.д.)."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=5840s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "framework",
+            "video",
+            "audio",
+            "agumented reality",
+            "nvidia",
+            "eye contact",
+            "realtime"
+        ]
+    },
+    {
+        "id": "2313edef-3423-464a-852f-5019c625add1",
+        "name": "ElevenLabs",
+        "url": "https://elevenlabs.io/",
+        "description": {
+            "en": "A platform for generating long format speech that uses AI to create natural and compelling voices. Leader in its field, it is on the basis of this service that the voicing in HeyGen works.",
+            "ru": "Платформа для генерации речи длинного формата, которая использует ИИ для создания естественных и убедительных голосов. Лидер в своей области, именно на базе этого сервиса работает озвучивание в HeyGen."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=PwEbN93GU5U&t=6700s",
+                "episodeName": "AIA Podcast #19"
+            }
+        ],
+        "date": "2023-10-20",
+        "tags": [
+            "text-to-speech",
+            "audio",
+            "speech",
+            "podcasts"
+        ]
+    },
+    {
+        "id": "d98f703a-b344-409e-84f1-cff0c586a989",
+        "name": "Adobe Enhanced Speech",
+        "url": "https://podcast.adobe.com/enhance",
+        "description": {
+            "en": "An online AI software tool by Adobe that aims to improve the quality of recorded speech that may be badly muffled, reverberated, full of artifacts, tinny, etc. and convert it to a studio-grade, professional level.",
+            "ru": "Онлайн ИИ-инструмент от компании Adobe, предназначенный для улучшения качества записанной речи, которая может быть сильно приглушена, реверберирована, полна артефактов и т.д., и преобразования ее до студийного профессионального уровня."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=5480s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "adobe",
+            "audio",
+            "voice",
+            "enhancement"
+        ]
+    },
+    {
         "id": "8080b118-80a2-48fa-932b-ec01bf65b730",
         "name": "BlueWillow",
         "url": "https://www.bluewillow.ai",
         "description": {
-            "en": "Бесплатный генератор AI-изображений. Имеет большой дискорд сервер, выкуплен компанией LimeWire.",
-            "ru": "Free AI image generator. Has a large discord server, bought out by LimeWire."
+            "en": "Free AI image generator. Has a large discord server, bought out by LimeWire.",
+            "ru": "Бесплатный генератор AI-изображений. Имеет большой дискорд сервер, выкуплен компанией LimeWire."
         },
         "mentions": [
             {
@@ -526,7 +789,7 @@
         ],
         "date": "2024-01-12",
         "tags": [
-            "podcast",
+            "podcasts",
             "speech",
             "commedy"
         ]
@@ -1712,7 +1975,9 @@
         "date": "2023-06-18",
         "tags": [
             "model",
-            "graphics"
+            "graphics",
+            "open-source",
+            "diffusion"
         ]
     },
     {
@@ -2474,7 +2739,8 @@
         "tags": [
             "llm",
             "openai",
-            "model"
+            "model",
+            "speech"
         ]
     },
     {
@@ -2494,10 +2760,13 @@
         "date": "2023-09-23",
         "tags": [
             "video",
+            "voice",
             "speech",
+            "text-to-speech",
             "lipsync",
             "dubbing",
-            "cloning"
+            "cloning",
+            "avatar"
         ]
     },
     {
@@ -3019,7 +3288,7 @@
         ],
         "date": "2023-12-01",
         "tags": [
-            "podcast"
+            "podcasts"
         ]
     },
     {
