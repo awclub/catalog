@@ -18,6 +18,7 @@ const tagsStore = useTagsStore();
 <style scoped>
 .tags {
   display: inline-block;
+  margin-bottom: 10px;
 }
 
 .tag {

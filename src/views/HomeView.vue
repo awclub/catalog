@@ -14,5 +14,7 @@ import FilterComponent from "@/components/FilterComponent.vue";
 main {
   max-width: 1200px;
   margin: 0 auto;
+  width: 100%;
+  flex: 1 0 auto;
 }
 </style>

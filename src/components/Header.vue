@@ -38,6 +38,7 @@ header {
     max-width: 1200px;
     margin: 10px auto 0px auto;
     transition: background-color 0.3s;
+    width: 100%;
 }
 
 .container {

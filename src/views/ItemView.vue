@@ -12,5 +12,7 @@ import ItemFull from '../components/ItemFull.vue'
 .main-item {
   max-width: 1200px;
   margin: 0 auto;
+  flex: 1 0 auto;
+  width: 100%;
 }
 </style>

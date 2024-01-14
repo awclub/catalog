@@ -15,6 +15,8 @@ footer {
     text-align: center;
     max-width: 1200px;
     margin: 35px auto 10px;
+    flex: 0 0 auto;
+    width: 100%;
 }
 
 footer div {
