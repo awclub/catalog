@@ -97,7 +97,7 @@ header {
     color: var(--aw-club-color);
     text-decoration: none;
     transition: color 0.3s;
-    margin-left: 3px;
+    margin-left: 7px;
     font-size: 0.5em;
     font-style: italic;
     font-weight: bold;
