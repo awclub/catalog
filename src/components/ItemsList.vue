@@ -1,8 +1,7 @@
 <script setup>
-import { computed } from 'vue'
+import { computed, onBeforeMount } from 'vue'
 import ServiceItem from './ServiceItem.vue'
 import { useServicesStore } from '../stores/services';
-import { onBeforeMount } from "vue"
 import { useServicesFilter } from "@/service/servicesFilter.js";
 import { useOrderStore } from "@/service/orderStore.js";
 

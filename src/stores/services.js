@@ -33,8 +33,7 @@ export const useServicesStore = defineStore('servicesStore', {
         const response = api
         const { data } = response
 
-        const currentService = data.find(i => currentId === i.id)
-        console.log(currentService)
+        const currentService = data.find(i => i.id.includes(currentId))
         this.currentService = currentService
       },
     async fetchAllTags() {

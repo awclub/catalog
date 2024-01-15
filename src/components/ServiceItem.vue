@@ -1,5 +1,6 @@
 <script setup>
-import { RouterLink } from 'vue-router'
+import { computed } from 'vue';
+import { RouterLink } from 'vue-router';
 import { useTagsStore } from "@/stores/tags.js";
 import TagList from "@/components/TagList.vue";
 import { localDateFilter } from "@/filter/local-date-filter.js";
@@ -10,12 +11,16 @@ defineProps({
 })
 
 const tagsStore = useTagsStore();
+
+const formattedUrl = function(url) {
+  return url.split("-").shift();
+}
 </script>
 
 <template>
     <div class="service-item">
-        <Sharing :url="`/catalog/${serviceItem.id}`" class="sharing-positioning" />
-        <RouterLink :to="`catalog/${serviceItem.id}`"><h3>{{ serviceItem.name }}</h3></RouterLink>
+        <Sharing :url="`/catalog/${formattedUrl(serviceItem.id)}`" class="sharing-positioning" />
+        <RouterLink :to="`catalog/${formattedUrl(serviceItem.id)}`"><h3>{{ serviceItem.name }}</h3></RouterLink>
         <p>{{ serviceItem.description[$i18n.locale] }}</p>
         <p>
             {{ $t('mentionedIn') }}:
