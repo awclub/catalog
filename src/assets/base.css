@@ -20,6 +20,16 @@
   --reset-btn-bg-color: rgba(102, 50, 136, 0.7);
   --reset-btn-bg-color-hover: rgba(102, 50, 136, 0.9);
   --reset-btn-text-color: #f3e7e7;
+  --copy-to-clipboard-btn-color: #a7a7a7;
+  --copy-to-clipboard-btn-color-hover: #404040;
+  --popper-theme-background-color: #333333;
+  --popper-theme-background-color-hover: #333333;
+  --popper-theme-text-color: #ffffff;
+  --popper-theme-border-width: 0px;
+  --popper-theme-border-style: solid;
+  --popper-theme-border-radius: 6px;
+  --popper-theme-padding: 35px;
+  --popper-theme-box-shadow: 0 6px 30px -6px rgba(0, 0, 0, 0.25);
   }
 
   :root.dark {
@@ -43,6 +53,8 @@
     --reset-btn-bg-color: rgba(158, 98, 208, 0.7);
     --reset-btn-bg-color-hover: rgba(158, 98, 208, 0.9);
     --reset-btn-text-color: #d2d2d2;
+    --copy-to-clipboard-btn-color: #6b6a6a;
+    --copy-to-clipboard-btn-color-hover: #d2d2d2;
   }
 
 *,

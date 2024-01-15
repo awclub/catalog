@@ -14,7 +14,8 @@ const i18n = createI18n({
         githubCodeLinkText: "Code on GitHub",
         podcastChatLinkText: "Podcast chat",
         podcastLinkText: "AIA Podcast",
-        searchTagsPlaceholder: "Search by tags..."
+        searchTagsPlaceholder: "Search by tags...",
+        shareResult: "Copied to clipboard"
     },
     ru: {
         title: "Каталог ИИ-сервисов от AIA Podcast",
@@ -24,7 +25,8 @@ const i18n = createI18n({
         githubCodeLinkText: "Код на GitHub",
         podcastChatLinkText: "Чат подкаста",
         podcastLinkText: "AIA Podcast",
-        searchTagsPlaceholder: "Поиск по тегам..."
+        searchTagsPlaceholder: "Поиск по тегам...",
+        shareResult: "Ссылка скопирована"
     },
   },
 })

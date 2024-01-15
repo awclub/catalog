@@ -1,9 +1,9 @@
-import { RouterLink } from 'vue-router'
-
 <script setup>
+import { RouterLink } from 'vue-router'
 import { useTagsStore } from "@/stores/tags.js";
 import TagList from "@/components/TagList.vue";
 import { localDateFilter } from "@/filter/local-date-filter.js";
+import Sharing from "@/components/Sharing.vue";
 
 defineProps({
   serviceItem: Object
@@ -14,6 +14,7 @@ const tagsStore = useTagsStore();
 
 <template>
     <div class="service-item">
+        <Sharing :url="`/catalog/${serviceItem.id}`" class="sharing-positioning" />
         <RouterLink :to="`catalog/${serviceItem.id}`"><h3>{{ serviceItem.name }}</h3></RouterLink>
         <p>{{ serviceItem.description[$i18n.locale] }}</p>
         <p>
@@ -68,6 +69,12 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+.sharing-positioning {
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
 </style>
 
