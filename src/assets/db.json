@@ -1,5 +1,2436 @@
 [
     {
+        "id": "58ed34a2-c5e6-454c-a3a5-0b3846b10350",
+        "name": "Durable",
+        "url": "https://durable.co",
+        "description": {
+            "ru": "Сервис, позволяющий через текстовые промпты генерировать целые вебсайты. Новый подход к созданию сайтов, конкурент классических контрукторов сайтов типа Wix и т.п.",
+            "en": "A service that allows you to generate entire websites through text prompts. A new approach to creating websites, a competitor to classic website builders like Wix, etc."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=CS6-KdkVTtw&t=4860s",
+                "episodeName": "AIA Podcast #2"
+            }
+        ],
+        "date": "2023-02-24",
+        "tags": [
+            "website builder",
+            "productivity"
+        ]
+    },
+    {
+        "id": "349dfe39-cfbf-41b8-99d9-27bd77751b2d",
+        "name": "Riffusion",
+        "url": "https://www.riffusion.com/",
+        "description": {
+            "ru": "Сервис, который позволяет пользователям создавать музыку на основе текстовых промптов. Проект задумывался как эксперимент, музыка в нем генерируется через генерацию изображений с волновым представлением музыки через Stable Diffusion. Генерирует как музыку, так и тексты. В отлии от Suno AI, не имеет платной подписки, не позволяет генерировать музыку по строго заданному тексту, имеет не такое качественное звучание, но позволяет скачивать голос и музыку по отдельности.",
+            "en": "A service that allows users to create music based on text prompts. The project was conceived as an experiment, the music in it is generated through the generation of images with a wave representation of music through Stable Diffusion. Generates both music and lyrics. Unlike Suno AI, it does not have a paid subscription, does not allow you to generate music according to a strictly defined text, has not such a high-quality sound, but allows you to download the voice and music separately."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=CS6-KdkVTtw&t=4385s",
+                "episodeName": "AIA Podcast #2"
+            }
+        ],
+        "date": "2023-02-24",
+        "tags": [
+            "music",
+            "speech",
+            "voice"
+        ]
+    },
+    {
+        "id": "c5b9455c-c4e2-4f1b-a257-f68295fdebe0",
+        "name": "Synthesia",
+        "url": "https://www.synthesia.io",
+        "description": {
+            "ru": "Сервис по созданию цифровых аватаров, которые реалистично зачитывают текст. Также сервис занимается переозвучкой, клонированием голоса и предоставляет инструменты для создания маркетинговых видео под ключ.",
+            "en": "A service for creating digital avatars that realistically read text. The service also deals with voice-over & dubbing, voice cloning and provides tools for creating  marketing videos."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=7565s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "video",
+            "speech",
+            "text-to-speech",
+            "voice",
+            "avatar",
+            "cloning"
+        ]
+    },
+    {
+        "id": "5ec5a2a8-b20f-494a-9a61-2c42fec6b77c",
+        "name": "InstructPix2Pix",
+        "url": "https://github.com/timothybrooks/instruct-pix2pix",
+        "description": {
+            "ru": "Открытая диффузионная модель, позволяющая изменять части изображений по промптам.",
+            "en": "Open-source diffusion model that allows you to change parts of images by prompts."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=7045s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "open-source",
+            "graphics",
+            "diffusion",
+            "model",
+            "image-to-image"
+        ]
+    },
+    {
+        "id": "e6b65096-2469-4ae1-b15d-8fd9db4e40dd",
+        "name": "Whisper",
+        "url": "https://github.com/openai/whisper",
+        "description": {
+            "ru": "Открытая модель от OpenAI, которая позволяет распознавать речь (ASR), переводить речь и идентифицировать язык говорящего.",
+            "en": "OpenAI's open-source model that enables automatic speech recognition (ASR), speech translation, and language identification."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=6650s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "speech recognition",
+            "open-source",
+            "openai",
+            "speech-to-text",
+            "model"
+        ]
+    },
+    {
+        "id": "d01459fd-37a0-4097-88bf-6cf86fd12f15",
+        "name": "Uberduck",
+        "url": "https://www.uberduck.ai",
+        "description": {
+            "ru": "Сервис, который первым научился генерировать музыку с вакалов, в том числе рэп. Именно через него Давид Гуетта сделал свой нашумевший ремикс с голосом Эминема.",
+            "en": "A service that was the first to learn how to generate music with vocals, including rap. It was through him that David Guetta made his famous remix with Eminem's voice."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=6650s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "voice",
+            "text-to-speech",
+            "music"
+        ]
+    },
+    {
+        "id": "e4da281c-32eb-48b4-ab40-f6758aed265c",
+        "name": "Aloud",
+        "url": "https://aloud.area120.google.com/",
+        "description": {
+            "ru": "Официальный партнер YouTube, который делает дублирование youtube-видео на разные языки. Именно через этот сервис происходит дубляж Мистера Биста. Попробовать сервис можно только став избранным авторов YouTube.",
+            "en": "Official YouTube partner that makes dubbing of youtube videos into different languages. It is through this service that the dubbing of Mister Beast takes place. You can try the service only by becoming a selected YouTube author."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=6240s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "youtube",
+            "translation",
+            "speech",
+            "text-to-speech"
+        ]
+    },
+    {
+        "id": "d75a526d-53da-4aa2-ad8a-5670d7fc1cea",
+        "name": "Eightify",
+        "url": "https://eightify.app/",
+        "description": {
+            "en": "An AI browser plugin for YouTube which finds the key points in videos and summarize it as a text.",
+            "ru": "Браузерный плагин для YouTube, который находит ключевые моменты в темах в видео и резюмирует их в виде текста."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=6240s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "youtube",
+            "summarisation"
+        ]
+    },
+    {
+        "id": "da79d672-e794-4439-b439-1b24373039c8",
+        "name": "Generative Recolor",
+        "url": "https://www.adobe.com/products/illustrator/generative-recolor.html",
+        "description": {
+            "en": "An AI-powered instrument in Adobe Illustrator that enables users to recolor artwork using simple text prompts to achieve color variations in seconds. Powered by Adobe Firefly AI.",
+            "ru": "Инструмент в Adobe Illustrator, который позволяет пользователям изменять цвета изображения с помощью простых текстовых промптов, чтобы получить вариации цветов за считанные секунды. Работает на базе Adobe Firefly AI."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "adobe",
+            "graphics"
+        ]
+    },
+    {
+        "id": "dbada191-c421-4bf6-976d-aaa13c8b1d4c",
+        "name": "Generative Fill",
+        "url": "https://www.adobe.com/products/photoshop/generative-fill.html",
+        "description": {
+            "en": "An instrument in Adobe Photoshop that allows users to add, remove, or expand content in images using simple text prompts. Powered by Adobe Firefly AI.",
+            "ru": "Инструмент в Adobe Photoshop, который позволяет добавлять, удалять или расширять изображения с помощью простых текстовых промптов. Работает на базе Adobe Firefly AI."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "adobe",
+            "graphics"
+        ]
+    },
+    {
+        "id": "d0fa7484-2a5f-4f1e-ba14-879eee944320",
+        "name": "Repurpose",
+        "url": "https://repurpose.io",
+        "description": {
+            "en": "A content repurposing tool that allows users to automatically repurpose their content for social media platforms such as YouTube, TikTok, Lives, Podcasts. You do it for one platform, but you get content for many.",
+            "ru": "Инструмент для переработки контента, который позволяет пользователям автоматически перерабатывать свой контент для социальных платформ, таких как YouTube, TikTok, Lives, Podcasts. Делаешь для одной платформы, а получаешь контент для многих."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=6240s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "video",
+            "youtube",
+            "content"
+        ]
+    },
+    {
+        "id": "172098cb-d101-4015-889e-c9860518bf5b",
+        "name": "NVIDIA Maxine SDK",
+        "url": "https://developer.nvidia.com/maxine-early-access",
+        "description": {
+            "en": "A GPU-accelerated SDK that provides developers with AI features to build video conferencing, content creation, and streaming applications. It offers a suite of GPU-accelerated SDKs and cloud-native microservices for deploying AI features that enhance audio, video, and augmented reality effects in real time. Includes three main components: Video Effects, Audio Effects, and Augmented Reality (Live Portrait, Eye Contact, Face Detection etc.).",
+            "ru": "GPU-accelerated SDK, предоставляющий разработчикам возможности ИИ для создания приложений для видеоконференций, создания контента и потоковой передачи данных. Он предлагает набор SDK с GPU-ускорением и облачных нативных микросервисов для развертывания функций ИИ, улучшающих аудио-, видео- и эффекты дополненной реальности в режиме реального времени. Включает три основных компонента: Video Effects, Audio Effects, и Augmented Reality (Live Portrait, Eye Contact, Face Detection и т.д.)."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=5840s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "framework",
+            "video",
+            "audio",
+            "agumented reality",
+            "nvidia",
+            "eye contact",
+            "realtime"
+        ]
+    },
+    {
+        "id": "2313edef-3423-464a-852f-5019c625add1",
+        "name": "ElevenLabs",
+        "url": "https://elevenlabs.io/",
+        "description": {
+            "en": "A platform for generating long format speech that uses AI to create natural and compelling voices. Leader in its field, it is on the basis of this service that the voicing in HeyGen works.",
+            "ru": "Платформа для генерации речи длинного формата, которая использует ИИ для создания естественных и убедительных голосов. Лидер в своей области, именно на базе этого сервиса работает озвучивание в HeyGen."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=PwEbN93GU5U&t=6700s",
+                "episodeName": "AIA Podcast #19"
+            }
+        ],
+        "date": "2023-10-20",
+        "tags": [
+            "text-to-speech",
+            "audio",
+            "speech",
+            "podcasts"
+        ]
+    },
+    {
+        "id": "d98f703a-b344-409e-84f1-cff0c586a989",
+        "name": "Adobe Enhanced Speech",
+        "url": "https://podcast.adobe.com/enhance",
+        "description": {
+            "en": "An online AI software tool by Adobe that aims to improve the quality of recorded speech that may be badly muffled, reverberated, full of artifacts, tinny, etc. and convert it to a studio-grade, professional level.",
+            "ru": "Онлайн ИИ-инструмент от компании Adobe, предназначенный для улучшения качества записанной речи, которая может быть сильно приглушена, реверберирована, полна артефактов и т.д., и преобразования ее до студийного профессионального уровня."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=5480s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "adobe",
+            "audio",
+            "voice",
+            "enhancement"
+        ]
+    },
+    {
+        "id": "8080b118-80a2-48fa-932b-ec01bf65b730",
+        "name": "BlueWillow",
+        "url": "https://www.bluewillow.ai",
+        "description": {
+            "en": "Free AI image generator. Has a large discord server, bought out by LimeWire.",
+            "ru": "Бесплатный генератор AI-изображений. Имеет большой дискорд сервер, выкуплен компанией LimeWire."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=4188s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "graphics"
+        ]
+    },
+    {
+        "id": "374dc2ca-b309-4191-bc0a-835e88262422",
+        "name": "Stable Diffusion 2",
+        "url": "https://github.com/Stability-AI/stablediffusion",
+        "description": {
+            "en": "Open-source diffusion model that can be used to generate images. Can be launched on a laptop or computer with a good video card.",
+            "ru": "Открытая диффузионная модель, хорошо рисующая графику. Может быть запущена на ноутбуке или компьютере с хорошей видеокартой."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=4188s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "diffusion",
+            "stabilityai",
+            "model",
+            "graphics",
+            "open-source"
+        ]
+    },
+    {
+        "id": "00d8090b-82a8-47f4-b14a-d2fd71f65a30",
+        "name": "Lensa",
+        "url": "https://prisma-ai.com/lensa",
+        "description": {
+            "en": "An all-in-one AI based photo editing app.",
+            "ru": "Универсальное приложение для редактирования фотографий на основе искусственного интеллекта."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=4188s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "graphics",
+            "photo"
+        ]
+    },
+    {
+        "id": "36ae531c-59cf-43f9-8be9-cac59c2798b2",
+        "name": "Bard",
+        "url": "https://bard.google.com/chat",
+        "description": {
+            "en": "A conversational AI tool developed by Google that combines the breadth of the world's knowledge with the power, intelligence, and creativity of large language models. It is a multimodal online chat. The main competitor of ChatGPT.",
+            "ru": "ИИ-инструмент, разработанный Google, который объединяет в себе объем знаний мира с силой, интеллектом и креативностью LLM. Представляет из себя мультимодальный онлайн-чат. Главный конкурент ChatGPT."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=2915s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "productivity",
+            "chat",
+            "llm",
+            "diffusion",
+            "foundational",
+            "multimodal",
+            "google"
+        ]
+    },
+    {
+        "id": "7a992286-bdf3-45ad-9b51-fb5442ee161a",
+        "name": "OpenAI API",
+        "url": "https://platform.openai.com/",
+        "description": {
+            "en": "A platform from OpenAI that gives API access to their models: GPT-3.5 turbo, GPT-4, GPT-4 turbo, GPT-4V, DALL-E 3, etc. It is on the basis of these APIs that most of the existing AI products are built.",
+            "ru": "Платформа от OpenAI, дающая доступ через API к их моделям: GPT-3.5 turbo, GPT-4, GPT-4 turbo, GPT-4V, DALL-E 3 и т.д. Именно на базе этих API построено большинство существующих ИИ-продуктов."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "productivity",
+            "programming",
+            "api",
+            "llm",
+            "diffusion",
+            "foundational",
+            "openai"
+        ]
+    },
+    {
+        "id": "6223b52d-be3a-40c9-9497-c3804a300a5f",
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com",
+        "description": {
+            "en": "A service developed by OpenAI that gives a wide range of users access to the company's latest models: GPT-3.5 turbo, GPT-4, GPT-4 turbo, GPT-4V, DALL-E 3 etc. in a convenient online chat format. The fastest growing digital product in the world. Leader in the world of generative AI. The chat itself is a multimodal AI tool that can search for information, recognize images, generate text and images.",
+            "ru": "Сервис, разработанный компанией OpenAI, и дающий  широкому кругу пользователей доступ в удобном виде онлайн-чата к последним моделям компании: GPT-3.5 turbo, GPT-4, GPT-4 turbo, GPT-4V, DALL-E 3 и т.д. Самый быстрорастущий цифровой продукт в мире. Лидер в мире генеративного ИИ. Сам чат представляет из себя мультимодальный ИИ-инструмент, который может заниматься поиском информации, распознаванием изображений, генерацией текста и изображений."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "productivity",
+            "assistant",
+            "llm",
+            "diffusion",
+            "foundational",
+            "openai",
+            "chat",
+            "multimodal"
+        ]
+    },
+    {
+        "id": "6890e060-4ce6-4cad-ab16-7a41dc59eccd",
+        "name": "Github Copilot",
+        "url": "https://github.com/features/copilot",
+        "description": {
+            "en": "The world’s most widely adopted AI developer tool and programming assistant. Tool developed by GitHub and OpenAI that provides code suggestions and completions to developers in real-time.",
+            "ru": "Самый популярный в мире ИИ-инструмент для разработчиков и помощник по программированию. Инструмент, разработанный GitHub и OpenAI, который предоставляет разработчикам code suggestions и продолжение кода в реальном времени."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=1365s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "productivity",
+            "programming",
+            "assistant"
+        ]
+    },
+    {
+        "id": "4bcfbccd-0093-43e6-b63c-283affcf4b87",
+        "name": "Grammarly",
+        "url": "https://www.grammarly.com",
+        "description": {
+            "en": "An AI-powered writing assistant that offers grammar checking, spell checking, and plagiarism detection. It provides comprehensive feedback on spelling, grammar, punctuation, clarity, and writing style. Grammarly is available as a standalone application for desktop use, a browser extension, and a smartphone keyboard. It also offers generative AI capabilities for contextually relevant writing.",
+            "ru": "ИИ-помощник, который предлагает проверку грамматики, правописания и выявление плагиата. Он предоставляет исчерпывающую обратную связь по орфографии, грамматике, пунктуации, четкости и стилю письма. Grammarly доступен в виде отдельного приложения для компьютеров, расширения для браузера и клавиатуры для смартфона. Кроме того, в нем реализовано создание контекстно-значимых текстов с помощью GenAI."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=955s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "language",
+            "translation",
+            "assistant",
+            "productivity"
+        ]
+    },
+    {
+        "id": "8e7598dc-74ac-4cc1-90f2-6873ce5f1355",
+        "name": "DeepL",
+        "url": "https://www.deepl.com/translator",
+        "description": {
+            "en": "The best AI based translation service that offers fast, accurate, and high-quality translations for text in over 25 languages. Strong competitor to Google Translate. DeepL Text allows you to improve your texts, in fact being a competitor to Grammarly.",
+            "ru": "Лучший сервис машинного перевода, который предлагает быстрый, точный и качественный перевод текста на более чем 25 языков. Сильный конкурент Google Translate. DeepL Text позволяет улучшать ваши тексты, по факту являясь конкурентом Grammarly."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=CS6-KdkVTtw&t=5090s",
+                "episodeName": "AIA Podcast #2"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=955s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "language",
+            "translation"
+        ]
+    },
+    {
+        "id": "4be894aa-443e-4052-9185-26275dc52af8",
+        "name": "AI Dungeon",
+        "url": "https://aidungeon.com",
+        "description": {
+            "en": "A text-based, AI-generated fantasy simulation game with infinite possibilities. It uses artificial intelligence to generate random storylines in response to player-submitted stimuli. Has a convenient mobile app.",
+            "ru": "Текстовая фэнтезийная ИИ-генерационная игра с бесконечными возможностями. Использует ИИ для генерации случайных сюжетов в ответ на стимулы, предоставленные игроком. Имеется удобное мобильное приложение."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=465s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "game",
+            "chat"
+        ]
+    },
+    {
+        "id": "186f0e5a-aa15-4e41-aa77-4c8efca766b3",
+        "name": "Replica",
+        "url": "https://replika.com/",
+        "description": {
+            "en": "A personalized conversational AI chatbot app created by Luka, Inc. Replika has been used as a way to talk through emotional problems when other human beings aren’t available. It can mimic a person’s behavior and way of communication.",
+            "ru": "Персонализированный чат-бот, созданный Luka, Inc. Replika используется как способ обсудить эмоциональные проблемы, когда другие люди недоступны. Может копировать поведение и манеру общения человека."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=465s",
+                "episodeName": "AIA Podcast #3"
+            }
+        ],
+        "date": "2023-03-10",
+        "tags": [
+            "psychology",
+            "cloning",
+            "chat"
+        ]
+    },
+    {
+        "id": "354cac6f-9087-4a35-9e89-0a5366b9ed79",
+        "name": "Wonder Studio",
+        "url": "https://wonderdynamics.com",
+        "description": {
+            "en": "AI-powered CG animation online tool that automates VFX work and leaves the artist with the remaining subjective work.",
+            "ru": "Онлайн-инструмент для CG-анимации на основе искусственного интеллекта, который автоматизирует работу VFX и разгружает художников."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=7750s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "video",
+            "video-to-3d",
+            "3d",
+            "movies", 
+            "graphics"
+        ]
+    },
+    {
+        "id": "571d587f-3a36-496f-9162-a6bb5c272efd",
+        "name": "LanguageTool",
+        "url": "https://languagetool.org",
+        "description": {
+            "en": "AI based multilingual spelling, style, and grammar checker that helps correct or paraphrase texts. Grammarly analog but supporting Russian language.",
+            "ru": "Многоязычный ИИ-инструмент, проверяющий правописание, стиль и грамматику, который помогает исправлять или перефразировать тексты. Аналог Grammarly, но поддерживающий русский язык."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=7275s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "language",
+            "translation",
+            "assistant",
+            "productivity"
+        ]
+    },
+    {
+        "id": "cd11c278-afaf-443a-90ba-814fbd17a60d",
+        "name": "Waymark Logo",
+        "url": "https://waymark.com/",
+        "description": {
+            "en": "AI generated video for business. A handy tool for advertisers.",
+            "ru": "AI-generated видео для бизнеса. Удобный инструмент для рекламщиков."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=7275s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "video",
+            "advertisement"
+        ]
+    },
+    {
+        "id": "f2824a1c-6897-4c01-ae97-49a37aa47dfd",
+        "name": "Stanford Alpaca",
+        "url": "https://github.com/tatsu-lab/stanford_alpaca",
+        "description": {
+            "en": "One of the first opensource LLMs. Built on top of LLaMA. Has a 7B version.",
+            "ru": "Одна из первых LLM с открытым исходным кодом. Построена на базе LLaMA. Имеет версию 7B."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=4680s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "llm",
+            "model",
+            "open-source"
+        ]
+    },
+    {
+        "id": "2841791b-3907-4642-a88c-07d784ec7814",
+        "name": "OpenChatKit",
+        "url": "https://github.com/togethercomputer/OpenChatKit",
+        "description": {
+            "en": "Powerful, open-source base to create both specialized and general purpose models for various applications. The kit includes an instruction-tuned language models, a moderation model, and an extensible retrieval system for including up-to-date responses from custom repositories",
+            "ru": "База с открытым исходным кодом для создания специализированных и универсальных моделей для различных приложений. В комплект входят instruction-tuned языковые модели, moderation-модель и расширяемая retrieval-система для включения актуальных ответов из пользовательских репозиториев."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=4680s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "llm",
+            "open-source",
+            "framework"
+        ]
+    },
+    {
+        "id": "66c29684-db2a-49b4-b298-b98ecadb706f",
+        "name": "Microsoft Designer",
+        "url": "https://designer.microsoft.com/",
+        "description": {
+            "en": "Microsoft's online service for generating images, graphics and working with them.",
+            "ru": "Онлайн сервис от Microsoft по генерации изображений, графики и работы с ней"
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=5911s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "graphics",
+            "copilot"
+        ]
+    },
+    {
+        "id": "45f56e72-195c-47e7-a3fa-0366d0fa518d",
+        "name": "Microsoft 365 Copilot",
+        "url": "https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/",
+        "description": {
+            "en": "A set of AI tools integrated by Microsoft into their Microsoft 365 enterprise products.",
+            "ru": "Набор ИИ-инструментов, встраиваемых компанией Microsoft в их корпоративные продукты пакета Microsoft 365."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=5911s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "microsoft",
+            "copilot"
+        ]
+    },
+    {
+        "id": "b7dd8db9-532c-4093-9cdf-4b873d72d1dc",
+        "name": "What does this code do?",
+        "url": "https://whatdoesthiscodedo.com/",
+        "description": {
+            "en": "Online tool that uses AI under the hood to explain any piece of code you don't understand. Paste the code, press \"Explain Code\" and AI will output a paragraph explaining what the code is doing.",
+            "ru": "Онлайн-инструмент, использующий ИИ под капотом, который объяснит любой непонятный вам кусок кода. Вставьте код, нажмите \"Explain Code\", и искусственный интеллект выведет абзац, объясняющий, что делает код."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=5255s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "programming"
+        ]
+    },
+    {
+        "id": "1f1e39d9-987d-4edb-b1f5-2efdfabc9bff",
+        "name": "GitHub Copilot Chat",
+        "url": "https://docs.github.com/en/copilot/github-copilot-chat/about-github-copilot-chat",
+        "description": {
+            "en": "Chat that can help you by providing answers to coding related questions directly within a supported IDE. Part of GitHub Copilot & GitHub Copilot X programms.",
+            "ru": "Чат, который поможет вам получить ответы на вопросы, связанные с программированием, прямо в вашей IDE. Часть программ GitHub Copilot & GitHub Copilot X."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=5255s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "productivity",
+            "programming",
+            "assistant",
+            "chat"
+        ]
+    },
+    {
+        "id": "643521bf-f5a5-4f61-b861-8e07d082bfa6",
+        "name": "Tabnine",
+        "url": "https://www.tabnine.com",
+        "description": {
+            "en": "An AI-powered coding assistant designed to speed up code delivery and keep your code safe. It offers AI-driven code completions, AI code chat, and code generation in popular coding languages and IDEs.",
+            "ru": "Помощник по программированию на базе искусственного интеллекта, призванный ускорить работу над кодом и обеспечить его безопасность. Он предлагает ИИ code completions, чат с искусственным интеллектом и генерацию кода на популярных ЯП. Работает во всех популярных IDE."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=5255s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "productivity",
+            "programming",
+            "assistant",
+            "chat"
+        ]
+    },
+    {
+        "id": "a7d9a9a5-7450-4431-978c-a51b6db82b70",
+        "name": "The AI Exchange",
+        "url": "https://news.theaiexchange.com",
+        "description": {
+            "en": "Online magazine about AI Operations: how to understand and apply AI to your work.",
+            "ru": "Онлайн-журнал об ИИ: как понять и применить искусственный интеллект в своей работе."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=4555s",
+                "episodeName": "AIA Podcast #4"
+            }
+        ],
+        "date": "2023-03-25",
+        "tags": [
+            "magazine"
+        ]
+    },
+    {
+        "id": "607550d9-03a9-48d6-a1e5-892c37ec3cdf",
+        "name": "Futurepedia",
+        "url": "https://www.futurepedia.io",
+        "description": {
+            "en": "Directory of AI services.",
+            "ru": "Каталог ИИ-сервисов."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=3cUOOEVY-U4",
+                "episodeName": "AIA Podcast #5"
+            }
+        ],
+        "date": "2023-04-07",
+        "tags": [
+            "catalog"
+        ]
+    },
+    {
+        "id": "4d751c8e-d4ef-4ee7-b999-b0c4707cafa5",
+        "name": "Stable Digest",
+        "url": "https://stabledigest.substack.com",
+        "description": {
+            "en": "Online magazine about AI Art News & Culture by the people, for the people. Created by Stable Foundation.",
+            "ru": "Онлайн-журнал о новостях искусства и AI-культуры от людей, для людей. Создается Stable Foundation."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=3cUOOEVY-U4&t=8058s",
+                "episodeName": "AIA Podcast #5"
+            }
+        ],
+        "date": "2023-04-07",
+        "tags": [
+            "magazine",
+            "graphics",
+            "stabilityai"
+        ]
+    },
+    {
+        "id": "f4a9d37e-a53b-44ae-9526-4758f8da66e1",
+        "name": "Dudesy",
+        "url": "https://www.youtube.com/@Dudesy",
+        "description": {
+            "en": "AI-generated podcast. Will Sasso and Chad Kultgen kind media experiment.",
+            "ru": "Подкаст, созданный искусственным интеллектом. Медиа-эксперимент от Вилла Сассо и Чада Култгена."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM&t=7160s",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2024-01-12",
+        "tags": [
+            "podcasts",
+            "speech",
+            "commedy"
+        ]
+    },
+    {
+        "id": "56a58aee-0c60-4f9a-a228-3848e9283c31",
+        "name": "img2img",
+        "url": "https://chat.openai.com/g/g-SIE5101qP-img2img-image-edit-merge",
+        "description": {
+            "en": "GPTs. Image Copy, Images Merge, Image Edit, Style Transfer. Created by neural.love.",
+            "ru": "GPTs. Копирование изображений, объединение изображений, редактирование изображений, перенос стилей. Создано neural.love."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2024-01-12",
+        "tags": [
+            "gpts",
+            "image-to-image"
+        ]
+    },
+    {
+        "id": "4d1951ec-6dd5-49d4-b5b8-0ce90789adab",
+        "name": "Community Series Navigator",
+        "url": "https://chat.openai.com/g/g-niYp1Goki-community-series-navigator",
+        "description": {
+            "ru": "GPTs. Навигатор по сериалу \"Сообщество\".",
+            "en": "GPTs. Navigator for the series \"Community\"."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2024-01-12",
+        "tags": [
+            "gpts",
+            "movies"
+        ]
+    },
+    {
+        "id": "26b1f613-bb23-4e0d-b9e0-2a15212e57fd",
+        "name": "Irina Vladimirovna",
+        "url": "https://chat.openai.com/g/g-NMhaBUQZa-irina-vladimirovna",
+        "description": {
+            "en": "GPTs. Your personal English coach. Send your text in English, and it will correct it and tell you about your mistakes. Responds at B1 level with a bias towards British style.",
+            "ru": "GPTs. Твой личный тренер по английскому языку. Присылай свой текст на английском, а она буду исправлять его и рассказывать вам о ваших ошибках. Отвечает на уровне B1 с уклоном в британский стиль."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2024-01-12",
+        "tags": [
+            "gpts",
+            "language"
+        ]
+    },
+    {
+        "id": "82bf918a-a039-4930-9b7c-4d9975da1972",
+        "name": "Саммаризатор Иван",
+        "url": "https://chat.openai.com/g/g-4ajRKj4Qx-sammarizator-ivan",
+        "description": {
+            "en": "GPTs. Suammarizer of articles and texts, highlights three main ideas, googles references, draws an image to summarize.",
+            "ru": "GPTs. Резюмировщик статей и текстов, выделяет три основных идеи, гуглит ссылки, рисует изображение к резюмированному ответу."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2024-01-12",
+        "tags": [
+            "gpts",
+            "summarisation"
+        ]
+    },
+    {
+        "id": "10635437-b389-4110-be6c-c83a52dc3f34",
+        "name": "Полиглот Дед Максим",
+        "url": "https://chat.openai.com/g/g-iad9Z9DyC-poliglot-ded-maksim",
+        "description": {
+            "en": "GPTs. Translator from any language into Russian.",
+            "ru": "GPTs. Переводчик с любого языка на русский."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2024-01-12",
+        "tags": [
+            "gpts",
+            "language"
+        ]
+    },
+    {
+        "id": "97b5b711-e68b-4ee4-a6c9-53e6697fd375",
+        "name": "AI Scout – AI Tools Directory",
+        "url": "https://aiscout.net/",
+        "description": {
+            "en": "A catalog of AI tools created by a Reddit user. The catalog includes all the neurons that he and his buddies find useful for work.",
+            "ru": "Каталог ИИ-инструментов, созданный пользователем Reddit. В каталоге указаны все нейронки, которые он с приятелями считают полезными для работы."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=z1OGBkYnMZQ&t=3865s",
+                "episodeName": "AIA Podcast #6"
+            }
+        ],
+        "date": "2023-04-21",
+        "tags": [
+            "catalog"
+        ]
+    },
+    {
+        "id": "2a563988-90dc-42e8-9986-d5dd7ab9eaae",
+        "name": "AIVA",
+        "url": "https://www.aiva.ai/",
+        "description": {
+            "en": "An AI service for generating melodies and music. There is free access.",
+            "ru": "ИИ-сервис по генерации мелодий и музыки. Есть бесплатный доступ."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=z1OGBkYnMZQ&t=3865s",
+                "episodeName": "AIA Podcast #6"
+            }
+        ],
+        "date": "2023-04-21",
+        "tags": [
+            "music"
+        ]
+    },
+    {
+        "id": "f821815d-974a-4c27-853e-5ebb3ce8eeed",
+        "name": "BandLan | Online Audio Mastering",
+        "url": "https://www.bandlab.com/mastering",
+        "description": {
+            "en": "Online AI service for mastering tracks. There is a free period. Good for highlighting bass or mastering by simple settings.",
+            "ru": "Онлайн ИИ-сервис для мастеринга треков. Есть бесплатный период. Хорошо выделяет басы или делает мастеринг по простым настройкам."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=z1OGBkYnMZQ&t=3865s",
+                "episodeName": "AIA Podcast #6"
+            }
+        ],
+        "date": "2023-04-21",
+        "tags": [
+            "music"
+        ]
+    },
+    {
+        "id": "bde26abe-3dd1-4c63-b1b1-5df4c3586792",
+        "name": "Phind",
+        "url": "https://you.com/",
+        "description": {
+            "en": "An AI-powered search assistant that provides personalized responses to queries through chat, using a LLM to deliver human-like conversations and aid in tasks such as web search, content and image creation, and code generation.",
+            "ru": "Поисковый помощник на базе ИИ, который предоставляет персонализированные ответы на запросы через чат, используя LLM для обеспечения человекоподобного общения и помощи в таких задачах, как веб-поиск, создание контента и изображений, а также генерация кода."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=z1OGBkYnMZQ&t=3865s",
+                "episodeName": "AIA Podcast #6"
+            }
+        ],
+        "date": "2023-04-21",
+        "tags": [
+            "search",
+            "llm",
+            "programming"
+        ]
+    },
+    {
+        "id": "9ca5af49-55f5-441b-a03a-3637f9927408",
+        "name": "Phind",
+        "url": "https://www.phind.com",
+        "description": {
+            "en": "A search engine that provides users with instant answers to technical questions. Powered by LLM, it can produce code in response. Users can customize the search results by specifying the domains they would like to see more or less on the filters page, and they can also use the shortcuts! G or! DDG to quickly use Google or DuckDuckgo.",
+            "ru": "Поисковая система, которая предоставляет пользователям мгновенные ответы на технические вопросы. Работает на LLM, может выдавать в ответ код. Пользователи могут настроить результаты поиска, указав домены, которые они хотели бы видеть более или менее на странице фильтров, и они также могут использовать ярлыки! G или! DDG для быстрого использования Google или DuckDuckgo."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=z1OGBkYnMZQ&t=3865s",
+                "episodeName": "AIA Podcast #6"
+            }
+        ],
+        "date": "2023-04-21",
+        "tags": [
+            "search",
+            "llm"
+        ]
+    },
+    {
+        "id": "f5c8047a-6601-45ff-9808-89c054f47260",
+        "name": "Dolly",
+        "url": "https://huggingface.co/databricks/dolly-v2-12b",
+        "description": {
+            "en": "LLM trained for less than $30 to exhibit ChatGPT-like human interactivity (aka instruction-following). Dolly 2.0 - open source  instruction-following LLM, fine-tuned on a human-generated instruction dataset licensed for research and commercial use. 12B parameter language model based on the EleutherAI pythia model family and fine-tuned exclusively on a new, high-quality human generated instruction following dataset, crowdsourced among Databricks employees.",
+            "ru": "LLM, обученный менее чем за 30 долларов, демонстрирует человеческую интерактивность, подобную ChatGPT (также известную как следование инструкциям). Dolly 2.0 - instruction-following LLM с открытым исходным кодом, доработанная на основе набора данных инструкций, созданных человеком, лицензированная для исследований и коммерческого использования. LLM с 12B параметрами, основанная на семействе моделей EleutherAI pythia и отлаженная исключительно на новом высококачественном наборе данных по выполнению инструкций, сгенерированных человеком, который был собран краудсорсингом среди сотрудников Databricks."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=z1OGBkYnMZQ&t=3865s",
+                "episodeName": "AIA Podcast #6"
+            }
+        ],
+        "date": "2023-04-21",
+        "tags": [
+            "open-source",
+            "llm",
+            "model"
+        ]
+    },
+    {
+        "id": "82210870-992d-4f67-b447-8ef351d5d55c",
+        "name": "heygpt",
+        "url": "https://github.com/fuyufjh/heygpt",
+        "description": {
+            "en": "A simple command-line interface for GPT API.",
+            "ru": "Простой command-line интерфейс для GPT API."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=z1OGBkYnMZQ&t=3865s",
+                "episodeName": "AIA Podcast #6"
+            }
+        ],
+        "date": "2023-04-21",
+        "tags": [
+            "gpt",
+            "programming",
+            "open-source",
+            "ui"
+        ]
+    },
+    {
+        "id": "b325fe45-282d-414f-95b9-80203ba48cf1",
+        "name": "BabyAGI",
+        "url": "https://github.com/yoheinakajima/babyagi",
+        "description": {
+            "en": "This Python script is an example of an AI-powered task management system. The system uses OpenAI and vector databases such as Chroma or Weaviate to create, prioritize, and execute tasks. The main idea behind this system is that it creates tasks based on the result of previous tasks and a predefined objective. The script then uses OpenAI's natural language processing (NLP) capabilities to create new tasks based on the objective, and Chroma/Weaviate to store and retrieve task results for context.",
+            "ru": "Этот Python-скрипт является примером системы управления задачами на основе искусственного интеллекта. Система использует API OpenAI и Pinecone для создания, определения приоритетов и выполнения задач. Основная идея этой системы заключается в том, что она создает задачи на основе результатов предыдущих задач и заранее определенной цели. Затем скрипт использует возможности обработки естественного языка (NLP) OpenAI для создания новых задач на основе цели, а Pinecone - для хранения и извлечения результатов задач в контексте. "
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=z1OGBkYnMZQ&t=3865s",
+                "episodeName": "AIA Podcast #6"
+            }
+        ],
+        "date": "2023-04-21",
+        "tags": [
+            "agents",
+            "programming",
+            "open-source"
+        ]
+    },
+    {
+        "id": "3e42ff57-9bf0-46c7-be7d-ac3e9a14dce5",
+        "name": "AgentGPT",
+        "url": "https://github.com/reworkd/AgentGPT",
+        "description": {
+            "en": "A platform that enables users to assemble, configure, and deploy autonomous AI agents in their browser. It leverages OpenAI's GPT-4 or GPT-3.5 APIs to develop AI agents capable of performing a wide range of tasks.",
+            "ru": "Платформа, позволяющая пользователям собирать, настраивать и развертывать автономные ИИ-агенты прямо в браузере. Она использует API OpenAI GPT-4 или GPT-3.5 для разработки ИИ-агентов, способных выполнять широкий спектр задач."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=z1OGBkYnMZQ&t=3865s",
+                "episodeName": "AIA Podcast #6"
+            }
+        ],
+        "date": "2023-04-21",
+        "tags": [
+            "agents",
+            "browser",
+            "open-source"
+        ]
+    },
+    {
+        "id": "044c3008-697c-491e-ae29-89c03af70530",
+        "name": "DeepFloyd IF",
+        "url": "https://github.com/deep-floyd/IF",
+        "description": {
+            "en": "Open-source text-to-image model with a high degree of photorealism and language understanding. Can draw text well.",
+            "ru": "Text-to-image модель с открытым исходным кодом, обладающая высокой степенью фото-реализма и пониманием языка. Может хороши рисовать текст."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=alDKhfp10qI&t=8422s",
+                "episodeName": "AIA Podcast #7"
+            }
+        ],
+        "date": "2023-05-05",
+        "tags": [
+            "diffusion",
+            "model",
+            "open-source",
+            "stabilityai",
+            "graphics",
+            "text-to-image"
+        ]
+    },
+    {
+        "id": "46a172a7-8231-422c-9b26-841f4612ca9f",
+        "name": "Vicuna",
+        "url": "https://lmsys.org/blog/2023-03-30-vicuna/",
+        "description": {
+            "en": "An open-source chatbot trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT.",
+            "ru": "Чатбот с открытым исходным кодом, обученный путем тонкой настройки LLaMA на пользовательских разговорах, собранных в ShareGPT."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=alDKhfp10qI&t=8200s",
+                "episodeName": "AIA Podcast #7"
+            }
+        ],
+        "date": "2023-05-05",
+        "tags": [
+            "llm",
+            "model",
+            "open-source",
+            "chat"
+        ]
+    },
+    {
+        "id": "dceb8129-4071-4edd-b586-a8b0a2a0a526",
+        "name": "StableVicuna",
+        "url": "https://stability.ai/news/stablevicuna-open-source-rlhf-chatbot",
+        "description": {
+            "en": "First large-scale open source chatbot trained via reinforced learning from human feedback (RLHF). StableVicuna is a further instruction fine-tuned and RLHF-trained version of Vicuna v0 13b, which is an instruction fine-tuned LLaMA 13b model.",
+            "ru": "Первый крупномасштабный чатбот с открытым исходным кодом, обученный с помощью усиленного обучения на основе человеческой обратной связи (RLHF). StableVicuna - это версия Vicuna v0 13b, которая представляет собой модель LLaMA 13b с точной настройкой инструкций и RLHF-обучением."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=alDKhfp10qI&t=8200s",
+                "episodeName": "AIA Podcast #7"
+            }
+        ],
+        "date": "2023-05-05",
+        "tags": [
+            "llm",
+            "model",
+            "stabilityai",
+            "open-source",
+            "chat"
+        ]
+    },
+    {
+        "id": "4f080d06-7db5-483d-bfec-4b38bdfa1176",
+        "name": "AutoGen",
+        "url": "https://github.com/microsoft/autogen",
+        "description": {
+            "en": "Microsoft's open-source framework, about the same as crewAI, but older and slightly less functional. In fact, it is used to create llm-applications based on agents.",
+            "ru": "Открытый фреймворк от Microsoft, примерно такой-же как и crewAI, только более старый и чуть менее функциональный. По факту служит для создания llm-приложений на основе агентов."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM&t=5915s",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2024-01-12",
+        "tags": [
+            "programming",
+            "agents",
+            "open-source",
+            "microsoft"
+        ]
+    },
+    {
+        "id": "c1d36544-d739-4931-a890-ecfb07ebd0d0",
+        "name": "crewAI",
+        "url": "https://github.com/joaomdmoura/crewAI",
+        "description": {
+            "en": "An open-source python framework for creating teams of AI agents whose roles you define yourself. There is support for langchain, caches and delegation of tasks between agents. You can connect different LLMs, not only GPT APIs, but also optensource ones. You need to know a little bit of Python programming to build your team.",
+            "ru": "Открытый python-фреймворк для создания команд ИИ-агентов, роли которым вы задаете сами. Есть поддержка лангчейна, кэшей и делегирования задач между агентами. Можно подключать разные LLM, не только GPT API, но и открытые. Надо немного уметь программировать на питоне, что бы собрать свою команду."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM&t=5915s",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2024-01-12",
+        "tags": [
+            "programming",
+            "agents",
+            "open-source"
+        ]
+    },
+    {
+        "id": "dee13f8d-0be2-4877-80eb-76e1982488d7",
+        "name": "WhiteRabbitNeo",
+        "url": "https://www.whiterabbitneo.com",
+        "description": {
+            "en": "LLM on the basis of LLaMa2, which will tell you how to hack wifi or make a traffic sniffer, something that ChatGPT will not tell you. Customized for cybersecurity and white-hat hacking. The 13B model is available as an opensource, the 32B model as a service on the site (10$ per month).",
+            "ru": "LLM на базе зафайнтьюненой LLaMa2, которая расскажет как взломать вайфай или сделать снифер трафика, такое вам в ChatGPT не расскажут. Заточена под задачи кибербезопасности и белый хаккинг. Модель на 13B доступна в открытом доступе, на 32B в виде сервиса на сайте (10$ в месяц)."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM&t=5915s",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2024-01-12",
+        "tags": [
+            "programming",
+            "security",
+            "llm",
+            "model",
+            "open-source"
+        ]
+    },
+    {
+        "id": "d2f3ae09-8509-4174-9747-dbb7cbae7f3a",
+        "name": "GPT Pilot",
+        "url": "https://github.com/Pythagora-io/gpt-pilot",
+        "description": {
+            "en": "A tool that writes software from scratch (similar to GPT Engineer). It has a very handy plugin for VS Code, great for writing all sorts of dummy projects. You describe the task to him, he writes code for you, debugs it together with you, installs dependencies and all that. GPT API will be needed. A fresh approach to programming, perhaps the next step in intelligent code writers.",
+            "ru": "Инструмент, который пишет код под ключ (похож на GPT Engineer). Имеет очень удобный плагин для VS Code, отлично подходит для написания всяких болванок проектов. Вы ему описываете задачу, он вам пишет код, дебажит его вместе с вами, устанавливает зависимости и всё такое. Понадобится GPT API. Свежий подход к программированию, возможно следующий шаг в интеллектуальных кодописателях."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM&t=5915s",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2024-01-12",
+        "tags": [
+            "programming",
+            "agents",
+            "open-source"
+        ]
+    },
+    {
+        "id": "b6ffc84d-db36-4af6-a46f-0f221c85cf4e",
+        "name": "AI Jeannie",
+        "url": "https://marketplace.atlassian.com/apps/1232950/ai-jeannie",
+        "description": {
+            "en": "A plugin that uses the GPT API to write axeptence criteria and draw architectural graphs. Developed by a team from EPAM.",
+            "ru": "Плагин, который с помощью GPT API пишет аксептенс-критерии и рисует архитектурные графики. Разработан командой из EPAM."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM&t=5915s",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2024-01-12",
+        "tags": [
+            "programming",
+            "epam",
+            "jira"
+        ]
+    },
+    {
+        "id": "8e6b5dad-c63e-4ff1-a3a3-dc00d971a017",
+        "name": "DevGPT",
+        "url": "https://www.devgpt.com/",
+        "description": {
+            "en": "Using GenAI to make code pullrequests from simple tasks in Jira. Something similar and replace juns in the future. And yes, I wrote about these guys, they used to do other things, they made pivot.",
+            "ru": "При помощи GenAI делает из простых тасок в Jira пулреквесты с кодом. Что-то похожее и заменить джунов в будущем. И да, я про этих ребят писал, раньше они другим занимались, сделали pivot."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM&t=5915s",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2024-01-12",
+        "tags": [
+            "programming",
+            "pullrequest",
+            "jira"
+        ]
+    },
+    {
+        "id": "9c1433b8-da3a-4ff9-80ca-a5b48034c9ec",
+        "name": "Rabbit R1",
+        "url": "https://www.rabbit.tech/",
+        "description": {
+            "en": "An AI assistant from Rabbit. It has on board a voice-activated AI assistant that can interact with a variety of applications such as Uber, Spotify, etc., as well as recognize objects and search for information. Used LAM (Large Action Model) and be able to interact with other applications. It has a SIM card slot, camera, speaker, screen, microphone. New interface for interaction with AI systems.",
+            "ru": "ИИ-помощник от компании Rabbit. Имеет на борту голосовой ИИ-помощник, который может взаимодействовать с разнообразными приложениями типа Uber, Spotify и т.д., а так же распознавать объекты и заниматься поиском информации. Использует LAM (Large Action Model), со временем получит возможность взаимодействовать с другими приложениями. Имеет слот для симкарты, камеру, динамик, экран, микрофон. Новый интерфейс для взаимодействия с ИИ-системами."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM&t=3440s",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2024-01-12",
+        "tags": [
+            "hardware",
+            "speech",
+            "gpt",
+            "computer vision"
+        ]
+    },
+    {
+        "id": "637a5bca-38bb-477c-b756-b240170382f2",
+        "name": "MLX",
+        "url": "https://github.com/ml-explore/mlx",
+        "description": {
+            "en": "An array framework for machine learning on Apple silicon, brought to you by Apple machine learning research. MLX allows users to create \"mini\" data centers for LLM on Apple M2 and M3 products, enabling advanced and intensive models to run seamlessly on local devices.",
+            "ru": "Array-фреймворк для машинного обучения на платформе Apple silicon, разработанный специалистами Apple по машинному обучению. MLX позволяет пользователям создавать \"мини\" центры обработки данных для LLM на продуктах Apple M2 и M3, обеспечивая бесперебойную работу продвинутых и интенсивных моделей на локальных устройствах."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM&t=2790s",
+                "episodeName": "AIA Podcast #25"
+            }
+        ],
+        "date": "2024-01-12",
+        "tags": [
+            "framework",
+            "machine learning",
+            "apple",
+            "programming"
+        ]
+    },
+    {
+        "id": "73fdd87a-b802-47d5-8969-f7cbeab10864",
+        "name": "Stable Animation SDK",
+        "url": "https://stability.ai/news/stable-animation-sdk",
+        "description": {
+            "en": "A powerful text-to-animation tool released by Stability AI for artists and developers. It allows users to create high-quality animations using advanced Stable Diffusion models.",
+            "ru": "Мощный инструмент преобразования текста в анимацию, выпущенный компанией Stability AI для художников и разработчиков. Он позволяет создавать высококачественные анимации с использованием передовых моделей Stable Diffusion."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=7067s",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "stabilityai",
+            "open-source",
+            "animation",
+            "graphics",
+            "text-to-animation"
+        ]
+    },
+    {
+        "id": "97c95c44-bbd8-4b84-983a-c52eb0a5e4a9",
+        "name": "Rewind AI",
+        "url": "https://www.rewind.ai/",
+        "description": {
+            "en": "A personalized AI that captures and recalls everything you've seen, said, or heard. It integrates with OpenAI GPT-4. Rewind for iPhone brings new levels of productivity, allowing users to browse, search, and summarize anything they've seen on their phone. Rewind for Mac  is also available (Windows not yet).",
+            "ru": "Персонализированный ИИ, который фиксирует и запоминает все, что вы видели, говорили или слышали. Интегрируется с OpenAI GPT-4. Rewind для iPhone обеспечивает новый уровень продуктивности, позволяя пользователям просматривать, искать и обобщать все, что они видели на своем телефоне. Rewind для Mac также доступен (для Windows пока нет)."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=7350s",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "productivity"
+        ]
+    },
+    {
+        "id": "e0ffe3f7-5c27-4285-b455-e7cbe6da39fc",
+        "name": "Casablanca",
+        "url": "https://www.casablanca.ai",
+        "description": {
+            "en": "A service that creates eye-contact in real-time using GenAI by redrawing the face and eyes in such a way that the person looks like he/she is looking at the camera. It can be used for online calls, etc.",
+            "ru": "Сервис, который в режиме реального времени с помощью GenAI создает eye-контакт путем перерисовки лица и глаз таким образом, что бы человек выглядел смотрящим в камеру. Применяется на онлайн созвонах и т.д."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=7350s",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "video"
+        ]
+    },
+    {
+        "id": "7f5ecd5e-2ef9-4e40-958b-afc99fba02e8",
+        "name": "Gen-1",
+        "url": "https://research.runwayml.com/gen1",
+        "description": {
+            "en": "Gen-1 is an artificial intelligence-based tool developed by Runway Research that enables video styling through video-to-video mechanics. It has a mobile app.",
+            "ru": "Gen-1 - это инструмент на базе ИИ, разработанный компанией Runway Research, который позволяет стилизовать видео через video-to-video механику. Имеет мобильное приложение."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=alDKhfp10qI&t=8565s",
+                "episodeName": "AIA Podcast #7"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=7067s",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "video",
+            "video-to-video",
+            "runway"
+        ]
+    },
+    {
+        "id": "6796436f-bc1a-4099-ae91-da5258f54460",
+        "name": "Poe",
+        "url": "https://poe.com",
+        "description": {
+            "en": "A platform from Quora's CEO that gives one-stop access via UI and API to multiple LLMs, including Antropic's Claude, OpenAI's GPT, and others. The platform also provides the ability to create AI bots. It has a paid subscription.",
+            "ru": "Платформа от СЕО Quora, которая дает единый доступ через UI и API к множеству LLM, в том числе Claude от Antropic, GPT от OpenAI и другим. Также платформа предоставляет возможность создавать ИИ-ботов. Имеет платную подписку."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc&t=3770s",
+                "episodeName": "AIA Podcast #3"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=4570s",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "api",
+            "bot",
+            "llm"
+        ]
+    },
+    {
+        "id": "af3fba8f-7630-4234-bec8-7cee027bad69",
+        "name": "CodeT5",
+        "url": "https://github.com/salesforce/CodeT5",
+        "description": {
+            "en": "A family of LLMs for programming from Salesforce Research. It has two versions: CodeT5 (770M) and CodeT5+ (16B).",
+            "ru": "Семейство LLM для программирования от Salesforce Research. Имеет две версии: CodeT5 (770M) и CodeT5+ (16B)."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/fsfJB0II4vw?si=Jv9YvUGMdjVK09WD&t=4176",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "llm",
+            "model",
+            "programming"
+        ]
+    },
+    {
+        "id": "0290351a-97b6-4df0-b736-f9d8b02d30d9",
+        "name": "StarCoder",
+        "url": "https://huggingface.co/blog/starcoder",
+        "description": {
+            "en": "Opensource LLM for programming. Trained on permissively licensed data from GitHub, including from 80+ programming languages, Git commits, GitHub issues, and Jupyter notebooks. Have 15B version and 35B version (StarCoderBase). Context length of over 8,000 tokens. Created by \"BigCode\" - an open scientific collaboration working on responsible training of large language models for coding applications.",
+            "ru": "LLM по программированию с открытым исходным кодом. Обучена на разрешенных лицензионных данных с GitHub, в том числе по 80+ языкам программирования, коммитам Git, ишуям GitHub и блокнотам Jupyter. Имеет 15B версию и 35B версию (StarCoderBase). Контекст длиной более 8 000 токенов. Создана \"BigCode\" - открытой научной коллаборацией, работающей над responsible обучением LLMs для программирования."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/fsfJB0II4vw?si=Jv9YvUGMdjVK09WD&t=4176",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "llm",
+            "model",
+            "programming"
+        ]
+    },
+    {
+        "id": "158db90c-125e-44b0-b985-f92405769611",
+        "name": "Transformers Agent",
+        "url": "https://huggingface.co/docs/transformers/transformers_agents",
+        "description": {
+            "en": "An experimental API from HuggingHase that provides a natural language API on top of transformers, which is a set of curated tools and an agent to interpret natural language and use these tools.",
+            "ru": "Экспериментальный API от HuggingHase, предоставляющий API естественного языка поверх трансформаторов, которые представляют собой набор курируемых инструментов и агента для интерпретации естественного языка и использования этих инструментов."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=9y_lG6WsiOQ&t=3396s",
+                "episodeName": "AIA Special #1"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=4000s",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "api",
+            "programming",
+            "agents",
+            "llm"
+        ]
+    },
+    {
+        "id": "9bf195f1-1a14-49f6-9edc-c3b3397e63c1",
+        "name": "LangChain",
+        "url": "https://github.com/langchain-ai/langchain",
+        "description": {
+            "en": "A framework for developing applications powered by language models. It enables applications that are context-aware & can rely on a language model to build chain of reasoning.",
+            "ru": "Фреймворк для разработки приложений на основе LLM. Он позволяет создавать приложения, которые учитывают контекст и могут опираться на языковую модель для построения цепочки рассуждений."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=9y_lG6WsiOQ&t=1930s",
+                "episodeName": "AIA Special #1"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=3600s",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "llm",
+            "framework",
+            "open-source",
+            "programming"
+        ]
+    },
+    {
+        "id": "98d5d617-3af0-42f7-b59a-a99cc976d221",
+        "name": "MusicLM",
+        "url": "https://blog.google/technology/ai/musiclm-google-ai-test-kitchen/",
+        "description": {
+            "en": "AI tool that can turn your text descriptions into music.",
+            "ru": "ИИ-инструмент, способный превратить ваши текстовые описания в музыку."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=920s",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "google",
+            "music",
+            "text-to-music"
+        ]
+    },
+    {
+        "id": "955b1e80-a6b6-491f-a70a-638c5f1bffc4",
+        "name": "Studio Bot",
+        "url": "https://developer.android.com/studio/preview/studio-bot",
+        "description": {
+            "en": "Coding companion for Android development. It's a conversational experience in Android Studio that helps you be more productive by answering Android development queries.",
+            "ru": "Помощник в разработке под Android. Это чат-интерфейс в Android Studio, который помогает вам быть более продуктивным, отвечая на вопросы, связанные с разработкой Android."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "productivity",
+            "assistant",
+            "programming",
+            "chat"
+        ]
+    },
+    {
+        "id": "93083389-3fc0-4c7e-a7e0-2d21329de88c",
+        "name": "BetterChatGPT",
+        "url": "https://github.com/ztjhz/BetterChatGPT",
+        "description": {
+            "en": "An opensource UI for the GPT API, allowing for ChatGPT-style APIs. Works locally, or can be quickly deployed to Github Pages.",
+            "ru": "Открытый UI для GPT API, позволяющий работать с API в стиле ChatGPT. Работает локально, либо может быть быстро развернут на Github Pages."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw",
+                "episodeName": "AIA Podcast #8"
+            }
+        ],
+        "date": "2023-05-16",
+        "tags": [
+            "interface",
+            "gpt",
+            "chat"
+        ]
+    },
+    {
+        "id": "ba20acb3-ddc8-40a7-9771-cc49c07db83c",
+        "name": "Auto-GPT",
+        "url": "https://github.com/Significant-Gravitas/AutoGPT",
+        "description": {
+            "en": "The first and largest open source service for working with autonomous AI agents, based on the OpenAI API.",
+            "ru": "Первый и крупнейший сервис с открытым исходным кодом для работы с автономными ИИ-агентами, основанный на API OpenAI."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=9y_lG6WsiOQ",
+                "episodeName": "AIA Special #1"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=z1OGBkYnMZQ&t=3235s",
+                "episodeName": "AIA Podcast #6"
+            }
+        ],
+        "date": "2023-04-21",
+        "tags": [
+            "open-source",
+            "programming",
+            "agents",
+            "framework"
+        ]
+    },
+    {
+        "id": "a640550a-2cdf-4ae3-94c7-fcb44b788f63",
+        "name": "Perplexity",
+        "url": "https://www.perplexity.ai",
+        "description": {
+            "en": "A search service that uses LLM to provide instant answers to questions by searching for information. Provides a completely new approach to information search, in fact it is a competitor of Google. Has free and paid subscriptions, uses both GPT API and its own models.",
+            "ru": "Поисковый сервис, использующий LLM для предоставления мгновенных ответов на вопросы путем поиска информации. Предоставляет совершенно новый подход к поиску информации, по факту это конкурент Google. Имеет бесплатную и платную подписки, использует как GPT API, так и свои собственные модели."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "hhttps://www.youtube.com/watch?v=pRMdKRsZHyU&t=10565s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "search",
+            "llm"
+        ]
+    },
+    {
+        "id": "fea6982c-ebe9-41dd-a9a1-fd66d2f693a0",
+        "name": "privateGPT",
+        "url": "https://github.com/imartinez/privateGPT",
+        "description": {
+            "en": "Interact with your documents using the power of GPT, 100% privately, no data leaks, locally on your computer.",
+            "ru": "Взаимодействуйте с документами, используя возможности GPT, 100% конфиденциальность, никаких утечек данных, всё локально на вашем железе."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "hhttps://www.youtube.com/watch?v=pRMdKRsZHyU&t=10565s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "productivity",
+            "open-source"
+        ]
+    },
+    {
+        "id": "a06373cb-c592-406d-a077-056a4ace1b98",
+        "name": "Amazon CodeWhisperer",
+        "url": "https://aws.amazon.com/codewhisperer/",
+        "description": {
+            "en": "Free autocomplete for code from Amazon. A good analog of Github Copilot. Also able to do securitized code scanning and reference tracking.",
+            "ru": "Бесплатный автокомплит для кода от Amazon. Хороший аналог Github Copilot. Также способен делать секьюрити-сканирование кода и следить за референсами."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "hhttps://www.youtube.com/watch?v=pRMdKRsZHyU&t=10565s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "productivity",
+            "amazon",
+            "assistant",
+            "copilot",
+            "programming",
+            "security"
+        ]
+    },
+    {
+        "id": "395af83a-6895-411d-bea3-b65489c41183",
+        "name": "Massively Multilingual Speech",
+        "url": "https://ai.facebook.com/blog/multilingual-model-speech-recognition",
+        "description": {
+            "en": "Project expands speech technology from about 100 languages to over 1,000 by building a single multilingual speech recognition model supporting over 1,100 languages, language identification models able to identify over 4,000 languages, pretrained models supporting over 1,400 languages, and text-to-speech models for over 1,100 languages. C3PO 😅",
+            "ru": "Multilingual модель распознавания речи, поддерживающая более 1100 языков, способная определять более 4000 языков, поддерживающая более 1400 языков, и имеющая возможность преобразования текста в речь для более 1100 языков. C3PO 😅"
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=7545s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "meta",
+            "speech-to-text",
+            "text-to-speech",
+            "open-source",
+            "speech"
+        ]
+    },
+    {
+        "id": "c5afbaa3-dcc2-491d-8910-7ab3953fc220",
+        "name": "watsonx.ai",
+        "url": "https://github.com/jqin4749/MindVideo",
+        "description": {
+            "en": "IBM's enterprise studio for AI builders. Part of the IBM watsonx. Platform that brings together new generative AI capabilities, powered by foundation models and traditional machine learning.",
+            "ru": "Корпоративная студия IBM для разработчиков ИИ-сервисов. Часть проекта IBM watsonx. Платформа, объединяющая новые возможности GenAI, основанные на foundation моделях и традиционном машинном обучении."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=7480s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "ibm",
+            "programming",
+            "enterprise"
+        ]
+    },
+    {
+        "id": "ca0dc228-6c15-4f57-8435-d35ea22b9e72",
+        "name": "MinD-Video",
+        "url": "https://github.com/jqin4749/MindVideo",
+        "description": {
+            "en": "Framework for high-quality video reconstruction from brain recording.",
+            "ru": "Фреймворк для высококачественной реконструкции видео с записей мозга."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=5970s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "framework",
+            "science",
+            "video"
+        ]
+    },
+    {
+        "id": "33cf7d6d-b7e4-4e6b-927a-2c8f7ef83ccc",
+        "name": "Mojo 🔥",
+        "url": "https://www.modular.com/max/mojo",
+        "description": {
+            "en": "Programming language for AI developers. Combines the usability of Python with the performance of C, unlocking unparalleled programmability of AI hardware and extensibility of AI models. Created by Modular company. Mojo files use the .mojo or .🔥 file extension.",
+            "ru": "Язык программирования для разработчиков искусственного интеллекта. Сочетает в себе удобство Python и производительность C, открывая беспрецедентные возможности программирования оборудования ИИ и расширения моделей ИИ. Создан компанией Modular. Файлы Mojo имеют расширение .mojo или .🔥"
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=4300s",
+                "episodeName": "AIA Podcast #8"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=3825s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "programming",
+            "programming language"
+        ]
+    },
+    {
+        "id": "48de56dd-bd7a-44ce-8b27-2500f66a9836",
+        "name": "Adobe Firefly",
+        "url": "https://www.adobe.com/products/firefly.html",
+        "description": {
+            "en": "Generative AI tool from Adobe to help users create art and design elements using simple text prompts. It is available as a standalone web application and is also integrated into Adobe's apps. Firefly offers features such as Text to Image, Text Effects, Generative Fill, and Generative Recolor.",
+            "ru": "Генеративный инструмент искусственного интеллекта от Adobe, помогающий пользователям создавать художественные и дизайнерские элементы с помощью простых текстовых подсказок. Он доступен как отдельное веб-приложение, а также интегрирован в приложения Adobe. Firefly предлагает такие функции, как Text to Image, Text Effects, Generative Fill, и Generative Recolor."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=8090s",
+                "episodeName": "AIA Podcast #4"
+            },    
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=3385s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "graphics",
+            "adobe"
+        ]
+    },
+    {
+        "id": "2ce71cf7-b412-481c-a2f7-6e4305a736a2",
+        "name": "Neuralangelo",
+        "url": "https://github.com/NVlabs/neuralangelo",
+        "description": {
+            "en": "An AI model that leverages neural networks for 3D reconstruction from 2D video clips. High-Fidelity Neural Surface Reconstruction.",
+            "ru": "Модель искусственного интеллекта, использующая нейронные сети для 3D-реконструкции из 2D-видеоклипов. High-Fidelity Neural Surface Reconstruction."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=2815s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "3d",
+            "video-to-3d",
+            "model"
+        ]
+    },
+    {
+        "id": "a7dd7e8f-1175-4e97-b665-e2058e8c9245",
+        "name": "Microsoft Security Copilot",
+        "url": "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot",
+        "description": {
+            "en": "Platform that detect hidden patterns and respond to threats with generative AI. Available in early access.",
+            "ru": "Платформа для обнаружения скрытых паттернов и реагирования на угрозы с помощью генеративного ИИ. Lоступна в раннем доступе."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=845s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "microsoft",
+            "copilot",
+            "security"
+        ]
+    },
+    {
+        "id": "37c3aff2-e4ce-4d04-9069-e96d6c298571",
+        "name": "Azure AI Studio",
+        "url": "https://azure.microsoft.com/en-us/products/ai-studio",
+        "description": {
+            "en": "Microsoft platform for developing generative AI solutions and custom copilots. A full life cycle tool to build, train, evaluate, and deploy models.",
+            "ru": "Платформа от Microsoft для разработки генеративных ИИ-решений и пользовательских копилотов. Инструмент полного жизненного цикла для создания, обучения и развертывания моделей."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=845s",
+                "episodeName": "AIA Podcast #9"
+            }
+        ],
+        "date": "2023-06-02",
+        "tags": [
+            "microsoft",
+            "api",
+            "cloud",
+            "programming"
+        ]
+    },
+    {
+        "id": "c185109d-13cf-4236-8f81-de35248ede7f",
+        "name": "Replit AI",
+        "url": "https://replit.com/ai",
+        "description": {
+            "en": "Former Ghostwriter, AI code generator and copilot for onlay IDE from Repplit.",
+            "ru": "Бывший Ghostwriter, AI-код генератор и копайлот для онлай IDE от Repplit."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=11050s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "ide",
+            "copilot",
+            "programming"
+        ]
+    },
+    {
+        "id": "effd5def-97bd-4344-a23a-8dc04141d382",
+        "name": "Twelve Labs",
+        "url": "twelvelabs.io",
+        "description": {
+            "en": "Powerful and seamless video search AI-based service. Platform offers a state-of-the-art video understanding technology that enables context-specific search and insights, replacing ineffective keyword tagging. Works well even with long videous.",
+            "ru": "Мощный сервис поиска в видео на основе искусственного интеллекта. Платформа предлагает технологию, которая обеспечивает контекстно-зависимый поиск и понимание, заменяя неэффективные теги ключевых слов. Работает даже с длинными видеороликами."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=11050s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "video",
+            "search"
+        ]
+    },
+    {
+        "id": "7aaa3713-62d1-475a-808d-33f8d2d4ba99",
+        "name": "localGPT",
+        "url": "https://github.com/PromtEngineer/localGPT",
+        "description": {
+            "en": "Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.",
+            "ru": "Общайтесь с документами на вашем локальном железе с помощью моделей GPT. На 100% приватно и конфиденциально."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=11050s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "productivity",
+            "open-source"
+        ]
+    },
+    {
+        "id": "f3a8fcbd-3285-45ba-995a-9cdadb712c81",
+        "name": "SuperAGI",
+        "url": "https://github.com/TransformerOptimus/SuperAGI",
+        "description": {
+            "en": "A dev-first open source autonomous AI agent framework. Enabling developers to build, manage & run useful autonomous agents quickly and reliably. It has the ability to work with the file system and invoke third-party services.",
+            "ru": "Фреймворк с открытым исходным кодом для создания автономных ИИ-агентов. Позволяет разработчикам быстро и надежно создавать, управлять и запускать автономные агенты. Имеет возможность работать с файловой системой и вызывать сторонние сервисы. Требует навыков программированияю"
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=11050s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "agents",
+            "programming",
+            "open-source",
+            "framework"
+        ]
+    },
+    {
+        "id": "1f47bc74-efcd-4983-bee6-50d1c99ae65c",
+        "name": "Prompt Explorer",
+        "url": "https://prompts.ray.so/code",
+        "description": {
+            "en": "Promt base for programming.",
+            "ru": "База промтов для программирования."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=11050s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "catalog",
+            "prompting"
+        ]
+    },
+    {
+        "id": "8dd96cb9-ce2b-4294-bc76-05c06ceb56e0",
+        "name": "ControlNet",
+        "url": "https://github.com/lllyasviel/ControlNet",
+        "description": {
+            "en": "A neural network structure used to control diffusion models by adding additional conditions. It allows generating images from references, crossing images, making intricate graphics.",
+            "ru": "Нейросетевая структура, используемая для управления диффузионными моделями путем добавления дополнительных условий. Позволяет генерировать изображения по референсам, скрещивать изображения, делать замысловатую графику."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=11050s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "model",
+            "graphics",
+            "open-source",
+            "diffusion"
+        ]
+    },
+    {
+        "id": "afaea11d-9d4f-49bc-aa45-a59d0c9fd50f",
+        "name": "Quick QR Art",
+        "url": "https://quickqr.art/",
+        "description": {
+            "en": "A service for creating artistic QR codes. Powered by Stable Diffusion & ControlNet.",
+            "ru": "Сервис по созданию художественных QR-кодов. Работает на Stable Diffusion & ControlNet."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=11050s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "art",
+            "graphics",
+            "qr",
+            "api"
+        ]
+    },
+    {
+        "id": "b59032f8-30ec-4075-b1eb-ca504b2c8df8",
+        "name": "Albus",
+        "url": "https://albus.org/",
+        "description": {
+            "en": "An AI service that helps increase productivity through interactive mainboards, kanvas, and notes generated by AI. Just write an idea and Albus will describe and visualize it. The platform allows users to focus on generating ideas and creating content.",
+            "ru": "ИИ-сервис, помогающий повысить продуктивность через интерактивные майндборды, канвасы и заметки, которые генерирует ИИ. Просто напишите идею, а Альбус ее опишет и визуализирует. Платформа позволяет пользователям сосредоточиться на генерировании идей и создании контента."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=11050s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "productivity",
+            "mindmap",
+            "notes"
+        ]
+    },
+    {
+        "id": "d65b86cc-282e-4328-ab21-09382b59bef4",
+        "name": "Clipdrop Uncrop",
+        "url": "https://clipdrop.co/uncrop",
+        "description": {
+            "en": "A service that enables image enhancement using image completion by generative AI.",
+            "ru": "Сервис, позволяющий расширять изображения с помощью достраивания изображения генеративным ИИ."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=11050s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "graphics",
+            "photo"
+        ]
+    },
+    {
+        "id": "8b4d8393-a831-477b-bd2a-cd1a7ac0cb85",
+        "name": "Gen-2",
+        "url": "https://research.runwayml.com/gen2",
+        "description": {
+            "en": "Gen-2 is a multimodal AI system developed by Runway Research that can generate short novel videos using text, images, or video clips. This is the service that spawned the famous \"Cthulhu Bride Wedding\" video.",
+            "ru": "Gen-2 - это мультимодальный AI-сервис, разработанный компанией Runway Research, который может генерировать короткие видеоролики, используя текст, изображения или видеоклипы. Именно этот сервис породил знаменитый ролик \"Свадьба невесты Ктулху\""
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=6310s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "video",
+            "text-to-video",
+            "runway"
+        ]
+    },
+    {
+        "id": "0de67eff-bac8-4eda-97e0-f20e07fcff70",
+        "name": "Falcon",
+        "url": "https://huggingface.co/blog/falcon",
+        "description": {
+            "en": "A family of large language models created by the Institute for Technology Innovation in Abu Dhabi and released under the Apache 2.0 license. It has versions in 7B, 40B and 180B. The 180B version is one of the largest of its kind at the moment.",
+            "ru": "Семейство больших языковых моделей, созданное Институтом технологических инноваций в Абу-Даби и выпущенное под лицензией Apache 2.0. Имеет версии на 7B, 40B и 180B. Версия на 180B одна из крупнейших открытых на данный момент."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=8010s",
+                "episodeName": "AIA Podcast #9"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=e4Pd5BEjwcY&t=4720s",
+                "episodeName": "AIA Podcast #10"
+            }
+        ],
+        "date": "2023-06-18",
+        "tags": [
+            "llm",
+            "model",
+            "open-source"
+        ]
+    },
+    {
+        "id": "778f9caf-11fa-4e76-b646-23d0e7afb2ec",
+        "name": "YouTube Scribe",
+        "url": "https://www.shoki.app/",
+        "description": {
+            "en": "Samarizes and transcribes YouTube videos in 12 languages.",
+            "ru": "Резюмирует и транскрибирует видеоролики в YouTube на 12 языках."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=nl1lx07ZjIg&t=9240s",
+                "episodeName": "AIA Podcast #11"
+            }
+        ],
+        "date": "2023-06-30",
+        "tags": [
+            "transcription",
+            "summarisation",
+            "youtube"
+        ]
+    },
+    {
+        "id": "7a33ad30-88ca-4546-ac6f-0411647dc9ef",
+        "name": "Palette FM",
+        "url": "https://palette.fm/",
+        "description": {
+            "en": "Service for coloring black and white photos.",
+            "ru": "Сервис по раскрашиванию черно-белых фотографий."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=nl1lx07ZjIg&t=9240s",
+                "episodeName": "AIA Podcast #11"
+            }
+        ],
+        "date": "2023-06-30",
+        "tags": [
+            "graphics",
+            "photo"
+        ]
+    },
+    {
+        "id": "81bdf9be-f037-4345-a63a-64f9d763a2ee",
+        "name": "PentestGPT",
+        "url": "https://github.com/GreyDGL/PentestGPT",
+        "description": {
+            "en": "An open source AI tool for automating program security testing. Works on GPT API, but also supports other LLMs.",
+            "ru": "ИИ-инструмент с открытым исходным кодом для автоматизации тестирования безопасности программ. Работает на GPT API, но также поддерживает другие LLMs."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=nl1lx07ZjIg&t=9240s",
+                "episodeName": "AIA Podcast #11"
+            }
+        ],
+        "date": "2023-06-30",
+        "tags": [
+            "programming",
+            "security",
+            "open-source"
+        ]
+    },
+    {
+        "id": "7c7454de-14e0-41c1-9656-6a81f072373a",
+        "name": "Drag Your GAN",
+        "url": "https://github.com/XingangPan/DragGAN",
+        "description": {
+            "en": "An AI tool that allows you to change the physics of objects in images: rotate, change perspective, proportions, sizes, and so on. It looks very good.",
+            "ru": "Открытый ИИ-инструмент, позволяющий изменять физику объектов на изображениях: поворачивать, изменять перспективу, пропорции, размеры и прочее. Выглядит очень неплохо."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fsfJB0II4vw&t=7350s",
+                "episodeName": "AIA Podcast #8"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=nl1lx07ZjIg&t=5180s",
+                "episodeName": "AIA Podcast #11"
+            }
+        ],
+        "date": "2023-06-30",
+        "tags": [
+            "3d",
+            "graphics",
+            "open-source"
+        ]
+    },
+    {
+        "id": "3a010950-a834-496b-8a5e-3a4df6a9517b",
+        "name": "GPT-Engineer",
+        "url": "https://github.com/AntonOsika/gpt-engineer",
+        "description": {
+            "en": "An opensource tool that can write turnkey code using the GPT API. You give it a task, it polls you and produces ready code. It works on an agent-based architecture. The most popular product in the sphere of turnkey code writing by AI agents.",
+            "ru": "Открытый инструмент, который с помощью GPT API может писать код под ключ. Вы задаете ему задачу, он опрашивает вас и выдает готовы код. Работает на агентной архитектуре. Самый популярный продукт в сфере написания кода под ключ ИИ-агентами."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=nl1lx07ZjIg&t=5025s",
+                "episodeName": "AIA Podcast #11"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=C79FV_YujSg&t=475s",
+                "episodeName": "AIA Special #12"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=9y_lG6WsiOQ",
+                "episodeName": "AIA Special #1"
+            }
+        ],
+        "date": "2023-06-30",
+        "tags": [
+            "open-source",
+            "programming",
+            "virtual office",
+            "gpt"
+        ]
+    },
+    {
+        "id": "c7b1d579-b9e5-41dc-a4f6-da00181e2a05",
+        "name": "Stable Doodle",
+        "url": "https://clipdrop.co/stable-doodle",
+        "description": {
+            "en": "Stability AI sketch-to-image tool that converts a simple drawing into a good quality image.",
+            "ru": "Инструмент от Stability AI для преобразования эскизов в изображения, который превращает простой рисунок в развесистое изображение."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=C79FV_YujSg&t=4680s",
+                "episodeName": "AIA Podcast #12"
+            }
+        ],
+        "date": "2023-07-14",
+        "tags": [
+            "diffusion",
+            "stabilityai",
+            "model",
+            "graphics"
+        ]
+    },
+    {
+        "id": "ccc4d07e-ad91-407c-956c-b99279afc5a3",
+        "name": "Claude 2",
+        "url": "https://www.anthropic.com/index/claude-2",
+        "description": {
+            "en": "LLM from Antropic, has 200k context window, which is the largest at the moment. GPT-4 competitor. You could try it through Poe.com.",
+            "ru": "LLM от Antropic, имеет 200k контекстное окно, что является наибольшим на данный момент. Конкурент GPT-4. Можно попробовать через Poe.com."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=C79FV_YujSg&t=3845s",
+                "episodeName": "AIA Podcast #12"
+            }
+        ],
+        "date": "2023-07-14",
+        "tags": [
+            "llm",
+            "model",
+            "antropic"
+        ]
+    },
+    {
+        "id": "b090ad76-4440-4e52-8ede-a7a75ce7742c",
+        "name": "Windows Copilot",
+        "url": "https://www.microsoft.com/en-us/windows/copilot-ai-features",
+        "description": {
+            "en": "Microsoft's AI assistant built into the Windows operating system. It works on the basis of GPT. Replaces Cortana, can control computer settings and so on.",
+            "ru": "ИИ-ассистент от Microsoft, встроенный в операционную систему Windows. Работает на базе GPT. Заменил Cortana, может управлять настройками компьютера и прочее."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=845s",
+                "episodeName": "AIA Podcast #9"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=C79FV_YujSg&t=3655s",
+                "episodeName": "AIA Podcast #12"
+            }
+        ],
+        "date": "2023-07-14",
+        "tags": [
+            "copilot",
+            "microsoft"
+        ]
+    },
+    {
+        "id": "545e6d29-6b06-47b3-8ff2-bd0d42735cc4",
+        "name": "OpenAI Platform",
+        "url": "https://platform.openai.com/",
+        "description": {
+            "en": "Platform from OpenAI for accessing GPT API, GPT-4V API and others.",
+            "ru": "Платформа от OpenAI для доступа к GPT API, GPT-4V API и другим API компании."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=C79FV_YujSg&t=1390s",
+                "episodeName": "AIA Podcast #12"
+            }
+        ],
+        "date": "2023-07-14",
+        "tags": [
+            "api",
+            "llm",
+            "foundational",
+            "gpt"
+        ]
+    },
+    {
+        "id": "c1e085fa-2e90-4a26-95b0-2a4890ea4908",
+        "name": "Pi",
+        "url": "https://pi.ai",
+        "description": {
+            "en": "An AI chatbot developed by Inflection. The company intends to build a personalized conversational AI and has two models in its portfolio: Inflection-1 and Inflection-2. The latter performs slightly better than Google's PaLM 2 & Meta's LLaMa 2 according to test results.",
+            "ru": "ИИ-чат, разработанный компанией Inflection. Компания намерена построить персонализированный conversational AI, имеют в портфолио две модели: Inflection-1 и Inflection-2. Последняя по результатам тестов работает чуть лучше PaLM 2 от Google и LLaMa 2 от Meta."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=bUzvIJrjrKM&t=5260s",
+                "episodeName": "AIA Podcast #13"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=96aG4F9EAiE&t=5225s",
+                "episodeName": "AIA Podcast #22"
+            }
+        ],
+        "date": "2023-07-27",
+        "tags": [
+            "chat",
+            "llm"
+        ]
+    },
+    {
+        "id": "173f2d4a-7b3a-449f-829f-434fc5eb8f48",
+        "name": "Stable Diffusion XL",
+        "url": "https://stability.ai/news/stable-diffusion-sdxl-1-announcement",
+        "description": {
+            "en": "An opensource diffusion model that can draw any graphics, including photorealistic ones. Midjourney's main competitor.",
+            "ru": "Открытая диффузионная модель, которая может рисовать любую графику, в том числе и фотореалистичную. Главный конкурент Midjourney."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=bUzvIJrjrKM&t=4425s",
+                "episodeName": "AIA Podcast #13"
+            }
+        ],
+        "date": "2023-07-27",
+        "tags": [
+            "diffusion",
+            "stabilityai",
+            "model",
+            "graphics",
+            "open-source"
+        ]
+    },
+    {
+        "id": "a96a2ac8-1e0a-49b5-9a98-0a0cad23aa66",
+        "name": "AutoPR",
+        "url": "https://github.com/irgolic/AutoPR",
+        "description": {
+            "en": "An open source library that allows you to self-samorize pullrequests, automatically generate READ.me, manage project TODOs, and other things using the GPT API.",
+            "ru": "Открытая библиотека, позволяющая делать резюмирование пулреквестов, автоматически генерировать READ.me, управлять TODO проекта, и другие штуки с помощью GPT API."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/bUzvIJrjrKM?si=Lajr3RivLeGmbrmJ&t=9063",
+                "episodeName": "AIA Podcast #13"
+            }
+        ],
+        "date": "2023-07-27",
+        "tags": [
+            "programming",
+            "pullrequest",
+            "gpt"
+        ]
+    },
+    {
+        "id": "6f0053d9-02d2-4d40-8da8-ea25317a7f23",
+        "name": "LLaMa 2",
+        "url": "https://ai.meta.com/llama/",
+        "description": {
+            "en": "The first truly worthwhile LLM. Developed by Meta, has specific restrictions concerning large companies. There are versions 7, 13 and 70B.",
+            "ru": "Первая действительно стоящая открытая LLM. Разработана компанией Meta, имеет специфичные ограничения, касающиеся крупных компаний. Есть версии 7, 13 и 70B."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=bUzvIJrjrKM&t=1213s",
+                "episodeName": "AIA Podcast #13"
+            }
+        ],
+        "date": "2023-07-27",
+        "tags": [
+            "llm",
+            "model",
+            "open-source",
+            "meta"
+        ]
+    },
+    {
         "id": "01e1a1a9-d3ab-4190-8e4f-943406da4280",
         "name": "Machinet",
         "url": "https://www.machinet.net/",
@@ -11,6 +2442,10 @@
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=kHVRBaKIjOc&t=10225s",
                 "episodeName": "AIA Podcast #14"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=dH8tbmpuiRc",
+                "episodeName": "AIA Special #2"
             }
         ],
         "date": "2023-08-12",
@@ -47,8 +2482,8 @@
         "name": "Claude Instant",
         "url": "https://www.anthropic.com/index/releasing-claude-instant-1-2",
         "description": {
-            "en": "Antropic's LLM, a lighter version of the Claude model, but just as powerful. You can try it through Poe.com.",
-            "ru": "LLM от Antropic, облегченная версия модели Claude, но не уступает ей по мощности. Можно попробовать через Poe.com."
+            "en": "Antropic's LLM, a lighter version of the Claude 2 model, but just as powerful. You can try it through Poe.com.",
+            "ru": "LLM от Antropic, облегченная версия модели Claude 2, но не уступает ей по мощности. Можно попробовать через Poe.com."
         },
         "mentions": [
             {
@@ -69,7 +2504,7 @@
         "url": "https://github.com/Stability-AI/StableCode",
         "description": {
             "en": "StabilityAI's LLM for programming based on BigCode. It supports languages such as Python, Java, JavaScript, C++ and others. It uses Rotary Position Embedding (RoPE) for better code generation.  Exists on 3B parameters.",
-            "ru": "LLM от StabilityAI для программирования, основанна на BigCode. Поддерживает такие языки, как Python, Java, JavaScript, C++ и другие. Для лучшей генерации кода использует Rotary Position Embedding (RoPE).  Существует на 3B параметров."
+            "ru": "LLM от StabilityAI для программирования, основана на BigCode. Поддерживает такие языки, как Python, Java, JavaScript, C++ и другие. Для лучшей генерации кода использует Rotary Position Embedding (RoPE).  Существует на 3B параметров."
         },
         "mentions": [
             {
@@ -92,7 +2527,7 @@
         "url": "https://github.com/facebookresearch/audiocraft",
         "description": {
             "en": "PyTorch library for generating audio from text (by prompts, text-to-music). Utilizes optional models from Meta: AudioGen, MusicGen and EnCodec.",
-            "ru": "Библиотека PyTorch для генерации аудио из текста (по промптам, text-to-music). Использует опенсорсные модели от Meta: AudioGen, MusicGen и EnCodec."
+            "ru": "Библиотека PyTorch для генерации аудио из текста (по промптам, text-to-music). Использует откртыте модели от Meta: AudioGen, MusicGen и EnCodec."
         },
         "mentions": [
             {
@@ -136,7 +2571,7 @@
         "url": "https://befakeai.com/",
         "description": {
             "en": "A social network that encourages the creation of fake content. Sounds like the perfect Instagram. Contains special tools for photo processing through prompts.",
-            "ru": "Соцсеть, которая поощрает создание фейкового контента. Похоже на идеальный инстаграм. Содержит специальные инструменты для обработки фото через промпты."
+            "ru": "Соцсеть, которая поощряет создание фейкового контента. Похоже на идеальный Instagram. Содержит специальные инструменты для обработки фото через промпты."
         },
         "mentions": [
             {
@@ -176,7 +2611,7 @@
         "url": "https://github.com/facebookresearch/codellama",
         "description": {
             "en": "A family of open-source models from Meta for programming. There are versions on 7B, 13B and 34B. Based on Llama 2.",
-            "ru": "Семейство опенсорсных моделей от Meta для программирования. Есть версии на 7B, 13B и 34B. Построена на базе Llama 2."
+            "ru": "Семейство открытых моделей от Meta для программирования. Есть версии на 7B, 13B и 34B. Построена на базе Llama 2."
         },
         "mentions": [
             {
@@ -199,7 +2634,7 @@
         "url": "https://cloud.google.com/duet-ai",
         "description": {
             "en": "An AI assistant developed by Google and embedded in their services. Can code, write, and do other things.",
-            "ru": "ИИ-ассистент, разработанный Google и встраиваемый в их сервисы. Может писать кот, тексты и делать другие вещи."
+            "ru": "ИИ-ассистент, разработанный Google и встраиваемый в их сервисы. Может писать код, тексты и делать другие вещи."
         },
         "mentions": [
             {
@@ -241,12 +2676,16 @@
         "url": "https://github.com/QwenLM/Qwen-VL",
         "description": {
             "en": "Alibaba's family of Chinese opensource LLMs. Plus version overtakes Gemini Pro.",
-            "ru": "Семейство китайская опенсорсных LLM от Alibaba. Версия Plus обгоняет Gemini Pro."
+            "ru": "Семейство китайских открытых LLM от Alibaba. Версия Plus обгоняет Gemini Pro."
         },
         "mentions": [
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=W7lOUPAr0PU&t=5135s",
                 "episodeName": "AIA Podcast #16"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=72-PkCrLbxM&t=5635s",
+                "episodeName": "AIA Podcast #25"
             }
         ],
         "date": "2023-09-07",
@@ -304,7 +2743,7 @@
         "url": "https://openai.com/dall-e-3",
         "description": {
             "en": "A diffusion model from OpenAI that draws graphics as good as Midjourney 5 and StableDiffusion XL. It is used inside ChatGPT. Perfectly understands short prompts and draws text reasonably well.",
-            "ru": "Диффузионная модель от OpenAI, рисующая графику не хуже Midjourney 5 и StableDiffusion XL. Используется внтури ChatGPT. Отлично понимает короткие промпты и сносно рисует текст."
+            "ru": "Диффузионная модель от OpenAI, рисующая графику не хуже Midjourney 5 и StableDiffusion XL. Используется внутри ChatGPT. Отлично понимает короткие промпты и сносно рисует текст."
         },
         "mentions": [
             {
@@ -345,7 +2784,8 @@
         "tags": [
             "llm",
             "openai",
-            "model"
+            "model",
+            "speech"
         ]
     },
     {
@@ -365,9 +2805,13 @@
         "date": "2023-09-23",
         "tags": [
             "video",
+            "voice",
             "speech",
+            "text-to-speech",
             "lipsync",
-            "dubbing"
+            "dubbing",
+            "cloning",
+            "avatar"
         ]
     },
     {
@@ -376,7 +2820,7 @@
         "url": "https://www.rewind.ai/pendant",
         "description": {
             "en": "An AI pendant from Rewind that records everything you say in a day and does a self-reference.  It's designed to keep the data private and works through an assistant on your computer (the wearable device itself only records information). Now you can search by what you said for the day. Costs $59 on pre-order, not yet released.",
-            "ru": "ИИ-кулон от компании Rewind, который записывает всё что вы говорите за день и делает саморизацию.  Заточен на приватность данных и работает через помощника на компьютере (само носимое устройство только записывает информацию). Теперь можно искать по тому, что ты сказал за деть. Стоит 59 долларов по предзаказу, пока не релизнулось."
+            "ru": "ИИ-кулон от компании Rewind, который записывает всё что вы говорите за день и делает резюмирование.  Заточен на приватность данных и работает через помощника на компьютере (само носимое устройство только записывает информацию). Теперь можно искать по тому, что ты сказал за деть. Стоит 59 долларов по предзаказу, пока не релизнулось."
         },
         "mentions": [
             {
@@ -419,8 +2863,8 @@
         "name": "Mistral 7b",
         "url": "https://github.com/mistralai/mistral-src",
         "description": {
-            "en": "Opensor model from the French company Mistral, which will run on your hardware. Comparable in quality to LLaMa2, but cheaper/faster. Apache 2 license, they plan to make money on products.",
-            "ru": "Опенсорсная модель от французской комании Mistral, которая запустится на вашем железе. Сопоставима по качеству с LLaMa2, но дешевле/быстрее. Лицензия Apache 2, зарабатывать планируют на продуктах."
+            "en": "Open-source model from the French company Mistral, which will run on your hardware. Comparable in quality to LLaMa2, but cheaper/faster. Apache 2 license, they plan to make money on products.",
+            "ru": "Открытая модель от французской компании Mistral, которая запустится на вашем железе. Сопоставима по качеству с LLaMa2, но дешевле/быстрее. Лицензия Apache 2, зарабатывать планируют на продуктах."
         },
         "mentions": [
             {
@@ -463,7 +2907,7 @@
         "url": "https://www.meta.com/pl/en/smart-glasses/",
         "description": {
             "en": "Smart glasses from Meta and Ray-Ban, supposedly with AI integration. In fact, they can listen to you, transmit the information to your smartphone and further to the Internet, and then voice the answer. Nothing new.",
-            "ru": "Умные очки от Meta и Ray-Ban, якобы с интеграцией ИИ. На самом деле умеют слушать вас, передовать информацию на смартфон и дальше в интернет, а потом озвучивать ответ. Ничег онового."
+            "ru": "Умные очки от Meta и Ray-Ban, якобы с интеграцией ИИ. На самом деле умеют слушать вас, передавать информацию на смартфон и дальше в интернет, а потом озвучивать ответ. Ничего нового."
         },
         "mentions": [
             {
@@ -505,7 +2949,7 @@
         "url": "https://github.com/Kav-K/GPTDiscord",
         "description": {
             "en": "GPT interface for Discord. ChatGPT-style conversations, image generation, AI moderation, custom indexes/knowledgebase, YouTube summarisation and more.",
-            "ru": "GPT-интерфейс для Discord. Беседы в стиле ChatGPT, генерация изображений, ИИ-модерация, пользовательские индексы/база знаний, самморизатор YouTube и многое другое."
+            "ru": "GPT-интерфейс для Discord. Беседы в стиле ChatGPT, генерация изображений, ИИ-модерация, пользовательские индексы/база знаний, резюмирование YouTube и многое другое."
         },
         "mentions": [
             {
@@ -537,9 +2981,8 @@
         ],
         "date": "2023-10-19",
         "tags": [
-            "catalog",
-            "gpts",
-            "programming"
+            "programming",
+            "catalog"
         ]
     },
     {
@@ -548,7 +2991,7 @@
         "url": "https://aws.amazon.com/codewhisperer/",
         "description": {
             "en": "Amazon CodeWhisperer generates code suggestions ranging from snippets to full functions in real time in the IDE based on your comments and existing code. It also supports CLI completions and natural-language-to-bash translation in the command line.",
-            "ru": "Amazon CodeWhisperer генерирует предложения кода в реальном времени, начиная от фрагментов и заканчивая полными функциями, в среде разработки на основе ваших комментариев и существующего кода. Также он поддерживает автодополнение в интерфейсе командной строки и перевод естественного языка в команды bash."
+            "ru": "Amazon CodeWhisperer генерирует предложения кода в реальном времени, начиная от фрагментов и заканчивая полными функциями, в среде разработки на основе ваших комментариев и существующего кода. Также он поддерживает авто-дополнение в интерфейсе командной строки и перевод естественного языка в команды bash."
         },
         "mentions": [
             {
@@ -567,12 +3010,12 @@
         "name": "CodiumAI",
         "url": "https://www.codium.ai/",
         "description": {
-            "en": "CodiumAI plugs into users’ integrated development environment and suggests meaningful tests for their suite, as code. It does this by exploring and analyzing users’ code, docstrings, and comments and by interacting with the developer.",
-            "ru": "CodiumAI подключается к интегрированной среде разработки пользователей и предлагает значимые тесты для их набора, как код. Он делает это, исследуя и анализируя код пользователей, строки документации и комментарии, а также взаимодействуя с разработчиком."
+            "en": "A service that knows how to write quality Unit tests using project context, context menus, in different styles and under a variety of boundary conditions. An excellent assistant for any developer.",
+            "ru": "Сервис, который умеет писать качественные Unit тесты, используя контекст проекта, контекстные меню, в разных стилях и по разнообразным граничным условиям. Отличный помощник для любого разработчика."
         },
         "mentions": [
             {
-                "episodeUrl": "https://youtu.be/nl1lx07ZjIg?t=9023",
+                "episodeUrl": "https://www.youtube.com/watch?v=nl1lx07ZjIg&t=9024s",
                 "episodeName": "AIA Podcast #11"
             }
         ],
@@ -590,7 +3033,7 @@
         "url": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta",
         "description": {
             "en": "Opsensor-based LLM built on Mistral and operating at the LLaMa 2 70B level.",
-            "ru": "Опенсорсная LLM, построенная на базе Mistral и работающая на уровне LLaMa 2 70B."
+            "ru": "Открытая LLM, построенная на базе Mistral и работающая на уровне LLaMa 2 70B."
         },
         "mentions": [
             {
@@ -611,7 +3054,7 @@
         "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en",
         "description": {
             "en": "An 8k tokenized context open source model from German company Jina AI, quite undemanding on resources and quite smart.",
-            "ru": "Опенсорс-модель на 8k токенов контекста от немецкой компании Jina AI, весьма нетребовательная к ресурсам и достаточно умная."
+            "ru": "Открытая модель на 8k токенов контекста от немецкой компании Jina AI, весьма нетребовательная к ресурсам и достаточно умная."
         },
         "mentions": [
             {
@@ -632,7 +3075,7 @@
         "url": "https://toolbox.google.com/factcheck/explorer/search/list:recent;hl=en",
         "description": {
             "en": "Google's factchecking tool. You can view the history of articles and images appearing in the search index.",
-            "ru": "Инструмент для фактчекинга от Google. Можно просматривать историю появления статей и изображений в поисковом индексе."
+            "ru": "Инструмент для проверки правдивости информации от Google. Можно просматривать историю появления статей и изображений в поисковом индексе."
         },
         "mentions": [
             {
@@ -648,16 +3091,20 @@
     },
     {
         "id": "c7f96e89-b978-453e-a43d-4e7eb445953c",
-        "name": "Tongyi Qianwen 2.0",
+        "name": "Tongyi Qianwen",
         "url": "https://tongyi.aliyun.com",
         "description": {
-            "en": "Chinese multimodal public model from Alibaba for several hundred billion parameters. Comparable to GPT-4.",
-            "ru": "Китайская мультимодальная публичная модель от Alibaba на несколько сотен миллиардов парраметров. Соизмерима с GPT-4."
+            "en": "Chinese multimodal public model from Alibaba for several hundred billion parameters. Version 2.0 can be comparable to GPT-4.",
+            "ru": "Китайская мультимодальная публичная модель от Alibaba на несколько сотен миллиардов параметров. Версия 2.0 cоизмерима с GPT-4."
         },
         "mentions": [
             {
+                "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=8205s",
+                "episodeName": "AIA Podcast #9 (v1)"
+            },
+            {
                 "episodeUrl": "https://youtu.be/rj0BhwHYs6M?si=mJB_tVHn10FyS01T",
-                "episodeName": "AIA Podcast #20"
+                "episodeName": "AIA Podcast #20 (v2.0)"
             }
         ],
         "date": "2023-11-04",
@@ -673,7 +3120,7 @@
         "url": "https://www.ibm.com/products/watsonx-code-assistant",
         "description": {
             "en": "Enterprice service from IBM for help in programming. Can generate code, give code recommendations and translate programs from one language to another. It is said that IBM is slowly migrating programs written in COBOL to normal programming languages through it.",
-            "ru": "Энтерпрайс сервис от IBM для помощи в программировании. Умеет генерировать код, давать рекомендации по коду и переводить программы с одних языков на другие. Говаривают, что IBM через него потихоньку мигрируют программы написанные на COBOL на нормальные языки программирования."
+            "ru": "Энтерпрайз-сервис от IBM для помощи в программировании. Умеет генерировать код, давать рекомендации по коду и переводить программы с одних языков на другие. Говаривают, что IBM через него потихоньку мигрируют программы написанные на COBOL на нормальные языки программирования."
         },
         "mentions": [
             {
@@ -732,8 +3179,8 @@
         "name": "Suno AI",
         "url": "https://www.suno.ai",
         "description": {
-            "en": "An AI music creation tool that allows users to generate their own songs based on textual cues. Generates both music and lyrics, you can use your own lyrics. A leader in the direction and as of the end of 2023. Great at making raps 😊",
-            "ru": "ИИ-инструмент для создания музыки, который позволяет пользователям генерировать собственные песни на основе текстовых подсказок. Генерирует и музыку и текст, можно использовать свой текст. Лидер направления и на момент конца 2023 года. Шикарно делает рэп 😊"
+            "en": "An AI music creation tool that allows users to generate their own songs based on text prompts. Generates both music and lyrics, you can use your own lyrics. A leader in the direction and as of the end of 2023. Great at making raps 😊",
+            "ru": "ИИ-инструмент для создания музыки, который позволяет пользователям генерировать собственные песни на основе текстовых промптов. Генерирует и музыку и текст, можно использовать свой текст. Лидер направления и на момент конца 2023 года. Шикарно делает рэп 😊"
         },
         "mentions": [
             {
@@ -744,7 +3191,8 @@
         "date": "2023-11-17",
         "tags": [
             "music",
-            "speech"
+            "speech",
+            "voice"
         ]
     },
     {
@@ -763,8 +3211,7 @@
         ],
         "date": "2023-11-17",
         "tags": [
-            "catalog",
-            "gpts"
+            "catalog"
         ]
     },
     {
@@ -773,7 +3220,7 @@
         "url": "https://leonardo.ai",
         "description": {
             "en": "Service that allows users to create professional level graphics. Under the hood uses different diffusion models. It has API and paid subscription.",
-            "ru": "Сервис, который позволяет пользователям создавать графику профессионального уровня. Под капотом использует разные дифузионн модели. Имеет API и платную подписку."
+            "ru": "Сервис, который позволяет пользователям создавать графику профессионального уровня. Под капотом использует разные диффузионные модели. Имеет API и платную подписку."
         },
         "mentions": [
             {
@@ -793,7 +3240,7 @@
         "url": "https://mistral.ai/news/mixtral-of-experts/",
         "description": {
             "en": "The most powerful opsensor LLM at the end of 2023 created by French company Mistral. Superior to GPT-3.5. Runs on inexpensive server hardware. French.",
-            "ru": "Самая мощная опенсорсная LLM на момент конца 2023 года от компании французской Mistral. Превосходит GPT-3.5. Запускается на недорогом серверном железе."
+            "ru": "Самая мощная открытая LLM на момент конца 2023 года от компании французской Mistral. Превосходит GPT-3.5. Запускается на недорогом серверном железе."
         },
         "mentions": [
             {
@@ -835,7 +3282,7 @@
         "url": "https://partyrock.aws/",
         "description": {
             "en": "Sandbox by Amazon Bedrock, through which you can build small applications using opensor and other models: Stable Diffusion XL, Claude, Titan, Jurassic, Command.",
-            "ru": "Песочница от Amazon Bedrock, через которую можно строить небольшие приложения используя опенсорсные и другие модели: Stable Diffusion XL, Claude, Titan, Jurassic, Command."
+            "ru": "Песочница от Amazon Bedrock, через которую можно строить небольшие приложения используя открытые и другие модели: Stable Diffusion XL, Claude, Titan, Jurassic, Command."
         },
         "mentions": [
             {
@@ -887,7 +3334,7 @@
         ],
         "date": "2023-12-01",
         "tags": [
-            "podcast"
+            "podcasts"
         ]
     },
     {
@@ -939,9 +3386,13 @@
         "url": "https://www.jetbrains.com/ai/",
         "description": {
             "en": "JetBrains AI-programming toolkit: autocomplete, chat and other stuff. Replace GitHub Copilot & GitHub Copilot Chat. Works in JetBrains IDE family and costs money.",
-            "ru": "Набор ИИ-инструментов от JetBrains для программирования: автокомплит, чат и другие штучки. ЗАмена GitHub Copilot & GitHub Copilot Chat. Работает в семействе IDE от JetBrains и стоит денег."
+            "ru": "Набор ИИ-инструментов от JetBrains для программирования: автокомплит, чат и другие штучки. Замена GitHub Copilot & GitHub Copilot Chat. Работает в семействе IDE от JetBrains и стоит денег."
         },
         "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=nl1lx07ZjIg&t=2135s",
+                "episodeName": "AIA Podcast #11"
+            },
             {
                 "episodeUrl": "https://youtu.be/FVe2t1mX0s4?si=0MXMKUYUsnk5ekpz&t=5214",
                 "episodeName": "AIA Podcast #23"
@@ -961,7 +3412,7 @@
         "url": "https://audiobox.metademolab.com/",
         "description": {
             "en": "Foundation research model for audio generation created by Meta Research. It can generate voices and sound effects using a combination of voice inputs and natural language text prompts. There's a cool demo mode.",
-            "ru": "Модель для генерации звука от Меты. Может генерировать голоса и звуковые эффекты, используя комбинацию голосового ввода и текстовых подсказок на естественном языке. Есть крутой демо-режим."
+            "ru": "Модель для генерации звука от Meta. Может генерировать голоса и звуковые эффекты, используя комбинацию голосового ввода и текстовых подсказок на естественном языке. Есть крутой демо-режим."
         },
         "mentions": [
             {
@@ -1027,7 +3478,7 @@
         "url": "https://github.com/facefusion/facefusion",
         "description": {
             "en": "Opensor-based simple tool for creating deepfake images and videos. Has the ability to connect external server capacity.",
-            "ru": "Опенсорсный простой инструмент для создания deepfake изображений и видео. Имеет возможность подключать внешние серверные мощности."
+            "ru": "Открытый простой инструмент для создания deepfake изображений и видео. Имеет возможность подключать внешние серверные мощности."
         },
         "mentions": [
             {
@@ -1157,7 +3608,7 @@
         "url": "https://www.mate-os.com",
         "description": {
             "en": "Copilot for your operating system. It can interact with your operating system through screen photos and file system access and perform simple tasks. From the creators of Machinet",
-            "ru": "Копайлот для вашей операционной системы. По фотографии экрана и через доступ к файловой системе может взаимодействовать с вашей операционной системуо и выполнять простые задачи. От создателей Machinet"
+            "ru": "Копайлот для вашей операционной системы. По фотографии экрана и через доступ к файловой системе может взаимодействовать с вашей операционной системой и выполнять простые задачи. От создателей Machinet"
         },
         "mentions": [
             {
@@ -1178,16 +3629,28 @@
     },
     {
         "id": "564d076a-ec4f-4614-a9a0-1431d4f76c7c",
-        "name": "Midjourney 6",
+        "name": "Midjourney",
         "url": "https://www.midjourney.com/",
         "description": {
-            "en": "Another version of the diffusion model from Midjourney, drawing super-realistic graphics. A leader in the field of AI graphics. The source of a lot of wake photos. Available via Discord, but web-version is coming soon.",
-            "ru": "Очередная версия диффузионной модели от Midjourney, рисующая суперреалистичную графику. Лидер сферы ИИ-графики. Источник кучи вейковых фото. Доступен через Discord, но скоро будет web-версия"
+            "en": "Diffusion model from Midjourney, drawing super-realistic graphics. A leader in the field of AI graphics, latest version - Midjourney 6. The source of a lot of fake photos. Available via Discord, but web-version is coming soon.",
+            "ru": "Диффузионной модели от Midjourney, рисующая супер реалистичную графику. Лидер сферы ИИ-графики, текущая версия - Midjourney 6. Источник кучи фейковых фото. Доступен через Discord, но скоро будет web-версия"
         },
         "mentions": [
             {
+                "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=8090s",
+                "episodeName": "AIA Podcast #4 (v5)"
+            },    
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=alDKhfp10qI&t=7425s",
+                "episodeName": "AIA Podcast #6 (v5.1)"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=nl1lx07ZjIg&t=4625s",
+                "episodeName": "AIA Podcast #11 (v5.2)"
+            },
+            {
                 "episodeUrl": "https://youtu.be/lIiJSv6RC_o",
-                "episodeName": "AIA Podcast #24"
+                "episodeName": "AIA Podcast #24 (v6)"
             }
         ],
         "date": "2024-01-04",
@@ -1215,7 +3678,8 @@
         "date": "2024-01-04",
         "tags": [
             "programming",
-            "codereview"
+            "codereview",
+            "pullrequest"
         ]
     },
     {
@@ -1248,7 +3712,7 @@
         "url": "https://github.com/deepseek-ai/deepseek-coder/",
         "description": {
             "en": "An opsensor-based LLM for programming. 1.3B, 5.7B, 6.7B and 33B paramaters.",
-            "ru": "Опенсорсная LLM для программирования. 1.3B, 5.7B, 6.7B и 33B парамтеров."
+            "ru": "Открытая LLM для программирования. 1.3B, 5.7B, 6.7B и 33B парамтеров."
         },
         "mentions": [
             {
@@ -1291,7 +3755,7 @@
         "url": "https://lmstudio.ai/",
         "description": {
             "en": "A user-friendly interface to quickly run opencore LLMs locally on your computer.",
-            "ru": "Удобный интерфейс для быстрого запуска опенсорсных LLM локально на вашем компьютере."
+            "ru": "Удобный интерфейс для быстрого запуска открытых LLM локально на вашем компьютере."
         },
         "mentions": [
             {
@@ -1308,7 +3772,7 @@
     },
     {
         "id": "414cec84-427f-41af-bc1c-70bf57cbb472",
-        "name": "Reddit-каталог UI для LLM",
+        "name": "Reddit-catalog of LLM's UI",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1847qt6/llm_webui_recommendations/",
         "description": {
             "en": "A list on Reddit of different interfaces for working with local LLMs, from simple to complex.",
