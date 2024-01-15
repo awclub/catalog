@@ -1,5 +1,7 @@
 <script setup>
-import { RouterLink } from 'vue-router'
+import { RouterLink } from 'vue-router';
+import { useServicesStore } from '../stores/services';
+import { computed } from 'vue'
 import Settings from "@/components/Settings.vue";
 
 defineProps({
@@ -7,7 +9,13 @@ defineProps({
     type: String,
     required: false
   }
-})
+});
+
+const servicesStore = useServicesStore();
+
+const servicesStoreLength = computed(() =>  servicesStore.getServices.length);
+
+console.log(servicesStoreLength)
 
 </script>
 
@@ -27,6 +35,7 @@ defineProps({
                 </nav> -->
             </div>
           <Settings />
+          <div v-if="servicesStoreLength" class="services-count">{{ servicesStoreLength }}</div>
         </div>
     </header>
 </template>
@@ -39,6 +48,7 @@ header {
     margin: 10px auto 0px auto;
     transition: background-color 0.3s;
     width: 100%;
+    position: relative;
 }
 
 .container {
@@ -126,6 +136,14 @@ nav a {
 
 nav a:first-of-type {
   border: 0;
+}
+
+.services-count {
+  position: absolute;
+  right: 15px;
+  bottom: 8px;
+  font-size: 0.9em;
+  color: #999;
 }
 
 @media (min-width: 1024px) {
