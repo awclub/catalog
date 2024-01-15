@@ -18,7 +18,7 @@ const setInput = (e) => {
         :value="searchText"
         v-on:input="setInput"
         :placeholder="$t('searchPlaceholder')"/>
-    <span class="clear-button" v-if="!!searchText.length" v-on:click="searchText = ''">&times;</span>
+    <span class="clear-button" v-if="!!searchText.length" v-on:click="searchStore.setSearchText('')">&times;</span>
   </div>
 </template>
 

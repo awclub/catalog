@@ -10,7 +10,6 @@ const copyToClipboard = function(url) {
     navigator.clipboard.writeText(url)
         .then(() => console.log('Copied!'))
         .catch((e) => {
-            callback('Unknown error');
             console.error('error occurred while service url is copied', e);
         });
 }

@@ -1,16 +1,17 @@
 <script setup>
-import { computed } from 'vue';
 import { RouterLink } from 'vue-router';
 import { useTagsStore } from "@/stores/tags.js";
 import TagList from "@/components/TagList.vue";
 import { localDateFilter } from "@/filter/local-date-filter.js";
 import Sharing from "@/components/Sharing.vue";
+import { useBrowserLocation } from "@vueuse/core";
 
 defineProps({
   serviceItem: Object
 })
 
 const tagsStore = useTagsStore();
+const location = useBrowserLocation();
 
 const formattedUrl = function(url) {
   return url.split("-").shift();
@@ -19,7 +20,7 @@ const formattedUrl = function(url) {
 
 <template>
     <div class="service-item">
-        <Sharing :url="`/catalog/${formattedUrl(serviceItem.id)}`" class="sharing-positioning" />
+        <Sharing :url="`${location.origin}/catalog/${formattedUrl(serviceItem.id)}`" class="sharing-positioning" />
         <RouterLink :to="`catalog/${formattedUrl(serviceItem.id)}`"><h3>{{ serviceItem.name }}</h3></RouterLink>
         <p>{{ serviceItem.description[$i18n.locale] }}</p>
         <p>

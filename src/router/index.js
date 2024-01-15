@@ -7,6 +7,10 @@ const router = createRouter({
   routes: [
     {
       path: '/',
+      redirect: '/catalog'
+    },
+    {
+      path: '/catalog',
       name: 'home',
       component: HomeView
     },
@@ -17,6 +21,18 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue')
+    },
+    {
+      path: '/catalog',
+      beforeEnter: (to, from, next) => {
+        const { id } = to.query;
+        if (id) {
+          next(`/catalog/${id}`);
+        } else {
+          next();
+        }
+      },
+      component: HomeView
     },
     {
       path: '/catalog/:id',
