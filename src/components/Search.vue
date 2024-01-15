@@ -1,10 +1,13 @@
 <script setup>
-import { ref, watch } from "vue";
+import { computed, ref, watch } from "vue";
 import { useSearchStore } from "../service/searchStore.js";
 
-const searchText = ref('');
 const searchStore = useSearchStore();
-watch(searchText, newValue => searchStore.setSearchText(newValue));
+const searchText = computed(() => searchStore.getSearchText);
+
+const setInput = (e) => {
+  searchStore.setSearchText(e.target.value);
+};
 </script>
 
 <template>
@@ -12,7 +15,8 @@ watch(searchText, newValue => searchStore.setSearchText(newValue));
     <input
         class="text-input search-box"
         type="text"
-        v-model="searchText"
+        :value="searchText"
+        v-on:input="setInput"
         :placeholder="$t('searchPlaceholder')"/>
     <span class="clear-button" v-if="!!searchText.length" v-on:click="searchText = ''">&times;</span>
   </div>
