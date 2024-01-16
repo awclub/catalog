@@ -79,6 +79,7 @@ header {
     height: 70px;
     border-radius: 50%;
     margin-right: 10px;
+    display: block;
 }
 
 .title-container .title {

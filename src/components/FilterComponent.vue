@@ -20,30 +20,35 @@ const allTags = computed(() => {
 </script>
 
 <template>
-  <Search />
-  <div class="selected-tags-box">
-    <auto-complete-input
-        :placeholder="$t('searchTagsPlaceholder')"
-        :available-items="allTags"
-        :already-selected-items="tagsStore.tags"
-        :on-select="tagsStore.selectTag"
-    />
-    <div class="selected-tags">
-      <TagList
-          :items="tagsStore.tags"
-          :onTagClick="tagsStore.unSelectTag"
+  <div class="filter-container">
+    <Search />
+    <div class="selected-tags-box">
+      <auto-complete-input
+          :placeholder="$t('searchTagsPlaceholder')"
+          :available-items="allTags"
+          :already-selected-items="tagsStore.tags"
+          :on-select="tagsStore.selectTag"
       />
+      <div class="selected-tags">
+        <TagList
+            :items="tagsStore.tags"
+            :onTagClick="tagsStore.unSelectTag"
+        />
+      </div>
+      <input class="reset-button"
+            type="button"
+            title="reset"
+            v-show="tagsStore.tags.length"
+            v-on:click="tagsStore.resetTags"
+            value="&#8634;"/>
     </div>
-    <input class="reset-button"
-           type="button"
-           title="reset"
-           v-show="tagsStore.tags.length"
-           v-on:click="tagsStore.resetTags"
-           value="&#8634;"/>
   </div>
 </template>
 
 <style scoped>
+.filter-container {
+  padding: 0 10px 10px;
+}
 
 .selected-tags-box {
   position: relative;
