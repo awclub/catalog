@@ -15,8 +15,6 @@ const servicesStore = useServicesStore();
 
 const servicesStoreLength = computed(() =>  servicesStore.getServices.length);
 
-console.log(servicesStoreLength)
-
 </script>
 
 <template>
