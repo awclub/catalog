@@ -1283,7 +1283,7 @@
         "name": "AI Jeannie",
         "url": "https://marketplace.atlassian.com/apps/1232950/ai-jeannie",
         "description": {
-            "en": "A plugin that uses the GPT API to write axeptence criteria and draw architectural graphs. Developed by a team from EPAM.",
+            "en": "A plugin that uses the GPT API to write acceptance criteria and draw architectural graphs. Developed by a team from EPAM.",
             "ru": "Плагин, который с помощью GPT API пишет аксептенс-критерии и рисует архитектурные графики. Разработан командой из EPAM."
         },
         "mentions": [
