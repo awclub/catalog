@@ -998,7 +998,7 @@
     },
     {
         "id": "bde26abe-3dd1-4c63-b1b1-5df4c3586792",
-        "name": "Phind",
+        "name": "You",
         "url": "https://you.com/",
         "description": {
             "en": "An AI-powered search assistant that provides personalized responses to queries through chat, using a LLM to deliver human-like conversations and aid in tasks such as web search, content and image creation, and code generation.",
