@@ -1,9 +1,7 @@
 <script setup>
-import i18n from "@/i18n/index.js";
+import { useCurrentLangService } from "@/stores/currentLangService.js";
 
-const switchLang = (lang) => {
-    i18n.global.locale = lang
-}
+const currentLangService = useCurrentLangService();
 
 </script>
 
@@ -11,12 +9,12 @@ const switchLang = (lang) => {
   <button
       v-if="$i18n.locale === 'ru'"
       class="lang-switch"
-      v-on:click="() => switchLang('en')"
+      v-on:click="() => currentLangService.setCurrentLang('en')"
   >🌐 English</button>
   <button
       v-else-if="$i18n.locale === 'en'"
       class="lang-switch"
-      v-on:click="() => switchLang('ru')"
+      v-on:click="() => currentLangService.setCurrentLang('ru')"
   >🌐 Русский</button>
 </template>
 
