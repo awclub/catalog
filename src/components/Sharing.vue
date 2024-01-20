@@ -1,22 +1,37 @@
 
 <script setup>
 import Popper from "vue3-popper";
+import { ref } from "vue";
 
-defineProps({
-    url: String
+const isOpen = ref(false);
+
+const props = defineProps({
+  url: String,
+  closeDelay: Number
 })
 
-const copyToClipboard = function(url) {
-    navigator.clipboard.writeText(url)
-        .then(() => console.log('Copied!'))
-        .catch((e) => {
-            console.error('error occurred while service url is copied', e);
-        });
+const onOpen = () => {
+  isOpen.value = true;
+  setTimeout(() => {
+    isOpen.value = false;
+  }, props.closeDelay);
+};
+
+const copyToClipboard = (url) => {
+  navigator.clipboard.writeText(url)
+      .then(() => {
+        console.log('Copied!');
+        onOpen()
+      })
+      .catch((e) => {
+        console.error('error occurred while service url is copied', e);
+      });
 }
+
 </script>
 
 <template>
-<Popper arrow :content="$t('shareResult')" class="popper-customized">
+<Popper arrow :content="$t('shareResult')" class="popper-customized" :show="isOpen">
     <button type="button" class="copy-to-clipboard" @click="copyToClipboard(url)">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
             <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>

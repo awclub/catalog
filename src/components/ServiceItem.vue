@@ -20,7 +20,9 @@ const formattedUrl = function(url) {
 
 <template>
     <div class="service-item">
-        <Sharing :url="`${location.origin}/catalog/${formattedUrl(serviceItem.id)}`" class="sharing-positioning" />
+        <Sharing :url="`${location.origin}/catalog/${formattedUrl(serviceItem.id)}`"
+                 class="sharing-positioning"
+                 :close-delay="3000"/>
         <RouterLink :to="`catalog/${formattedUrl(serviceItem.id)}`"><h3>{{ serviceItem.name }}</h3></RouterLink>
         <p>{{ serviceItem.description[$i18n.locale] }}</p>
         <p>
