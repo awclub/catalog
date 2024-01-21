@@ -1,5 +1,7 @@
 import { defineStore } from "pinia";
 
+const ORDER_KEY = 'sortingOrder';
+
 export const DIRECTION = {
   ASC: 'ASC',
   DESC: 'DESC'
@@ -19,12 +21,31 @@ const ORDERS = [
   }
 ];
 
+const _parseSavedState = () => {
+  const state = localStorage.getItem(ORDER_KEY);
+  if (!state) {
+    return [];
+  }
+
+  const parts = state.split('-');
+  if (parts.length < 2) {
+    localStorage.removeItem(ORDER_KEY);
+    return [];
+  }
+  const direction = (DIRECTION.DESC.toLowerCase() === parts[1]) ? DIRECTION.DESC : DIRECTION.ASC;
+  return [ parts[0], direction ];
+};
+
 const _buildInitialViewSettings = () => {
   const defaultSettings = ORDERS.reduce((obj, order) => {
     obj[order.key] = DIRECTION.ASC;
     return obj;
   }, {});
-  // todo: customize by localStorage data
+  const [ field, direction ] = _parseSavedState();
+  if (!!field && !!direction) {
+    defaultSettings[field] = direction;
+  }
+
   return defaultSettings;
 }
 
@@ -36,7 +57,7 @@ export const useOrderStore = defineStore('orderStore', {
   state: () => ({
     orders: ORDERS,
     orderViewSettings: _buildInitialViewSettings() || {},
-    selectedOrder: 'name'
+    selectedOrder: _parseSavedState()[0] || 'name'
   }),
   getters: {
     getOrderViewSettings: state => state.orderViewSettings,
@@ -61,6 +82,7 @@ export const useOrderStore = defineStore('orderStore', {
       } else {
         this.selectedOrder = orderKey;
       }
+      localStorage.setItem(ORDER_KEY, `${this.selectedOrder}-${this.orderViewSettings[this.selectedOrder]}`)
     }
   },
 })
