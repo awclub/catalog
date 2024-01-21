@@ -25,7 +25,7 @@ const servicesStoreLength = computed(() =>  servicesStore.getServices.length);
                 <h1 class="title">
                     {{ $t('title') }}
                     <a id="podcast-name" target="_blank" href="https://itbeard.com/aia">AIA Podcast</a> 
-                    <a id="aw-club"  target="_blank" href="https:/aw.club">&  Anywhere Club</a>
+                    <a id="aw-club"  target="_blank" href="https://aw.club">&  Anywhere Club</a>
                 </h1>
                 <!-- <nav>
                 <RouterLink to="/">Home</RouterLink>
