@@ -4,8 +4,11 @@ import i18n from "@/i18n/index.js";
 export const LANG_KEY = 'currentLanguage';
 
 const defaultLang = () => {
-  return localStorage.getItem(LANG_KEY)
-    || (['ru', 'uk', 'be'].some(lang => navigator.language.startsWith(lang)) ? 'ru' : 'en'); // default language is English,
+  // default language is English,
+  const defaultLang= localStorage.getItem(LANG_KEY)
+    || (['ru', 'uk', 'be'].some(lang => navigator.language.startsWith(lang)) ? 'ru' : 'en');
+  i18n.global.locale = defaultLang;
+  return defaultLang;
 };
 
 export const useCurrentLangService = defineStore('currentLang', {

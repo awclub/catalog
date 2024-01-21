@@ -24,15 +24,15 @@ const ORDERS = [
 const _parseSavedState = () => {
   const state = localStorage.getItem(ORDER_KEY);
   if (!state) {
-    return [];
+    return [ 'date', DIRECTION.DESC ];
   }
 
   const parts = state.split('-');
-  if (parts.length < 2) {
+  if (parts.length !== 2) {
     localStorage.removeItem(ORDER_KEY);
-    return [];
+    return [ 'date', DIRECTION.DESC ];
   }
-  const direction = (DIRECTION.DESC.toLowerCase() === parts[1]) ? DIRECTION.DESC : DIRECTION.ASC;
+  const direction = (DIRECTION.DESC.toLowerCase() === parts[1].toLowerCase()) ? DIRECTION.DESC : DIRECTION.ASC;
   return [ parts[0], direction ];
 };
 
@@ -42,9 +42,7 @@ const _buildInitialViewSettings = () => {
     return obj;
   }, {});
   const [ field, direction ] = _parseSavedState();
-  if (!!field && !!direction) {
-    defaultSettings[field] = direction;
-  }
+  defaultSettings[field] = direction;
 
   return defaultSettings;
 }
@@ -57,7 +55,7 @@ export const useOrderStore = defineStore('orderStore', {
   state: () => ({
     orders: ORDERS,
     orderViewSettings: _buildInitialViewSettings() || {},
-    selectedOrder: _parseSavedState()[0] || 'name'
+    selectedOrder: _parseSavedState()[0]
   }),
   getters: {
     getOrderViewSettings: state => state.orderViewSettings,
