@@ -18,7 +18,7 @@ const router = createRouter({
 			}
 		},
 		{
-			path: '/:id',
+			path: '/?id=:id',
 			name: 'item',
 			component: ServiceView,
 			props: true

@@ -21,13 +21,13 @@ const formattedUrl = function (url) {
 <template>
 	<div class="service-item">
 		<Sharing
-			:url="`${location.href}${formattedUrl(serviceItem.id)}`"
+			:url="`${location.href}?id=${formattedUrl(serviceItem.id)}`"
 			class="sharing-positioning"
 			:close-delay="3000"
 		/>
-		<RouterLink :to="`${formattedUrl(serviceItem.id)}`">
+		<a :href="'?id=' + formattedUrl(serviceItem.id)">
 			<h3>{{ serviceItem.name }}</h3>
-		</RouterLink>
+		</a>
 
 		<a
 			:href="serviceItem.url"
