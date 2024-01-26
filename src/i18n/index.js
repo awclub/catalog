@@ -4,10 +4,12 @@ const i18n = createI18n({
 	// default locale
 	locale: localStorage.getItem('currentLanguage'),
 	globalInjection: true,
+	legacy: true,
 	// translations
 	messages: {
 		en: {
-			title: "AI tools catalog by",
+			title: "AI tools catalog by AIA Podcast & Anywher Club",
+			header: "AI tools catalog by",
 			searchPlaceholder: "Search by name & description...",
 			mentionedIn: "Mentioned in",
 			githubCodeLinkText: "Code on GitHub",
@@ -22,7 +24,8 @@ const i18n = createI18n({
 			themeLight: "Light Theme",
 		},
 		ru: {
-			title: "Каталог ИИ-сервисов от",
+			title: "Каталог ИИ-сервисов от AIA Podcast & Anywher Club",
+			header: "Каталог ИИ-сервисов от",
 			searchPlaceholder: "Поиск по названию и описанию...",
 			mentionedIn: "Упомянут в",
 			githubCodeLinkText: "Код на GitHub",

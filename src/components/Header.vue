@@ -31,7 +31,7 @@ const servicesStoreLength = computed(() =>  servicesStore.getServices.length);
 					>
 				</RouterLink>
 				<h1 class="title">
-					{{ $t('title') }}
+					{{ $t('header') }}
 					<a
 						id="podcast-name"
 						target="_blank"
