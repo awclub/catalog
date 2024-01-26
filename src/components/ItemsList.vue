@@ -17,6 +17,8 @@ onBeforeMount(() => {
 
 const services = computed(() => {
 	const filtered = servicesFilter.applyFilter(servicesStore.getServices);
+	
+	filtered.sort((a, b) => a.name.localeCompare(b.name)); // default sort by Name ASC
 
 	return filtered.sort(comparator.value);
 })
