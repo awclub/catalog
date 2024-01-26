@@ -39,6 +39,7 @@ const copyToClipboard = (url) => {
 		<button
 			type="button"
 			class="copy-to-clipboard"
+			title="Copy URL to clipboard"
 			@click="copyToClipboard(url)"
 		>
 			<svg

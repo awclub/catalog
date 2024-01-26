@@ -1,10 +1,13 @@
 <script setup>
+import Sharing from "../components/Sharing.vue";
 import { computed } from 'vue'
 import { localDateFilter } from "../filter/localDateFilter.js";
 import { onBeforeMount } from "vue"
+import { useBrowserLocation } from "@vueuse/core";
 import { useServicesStore } from '../stores/services.js';
 
 const servicesStore = useServicesStore();
+const location = useBrowserLocation();
 
 const getCurrentService = computed(() => {
 	return servicesStore.getCurrentService
@@ -25,7 +28,11 @@ onBeforeMount(() => {
 		v-if="getCurrentService.name"
 		class="service-item"
 	>
-		{{ currentLang }}
+		<Sharing
+			:url="`${location.href}`"
+			class="sharing-positioning"
+			:close-delay="3000"
+		/>
 		<a
 			:href="getCurrentService.url"
 			target="_blank"
@@ -107,6 +114,10 @@ p {
 	margin-inline-start: 0px;
 	margin-inline-end: 0px;
 }
-</style>
 
-../filter/localDateFilter.js
+.sharing-positioning {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+</style>

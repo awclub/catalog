@@ -94,5 +94,3 @@ p {
     top: 10px;
 }
 </style>
-
-../filter/localDateFilter.js
