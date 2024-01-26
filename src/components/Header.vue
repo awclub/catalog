@@ -177,4 +177,13 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
+
+@media (max-width: 640px) {
+
+  h1.title {
+    font-size: 1.5em;
+  }
+}
+
+
 </style>
