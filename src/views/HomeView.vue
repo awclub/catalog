@@ -1,6 +1,6 @@
 <script setup>
 import FilterComponent from "../components/FilterComponent.vue";
-import ItemsList from '../components/ItemsList.vue'
+import ServicesList from '../components/ServicesList.vue'
 import i18n from '../i18n/index.js'
 import { onBeforeMount } from "vue";
 import { useRoute } from "vue-router";
@@ -27,7 +27,7 @@ watchEffect(() => {
 <template>
 	<main>
 		<FilterComponent />
-		<ItemsList />
+		<ServicesList />
 	</main>
 </template>
 

@@ -1,6 +1,6 @@
 <script setup>
 import { computed, onBeforeMount } from 'vue'
-import ServiceItem from './ServiceItem.vue'
+import ServiceListItem from './ServiceListItem.vue'
 import { useOrderStore } from "../service/orderStore.js";
 import { useServicesFilter } from "../service/servicesFilter.js";
 import { useServicesStore } from '../stores/services.js';
@@ -29,7 +29,7 @@ const services = computed(() => {
 		v-if="services.length"
 		class="services-list"
 	>
-		<ServiceItem
+		<ServiceListItem
 			v-for="service in services"
 			:key="service.id"
 			:service-item="service"

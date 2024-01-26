@@ -1,10 +1,10 @@
 <script setup>
-import ItemFull from '../components/ItemFull.vue'
+import ServiceItem from '../components/ServiceItem.vue'
 </script>
 
 <template>
 	<main class="main-item">
-		<ItemFull :item-id="$route.params.id" />
+		<ServiceItem :item-id="$route.params.id" />
 	</main>
 </template>
 
