@@ -74,10 +74,6 @@ onBeforeMount(() => {
 	background-color: var(--service-item-bg-color);
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	transition: background-color 0.3s;
-
-	@media screen and (max-width: 640px) {
-		margin: 10px 0;
-	}
 }
 
 .service-item h3 {
