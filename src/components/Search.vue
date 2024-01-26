@@ -1,5 +1,5 @@
 <script setup>
-import { computed, ref, watch } from "vue";
+import { computed } from "vue";
 import { useSearchStore } from "../service/searchStore.js";
 
 const searchStore = useSearchStore();

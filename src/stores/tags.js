@@ -1,5 +1,4 @@
 import { defineStore } from "pinia";
-import { computed, ref } from "vue";
 
 const LOCAL_STORAGE_TAGS_KEY = 'selectedTags';
 

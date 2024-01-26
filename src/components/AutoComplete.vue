@@ -26,6 +26,7 @@ export default {
 	methods: {
 		filterItems() {
 			const value = this.inputValue.toLowerCase();
+
 			this.filteredItems = this.availableItems.filter(
 				item => item.toLowerCase().startsWith(value) && !this.alreadySelectedItems.includes(item)
 			);
@@ -33,6 +34,7 @@ export default {
 		},
 		highlightItem(item) {
 			const match = this.inputValue;
+
 			return `<strong>${item.substring(0, match.length)}</strong>${item.substring(match.length)}`;
 		},
 		navigateItems(event) {
@@ -42,6 +44,7 @@ export default {
 				this.currentFocus = (this.currentFocus + this.filteredItems.length - 1) % this.filteredItems.length;
 			} else if (event.key === 'Enter') {
 				event.preventDefault();
+
 				if (this.currentFocus > -1) {
 					this.selectItem(this.filteredItems[this.currentFocus]);
 				}

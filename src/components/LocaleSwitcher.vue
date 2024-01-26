@@ -1,5 +1,5 @@
 <script setup>
-import { useCurrentLangService } from "@/stores/currentLangService.js";
+import { useCurrentLangService } from "../stores/currentLangService.js";
 
 const currentLangService = useCurrentLangService();
 

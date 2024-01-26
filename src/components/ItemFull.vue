@@ -1,8 +1,8 @@
 <script setup>
 import { computed } from 'vue'
-import { useServicesStore } from '../stores/services';
-import { onBeforeMount } from "vue"
 import { localDateFilter } from "../filter/local-date-filter.js";
+import { onBeforeMount } from "vue"
+import { useServicesStore } from '../stores/services.js';
 
 const servicesStore = useServicesStore();
 

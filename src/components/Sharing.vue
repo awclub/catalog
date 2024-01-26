@@ -20,7 +20,6 @@ const onOpen = () => {
 const copyToClipboard = (url) => {
 	navigator.clipboard.writeText(url)
 		.then(() => {
-			console.log('Copied!');
 			onOpen()
 		})
 		.catch((e) => {

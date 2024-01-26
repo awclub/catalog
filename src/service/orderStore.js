@@ -23,25 +23,32 @@ const ORDERS = [
 
 const _parseSavedState = () => {
 	const state = localStorage.getItem(ORDER_KEY);
+
 	if (!state) {
 		return [ 'date', DIRECTION.DESC ];
 	}
 
 	const parts = state.split('-');
+
 	if (parts.length !== 2) {
 		localStorage.removeItem(ORDER_KEY);
+
 		return [ 'date', DIRECTION.DESC ];
 	}
+
 	const direction = (DIRECTION.DESC.toLowerCase() === parts[1].toLowerCase()) ? DIRECTION.DESC : DIRECTION.ASC;
+
 	return [ parts[0], direction ];
 };
 
 const _buildInitialViewSettings = () => {
 	const defaultSettings = ORDERS.reduce((obj, order) => {
 		obj[order.key] = DIRECTION.ASC;
+
 		return obj;
 	}, {});
 	const [ field, direction ] = _parseSavedState();
+
 	defaultSettings[field] = direction;
 
 	return defaultSettings;
@@ -63,9 +70,11 @@ export const useOrderStore = defineStore('orderStore', {
 		getSelectedOrder: state => state.selectedOrder,
 		getSelectedComparator: state => {
 			const comparator = ORDERS.find(order => order.key === state.selectedOrder).comparator;
+
 			if (state.orderViewSettings[state.selectedOrder] === DIRECTION.ASC) {
 				return comparator;
 			}
+
 			return (first, second) => -comparator(first, second);
 		}
 	},
@@ -80,6 +89,7 @@ export const useOrderStore = defineStore('orderStore', {
 			} else {
 				this.selectedOrder = orderKey;
 			}
+
 			localStorage.setItem(ORDER_KEY, `${this.selectedOrder}-${this.orderViewSettings[this.selectedOrder]}`)
 		}
 	},

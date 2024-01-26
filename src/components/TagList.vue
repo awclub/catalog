@@ -1,12 +1,8 @@
 <script setup>
-import { useTagsStore } from "@/stores/tags.js";
-
 defineProps({
 	items: Array,
 	onTagClick: Function
 })
-
-const tagsStore = useTagsStore();
 </script>
 
 <template>

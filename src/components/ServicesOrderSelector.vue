@@ -1,5 +1,5 @@
 <script setup>
-import { DIRECTION, useOrderStore } from "@/service/orderStore.js";
+import { DIRECTION, useOrderStore } from "../service/orderStore.js";
 import { computed } from "vue";
 
 const orderStore = useOrderStore();

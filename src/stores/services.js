@@ -1,5 +1,5 @@
+import { GetServices } from "../api/services.js";
 import { defineStore } from 'pinia';
-import { GetServices } from "@/api/services"
 
 export const useServicesStore = defineStore('servicesStore', {
 	state: () => ({
@@ -24,6 +24,7 @@ export const useServicesStore = defineStore('servicesStore', {
       
 			const response = api
 			const { data } = response
+
 			this.services = data
 		},
 		async fetchService(id) {
@@ -34,6 +35,7 @@ export const useServicesStore = defineStore('servicesStore', {
 			const { data } = response
 
 			const currentService = data.find(i => i.id.includes(currentId))
+
 			this.currentService = currentService
 		},
 		async fetchAllTags() {
@@ -44,9 +46,11 @@ export const useServicesStore = defineStore('servicesStore', {
 					.flatMap(service => service.tags)
 					.reduce((prev, curr) => {
 						prev[curr] = true;
+
 						return prev;
 					}, {})
 			);
+
 			uniqueAvailableTags.sort();
 			this.allTags = uniqueAvailableTags;
 		}

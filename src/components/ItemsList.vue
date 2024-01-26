@@ -1,9 +1,9 @@
 <script setup>
 import { computed, onBeforeMount } from 'vue'
 import ServiceItem from './ServiceItem.vue'
-import { useServicesStore } from '../stores/services';
-import { useServicesFilter } from "@/service/servicesFilter.js";
-import { useOrderStore } from "@/service/orderStore.js";
+import { useOrderStore } from "../service/orderStore.js";
+import { useServicesFilter } from "../service/servicesFilter.js";
+import { useServicesStore } from '../stores/services.js';
 
 const servicesStore = useServicesStore();
 const servicesFilter = useServicesFilter();
@@ -17,6 +17,7 @@ onBeforeMount(() => {
 
 const services = computed(() => {
 	const filtered = servicesFilter.applyFilter(servicesStore.getServices);
+
 	return filtered.sort(comparator.value);
 })
 </script>

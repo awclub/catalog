@@ -1,10 +1,11 @@
 <script setup>
-import { useTagsStore } from "@/stores/tags.js";
-import TagList from "@/components/TagList.vue";
-import AutoCompleteInput from "@/components/AutoComplete.vue";
-import { useServicesStore } from "@/stores/services.js";
+import AutoCompleteInput from "../components/AutoComplete.vue";
+import Search from "../components/Search.vue";
+import TagList from "../components/TagList.vue";
+import { useServicesStore } from "../stores/services.js";
+import { useTagsStore } from "../stores/tags.js";
+
 import { computed, onBeforeMount } from "vue";
-import Search from "@/components/Search.vue";
 
 const tagsStore = useTagsStore();
 const servicesStore = useServicesStore();

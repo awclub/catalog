@@ -1,8 +1,8 @@
 <script setup>
 import { RouterLink } from 'vue-router';
-import { useServicesStore } from '../stores/services';
+import Settings from "../components/Settings.vue";
 import { computed } from 'vue'
-import Settings from "@/components/Settings.vue";
+import { useServicesStore } from '../stores/services.js';
 
 defineProps({
 	msg: {
