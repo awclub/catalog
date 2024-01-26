@@ -6,30 +6,23 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/catalog',
-      redirect: '/'
-    },
-    {
       path: '/',
       name: 'home',
-      component: HomeView
-    },
-    {
-      path: '/',
+      component: HomeView,
       beforeEnter: (to, from, next) => {
-        const { id } = to.query;
-        if (id) {
-          next(`/${id}`);
+        if (to.query.id) {
+          next({ name: 'item', params: { id: to.query.id } });
         } else {
           next();
         }
-      },
-      component: HomeView
+      }
     },
     {
       path: '/:id',
-      component: ItemView
-    },
+      name: 'item',
+      component: ItemView,
+      props: true
+    }
   ]
 })
 
