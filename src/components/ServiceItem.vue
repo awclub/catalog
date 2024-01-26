@@ -7,36 +7,33 @@ import Sharing from "@/components/Sharing.vue";
 import { useBrowserLocation } from "@vueuse/core";
 
 defineProps({
-  serviceItem: Object
+    serviceItem: Object
 })
 
 const tagsStore = useTagsStore();
 const location = useBrowserLocation();
 
-const formattedUrl = function(url) {
-  return url.split("-").shift();
+const formattedUrl = function (url) {
+    return url.substring(0, 5);
 }
 </script>
 
 <template>
     <div class="service-item">
-        <Sharing :url="`${location.origin}/catalog/${formattedUrl(serviceItem.id)}`"
-                 class="sharing-positioning"
-                 :close-delay="3000"/>
-        <RouterLink :to="`catalog/${formattedUrl(serviceItem.id)}`"><h3>{{ serviceItem.name }}</h3></RouterLink>
+        <Sharing :url="`${location.origin}/${formattedUrl(serviceItem.id)}`" class="sharing-positioning"
+            :close-delay="3000" />
+        <RouterLink :to="`${formattedUrl(serviceItem.id)}`">
+            <h3>{{ serviceItem.name }}</h3>
+        </RouterLink>
         <p>{{ serviceItem.description[$i18n.locale] }}</p>
         <p>
             {{ $t('mentionedIn') }}:
-            <a
-                v-for='mention in serviceItem.mentions' 
-                :key='mention.episodeName' 
-                :href='mention.episodeUrl' 
-                target="_blank"
-            >
-            {{ mention.episodeName }}
+            <a v-for='mention in serviceItem.mentions' :key='mention.episodeName' :href='mention.episodeUrl'
+                target="_blank">
+                {{ mention.episodeName }}
             </a>
         </p>
-        <TagList :items="serviceItem.tags" :on-tag-click="tagsStore.selectTag"/>
+        <TagList :items="serviceItem.tags" :on-tag-click="tagsStore.selectTag" />
         <div class="date">{{ localDateFilter(serviceItem.date, $i18n.locale) }}</div> <!-- Добавляем дату -->
     </div>
 </template>
@@ -48,11 +45,11 @@ const formattedUrl = function(url) {
     border-radius: 10px;
     padding: 10px 25px 25px 25px;
     background-color: var(--service-item-bg-color);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s;
 
     @media screen and (max-width: 640px) {
-      width: 100%;
+        width: 100%;
     }
 }
 
