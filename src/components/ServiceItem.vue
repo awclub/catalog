@@ -7,35 +7,47 @@ import Sharing from "@/components/Sharing.vue";
 import { useBrowserLocation } from "@vueuse/core";
 
 defineProps({
-    serviceItem: Object
+	serviceItem: Object,
 })
 
 const tagsStore = useTagsStore();
 const location = useBrowserLocation();
 
 const formattedUrl = function (url) {
-    return url.substring(0, 5);
+	return url.substring(0, 5);
 }
 </script>
 
 <template>
-    <div class="service-item">
-        <Sharing :url="`${location.origin}/${formattedUrl(serviceItem.id)}`" class="sharing-positioning"
-            :close-delay="3000" />
-        <RouterLink :to="`${formattedUrl(serviceItem.id)}`">
-            <h3>{{ serviceItem.name }}</h3>
-        </RouterLink>
-        <p>{{ serviceItem.description[$i18n.locale] }}</p>
-        <p>
-            {{ $t('mentionedIn') }}:
-            <a v-for='mention in serviceItem.mentions' :key='mention.episodeName' :href='mention.episodeUrl'
-                target="_blank">
-                {{ mention.episodeName }}
-            </a>
-        </p>
-        <TagList :items="serviceItem.tags" :on-tag-click="tagsStore.selectTag" />
-        <div class="date">{{ localDateFilter(serviceItem.date, $i18n.locale) }}</div> <!-- Добавляем дату -->
-    </div>
+	<div class="service-item">
+		<Sharing
+			:url="`${location.origin}/${formattedUrl(serviceItem.id)}`"
+			class="sharing-positioning"
+			:close-delay="3000"
+		/>
+		<RouterLink :to="`${formattedUrl(serviceItem.id)}`">
+			<h3>{{ serviceItem.name }}</h3>
+		</RouterLink>
+		<p>{{ serviceItem.description[$i18n.locale] }}</p>
+		<p>
+			{{ $t('mentionedIn') }}:
+			<a
+				v-for="mention in serviceItem.mentions"
+				:key="mention.episodeName"
+				:href="mention.episodeUrl"
+				target="_blank"
+			>
+				{{ mention.episodeName }}
+			</a>
+		</p>
+		<TagList
+			:items="serviceItem.tags"
+			:on-tag-click="tagsStore.selectTag"
+		/>
+		<div class="date">
+			{{ localDateFilter(serviceItem.date, $i18n.locale) }}
+		</div> <!-- Добавляем дату -->
+	</div>
 </template>
 
 <style scoped>

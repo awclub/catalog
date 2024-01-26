@@ -3,9 +3,9 @@ import ItemFull from '../components/ItemFull.vue'
 </script>
 
 <template>
-  <main class="main-item">
-    <ItemFull :itemId="$route.params.id" />
-  </main>
+	<main class="main-item">
+		<ItemFull :item-id="$route.params.id" />
+	</main>
 </template>
 
 <style scoped>

@@ -11,16 +11,20 @@ const selectedOrder = computed(() => orderStore.selectedOrder);
 </script>
 
 <template>
-  <fieldset class="sorting-fieldbox">
-    <legend class="order-legend">Sorting</legend>
-    <button v-for='order in orders'
-            v-on:click="orderStore.toggleOrder(order.key)"
-            :class="{'hovered': selectedOrder === order.key}"
-    >
-      <span>{{ order.textLabel }}</span>
-      <span class="arrow">{{ viewSettings[order.key] === DIRECTION.ASC ? '&#8593;' : '&#8595;' }}</span>
-    </button>
-  </fieldset>
+	<fieldset class="sorting-fieldbox">
+		<legend class="order-legend">
+			Sorting
+		</legend>
+		<button
+			v-for="order in orders"
+			:key="order.key"
+			:class="{'hovered': selectedOrder === order.key}"
+			@click="orderStore.toggleOrder(order.key)"
+		>
+			<span>{{ order.textLabel }}</span>
+			<span class="arrow">{{ viewSettings[order.key] === DIRECTION.ASC ? '&#8593;' : '&#8595;' }}</span>
+		</button>
+	</fieldset>
 </template>
 
 <style scoped>

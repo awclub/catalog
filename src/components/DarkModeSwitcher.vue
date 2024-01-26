@@ -6,14 +6,18 @@ const toggleDark = useToggle(isDark);
 </script>
 
 <template>
-  <button
-      v-if="isDark"
-      v-on:click="toggleDark()"
-  >Light Mode</button>
-  <button
-      v-else-if="!isDark"
-      v-on:click="toggleDark()"
-  >Dark Mode</button>
+	<button
+		v-if="isDark"
+		@click="toggleDark()"
+	>
+		Light Mode
+	</button>
+	<button
+		v-else-if="!isDark"
+		@click="toggleDark()"
+	>
+		Dark Mode
+	</button>
 </template>
 
 <style scoped>

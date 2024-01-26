@@ -10,18 +10,18 @@ const searchStore = useSearchStore();
 const { search } = route.query;
 
 onBeforeMount(() => {
-  if (search?.length) {
-    searchStore.setSearchText(search);
-  }
+	if (search?.length) {
+		searchStore.setSearchText(search);
+	}
 });
 
 </script>
 
 <template>
-  <main>
-    <FilterComponent />
-    <ItemsList />
-  </main>
+	<main>
+		<FilterComponent />
+		<ItemsList />
+	</main>
 </template>
 
 <style scoped>

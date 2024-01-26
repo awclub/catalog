@@ -1,12 +1,27 @@
 <template>
-<footer>
-    <div>
-        <a href="https://itbeard.com/aia" target="_blank" id="podcast-link">AIA Podcast</a>
-        <a href="https://t.me/aiapodcast" target="_blank" id="podcast-chat-link">{{ $t('podcastChatLinkText') }}</a>
-        <a href="https://aw.club" target="_blank" >AW Club</a>
-        <a href="https://github.com/awclub/catalog" target="_blank" id="github-code-link">{{ $t('githubCodeLinkText') }}</a>
-    </div>
-</footer>
+	<footer>
+		<div>
+			<a
+				id="podcast-link"
+				href="https://itbeard.com/aia"
+				target="_blank"
+			>AIA Podcast</a>
+			<a
+				id="podcast-chat-link"
+				href="https://t.me/aiapodcast"
+				target="_blank"
+			>{{ $t('podcastChatLinkText') }}</a>
+			<a
+				href="https://aw.club"
+				target="_blank"
+			>AW Club</a>
+			<a
+				id="github-code-link"
+				href="https://github.com/awclub/catalog"
+				target="_blank"
+			>{{ $t('githubCodeLinkText') }}</a>
+		</div>
+	</footer>
 </template>
 
 <style scoped>

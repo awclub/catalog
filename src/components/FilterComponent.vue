@@ -10,39 +10,41 @@ const tagsStore = useTagsStore();
 const servicesStore = useServicesStore();
 
 onBeforeMount(() => {
-  servicesStore.fetchAllTags();
+	servicesStore.fetchAllTags();
 });
 
 const allTags = computed(() => {
-  return servicesStore.getAllTags
+	return servicesStore.getAllTags
 });
 
 </script>
 
 <template>
-  <div class="filter-container">
-    <Search />
-    <div class="selected-tags-box">
-      <auto-complete-input
-          :placeholder="$t('searchTagsPlaceholder')"
-          :available-items="allTags"
-          :already-selected-items="tagsStore.tags"
-          :on-select="tagsStore.selectTag"
-      />
-      <div class="selected-tags">
-        <TagList
-            :items="tagsStore.tags"
-            :onTagClick="tagsStore.unSelectTag"
-        />
-      </div>
-      <input class="reset-button"
-            type="button"
-            title="reset"
-            v-show="tagsStore.tags.length"
-            v-on:click="tagsStore.resetTags"
-            value="&#8634;"/>
-    </div>
-  </div>
+	<div class="filter-container">
+		<Search />
+		<div class="selected-tags-box">
+			<auto-complete-input
+				:placeholder="$t('searchTagsPlaceholder')"
+				:available-items="allTags"
+				:already-selected-items="tagsStore.tags"
+				:on-select="tagsStore.selectTag"
+			/>
+			<div class="selected-tags">
+				<TagList
+					:items="tagsStore.tags"
+					:on-tag-click="tagsStore.unSelectTag"
+				/>
+			</div>
+			<input
+				v-show="tagsStore.tags.length"
+				class="reset-button"
+				type="button"
+				title="reset"
+				value="&#8634;"
+				@click="tagsStore.resetTags"
+			>
+		</div>
+	</div>
 </template>
 
 <style scoped>

@@ -12,23 +12,26 @@ const orderStore = useOrderStore();
 const comparator = computed(() => orderStore.getSelectedComparator);
 
 onBeforeMount(() => {
-  servicesStore.fetchData()
- })
+	servicesStore.fetchData()
+})
 
 const services = computed(() => {
-  const filtered = servicesFilter.applyFilter(servicesStore.getServices);
-  return filtered.sort(comparator.value);
+	const filtered = servicesFilter.applyFilter(servicesStore.getServices);
+	return filtered.sort(comparator.value);
 })
 </script>
 
 <template>
-  <div v-if="services.length" class="services-list">
-    <ServiceItem
-      v-for='service in services'
-      :key='service.id'
-      :serviceItem='service'
-    />
-  </div>
+	<div
+		v-if="services.length"
+		class="services-list"
+	>
+		<ServiceItem
+			v-for="service in services"
+			:key="service.id"
+			:service-item="service"
+		/>
+	</div>
 </template>
 
 <style scoped>

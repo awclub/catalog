@@ -6,20 +6,25 @@ const searchStore = useSearchStore();
 const searchText = computed(() => searchStore.getSearchText);
 
 const setInput = (e) => {
-  searchStore.setSearchText(e.target.value);
+	searchStore.setSearchText(e.target.value);
 };
 </script>
 
 <template>
-  <div class="search-container">
-    <input
-        class="text-input search-box"
-        type="text"
-        :value="searchText"
-        v-on:input="setInput"
-        :placeholder="$t('searchPlaceholder')"/>
-    <span class="clear-button" v-if="!!searchText.length" v-on:click="searchStore.setSearchText('')">&times;</span>
-  </div>
+	<div class="search-container">
+		<input
+			class="text-input search-box"
+			type="text"
+			:value="searchText"
+			:placeholder="$t('searchPlaceholder')"
+			@input="setInput"
+		>
+		<span
+			v-if="!!searchText.length"
+			class="clear-button"
+			@click="searchStore.setSearchText('')"
+		>&times;</span>
+	</div>
 </template>
 
 <style scoped>

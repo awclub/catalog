@@ -5,10 +5,10 @@ import { computed } from 'vue'
 import Settings from "@/components/Settings.vue";
 
 defineProps({
-  msg: {
-    type: String,
-    required: false
-  }
+	msg: {
+		type: String,
+		required: false
+	}
 });
 
 const servicesStore = useServicesStore();
@@ -18,24 +18,45 @@ const servicesStoreLength = computed(() =>  servicesStore.getServices.length);
 </script>
 
 <template>
-    <header>
-        <div class="container">
-            <div class="title-container">
-                <RouterLink to="/"><img alt="Vue logo" class="logo" src="@/assets/logo.png" width="70" height="70" /></RouterLink>
-                <h1 class="title">
-                    {{ $t('title') }}
-                    <a id="podcast-name" target="_blank" href="https://itbeard.com/aia">AIA Podcast</a> 
-                    <a id="aw-club"  target="_blank" href="https://aw.club">&  Anywhere Club</a>
-                </h1>
-                <!-- <nav>
+	<header>
+		<div class="container">
+			<div class="title-container">
+				<RouterLink to="/">
+					<img
+						alt="Vue logo"
+						class="logo"
+						src="@/assets/logo.png"
+						width="70"
+						height="70"
+					>
+				</RouterLink>
+				<h1 class="title">
+					{{ $t('title') }}
+					<a
+						id="podcast-name"
+						target="_blank"
+						href="https://itbeard.com/aia"
+					>AIA Podcast</a> 
+					<a
+						id="aw-club"
+						target="_blank"
+						href="https://aw.club"
+					>&  Anywhere Club</a>
+				</h1>
+				<!-- <nav>
                 <RouterLink to="/">Home</RouterLink>
                 <RouterLink to="/about">About</RouterLink>
                 </nav> -->
-            </div>
-          <Settings />
-          <div v-if="servicesStoreLength" class="services-count">{{ servicesStoreLength }}</div>
-        </div>
-    </header>
+			</div>
+			<Settings />
+			<div
+				v-if="servicesStoreLength"
+				class="services-count"
+			>
+				{{ servicesStoreLength }}
+			</div>
+		</div>
+	</header>
 </template>
 
 <style scoped>

@@ -6,16 +6,20 @@ const currentLangService = useCurrentLangService();
 </script>
 
 <template>
-  <button
-      v-if="$i18n.locale === 'ru'"
-      class="lang-switch"
-      v-on:click="() => currentLangService.setCurrentLang('en')"
-  >🌐 English</button>
-  <button
-      v-else-if="$i18n.locale === 'en'"
-      class="lang-switch"
-      v-on:click="() => currentLangService.setCurrentLang('ru')"
-  >🌐 Русский</button>
+	<button
+		v-if="$i18n.locale === 'ru'"
+		class="lang-switch"
+		@click="() => currentLangService.setCurrentLang('en')"
+	>
+		🌐 English
+	</button>
+	<button
+		v-else-if="$i18n.locale === 'en'"
+		class="lang-switch"
+		@click="() => currentLangService.setCurrentLang('ru')"
+	>
+		🌐 Русский
+	</button>
 </template>
 
 <style scoped>

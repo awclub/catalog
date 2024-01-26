@@ -2,17 +2,22 @@
 import { useTagsStore } from "@/stores/tags.js";
 
 defineProps({
-  items: Array,
-  onTagClick: Function
+	items: Array,
+	onTagClick: Function
 })
 
 const tagsStore = useTagsStore();
 </script>
 
 <template>
-  <div class="tags">
-    <span v-for='tag in items' :key='tag' class="tag" v-on:click="() => onTagClick(tag)">{{ tag }}</span>
-  </div>
+	<div class="tags">
+		<span
+			v-for="tag in items"
+			:key="tag"
+			class="tag"
+			@click="() => onTagClick(tag)"
+		>{{ tag }}</span>
+	</div>
 </template>
 
 <style scoped>

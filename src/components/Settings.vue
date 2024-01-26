@@ -6,16 +6,16 @@ import ServicesOrderSelector from "@/components/ServicesOrderSelector.vue";
 </script>
 
 <template>
-  <div class="settings-menu">
-    <button id="settings-button">
-      <span class="material-symbols-outlined">settings</span>
-    </button>
-    <div class="settings-content">
-      <LocaleChanger />
-      <DarkModeSwitcher />
-      <ServicesOrderSelector />
-    </div>
-  </div>
+	<div class="settings-menu">
+		<button id="settings-button">
+			<span class="material-symbols-outlined">settings</span>
+		</button>
+		<div class="settings-content">
+			<LocaleChanger />
+			<DarkModeSwitcher />
+			<ServicesOrderSelector />
+		</div>
+	</div>
 </template>
 
 <style>
