@@ -2,7 +2,7 @@
 import { RouterLink } from 'vue-router';
 import Sharing from "../components/Sharing.vue";
 import TagList from "../components/TagList.vue";
-import { localDateFilter } from "../filter/local-date-filter.js";
+import { localDateFilter } from "../filter/localDateFilter.js";
 import { useBrowserLocation } from "@vueuse/core";
 import { useTagsStore } from "../stores/tags.js";
 
@@ -95,3 +95,4 @@ p {
 }
 </style>
 
+../filter/localDateFilter.js

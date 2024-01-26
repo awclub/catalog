@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from 'vue'
-import { localDateFilter } from "../filter/local-date-filter.js";
+import { localDateFilter } from "../filter/localDateFilter.js";
 import { onBeforeMount } from "vue"
 import { useServicesStore } from '../stores/services.js';
 
@@ -109,3 +109,4 @@ p {
 }
 </style>
 
+../filter/localDateFilter.js
