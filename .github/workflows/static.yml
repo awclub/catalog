@@ -34,7 +34,7 @@ jobs:
         run: npm run lint
 
       - name: Build
-        run: npm run build
+        run: vite build
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.5
