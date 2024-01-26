@@ -25,7 +25,7 @@ const servicesStoreLength = computed(() =>  servicesStore.getServices.length);
 					<img
 						alt="Vue logo"
 						class="logo"
-						src="../../logo.png"
+						src="../../public/logo.png"
 						width="70"
 						height="70"
 					>
