@@ -30,11 +30,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Lint
-        run: npm run lint
-
       - name: Build
-        run: vite build
+        run: npm run lint && vite build
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.5
