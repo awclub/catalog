@@ -20,7 +20,7 @@ export const useServicesStore = defineStore('servicesStore', {
 	},
 	actions: {
 		async fetchData() {
-			const api = await new GetServices("./public/db.json")
+			const api = await new GetServices("./db.json")
       
 			const response = api
 			const { data } = response
@@ -28,7 +28,7 @@ export const useServicesStore = defineStore('servicesStore', {
 			this.services = data
 		},
 		async fetchService(id) {
-			const api = await new GetServices("./public/db.json")
+			const api = await new GetServices("./db.json")
         
 			const currentId = id
 			const response = api
@@ -39,7 +39,7 @@ export const useServicesStore = defineStore('servicesStore', {
 			this.currentService = currentService
 		},
 		async fetchAllTags() {
-			const { data } = await new GetServices("./public/db.json");
+			const { data } = await new GetServices("./db.json");
 
 			const uniqueAvailableTags = Object.keys(
 				(data || [])
