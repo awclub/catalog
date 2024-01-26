@@ -11,12 +11,12 @@ export const DIRECTION = {
 const ORDERS = [
 	{
 		key: 'name',
-		textLabel: 'Name',
+		textLabelKey: 'sortingByName',
 		comparator: (first, second) => first.name.localeCompare(second.name)
 	},
 	{
 		key: 'date',
-		textLabel: 'Date',
+		textLabelKey: 'sortingByDate',
 		comparator: (first, second) => first.date.localeCompare(second.date)
 	}
 ];

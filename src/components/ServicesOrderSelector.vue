@@ -13,7 +13,7 @@ const selectedOrder = computed(() => orderStore.selectedOrder);
 <template>
 	<fieldset class="sorting-fieldbox">
 		<legend class="order-legend">
-			Sorting
+			{{ $t('sortingLegend') }}
 		</legend>
 		<button
 			v-for="order in orders"
@@ -21,7 +21,7 @@ const selectedOrder = computed(() => orderStore.selectedOrder);
 			:class="{'hovered': selectedOrder === order.key}"
 			@click="orderStore.toggleOrder(order.key)"
 		>
-			<span>{{ order.textLabel }}</span>
+			<span>{{ $t(order.textLabelKey) }}</span>
 			<span class="arrow">{{ viewSettings[order.key] === DIRECTION.ASC ? '&#8593;' : '&#8595;' }}</span>
 		</button>
 	</fieldset>

@@ -14,7 +14,12 @@ const i18n = createI18n({
 			podcastChatLinkText: "Podcast chat",
 			podcastLinkText: "AIA Podcast",
 			searchTagsPlaceholder: "Search by tags...",
-			shareResult: "Copied to clipboard"
+			shareResult: "Copied to clipboard",
+			sortingLegend: "Sorting",
+			sortingByName: "Name",
+			sortingByDate: "Date",
+			themeDark: "Dark Theme",
+			themeLight: "Light Theme",
 		},
 		ru: {
 			title: "Каталог ИИ-сервисов от",
@@ -24,7 +29,12 @@ const i18n = createI18n({
 			podcastChatLinkText: "Чат подкаста",
 			podcastLinkText: "AIA Podcast",
 			searchTagsPlaceholder: "Поиск по тегам...",
-			shareResult: "Ссылка скопирована"
+			shareResult: "Ссылка скопирована",
+			sortingLegend: "Сортировка",
+			sortingByName: "Имя",
+			sortingByDate: "Дата",
+			themeDark: "Тёмная тема",
+			themeLight: "Светлая тема",
 		},
 	},
 });

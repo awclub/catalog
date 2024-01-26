@@ -10,13 +10,13 @@ const toggleDark = useToggle(isDark);
 		v-if="isDark"
 		@click="toggleDark()"
 	>
-		Light Mode
+		{{ $t('themeLight') }}
 	</button>
 	<button
 		v-else-if="!isDark"
 		@click="toggleDark()"
 	>
-		Dark Mode
+		{{ $t('themeDark') }}
 	</button>
 </template>
 
