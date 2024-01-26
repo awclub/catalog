@@ -160,8 +160,8 @@ nav a:first-of-type {
 
 .services-count {
   position: absolute;
-  right: 15px;
-  bottom: 8px;
+  right: 20px;
+  bottom: 15px;
   font-size: 0.9em;
   color: #999;
 }

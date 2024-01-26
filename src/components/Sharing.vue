@@ -88,7 +88,7 @@ const copyToClipboard = (url) => {
 }
 
 .popper-customized .popper {
-    min-width: 200px;
+    min-width: 160px;
     text-align: center;
 }
 </style>

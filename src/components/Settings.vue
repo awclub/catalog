@@ -44,7 +44,8 @@ import ServicesOrderSelector from "../components/ServicesOrderSelector.vue";
   display: none;
   position: absolute;
   background-color: var(--button-bg-color);
-  min-width: 160px;
+  min-width: 170px;
+  font-weight: bold;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   right: 0;
@@ -78,12 +79,16 @@ import ServicesOrderSelector from "../components/ServicesOrderSelector.vue";
   .settings-menu {
     position: absolute;
     display: inline-block;
-    top: -9px;
-    right: -4px;
+    top: 3px;
+    right: 3px;
   }
 
   #settings-button {
     width: 80px;
+  }
+
+  .selected-tags-box {
+    margin-left: 0px !important;
   }
 }
 
