@@ -21,6 +21,41 @@ Make a fork of this repository, then make improvements and send a PR (Pull Reque
 ### How can I report a closed or inoperative tool from the catalog?
 You can create an Issue with type "[Сlosed or inoperative tool report](https://github.com/awclub/catalog/issues/new?assignees=&labels=closed+tool%2C+inoperative+tool&projects=&template=%D1%81losed-or-inoperative-tool-report.md&title=)". Then, we will review the tool and decide whether to remove it from the catalog or not.
 
+# AIAcatalog Application
+
+Instructions to run VUE application
+
+## Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
 
 ---
 
@@ -44,4 +79,3 @@ You can create an Issue with type "[Сlosed or inoperative tool report](https://
 
 ### Как сообщить о закрытом или неработающем сервисе из каталога?
 Вы можете создать Issue с типом "[Сlosed or inoperative tool report](https://github.com/awclub/catalog/issues/new?assignees=&labels=closed+tool%2C+inoperative+tool&projects=&template=%D1%81losed-or-inoperative-tool-report.md&title=)". Затем мы рассмотрим запрос и решим, удалять сервис из каталога или нет.
-

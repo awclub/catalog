@@ -1,0 +1,34 @@
+{
+  "name": "aiacatalog",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run lint && vite",
+    "build": "npm run lint && vite build",
+    "preview": "npm run lint && vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.7.1",
+    "axios": "^1.6.5",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.11",
+    "vue-i18n": "^9.9.0",
+    "vue-router": "^4.2.5",
+    "vue3-popper": "^1.5.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.5.4",
+    "@babel/preset-react": "^7.23.3",
+    "@rushstack/eslint-patch": "^1.3.3",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "eslint": "^8.56.0",
+    "eslint-config-stylelint": "^20.0.0",
+    "eslint-plugin-vue": "^9.20.1",
+    "prettier": "^3.0.3",
+    "vite": "^5.0.10"
+  }
+}
