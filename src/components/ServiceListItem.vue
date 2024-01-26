@@ -21,7 +21,7 @@ const formattedUrl = function (url) {
 <template>
 	<div class="service-item">
 		<Sharing
-			:url="`${location.origin}/${formattedUrl(serviceItem.id)}`"
+			:url="`${location.href}${formattedUrl(serviceItem.id)}`"
 			class="sharing-positioning"
 			:close-delay="3000"
 		/>
