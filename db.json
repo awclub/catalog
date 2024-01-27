@@ -1,5 +1,92 @@
 [
     {
+        "id": "4b0268b0-344f-490d-becd-d66c5219eb87",
+        "name": "TextSynth Server",
+        "url": "https://bellard.org/ts_server/",
+        "description": {
+            "ru": "Веб-сервер, предлагающий REST API для работы с большими языковыми моделями. Может использоваться, для заполнения текста, ответов на вопросы, классификации, общения, перевода, создания изображений и т.д. Разработан создателем ffmpg и tiny C - Фабрицем Беллардом.",
+            "en": "A web server that offers a REST API for working with large language models. Can be used for text completion, question answering, classification, chat, translation, image generation, etc. Developed by the creator of ffmpg and tiny C - Fabrice Bellard."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "programming",
+            "llm",
+            "api",
+            "local"
+        ]
+    },
+    {
+        "id": "76dd63ff-a4b0-4cd4-8f77-92226527e2ef",
+        "name": "V0",
+        "url": "http://v0.dev",
+        "description": {
+            "ru": "ИИ-сервис для создания пользовательских интерфейсов и веб-сайтов на основе промптов. Сгенерированный код удобен для операций копирования и вставки и создан с использованием таких инструментов с открытым исходным кодом, как React, Tailwind CSS и Shadcn UI. Разрабатывается компанией Vercel Labs.",
+            "en": "AI service for creating user interfaces and websites based on prompts. The generated code is easy to copy and paste operations and is created using open source tools such as React, Tailwind CSS and Shadcn UI. Developed by Vercel Labs."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "productivity",
+            "programming",
+            "content"
+        ]
+    },
+    {
+        "id": "75583b82-ea13-4a0d-bc70-406c4ab0971a",
+        "name": "MLC LLM",
+        "url": "https://llm.mlc.ai/",
+        "description": {
+            "ru": "UI для запуска открытых LLM локально на вашем компьютере либо мобильном устройстве (да, оно работает на телефонах!).",
+            "en": "UI for running open LLM locally on your computer or mobile device (yes, it works on phones!)."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "llm",
+            "interface",
+            "local",
+            "open-source"
+        ]
+    },
+    {
+        "id": "12548a2e-b3ac-4c0c-89e5-29b53a60df48",
+        "name": "Jan.a",
+        "url": "https://jan.ai",
+        "description": {
+            "ru": "UI для запуска открытых LLM локально на вашем компьютере.",
+            "en": "UI for running open LLM locally on your computer."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "llm",
+            "interface",
+            "local",
+            "open-source"
+        ]
+    },
+    {
         "id": "0c79c48c-b5e0-4d61-b8b3-b94f91df612d",
         "name": "VEED.IO",
         "url": "https://www.veed.io/",
@@ -15,7 +102,9 @@
         ],
         "date": "2024-01-27",
         "tags": [
-            "video", "productivity", "eye contact"
+            "video",
+            "productivity",
+            "eye contact"
         ]
     },
     {
@@ -34,7 +123,8 @@
         ],
         "date": "2024-01-27",
         "tags": [
-            "productivity"
+            "productivity",
+            "content"
         ]
     },
     {
@@ -57,7 +147,10 @@
         ],
         "date": "2024-01-27",
         "tags": [
-            "browser", "llm", "productivity", "agents"
+            "browser",
+            "llm",
+            "productivity",
+            "agents"
         ]
     },
     {
@@ -95,7 +188,10 @@
         ],
         "date": "2024-01-27",
         "tags": [
-            "openai", "text-to-speech", "speech", "api"
+            "openai",
+            "text-to-speech",
+            "speech",
+            "api"
         ]
     },
     {
@@ -114,7 +210,10 @@
         ],
         "date": "2024-01-27",
         "tags": [
-            "video", "youtube", "productivity"
+            "video",
+            "youtube",
+            "productivity",
+            "content"
         ]
     },
     {
@@ -133,7 +232,8 @@
         ],
         "date": "2024-01-27",
         "tags": [
-            "graphics", "productivity"
+            "graphics",
+            "productivity"
         ]
     },
     {
@@ -1663,7 +1763,9 @@
         ],
         "date": "2023-05-16",
         "tags": [
-            "video", "productivity", "eye contact"
+            "video",
+            "productivity",
+            "eye contact"
         ]
     },
     {
