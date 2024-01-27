@@ -1,4 +1,5 @@
 <script setup>
+import Loader from '../Loader.vue'
 import Sharing from "./components/Sharing.vue";
 import { computed } from 'vue'
 import { localDateFilter } from "../../filters/localDateFilter.js";
@@ -24,8 +25,9 @@ onBeforeMount(() => {
 </script>
 
 <template>
+	<Loader v-if="!service.name" />
 	<div
-		v-if="service.name"
+		v-else
 		class="service-item"
 	>
 		<Sharing

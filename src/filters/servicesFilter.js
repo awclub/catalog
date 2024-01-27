@@ -31,7 +31,7 @@ export const useServicesFilter = defineStore('servicesFilter', () => {
 		const filtered = services
 			.filter(service => _containsAllTags(service.tags, selectedTags))
 			.filter(service => _isSuitableServiceBySearchTerm(service, searchStore.getSearchText, i18n.global.locale));
-
+		
 		servicesCounterStore.setCount(filtered.length);
 
 		return filtered;

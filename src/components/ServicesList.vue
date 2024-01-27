@@ -1,5 +1,6 @@
 <script setup>
-import { computed, onBeforeMount } from 'vue'
+import { computed, onBeforeMount, ref } from 'vue'
+import Loader from './Loader.vue'
 import ServiceListItem from './service_card/ServiceListItem.vue'
 import { useOrderStore } from "../stores/orderStore.js";
 import { useServicesFilter } from "../filters/servicesFilter.js";
@@ -8,11 +9,13 @@ import { useServicesStore } from '../stores/servicesStore.js';
 const servicesStore = useServicesStore();
 const servicesFilter = useServicesFilter();
 const orderStore = useOrderStore();
+const isServicesLoading = ref(true);
 
 const comparator = computed(() => orderStore.getSelectedComparator);
 
-onBeforeMount(() => {
-	servicesStore.fetchServices()
+onBeforeMount(async () => {
+	await servicesStore.fetchServices();
+	isServicesLoading.value = false;
 })
 
 const services = computed(() => {
@@ -25,8 +28,9 @@ const services = computed(() => {
 </script>
 
 <template>
+	<Loader v-if="isServicesLoading" />
 	<div
-		v-if="services.length"
+		v-else
 		class="services-list"
 	>
 		<ServiceListItem
@@ -58,4 +62,4 @@ const services = computed(() => {
       grid-template-columns: repeat(1, 1fr);
     }
   }
-</style>../filter/servicesFilter.js../stores/orderStore.js
+</style>
