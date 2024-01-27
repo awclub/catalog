@@ -1,5 +1,219 @@
 [
     {
+        "id": "b870d2d0-fed3-4802-90a7-bef562d05a8e",
+        "name": "Copilot Pro ",
+        "url": "https://www.microsoft.com/en-us/store/b/copilotpro",
+        "description": {
+            "ru": "Премиум-подписка на Copilot от Microsoft. Стоит 20 долларов и предоставляет приоритетный доступ к новейшим моделям ИИ, таким как GPT-4 и GPT-4 Turbo. Она также включает возможность создания ИИ-изображений с помощью DALL-E 3. Нативно интегрирована в продукты Microsoft такие как Windows, Microsoft 365 и т.д. Наиболее полный конкурент ChatGPT. Заявляется, что в Copilot Pro нет ограничений на количество сообщений в час в чатах.",
+            "en": "A premium subscription to Copilot by Microsoft. It costs $20 and provides priority access to the latest AI models such as GPT-4 and GPT-4 Turbo. It also includes the ability to create AI images using DALL-E 3. Natively integrated into Microsoft products such as Windows, Microsoft 365, etc. The most complete competitor of ChatGPT. Copilot Pro is claimed to have no limit on the number of messages per hour in chats."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=2130s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "microsoft",
+            "chat",
+            "llm",
+            "diffusion",
+            "copilot"
+        ]
+    },
+    {
+        "id": "145e512f-b75d-4763-8e74-8dd19d303025",
+        "name": "Lumiere",
+        "url": "https://lumiere-video.github.io/",
+        "description": {
+            "ru": "Text-to-video и image-to-video генератор видео по промптам, разработанный Google. Следующий шаг в генерации видео, однако пока не доступен для широкой публике.",
+            "en": "A text-to-video and image-to-video AI generator developed by Google. The next step in video generation, but not yet available to the general public."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=3328s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "google",
+            "video",
+            "text-to-video",
+            "image-to-video"
+        ]
+    },
+    {
+        "id": "8d5a1736-c4f8-4795-b3dc-d3323830a9d5",
+        "name": "AlphaGeometry",
+        "url": "https://github.com/google-deepmind/alphageometry",
+        "description": {
+            "ru": "Исследовательский ИИ-проект DeepMind, который позволяет решать сложные геометрические задачи на уровне олимпиады.",
+            "en": "An AI system developed by DeepMind that has demonstrated the ability to solve complex geometry problems at an Olympiad level."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=7120s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "deepmind",
+            "science",
+            "maths"
+        ]
+    },
+    {
+        "id": "b1e40422-52bb-4043-b948-478d526ce9f7",
+        "name": "Google AI SDK",
+        "url": "https://github.com/google/generative-ai-android",
+        "description": {
+            "ru": "SDK для Android, позволяющая разработчикам использовать генеративные модели ИИ (например, Gemini) от Google при создании своих приложений.",
+            "en": "An Android SDK that allows developers to use Google's generative AI models (such as Gemini) to build their own apps."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=7840s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "programming",
+            "framework",
+            "google"
+        ]
+    },
+    {
+        "id": "16a7ce04-b738-499a-8ec8-cf5c75a6c1ae",
+        "name": "Google AI Studio",
+        "url": "https://makersuite.google.com/",
+        "description": {
+            "ru": "Браузерная IDE от Google, предназначенная для разработки приложений с генеративным ИИ под капотом.",
+            "en": "A browser-based integrated development environment (IDE) from Google designed for prototyping with generative models."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=7840s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "programming",
+            "ide",
+            "google"
+        ]
+    },
+    {
+        "id": "6fa595c7-f0a2-4cd9-9aac-857ab96ba78f",
+        "name": "AutoGen Studio",
+        "url": "https://microsoft.github.io/autogen/blog/2023/12/01/AutoGenStudio/",
+        "description": {
+            "ru": "UI для фреймворка AutoGen от Microsoft. Используется для быстрого создания и управления агентами и мультиагентными рабочими процессами, используя простой в использовании графический интерфейс.",
+            "en": "UI for the Microsoft AutoGen framework. Used to quickly create and manage agents and multi-agent workflows using an easy-to-use graphical interface."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=7957s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "ui",
+            "agents",
+            "open-source",
+            "microsoft"
+        ]
+    },
+    {
+        "id": "e8800614-8b8e-4d1e-b694-bf0f270aef1b",
+        "name": "invideo AI",
+        "url": "https://ai.invideo.io/",
+        "description": {
+            "ru": "Сервис, по простому промпту генерирующий готовое маркетинговое видео. Текст (история) и голос генерируется моделями, видеоряд подбирается по смыслу из стоковых видео. Есть возможность править итоговое видео через уточняющие промпты. Генерирует как короткие, так и длинные видео. На платной подписке позволяет убирать водяные знаки.",
+            "en": "A service that generates a ready-made marketing video by a simple prompt. The text (story) and voice are generated by models, the video sequence is selected by meaning from stock videos. There is an opportunity to edit the final video through clarifying prompts. Generates both short and long videos. On a paid subscription, it allows you to remove watermarks."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "video",
+            "marketing",
+            "content",
+            "productivity",
+            "voice"
+        ]
+    },
+    {
+        "id": "0336a546-89f3-4be8-9459-c42098ee9ec0",
+        "name": "Assistive Video",
+        "url": "https://assistive.chat/product/video",
+        "description": {
+            "ru": "Подписочный text-to-video и image-to-video сервис, позволяющий генерировать видео до 4х секунд по промптам. Конкурент Gen-2 и Pika. Имеет бесплатный пробный доступ через Discord.",
+            "en": " A subscription text-to-video and image-to-video service that allows you to generate videos up to 4 seconds long by prompts. Competitor to Gen-2 and Pika. Has a free trial access through Discord."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "video",
+            "text-to-video",
+            "image-to-video"
+        ]
+    },
+    {
+        "id": "aff9e27c-0d71-42e5-ba70-bc3c4e9b5169",
+        "name": "OpenChat",
+        "url": "https://github.com/imoneoi/openchat",
+        "description": {
+            "ru": "Языковая модель с открытым исходным кодом построенная на базе Mixed-Quality данных. Исходя из результатов тестов, версия на 7B параметров работает лучше GPT-3.5 и Grok-1 по всем параметрам.",
+            "en": "Open-source Language Models with Mixed-Quality Data. Based on the test results, the 7B version works better than GPT-3.5 and Grok-1 in all parameters."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "llm",
+            "model",
+            "open-source"
+        ]
+    },
+    {
+        "id": "2e04568d-7ae4-4416-9658-7464f2a95ced",
+        "name": "WikiChat",
+        "url": "https://wikichat.genie.stanford.edu/",
+        "description": {
+            "ru": " WikiChat - это экспериментальный чатбот, разработанный для повышения фактичности ответов, предоставляемых большими языковыми моделями, путем включения в них получения данных в реальном времени из Википедии.",
+            "en": "WikiChat is an experimental chatbot designed to enhance the factuality of responses provided by large language models by incorporating real-time data retrieval from Wikipedia."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "llm", "chat", "stanford"
+        ]
+    },
+    {
         "id": "4b0268b0-344f-490d-becd-d66c5219eb87",
         "name": "TextSynth Server",
         "url": "https://bellard.org/ts_server/",
@@ -66,7 +280,7 @@
     },
     {
         "id": "12548a2e-b3ac-4c0c-89e5-29b53a60df48",
-        "name": "Jan.a",
+        "name": "Jan",
         "url": "https://jan.ai",
         "description": {
             "ru": "UI для запуска открытых LLM локально на вашем компьютере.",
@@ -124,7 +338,8 @@
         "date": "2024-01-27",
         "tags": [
             "productivity",
-            "content"
+            "content",
+            "marketing"
         ]
     },
     {
@@ -2449,6 +2664,7 @@
         "tags": [
             "video",
             "text-to-video",
+            "image-to-video",
             "runway"
         ]
     },
@@ -3877,7 +4093,8 @@
             "llm",
             "model",
             "deepmind",
-            "science"
+            "science",
+            "maths"
         ]
     },
     {
