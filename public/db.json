@@ -1,5 +1,142 @@
 [
     {
+        "id": "0c79c48c-b5e0-4d61-b8b3-b94f91df612d",
+        "name": "VEED.IO",
+        "url": "https://www.veed.io/",
+        "description": {
+            "ru": "Сервис, выравнивает направление взгляда человека на видео. Работает очень похоже на Nvidia AR SDK Eye Contact, но работает как подписочный сервис. Незаменимая штука для тех, кто изпользует скринридеры при создании контента.",
+            "en": "A service that aligns the direction of a person's gaze in a video. Works very similar to Nvidia AR SDK Eye Contact, but works as a subscription service. An indispensable thing for those who use screen readers when creating content."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "video", "productivity", "eye contact"
+        ]
+    },
+    {
+        "id": "d7c2db03-d110-4db1-9226-31554158013f",
+        "name": "Prezo",
+        "url": "https://prezo.ai/",
+        "description": {
+            "ru": "Онлайн-генеаритор презентаций по промпту. Позволяет генерировать презентации по тексту, а также редактировать их в онлайн-редакторе. Генерирует как текст, так и изображения.",
+            "en": "An online presentation generator by prompt. Allows you to generate presentations by text, as well as edit them in an online editor. Generates both text and images."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "productivity"
+        ]
+    },
+    {
+        "id": "35a871f4-a2af-4c38-9ffd-be3384b9938d",
+        "name": "HARPA AI",
+        "url": "https://chromewebstore.google.com/detail/harpa-ai-automation-agent/eanggfilgoajaocelnaflolkadkeghjp",
+        "description": {
+            "ru": "Расширение для браузера, интегрирующее окно с LLM на любой веб-странице. Позволяет \"разговаривать\" о содержимом страницы с чатботом. Может работать как через API OpenAI, так и с локальными опенсорсными LLM. Имеет много режимов работы, помогающих делать сложные исследования и агентурную автоматизацию без написания кода.",
+            "en": "A browser extension that integrates an LLM window on any web page. Allows you to \"talk\" about the contents of the page with a chatbot. It can work both through the OpenAI API and with local open source LLM. It has many modes of operation that help to do complex research and agency automation without writing code."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=rj0BhwHYs6M&t=11655s",
+                "episodeName": "AIA Podcast #20"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "browser", "llm", "productivity", "agents"
+        ]
+    },
+    {
+        "id": "ff1dbf79-740e-4c96-84b1-b2d4aa51b0cb",
+        "name": "InfraNodus",
+        "url": "https://infranodus.com/",
+        "description": {
+            "ru": "Генеративные майндмап-графы. С помощью LLM-моделей позволяет прорабатывать и визуализировать тексты в виде гибко-настраиваемого графа. Похоже на графы в Obsidian.",
+            "en": "Generative mindmap graphs. Using LLM models, it allows you to work out and visualize texts in the form of a flexible customizable graph. Similar to graphs in Obsidian."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "productivity"
+        ]
+    },
+    {
+        "id": "947475bd-f640-4a9a-9895-dc9a692138de",
+        "name": "OpenAI Text to speech",
+        "url": "https://platform.openai.com/docs/guides/text-to-speech",
+        "description": {
+            "ru": "Text to speech модель от OpenAI, которая позволяет генерировать речь по тексту. Доступна через API и является одним из лидирующих решений на рынке.",
+            "en": "Text to speech model from OpenAI that allows you to generate speech from text. Available through the API and is one of the leading solutions on the market."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "openai", "text-to-speech", "speech", "api"
+        ]
+    },
+    {
+        "id": "72f61a51-fd40-49f8-9461-1c876c7205eb",
+        "name": "Opus Clip",
+        "url": "https://www.opus.pro/",
+        "description": {
+            "ru": "ИИ-сервис, который одним кликом превращает длинные видео в короткие. Отлично подходит для нарезки длинных YouTube-видео на тиктоки и Shorts.",
+            "en": "Generative AI video tool that repurposes long talking videos into shorts in one click. Great for cutting long YouTube videos into TikToks and Shorts."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "video", "youtube", "productivity"
+        ]
+    },
+    {
+        "id": "fc87be31-5de7-4552-b4ec-4c82fb24d28b",
+        "name": "Bigjpg",
+        "url": "https://bigjpg.com",
+        "description": {
+            "ru": "Бесплатно увеличивает (апскейлит) изображения без потери качества.",
+            "en": "Upscales images without losing quality."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "graphics", "productivity"
+        ]
+    },
+    {
         "id": "74bafa71-76fa-447b-a529-0f75979553a7",
         "name": "Frank Translator (DE-EN)",
         "url": "https://chat.openai.com/g/g-9P26y0OiZ-frank-translator-de-en",
@@ -131,6 +268,10 @@
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=CS6-KdkVTtw&t=4385s",
                 "episodeName": "AIA Podcast #2"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
             }
         ],
         "date": "2023-02-24",
@@ -1522,7 +1663,7 @@
         ],
         "date": "2023-05-16",
         "tags": [
-            "video"
+            "video", "productivity", "eye contact"
         ]
     },
     {
