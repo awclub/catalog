@@ -1,8 +1,8 @@
 <script setup>
 import { computed, onBeforeMount } from 'vue'
 import ServiceListItem from './ServiceListItem.vue'
-import { useOrderStore } from "../service/orderStore.js";
-import { useServicesFilter } from "../service/servicesFilter.js";
+import { useOrderStore } from "../stores/orderStore.js";
+import { useServicesFilter } from "../filters/servicesFilter.js";
 import { useServicesStore } from '../stores/services.js';
 
 const servicesStore = useServicesStore();
@@ -58,4 +58,4 @@ const services = computed(() => {
       grid-template-columns: repeat(1, 1fr);
     }
   }
-</style>
+</style>../filter/servicesFilter.js../stores/orderStore.js

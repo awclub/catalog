@@ -43,10 +43,6 @@ const servicesStoreLength = computed(() =>  servicesStore.getServices.length);
 						href="https://aw.club"
 					>&  Anywhere Club</a>
 				</h1>
-				<!-- <nav>
-                <RouterLink to="/">Home</RouterLink>
-                <RouterLink to="/about">About</RouterLink>
-                </nav> -->
 			</div>
 			<Settings />
 			<div

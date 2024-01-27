@@ -1,5 +1,5 @@
 <script setup>
-import { DIRECTION, useOrderStore } from "../service/orderStore.js";
+import { DIRECTION, useOrderStore } from "../stores/orderStore.js";
 import { computed } from "vue";
 
 const orderStore = useOrderStore();
@@ -56,4 +56,4 @@ const selectedOrder = computed(() => orderStore.selectedOrder);
   padding: 5px 7px;
 }
 
-</style>
+</style>../stores/orderStore.js

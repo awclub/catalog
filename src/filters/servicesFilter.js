@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
 import i18n from "../i18n/index.js";
-import { useSearchStore } from "../service/searchStore.js";
+import { useSearchStore } from "../stores/searchStore.js";
 import { useServicesCounter } from "../stores/servicesCounter.js";
 import { useTagsStore } from "../stores/tags.js";
 

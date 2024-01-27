@@ -4,7 +4,7 @@ import ServicesList from '../components/ServicesList.vue'
 import i18n from '../i18n/index.js'
 import { onBeforeMount } from "vue";
 import { useRoute } from "vue-router";
-import { useSearchStore } from "../service/searchStore.js";
+import { useSearchStore } from "../stores/searchStore.js";
 import { watchEffect } from 'vue';
 
 const route = useRoute();
@@ -38,4 +38,4 @@ main {
   width: 100%;
   flex: 1 0 auto;
 }
-</style>
+</style>../stores/searchStore.js

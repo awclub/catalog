@@ -1,7 +1,7 @@
 <script setup>
 import Sharing from "../components/Sharing.vue";
 import { computed } from 'vue'
-import { localDateFilter } from "../filter/localDateFilter.js";
+import { localDateFilter } from "../filters/localDateFilter.js";
 import { onBeforeMount } from "vue"
 import { useBrowserLocation } from "@vueuse/core";
 import { useServicesStore } from '../stores/services.js';
@@ -116,4 +116,4 @@ p {
     right: 10px;
     top: 10px;
 }
-</style>
+</style>../filters/localDateFilter.js

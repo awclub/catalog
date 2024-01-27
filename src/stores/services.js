@@ -1,4 +1,4 @@
-import { GetServices } from "../api/services.js";
+import { GetServices } from "../api_client/servicesApi.js";
 import { defineStore } from 'pinia';
 
 export const useServicesStore = defineStore('servicesStore', {
