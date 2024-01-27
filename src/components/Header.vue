@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink } from 'vue-router';
-import Settings from "../components/Settings.vue";
+import Settings from "./settings/Settings.vue";
 import { computed } from 'vue'
 import { useServicesCounterStore } from '../stores/servicesCounterStore.js';
 

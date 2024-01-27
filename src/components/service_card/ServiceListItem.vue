@@ -1,10 +1,10 @@
 <script setup>
 import { RouterLink } from 'vue-router';
-import Sharing from "../components/Sharing.vue";
-import TagList from "../components/TagList.vue";
-import { localDateFilter } from "../filters/localDateFilter.js";
+import Sharing from "./components/Sharing.vue";
+import TagList from "../TagList.vue";
+import { localDateFilter } from "../../filters/localDateFilter.js";
 import { useBrowserLocation } from "@vueuse/core";
-import { useTagsStore } from "../stores/tagsStore.js";
+import { useTagsStore } from "../../stores/tagsStore.js";
 
 defineProps({
 	serviceItem: Object,
@@ -132,4 +132,4 @@ p {
 .open-in-new-tab:hover svg {
     filter: invert(81%) sepia(2%) saturate(10%) hue-rotate(42deg) brightness(102%) contrast(95%);
 }
-</style>../filters/localDateFilter.js../stores/tagsStore.js
+</style>

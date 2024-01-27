@@ -1,7 +1,7 @@
 <script setup>
-import DarkModeSwitcher from "../components/DarkModeSwitcher.vue";
-import LocaleChanger from "../components/LocaleSwitcher.vue";
-import ServicesOrderSelector from "../components/ServicesOrderSelector.vue";
+import DarkModeSwitcher from "./components/DarkModeSwitcher.vue";
+import LocaleChanger from "./components/LocaleSwitcher.vue";
+import ServicesOrderSelector from "./components/ServicesOrderSelector.vue";
 </script>
 
 <template>

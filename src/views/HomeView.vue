@@ -1,5 +1,5 @@
 <script setup>
-import FilterComponent from "../components/FilterComponent.vue";
+import FilterComponent from "../components/search/FilterComponent.vue";
 import ServicesList from '../components/ServicesList.vue'
 import i18n from '../i18n/index.js'
 import { onBeforeMount } from "vue";

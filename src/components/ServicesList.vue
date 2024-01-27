@@ -1,6 +1,6 @@
 <script setup>
 import { computed, onBeforeMount } from 'vue'
-import ServiceListItem from './ServiceListItem.vue'
+import ServiceListItem from './service_card/ServiceListItem.vue'
 import { useOrderStore } from "../stores/orderStore.js";
 import { useServicesFilter } from "../filters/servicesFilter.js";
 import { useServicesStore } from '../stores/servicesStore.js';

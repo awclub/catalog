@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from "vue";
-import { useSearchStore } from "../stores/searchStore.js";
+import { useSearchStore } from "../../stores/searchStore.js";
 
 const searchStore = useSearchStore();
 const searchText = computed(() => searchStore.getSearchText);

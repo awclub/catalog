@@ -1,5 +1,5 @@
 <script setup>
-import ServiceItem from '../components/ServiceItem.vue'
+import ServiceItem from '../components/service_card/ServiceItem.vue'
 </script>
 
 <template>
