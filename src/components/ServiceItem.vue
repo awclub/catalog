@@ -4,7 +4,7 @@ import { computed } from 'vue'
 import { localDateFilter } from "../filters/localDateFilter.js";
 import { onBeforeMount } from "vue"
 import { useBrowserLocation } from "@vueuse/core";
-import { useServicesStore } from '../stores/services.js';
+import { useServicesStore } from '../stores/servicesStore.js';
 
 const servicesStore = useServicesStore();
 const location = useBrowserLocation();

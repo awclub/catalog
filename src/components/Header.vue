@@ -2,7 +2,7 @@
 import { RouterLink } from 'vue-router';
 import Settings from "../components/Settings.vue";
 import { computed } from 'vue'
-import { useServicesStore } from '../stores/services.js';
+import { useServicesStore } from '../stores/servicesStore.js';
 
 defineProps({
 	msg: {

@@ -2,8 +2,8 @@
 import AutoCompleteInput from "../components/AutoComplete.vue";
 import Search from "../components/Search.vue";
 import TagList from "../components/TagList.vue";
-import { useServicesStore } from "../stores/services.js";
-import { useTagsStore } from "../stores/tags.js";
+import { useServicesStore } from "../stores/servicesStore.js";
+import { useTagsStore } from "../stores/tagsStore.js";
 
 import { computed, onBeforeMount } from "vue";
 
@@ -91,4 +91,4 @@ const tags = computed(() => {
 .selected-tags .tag {
   margin: 0 6px 0 0;
 }
-</style>
+</style>../stores/tagsStore.js

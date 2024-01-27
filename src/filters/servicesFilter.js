@@ -2,7 +2,7 @@ import { defineStore } from "pinia";
 import i18n from "../i18n/index.js";
 import { useSearchStore } from "../stores/searchStore.js";
 import { useServicesCounter } from "../stores/servicesCounter.js";
-import { useTagsStore } from "../stores/tags.js";
+import { useTagsStore } from "../stores/tagsStore.js";
 
 export const useServicesFilter = defineStore('servicesFilter', () => {
 	const tagsStore = useTagsStore();

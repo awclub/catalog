@@ -13,7 +13,7 @@ const defaultLang = () => {
 	return defaultLangTemp;
 };
 
-export const useCurrentLangService = defineStore('currentLang', {
+export const useCurrentLangStore = defineStore('currentLangStore', {
 	state: () => ({
 		currentLang: defaultLang()
 	}),
