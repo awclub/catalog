@@ -1,5 +1,105 @@
 [
     {
+        "id": "74bafa71-76fa-447b-a529-0f75979553a7",
+        "name": "Frank Translator (DE-EN)",
+        "url": "https://chat.openai.com/g/g-9P26y0OiZ-frank-translator-de-en",
+        "description": {
+            "ru": "Двуязычный GPTs, специализирующийся на немецко-английских переводах по методу Ильи Франка.",
+            "en": "A bilingual GPTs specializing in German-English translations using Ilya Frank's method."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "gpts",
+            "translation"
+        ]
+    },
+    {
+        "id": "5b079688-7856-4d4a-9ec0-97d4153360c4",
+        "name": "GPTStore",
+        "url": "https://gptstore.ai",
+        "description": {
+            "ru": "Каталог всех доступных GPTs в ChatGPT. Можно просматривать все GPTs конкретного автора, добавлят ьв избранное и многое другое. Вот так должен выглядеть GPT Store от OpenAI",
+            "en": "A catalogue of all available GPTs in ChatGPT. You can browse all GPTs of a specific author, add to favorites and much more. This is what OpenAI's GPT Store should look like."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "catalog",
+            "gpts"
+        ]
+    },
+    {
+        "id": "59d53a11-0756-43c1-964d-1945ab3775d3",
+        "name": "Frank Translator (ANY-EN)",
+        "url": "https://chat.openai.com/g/g-E2mxbpfp0-frank-translator-any-en",
+        "description": {
+            "ru": "GPTs, который специализируется на переводах на английский с любого языка по методу Ильи Франка.",
+            "en": "GPTs specializing in translations to English from any language using Ilya Frank's method."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "gpts",
+            "translation"
+        ]
+    },
+    {
+        "id": "489016da-cf5c-44b1-87ae-36eaf0191b52",
+        "name": "Frank Translator (ANY-RU)",
+        "url": "https://chat.openai.com/g/g-g9mvChxwx-frank-translator-any-ru",
+        "description": {
+            "ru": "GPTs, который специализируется на переводах на русский язык с любого языка по методу Ильи Франка.",
+            "en": "GPT specializing in translations to Russian from any language using Ilya Frank's method."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "gpts",
+            "translation"
+        ]
+    },
+    {
+        "id": "1e0717e0-2336-422f-8b3d-3c8abc787a6b",
+        "name": "Turkish Word Analyzer",
+        "url": "https://chat.openai.com/g/g-44Rh3JdCr-turkish-word-analyzer",
+        "description": {
+            "ru": "Анализ турецких слов на русском языке со структурированными ответами.",
+            "en": "Analyzes Turkish words in Russian with structured responses."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=fu_3vOOLjrA&t=8065s",
+                "episodeName": "AIA Podcast #26"
+            }
+        ],
+        "date": "2024-01-27",
+        "tags": [
+            "gpts",
+            "translation"
+        ]
+    },
+    {
         "id": "58ed34a2-c5e6-454c-a3a5-0b3846b10350",
         "name": "Durable",
         "url": "https://durable.co",
@@ -568,7 +668,7 @@
             "video",
             "video-to-3d",
             "3d",
-            "movies", 
+            "movies",
             "graphics"
         ]
     },
@@ -1824,7 +1924,7 @@
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=8090s",
                 "episodeName": "AIA Podcast #4"
-            },    
+            },
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=pRMdKRsZHyU&t=3385s",
                 "episodeName": "AIA Podcast #9"
@@ -3639,7 +3739,7 @@
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=aOIuQ4keHZo&t=8090s",
                 "episodeName": "AIA Podcast #4 (v5)"
-            },    
+            },
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=alDKhfp10qI&t=7425s",
                 "episodeName": "AIA Podcast #6 (v5.1)"
