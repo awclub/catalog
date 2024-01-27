@@ -12,7 +12,7 @@ const orderStore = useOrderStore();
 const comparator = computed(() => orderStore.getSelectedComparator);
 
 onBeforeMount(() => {
-	servicesStore.fetchData()
+	servicesStore.fetchServices()
 })
 
 const services = computed(() => {

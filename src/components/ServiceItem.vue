@@ -9,8 +9,8 @@ import { useServicesStore } from '../stores/services.js';
 const servicesStore = useServicesStore();
 const location = useBrowserLocation();
 
-const getCurrentService = computed(() => {
-	return servicesStore.getCurrentService
+const service = computed(() => {
+	return servicesStore.getService
 })
 
 const props = defineProps({
@@ -25,7 +25,7 @@ onBeforeMount(() => {
 
 <template>
 	<div
-		v-if="getCurrentService.name"
+		v-if="service.name"
 		class="service-item"
 	>
 		<Sharing
@@ -34,16 +34,16 @@ onBeforeMount(() => {
 			:close-delay="3000"
 		/>
 		<a
-			:href="getCurrentService.url"
+			:href="service.url"
 			target="_blank"
 		>
-			<h3>{{ getCurrentService.name }}</h3>
+			<h3>{{ service.name }}</h3>
 		</a>
-		<p>{{ getCurrentService.description[$i18n.locale] }}</p>
+		<p>{{ service.description[$i18n.locale] }}</p>
 		<p>
 			{{ $t('mentionedIn') }}:
 			<a
-				v-for="mention in getCurrentService.mentions"
+				v-for="mention in service.mentions"
 				:key="mention.episodeName"
 				:href="mention.episodeUrl"
 				target="_blank"
@@ -53,13 +53,13 @@ onBeforeMount(() => {
 		</p>
 		<div class="tags">
 			<span
-				v-for="tag in getCurrentService.tags"
+				v-for="tag in service.tags"
 				:key="tag"
 				class="tag"
 			>{{ tag }}</span>
 		</div>
 		<div class="date">
-			{{ localDateFilter(getCurrentService.date, $i18n.locale) }}
+			{{ localDateFilter(service.date, $i18n.locale) }}
 		</div>
 	</div>
 </template>

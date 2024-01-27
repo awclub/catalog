@@ -11,11 +11,11 @@ const tagsStore = useTagsStore();
 const servicesStore = useServicesStore();
 
 onBeforeMount(() => {
-	servicesStore.fetchAllTags();
+	servicesStore.fetchTags();
 });
 
-const allTags = computed(() => {
-	return servicesStore.getAllTags
+const tags = computed(() => {
+	return servicesStore.getTags
 });
 
 </script>
@@ -26,7 +26,7 @@ const allTags = computed(() => {
 		<div class="selected-tags-box">
 			<auto-complete-input
 				:placeholder="$t('searchTagsPlaceholder')"
-				:available-items="allTags"
+				:available-items="tags"
 				:already-selected-items="tagsStore.tags"
 				:on-select="tagsStore.selectTag"
 			/>

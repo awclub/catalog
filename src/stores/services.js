@@ -4,23 +4,23 @@ import { defineStore } from 'pinia';
 export const useServicesStore = defineStore('servicesStore', {
 	state: () => ({
 		services: [],
-		currentService: {},
-		allTags: []
+		service: {},
+		tags: []
 	}),
 	getters: {
 		getServices(state) {
 			return state.services
 		},
-		getCurrentService(state) {
-			return state.currentService
+		getService(state) {
+			return state.service
 		},
-		getAllTags(state) {
-			return state.allTags
+		getTags(state) {
+			return state.tags
 		}
 	},
 	actions: {
-		async fetchData() {
-			const api = await new GetServices("./db.json")
+		async fetchServices() {
+			const api = await new GetServices(`./db.json?${new Date().getTime()}`)
       
 			const response = api
 			const { data } = response
@@ -28,18 +28,18 @@ export const useServicesStore = defineStore('servicesStore', {
 			this.services = data
 		},
 		async fetchService(id) {
-			const api = await new GetServices("./db.json")
+			const api = await new GetServices(`./db.json?${new Date().getTime()}`)
         
 			const currentId = id
 			const response = api
 			const { data } = response
 
-			const currentService = data.find(i => i.id.includes(currentId))
+			const service = data.find(i => i.id.includes(currentId))
 
-			this.currentService = currentService
+			this.service = service
 		},
-		async fetchAllTags() {
-			const { data } = await new GetServices("./db.json");
+		async fetchTags() {
+			const { data } = await new GetServices(`./db.json?${new Date().getTime()}`);
 
 			const uniqueAvailableTags = Object.keys(
 				(data || [])
@@ -52,7 +52,7 @@ export const useServicesStore = defineStore('servicesStore', {
 			);
 
 			uniqueAvailableTags.sort();
-			this.allTags = uniqueAvailableTags;
+			this.tags = uniqueAvailableTags;
 		}
 	},
 });
