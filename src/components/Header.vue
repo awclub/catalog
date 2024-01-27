@@ -2,7 +2,7 @@
 import { RouterLink } from 'vue-router';
 import Settings from "../components/Settings.vue";
 import { computed } from 'vue'
-import { useServicesStore } from '../stores/servicesStore.js';
+import { useServicesCounterStore } from '../stores/servicesCounterStore.js';
 
 defineProps({
 	msg: {
@@ -11,9 +11,8 @@ defineProps({
 	}
 });
 
-const servicesStore = useServicesStore();
-
-const servicesStoreLength = computed(() =>  servicesStore.getServices.length);
+const servicesCounterStore = useServicesCounterStore();
+const servicesCount = computed(() =>  servicesCounterStore.getCount);
 
 </script>
 
@@ -46,10 +45,10 @@ const servicesStoreLength = computed(() =>  servicesStore.getServices.length);
 			</div>
 			<Settings />
 			<div
-				v-if="servicesStoreLength"
+				v-if="servicesCount"
 				class="services-count"
 			>
-				{{ servicesStoreLength }}
+				{{ servicesCount }}
 			</div>
 		</div>
 	</header>
