@@ -8,7 +8,7 @@ defineProps({
 <template>
 	<div class="tags">
 		<span
-			v-for="tag in items"
+			v-for="tag in [...items].sort((a, b) => a.localeCompare(b))"
 			:key="tag"
 			class="tag"
 			@click="() => onTagClick(tag)"
