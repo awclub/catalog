@@ -56,6 +56,7 @@ const formattedUrl = function (url) {
 				:key="mention.episodeName"
 				:href="mention.episodeUrl"
 				target="_blank"
+				class="mention-link"
 			>
 				{{ mention.episodeName }}
 			</a>
@@ -131,5 +132,15 @@ p {
 
 .open-in-new-tab:hover svg {
     filter: invert(81%) sepia(2%) saturate(10%) hue-rotate(42deg) brightness(102%) contrast(95%);
+}
+
+.mention-link::after {
+    content: ",";
+	margin-right: 5px;
+}
+
+.mention-link:last-child::after {
+    content: "";
+	margin-right: 0px;
 }
 </style>

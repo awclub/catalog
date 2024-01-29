@@ -49,6 +49,7 @@ onBeforeMount(() => {
 				:key="mention.episodeName"
 				:href="mention.episodeUrl"
 				target="_blank"
+				class="mention-link"
 			>
 				{{ mention.episodeName }}
 			</a>
@@ -117,5 +118,15 @@ p {
     position: absolute;
     right: 10px;
     top: 10px;
+}
+
+.mention-link::after {
+    content: ",";
+	margin-right: 5px;
+}
+
+.mention-link:last-child::after {
+    content: "";
+	margin-right: 0px;
 }
 </style>
