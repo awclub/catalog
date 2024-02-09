@@ -5,7 +5,8 @@ export const useServicesStore = defineStore('servicesStore', {
 	state: () => ({
 		services: [],
 		service: {},
-		tags: []
+		tags: [],
+		selectedRank: 0,
 	}),
 	getters: {
 		getServices(state) {
@@ -16,6 +17,9 @@ export const useServicesStore = defineStore('servicesStore', {
 		},
 		getTags(state) {
 			return state.tags
+		},
+		getSelectedRank(state) {
+			return state.selectedRank
 		}
 	},
 	actions: {

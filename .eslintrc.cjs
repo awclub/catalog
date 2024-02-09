@@ -9,6 +9,7 @@ module.exports = {
 		"indent": ["error", "tab"],
 		"vue/html-indent": ["error", "tab"],
 		"vue/script-indent": ["error", "tab"],
+		"sort-imports": "off",
 	},
 	env: {
 		"browser": true,
