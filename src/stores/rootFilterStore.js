@@ -1,7 +1,8 @@
 import { defineStore } from "pinia";
 
 const KEYWORDS = {
-	LANG: 'currentLanguage'
+	LANG: 'currentLanguage',
+	ORDER: 'sortingOrder',
 };
 
 const _initState = () => {
@@ -12,15 +13,20 @@ const _initState = () => {
 		}), {})
 };
 
+const _saveChanged = (key, value) => localStorage.setItem(key, value);
 
 export const useRootFilterStore = defineStore('rootFilterStore', ({
 	state: () => _initState(),
 	getters: {
 		lang: state => state[KEYWORDS.LANG],
+		order: state => state[KEYWORDS.ORDER],
 	},
 	actions: {
 		setLang(lang) {
-			localStorage.setItem(KEYWORDS.LANG, lang);
+			_saveChanged(KEYWORDS.LANG, lang);
+		},
+		setOrder(order) {
+			_saveChanged(KEYWORDS.ORDER, order);
 		}
 	}
 }));
