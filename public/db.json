@@ -1,5 +1,249 @@
 [
     {
+        "id": "772b59df-0d49-4ec9-8f1b-53450ad177c4",
+        "name": "Chainlit",
+        "url": "https://github.com/Chainlit/chainlit ",
+        "description": {
+            "en": "Фn open-source async Python framework which allows developers to build scalable Conversational AI or agentic applications.",
+            "ru": "Открытый асинхронный фреймворк на Python, который позволяет разработчикам создавать масштабируемые приложения c Conversational AI и ИИ-агентами."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=82LpMZRBQuE&t=6600s",
+                "episodeName": "AIA Podcast #27"
+            }
+        ],
+        "date": "2024-02-10",
+        "tags": [
+            "programming",
+            "open-source",
+            "framework"
+        ]
+    },
+    {
+        "id": "5dcdb35d-b70c-42f8-b653-b702bcdce2fc",
+        "name": "Groq",
+        "url": "https://chat.groq.com",
+        "description": {
+            "en": "An open-source LLM sandbox, based on Groq's solution. The company specializes in producing specialized processors specifically designed to run LLM - LPU.",
+            "ru": "Песочница для LLM с открытым исходныи кодом, работающая на базе решения компании Groq. Компания занимается производством специализировнных процессоров, построенных спецаильно для запуска LLM - LPU."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=82LpMZRBQuE&t=6600s",
+                "episodeName": "AIA Podcast #27"
+            }
+        ],
+        "date": "2024-02-10",
+        "tags": [
+            "sandbox",
+            "llm"
+        ]
+    },
+    {
+        "id": "7e65950b-408e-46b5-984f-ee5cbba98568",
+        "name": "Pinokio",
+        "url": "https://docs.pinokio.computer/",
+        "description": {
+            "en": "A browser that lets you install, run, and automate any AI applications and models automatically and effortlessly. It can run some LLMs right in the browser.",
+            "ru": "Браузер, который позволяет устанавливать, запускать и автоматизировать любые ИИ-приложения и модели автоматически и без усилий. Может запускат ьнекоторые LLM прямо в браузере."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=82LpMZRBQuE&t=6600s",
+                "episodeName": "AIA Podcast #27"
+            }
+        ],
+        "date": "2024-02-10",
+        "tags": [
+            "llm",
+            "browser"
+        ]
+    },
+    {
+        "id": "6e82cea9-5de7-4311-8108-50724f378dc8",
+        "name": "Perplexity Labs",
+        "url": "https://labs.perplexity.ai",
+        "description": {
+            "en": "A free sandbox from Perplexity, that allows you to test open-source models.",
+            "ru": "Бесплатная песочница от Perplexity, позволяющая тестировать opensource-модели."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=82LpMZRBQuE&t=6600s",
+                "episodeName": "AIA Podcast #27"
+            }
+        ],
+        "date": "2024-02-10",
+        "tags": [
+            "chat",
+            "llm",
+            "sandbox"
+        ]
+    },
+    {
+        "id": "c85b7e31-e283-4399-af9a-84e43bde21e9",
+        "name": "Continue Dev",
+        "url": "https://continue.dev",
+        "description": {
+            "en": "An open-source service that allows you to connect various LLMs to your IDE. It allows you to work with both local and closed models via API.",
+            "ru": "Сервис с открытым исходным кодом, позволяющий подключать различне LLM к вашей IDE. Позволяет работать как с локальными, так и с закрытыми моделями через API."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=82LpMZRBQuE&t=6600s",
+                "episodeName": "AIA Podcast #27"
+            }
+        ],
+        "date": "2024-02-10",
+        "tags": [
+            "llm",
+            "ide",
+            "programming",
+            "open-source"
+        ]
+    },
+    {
+        "id": "44743ab4-007d-438a-a63d-849cf7547529",
+        "name": "Translation AI (Sync Labs)",
+        "url": "https://translate.synclabs.so",
+        "description": {
+            "en": "A service that allows you to re-translate video from any language to any language using lip-synchronization technology.",
+            "ru": "Сервис, позволяющий переозвучивать видео с любого языка на любой с применением технологии синхронизации губ."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=82LpMZRBQuE&t=6600s",
+                "episodeName": "AIA Podcast #27"
+            }
+        ],
+        "date": "2024-02-10",
+        "tags": [
+            "video",
+            "voice",
+            "speech",
+            "text-to-speech",
+            "dubbing",
+            "lipsync"
+        ]
+    },
+    {
+        "id": "f580b698-b782-4436-a757-65cd113dbadc",
+        "name": "MGIE",
+        "url": "https://github.com/apple/ml-mgie",
+        "description": {
+            "en": "A multimodal generative image editor model developed by Apple in collaboration with researchers from the University of California. It allows editing images based on natural language instructions.",
+            "ru": "Модель с открытым исходным кодом, разработанная Apple совместно с исследователями Калифорнийского университета, которая позволяет редактировать изображения на основе инструкций на естественном языке."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=82LpMZRBQuE",
+                "episodeName": "AIA Podcast #27"
+            }
+        ],
+        "date": "2024-02-10",
+        "tags": [
+            "diffusion",
+            "text-to-image",
+            "apple",
+            "graphics"
+        ]
+    },
+    {
+        "id": "67122c5d-d701-4966-bb17-7a36fe23eb6c",
+        "name": "Coze",
+        "url": "https://www.coze.com/",
+        "description": {
+            "en": "A chatbot creation platform developed by ByteDance. It works on top of the GPT API.",
+            "ru": "Платформа для создания чат-ботов, разрабатываеая ByteDance. Работает поверх GPT API."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=82LpMZRBQuE",
+                "episodeName": "AIA Podcast #27"
+            }
+        ],
+        "date": "2024-02-10",
+        "tags": [
+            "llm",
+            "chat",
+            "bot",
+            "gpt"
+        ]
+    },
+    {
+        "id": "2c89cf21-c7b9-485d-8971-d3703ba18417",
+        "name": "HuggingFace Chat",
+        "url": "https://huggingface.co/chat",
+        "description": {
+            "en": "A free tool for creating custom AI assistants based on open-source models, positioned as an alternative to OpenAI's GPT Store offerings.",
+            "ru": "Бесплатный инструмент для создания настраиваемых ИИ-помощников на основе моделей с открытым исходным кодом, позиционируемый как альтернатива предложениям GPT Store от OpenAI."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=82LpMZRBQuE",
+                "episodeName": "AIA Podcast #27"
+            }
+        ],
+        "date": "2024-02-10",
+        "tags": [
+            "chat",
+            "huggingface",
+            "llm",
+            "bot",
+            "open-source",
+            "sandbox"
+        ]
+    },
+    {
+        "id": "91b42e39-e4b7-46da-ae65-c47bf5fc5f1c",
+        "name": "CodeLlama 70B",
+        "url": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+        "description": {
+            "en": "Open-source LLM from Meta for programming on 70 billion parameters (the largest as of the beginning of 2024). Built on top of Llama 2.",
+            "ru": "Открытая LLM от Meta для программирования на 70 миллиардов параметров (самая крупная на начало 2024 года). Построена на базе Llama 2."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=82LpMZRBQuE&t=1400s",
+                "episodeName": "AIA Podcast #27"
+            }
+        ],
+        "date": "2024-02-10",
+        "tags": [
+            "llm",
+            "model",
+            "programming",
+            "open-source",
+            "meta"
+        ]
+    },
+    {
+        "id": "7baa10bd-ec8a-4ec6-add8-9b81ed11db18",
+        "name": "Gemini",
+        "url": "https://gemini.google.com",
+        "description": {
+            "en": "A Google AI service that provides access to the latest LLMs from Google: Gemini Pro & Gemini Ultra (Gemini Advanced). It is a multimodal online chat. The main competitor of ChatGPT.",
+            "ru": "ИИ-сервис от Google, который предоставляет доступ к самым новым LLM от Google: Gemini Pro и Gemini Ultra (Gemini Advanced). Представляет из себя мультимодальный онлайн-чат. Главный конкурент ChatGPT."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=82LpMZRBQuE&t=775s",
+                "episodeName": "AIA Podcast #27"
+            }
+        ],
+        "date": "2024-02-10",
+        "tags": [
+            "productivity",
+            "chat",
+            "llm",
+            "diffusion",
+            "foundational",
+            "multimodal",
+            "google"
+        ]
+    },
+    {
         "id": "b870d2d0-fed3-4802-90a7-bef562d05a8e",
         "name": "Copilot Pro ",
         "url": "https://www.microsoft.com/en-us/store/b/copilotpro",
@@ -923,11 +1167,11 @@
     },
     {
         "id": "36ae531c-59cf-43f9-8be9-cac59c2798b2",
-        "name": "Bard",
+        "name": "Bard (Gemini)",
         "url": "https://bard.google.com/chat",
         "description": {
-            "en": "A conversational AI tool developed by Google that combines the breadth of the world's knowledge with the power, intelligence, and creativity of large language models. It is a multimodal online chat. The main competitor of ChatGPT.",
-            "ru": "ИИ-инструмент, разработанный Google, который объединяет в себе объем знаний мира с силой, интеллектом и креативностью LLM. Представляет из себя мультимодальный онлайн-чат. Главный конкурент ChatGPT."
+            "en": "A conversational AI tool developed by Google that combines the breadth of the world's knowledge with the power, intelligence, and creativity of large language models. It is a multimodal online chat. The main competitor of ChatGPT. Renamed to Gemini since 2024.",
+            "ru": "ИИ-инструмент, разработанный Google, который объединяет в себе объем знаний мира с силой, интеллектом и креативностью LLM. Представляет из себя мультимодальный онлайн-чат. Главный конкурент ChatGPT. С 2024 года переименован в Gemini."
         },
         "mentions": [
             {
@@ -3166,7 +3410,7 @@
     },
     {
         "id": "3986bb37-e738-49a1-a516-342a7ed23ce7",
-        "name": "Code Lama",
+        "name": "CodeLlama",
         "url": "https://github.com/facebookresearch/codellama",
         "description": {
             "en": "A family of open-source models from Meta for programming. There are versions on 7B, 13B and 34B. Based on Llama 2.",
@@ -3320,7 +3564,7 @@
     {
         "id": "df781959-dd01-44f3-b7e2-7704881759f9",
         "name": "Gobi",
-        "url": "https://www.heygen.com",
+        "url": "https://the-decoder.com/openai-could-answer-googles-gemini-with-gpt-vision-and-gobi/",
         "description": {
             "en": "Ghost Multimodal LLM from OpenAI. Was supposed to be a replacement for GPT-4, but development was stopped for unknown reasons.",
             "ru": "Призрачная мультимодальная LLM от компании OpenAI. Должна была стать заменой GPT-4, но разработка была остановлена по неизвестным причинам."
@@ -3889,6 +4133,9 @@
             {
                 "episodeUrl": "https://youtu.be/96aG4F9EAiE",
                 "episodeName": "AIA Podcast #22"
+            },{
+                "episodeUrl": "https://youtu.be/RF15q9WrbDo",
+                "episodeName": "AIA Special #7"
             }
         ],
         "date": "2023-12-01",
