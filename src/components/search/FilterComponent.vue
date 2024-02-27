@@ -6,9 +6,12 @@ import { useServicesStore } from "../../stores/servicesStore.js";
 import { useTagsStore } from "../../stores/tagsStore.js";
 
 import { computed, onBeforeMount } from "vue";
+import { useRanksStore } from "../../stores/ranks.js";
+import StarFilter from "../../components/StarFilter.vue";
 
 const tagsStore = useTagsStore();
 const servicesStore = useServicesStore();
+const ranksStore = useRanksStore();
 
 onBeforeMount(() => {
 	servicesStore.fetchTags();
@@ -17,6 +20,13 @@ onBeforeMount(() => {
 const tags = computed(() => {
 	return servicesStore.getTags
 });
+
+const handleRankUpdate = (newRank) => {
+	ranksStore.setRank(newRank);
+};
+const handleResetRank = () => {
+	ranksStore.resetRank();
+};
 
 </script>
 
@@ -45,6 +55,7 @@ const tags = computed(() => {
 				@click="tagsStore.resetTags"
 			>
 		</div>
+		<StarFilter @update:rank="handleRankUpdate" @reset-rank="handleResetRank" />
 	</div>
 </template>
 

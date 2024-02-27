@@ -1,13 +1,15 @@
 import { defineStore } from "pinia";
 import i18n from "../i18n/index.js";
-import { useSearchStore } from "../stores/searchStore.js";
 import { useServicesCounterStore } from "../stores/servicesCounterStore.js";
+import { useSearchStore } from "../stores/searchStore.js";
 import { useTagsStore } from "../stores/tagsStore.js";
+import { useRanksStore } from "../stores/ranks.js";
 
 export const useServicesFilter = defineStore('servicesFilter', () => {
 	const tagsStore = useTagsStore();
 	const searchStore = useSearchStore();
 	const servicesCounterStore = useServicesCounterStore();
+	const ranksStore = useRanksStore();
 
 	const _containsAllTags = (serviceTags, selectedTags = []) => {
 		serviceTags = serviceTags.map(tag => tag.toLowerCase());
@@ -30,7 +32,8 @@ export const useServicesFilter = defineStore('servicesFilter', () => {
 		const selectedTags = tagsStore.getSelectedTags;
 		const filtered = services
 			.filter(service => _containsAllTags(service.tags, selectedTags))
-			.filter(service => _isSuitableServiceBySearchTerm(service, searchStore.getSearchText, i18n.global.locale));
+			.filter(service => _isSuitableServiceBySearchTerm(service, searchStore.getSearchText, i18n.global.locale))
+			.filter(service => ranksStore.getSelectedRanks === 0 || service.rank === ranksStore.getSelectedRanks);
 		
 		servicesCounterStore.setCount(filtered.length);
 

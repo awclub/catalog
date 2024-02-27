@@ -6,6 +6,7 @@ import { localDateFilter } from "../../filters/localDateFilter.js";
 import { onBeforeMount } from "vue"
 import { useBrowserLocation } from "@vueuse/core";
 import { useServicesStore } from '../../stores/servicesStore.js';
+import ServiceRating from "../../components/ServiceRating.vue";
 
 const servicesStore = useServicesStore();
 const location = useBrowserLocation();
@@ -41,6 +42,7 @@ onBeforeMount(() => {
 		>
 			<h3>{{ service.name }}</h3>
 		</a>
+		<ServiceRating :rank="service.rank" />
 		<p>{{ service.description[$i18n.locale] }}</p>
 		<p>
 			{{ $t('mentionedIn') }}:
