@@ -101,7 +101,8 @@
             "ide",
             "programming",
             "open-source"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "44743ab4-007d-438a-a63d-849cf7547529",
@@ -241,11 +242,12 @@
             "foundational",
             "multimodal",
             "google"
-        ]
+        ],
+        "rank": 4
     },
     {
         "id": "b870d2d0-fed3-4802-90a7-bef562d05a8e",
-        "name": "Copilot Pro ",
+        "name": "Copilot Pro",
         "url": "https://www.microsoft.com/en-us/store/b/copilotpro",
         "description": {
             "ru": "Премиум-подписка на Copilot от Microsoft. Стоит 20 долларов и предоставляет приоритетный доступ к новейшим моделям ИИ, таким как GPT-4 и GPT-4 Turbo. Она также включает возможность создания ИИ-изображений с помощью DALL-E 3. Нативно интегрирована в продукты Microsoft такие как Windows, Microsoft 365 и т.д. Наиболее полный конкурент ChatGPT. Заявляется, что в Copilot Pro нет ограничений на количество сообщений в час в чатах.",
@@ -264,8 +266,7 @@
             "llm",
             "diffusion",
             "copilot"
-        ],
-        "rank": 4
+        ]
     },
     {
         "id": "145e512f-b75d-4763-8e74-8dd19d303025",
@@ -287,8 +288,7 @@
             "video",
             "text-to-video",
             "image-to-video"
-        ],
-        "rank": 4
+        ]
     },
     {
         "id": "8d5a1736-c4f8-4795-b3dc-d3323830a9d5",
@@ -309,8 +309,7 @@
             "deepmind",
             "science",
             "maths"
-        ],
-        "rank": 4
+        ]
     },
     {
         "id": "b1e40422-52bb-4043-b948-478d526ce9f7",
@@ -331,8 +330,7 @@
             "programming",
             "framework",
             "google"
-        ],
-        "rank": 3
+        ]
     },
     {
         "id": "16a7ce04-b738-499a-8ec8-cf5c75a6c1ae",
@@ -353,8 +351,7 @@
             "programming",
             "ide",
             "google"
-        ],
-        "rank": 2
+        ]
     },
     {
         "id": "6fa595c7-f0a2-4cd9-9aac-857ab96ba78f",
@@ -376,8 +373,7 @@
             "agents",
             "open-source",
             "microsoft"
-        ],
-        "rank": 2
+        ]
     },
     {
         "id": "e8800614-8b8e-4d1e-b694-bf0f270aef1b",
@@ -401,7 +397,7 @@
             "productivity",
             "voice"
         ],
-        "rank": 1
+        "rank": 5
     },
     {
         "id": "0336a546-89f3-4be8-9459-c42098ee9ec0",
@@ -422,8 +418,7 @@
             "video",
             "text-to-video",
             "image-to-video"
-        ],
-        "rank": 5
+        ]
     },
     {
         "id": "aff9e27c-0d71-42e5-ba70-bc3c4e9b5169",
@@ -444,8 +439,7 @@
             "llm",
             "model",
             "open-source"
-        ],
-        "rank": 5
+        ]
     },
     {
         "id": "2e04568d-7ae4-4416-9658-7464f2a95ced",
@@ -486,7 +480,8 @@
             "llm",
             "api",
             "local"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "76dd63ff-a4b0-4cd4-8f77-92226527e2ef",
@@ -1110,8 +1105,7 @@
             "audio",
             "voice",
             "enhancement"
-        ],
-        "rank": 4
+        ]
     },
     {
         "id": "8080b118-80a2-48fa-932b-ec01bf65b730",
@@ -1249,7 +1243,8 @@
             "openai",
             "chat",
             "multimodal"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "6890e060-4ce6-4cad-ab16-7a41dc59eccd",
@@ -2469,7 +2464,8 @@
             "programming",
             "agents",
             "framework"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "a640550a-2cdf-4ae3-94c7-fcb44b788f63",
@@ -2489,7 +2485,8 @@
         "tags": [
             "search",
             "llm"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "fea6982c-ebe9-41dd-a9a1-fd66d2f693a0",
@@ -3267,7 +3264,8 @@
             "programming",
             "chat",
             "ide"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "5f8bb73e-dc1b-4c8e-bcdf-4debcab71338",

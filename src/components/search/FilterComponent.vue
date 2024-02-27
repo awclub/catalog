@@ -6,7 +6,7 @@ import { useServicesStore } from "../../stores/servicesStore.js";
 import { useTagsStore } from "../../stores/tagsStore.js";
 
 import { computed, onBeforeMount } from "vue";
-import { useRanksStore } from "../../stores/ranks.js";
+import { useRanksStore } from "../../stores/ranksStore.js";
 import StarFilter from "../../components/StarFilter.vue";
 
 const tagsStore = useTagsStore();
@@ -102,4 +102,4 @@ const handleResetRank = () => {
 .selected-tags .tag {
   margin: 0 6px 0 0;
 }
-</style>../stores/tagsStore.js
+</style>

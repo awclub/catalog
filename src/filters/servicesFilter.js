@@ -3,7 +3,7 @@ import i18n from "../i18n/index.js";
 import { useServicesCounterStore } from "../stores/servicesCounterStore.js";
 import { useSearchStore } from "../stores/searchStore.js";
 import { useTagsStore } from "../stores/tagsStore.js";
-import { useRanksStore } from "../stores/ranks.js";
+import { useRanksStore } from "../stores/ranksStore.js";
 
 export const useServicesFilter = defineStore('servicesFilter', () => {
 	const tagsStore = useTagsStore();
