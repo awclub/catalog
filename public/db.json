@@ -1,8 +1,326 @@
 [
     {
+        "id": "b8db4d59-eddc-4a81-a3f6-994a8795f10e",
+        "name": "Cleanvoice AI",
+        "url": "https://cleanvoice.ai/",
+        "description": { 
+            "en": "An online AI software tool that aims to improve the quality of recorded speech that may be badly muffled, reverberated, full of artifacts, tinny, etc. and convert it to a studio-grade, professional level.",
+            "ru": "Онлайн ИИ-инструмент, предназначенный для улучшения качества записанной речи, которая может быть сильно приглушена, реверберирована, полна артефактов и т.д., и преобразования ее до студийного качества."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=8Z0nzZQVgpA&t=5925s",
+                "episodeName": "AIA Podcast #28"
+            }
+        ],
+        "date": "2024-02-24",
+        "tags": [
+            "audio",
+            "voice",
+            "enhancement"
+        ],
+        "rank": 4
+    },
+    {
+        "id": "5b49fb8b-1e61-44fc-a043-3e61cdfb8d85",
+        "name": "TestPilot",
+        "url": "https://github.com/githubnext/testpilot",
+        "description": {
+            "en": "A tool for automatically generating unit tests for npm packages written in JavaScript/TypeScript using a large language model.",
+            "ru": "Инструмент для автоматического создания модульных тестов для npm-пакетов, написанных на JavaScript/TypeScript с использованием LLM."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=8Z0nzZQVgpA&t=5925s",
+                "episodeName": "AIA Podcast #28"
+            }
+        ],
+        "date": "2024-02-24",
+        "tags": [
+            "tests",
+            "programming"
+        ]
+    },
+    {
+        "id": "11577ae8-4778-4f24-aa38-1b6b20bb8bd2",
+        "name": "AI DIAL",
+        "url": "https://github.com/epam/ai-dial/",
+        "description": {
+            "en": "A secure, enterprise-grade, free LLM orchestrator that is API-first and model-agnostic. It is designed to be cloud-agnostic, providing horizontal features that simplify interactions with various models and LLM-centric applications, as well as the development of LLM applications.",
+            "ru": "Опенсорсный оркестратор LLM корпоративного уровня, API-first и поддерживающий разнообразные LLM. Работает с разнообразными облачными провайдерами, предоставляя горизонтальное масштабирование, упрощающее взаимодействие с различными моделями. Упрощает разработку LLM-based приложений."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=8Z0nzZQVgpA&t=5925s",
+                "episodeName": "AIA Podcast #28"
+            }
+        ],
+        "date": "2024-02-24",
+        "tags": [
+            "programming",
+            "epam",
+            "api",
+            "cloud",
+            "framework"
+        ]
+    },
+    {
+        "id": "0bf5bd6b-0b67-483d-a5d4-ec4670a3dd89",
+        "name": "Fixkey",
+        "url": "https://www.producthunt.com/posts/fixkey",
+        "description": {
+            "en": "A MacOS app that helps you fix your grammar and punctuation in any app. It has a subscription and can work with local models.",
+            "ru": "Приложение для MacOS, которое помогает исправлять вашу грамматику и пунктуацию в любом приложении. Имеет подписку ,и может работать с локальными моделями."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=8Z0nzZQVgpA&t=5925s",
+                "episodeName": "AIA Podcast #28"
+            }
+        ],
+        "date": "2024-02-24",
+        "tags": [
+            "productivity",
+            "macos",
+            "translation",
+            "assistant",
+            "spell-check"
+        ],
+        "rank": 5
+    },
+    {
+        "id": "29393649-b050-418f-b035-6d469f26afbb",
+        "name": "Infinite Craft",
+        "url": "https://github.com/StarGazingHomies/Infinite-Craft",
+        "description": {
+            "en": "A browser game similar to Alchemy, where you need to crossbreed different elements to get new ones. New elements are generated through LLM.",
+            "ru": "Браузерная игра наподобие Алхимии, где нужно скрещивать разные элементы, получая новые. Новые элементы генерируются через LLM."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=8Z0nzZQVgpA&t=5925s",
+                "episodeName": "AIA Podcast #28"
+            }
+        ],
+        "date": "2024-02-24",
+        "tags": [
+            "game",
+            "llm"
+        ],
+        "rank": 5
+    },
+    {
+        "id": "69920b66-b77c-4494-8875-dd8ca2cffc03",
+        "name": "Boximator",
+        "url": "https://boximator.github.io/",
+        "description": {
+            "en": "A tool from ByteDance that allows you to control the motion of objects in a video by defining and controlling their motion by selecting areas to animate and specifying the direction and style of motion. So far it exists only as a short article and a few examples on GitHub.",
+            "ru": "Инструмент от ByteDance, позволяющий управлять движением объектов на видео через определение и управление их движением с помощью выделения областей для анимирования, задания направления и стиля движения. Пока существует только в виде небольшой статьи и нескольких примеров на GitHub."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=8Z0nzZQVgpA&t=5020s",
+                "episodeName": "AIA Podcast #28"
+            }
+        ],
+        "date": "2024-02-24",
+        "tags": [
+            "video",
+            "bytedance",
+            "animation"
+        ]
+    },
+    {
+        "id": "be72cff8-17e5-49d1-bfaa-5f66af8ea68d",
+        "name": "Large World Model",
+        "url": "https://github.com/LargeWorldModel/LWM",
+        "description": {
+            "en": "An general-purpose large-context multimodal opensource autoregressive model. It is trained on a large dataset of diverse long videos and books using RingAttention, and can perform language, image, and video understanding and generation.",
+            "ru": "Мультимодальная авторегрессионная модель с большим контекстом и открытым исходным кодом. Обучена на большом наборе разнообразных длинных видео и книг с использованием RingAttention, и может понимать контекст и генерировать текст, изображений и видео."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=8Z0nzZQVgpA&t=4935s",
+                "episodeName": "AIA Podcast #28"
+            }
+        ],
+        "date": "2024-02-24",
+        "tags": [
+            "open-source",
+            "multimodal",
+            "model",
+            "llm",
+            "graphics",
+            "video"
+        ]
+    },
+    {
+        "id": "cd29faf3-52e0-437a-9ecf-8fa898300db4",
+        "name": "Stable Cascade",
+        "url": "https://github.com/Stability-AI/StableCascade",
+        "description": {
+            "en": "Opensource diffusion model that built upon the Würstchen architecture and its main difference to other models, like Stable Diffusion, is that it is working at a much smaller latent space. The smaller the latent space, the faster you can run inference and the cheaper the training becomes. Compatible with finetuning, LoRA, ControlNet, IP-Adapter, LCM.",
+            "ru": "Диффузионная модель с открытым исходным кодом, построенная на архитектуре Würstchen. Отличие от других моделей, таких как Stable Diffusion, заключается в том, что она работает в гораздо меньшем латентном пространстве. Чем меньше латентное пространство, тем быстрее можно проводить выводы и дешевле становится обучение. Совместима с механизмом файнтьюнинга, LoRA, ControlNet, IP-Adapter, LCM."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=8Z0nzZQVgpA&t=4015s",
+                "episodeName": "AIA Podcast #28"
+            }
+        ],
+        "date": "2024-02-24",
+        "tags": [
+            "diffusion",
+            "open-source",
+            "stabilityai",
+            "graphics",
+            "model"
+        ],
+        "rank": 5
+    },
+    {
+        "id": "f9e84490-4264-425d-9eb1-a3edde9f8e08",
+        "name": "UFO",
+        "url": "https://github.com/microsoft/UFO/",
+        "description": {
+            "en": "A UI-Focused opensourced agent framework from Microsoft for Windows OS Interaction. Allows you to build applications for managing Windows OS through an LLM-based interface using GPT-Vision. Similar to MateOS.",
+            "ru": "Агентный ИИ-фреймворк от Microsoft с открытым исходным кодом, ориентированный на взаимодействие с Windows OS. Позволяет строить приложения для управления ОС Windows через LLM-based интерфейс с использованием и GPT-Vision. Похоже на MateOS."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=8Z0nzZQVgpA&t=3740s",
+                "episodeName": "AIA Podcast #28"
+            }
+        ],
+        "date": "2024-02-24",
+        "tags": [
+            "programming",
+            "chat",
+            "copilot",
+            "microsoft",
+            "open-source",
+            "productivity",
+            "gpt",
+            "gpt-vision",
+            "framework"
+        ]
+    },
+    {
+        "id": "2f4a4625-7f3c-48d7-97be-5958c4ca592d",
+        "name": "Stable Diffusion 3",
+        "url": "https://stability.ai/stablediffusion3",
+        "description": {
+            "en": "An opensource diffusion model that can draw any graphics, including photorealistic ones. Currently available only for beta testing through a waitlist.",
+            "ru": "Открытая диффузионная модель, которая может рисовать любую графику, в том числе и фото-реалистичную. Пока доступна исключительно для бета-тестирования через вейтлист."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=8Z0nzZQVgpA&t=4015s",
+                "episodeName": "AIA Podcast #28"
+            }
+        ],
+        "date": "2024-02-24",
+        "tags": [
+            "stabilityai",
+            "open-source",
+            "diffusion",
+            "graphics",
+            "model",
+            "photorealism"
+        ]
+    },
+    {
+        "id": "41038638-b7cc-487d-a8f0-527e1c7e4ce6",
+        "name": "Goose",
+        "url": "https://www.businessinsider.com/google-goose-ai-model-language-ai-coding-2024-2?IR=T",
+        "description": {
+            "en": "An internal AI programming assistant from Google. It works on the basis of Gemini and is used within the company Google. Information about it appeared from a leak of company documents in February 2024.",
+            "ru": "Внутренний ИИ-ассистент по программированию от Google. Работает на базе Gemini и используется внутри компании Google. информация о нем появилась из утечки документов компании в феврале 2024 года."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=8Z0nzZQVgpA&t=3432s",
+                "episodeName": "AIA Podcast #28"
+            }
+        ],
+        "date": "2024-02-24",
+        "tags": [
+            "google",
+            "programming",
+            "assistant",
+            "productivity",
+            "llm"
+        ]
+    },
+    {
+        "id": "b85eb8f4-3de1-441d-b703-8867aad0fc6a",
+        "name": "Gemma",
+        "url": "https://ai.google.dev/gemma",
+        "description": {
+            "en": "An open-source LLM from Google. It exists in two versions: 2B and 7B. According to Google, the 7B model works at the level of LLama2 30B.",
+            "ru": "Опенсорсная LLM от Google. Существует в двух версиях: 2B и 7B. По словам Google, модель 7B работает на уровне LLama2 30B."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=8Z0nzZQVgpA&t=3310s",
+                "episodeName": "AIA Podcast #28"
+            }
+        ],
+        "date": "2024-02-24",
+        "tags": [
+            "model",
+            "google",
+            "open-source",
+            "llm"
+        ]
+    },
+    {
+        "id": "36651f37-7333-4433-a61e-3a9070f0189f",
+        "name": "OpenAI Forum",
+        "url": "https://forum.openai.com/",
+        "description": {
+            "en": "An OpenAI initiative that brings together domain experts and students to discuss and collaborate on the present and future of AI",
+            "ru": "Инициатива OpenAI, объединяющая экспертов и студентов для обсуждения и совместной работы над настоящим и будущим ИИ."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=8Z0nzZQVgpA&t=1500s",
+                "episodeName": "AIA Podcast #28"
+            }
+        ],
+        "date": "2024-02-24",
+        "tags": [
+            "openai",
+            "community",
+            "model"
+        ]
+    },
+    {
+        "id": "19a1946f-a793-4faa-bd05-04eadd661417",
+        "name": "SORA",
+        "url": "https://openai.com/sora",
+        "description": {
+            "en": "A next-generation text-to-video model from OpenAI. It allows you to create videos based on text prompts. Unlike diffusion models, SORA generates videos as a whole, not based on individual images. It is currently closed, and only some scientists and video content creators have access to it.",
+            "ru": "text-to-video модель нового поколения от компании OpenAI. Позволяет создавать видео по текстовым промптам. В отличии от diffusion-моделей, SORA генерирует видео целиком, а не по отдельным изображениям. Пока закрыта, доступ к ней имеют только некоторые ученые и создатели видео-контента."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=8Z0nzZQVgpA&t=790s",
+                "episodeName": "AIA Podcast #28"
+            }
+        ],
+        "date": "2024-02-24",
+        "tags": [
+            "openai",
+            "text-to-video",
+            "model",
+            "video"
+        ]
+    },
+    {
         "id": "772b59df-0d49-4ec9-8f1b-53450ad177c4",
         "name": "Chainlit",
-        "url": "https://github.com/Chainlit/chainlit ",
+        "url": "https://github.com/Chainlit/chainlit",
         "description": {
             "en": "Фn open-source async Python framework which allows developers to build scalable Conversational AI or agentic applications.",
             "ru": "Открытый асинхронный фреймворк на Python, который позволяет разработчикам создавать масштабируемые приложения c Conversational AI и ИИ-агентами."
@@ -169,7 +487,8 @@
             "llm",
             "chat",
             "bot",
-            "gpt"
+            "gpt",
+            "bytedance"
         ]
     },
     {
@@ -231,6 +550,10 @@
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=82LpMZRBQuE&t=775s",
                 "episodeName": "AIA Podcast #27"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=8Z0nzZQVgpA&t=2413s",
+                "episodeName": "AIA Podcast #28"
             }
         ],
         "date": "2024-02-10",
@@ -1075,6 +1398,10 @@
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=PwEbN93GU5U&t=6700s",
                 "episodeName": "AIA Podcast #19"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=8Z0nzZQVgpA&t=5225s",
+                "episodeName": "AIA Podcast #28"
             }
         ],
         "date": "2023-10-20",
@@ -1083,7 +1410,8 @@
             "audio",
             "speech",
             "podcasts"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "d98f703a-b344-409e-84f1-cff0c586a989",
@@ -1105,7 +1433,8 @@
             "audio",
             "voice",
             "enhancement"
-        ]
+        ],
+        "rank": 4
     },
     {
         "id": "8080b118-80a2-48fa-932b-ec01bf65b730",
@@ -1147,7 +1476,8 @@
             "model",
             "graphics",
             "open-source"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "00d8090b-82a8-47f4-b14a-d2fd71f65a30",
@@ -1206,6 +1536,10 @@
             {
                 "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc",
                 "episodeName": "AIA Podcast #3"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=C79FV_YujSg&t=1390s",
+                "episodeName": "AIA Podcast #12"
             }
         ],
         "date": "2023-03-10",
@@ -1216,8 +1550,10 @@
             "llm",
             "diffusion",
             "foundational",
-            "openai"
-        ]
+            "openai",
+            "gpt-vision"
+        ],
+        "rank": 5
     },
     {
         "id": "6223b52d-be3a-40c9-9497-c3804a300a5f",
@@ -1265,7 +1601,8 @@
             "productivity",
             "programming",
             "assistant"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "4bcfbccd-0093-43e6-b63c-283affcf4b87",
@@ -1283,9 +1620,9 @@
         ],
         "date": "2023-03-10",
         "tags": [
-            "language",
             "translation",
             "assistant",
+            "spell-check",
             "productivity"
         ]
     },
@@ -1309,8 +1646,8 @@
         ],
         "date": "2023-03-10",
         "tags": [
-            "language",
-            "translation"
+            "translation",
+            "productivity"
         ]
     },
     {
@@ -1393,9 +1730,9 @@
         ],
         "date": "2023-03-25",
         "tags": [
-            "language",
             "translation",
             "assistant",
+            "spell-check",
             "productivity"
         ]
     },
@@ -2465,7 +2802,7 @@
             "agents",
             "framework"
         ],
-        "rank": 5
+        "rank": 4
     },
     {
         "id": "a640550a-2cdf-4ae3-94c7-fcb44b788f63",
@@ -3102,7 +3439,8 @@
             "llm",
             "model",
             "antropic"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "b090ad76-4440-4e52-8ede-a7a75ce7742c",
@@ -3126,28 +3464,6 @@
         "tags": [
             "copilot",
             "microsoft"
-        ]
-    },
-    {
-        "id": "545e6d29-6b06-47b3-8ff2-bd0d42735cc4",
-        "name": "OpenAI Platform",
-        "url": "https://platform.openai.com/",
-        "description": {
-            "en": "Platform from OpenAI for accessing GPT API, GPT-4V API and others.",
-            "ru": "Платформа от OpenAI для доступа к GPT API, GPT-4V API и другим API компании."
-        },
-        "mentions": [
-            {
-                "episodeUrl": "https://www.youtube.com/watch?v=C79FV_YujSg&t=1390s",
-                "episodeName": "AIA Podcast #12"
-            }
-        ],
-        "date": "2023-07-14",
-        "tags": [
-            "api",
-            "llm",
-            "foundational",
-            "gpt"
         ]
     },
     {
@@ -3194,8 +3510,10 @@
             "stabilityai",
             "model",
             "graphics",
-            "open-source"
-        ]
+            "open-source",
+            "photorealism"
+        ],
+        "rank": 5
     },
     {
         "id": "a96a2ac8-1e0a-49b5-9a98-0a0cad23aa66",
@@ -3623,7 +3941,8 @@
             "dubbing",
             "cloning",
             "avatar"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "0bbed209-619d-4e1f-bbcc-b990ec024e00",
@@ -3836,7 +4155,8 @@
             "programming",
             "tests",
             "codereview"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "9e9a6e20-2aca-44ad-ad88-c485dd6859ff",
@@ -4004,7 +4324,8 @@
             "music",
             "speech",
             "voice"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "a672bc85-48a2-410f-9c05-624cc572be18",
@@ -4218,7 +4539,8 @@
             "chat",
             "ide",
             "copilot"
-        ]
+        ],
+        "rank": 4
     },
     {
         "id": "744ccf91-1282-489f-ba35-fc8004a6fe95",
@@ -4422,8 +4744,8 @@
         "name": "MateOS",
         "url": "https://www.mate-os.com",
         "description": {
-            "en": "Copilot for your operating system. It can interact with your operating system through screen photos and file system access and perform simple tasks. From the creators of Machinet",
-            "ru": "Копайлот для вашей операционной системы. По фотографии экрана и через доступ к файловой системе может взаимодействовать с вашей операционной системой и выполнять простые задачи. От создателей Machinet"
+            "en": "Copilot for your operating system. It can interact with your operating system through screen photos and file system access and perform simple tasks. From the creators of Machinet.",
+            "ru": "Копайлот для вашей операционной системы. По фотографии экрана и через доступ к файловой системе может взаимодействовать с вашей операционной системой и выполнять простые задачи. От создателей Machinet."
         },
         "mentions": [
             {
@@ -4439,7 +4761,8 @@
         "tags": [
             "programming",
             "chat",
-            "copilot"
+            "copilot",
+            "productivity"
         ]
     },
     {
@@ -4474,7 +4797,8 @@
             "graphics",
             "model",
             "photorealism"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "afe02a7d-967c-42f7-acc0-561d503b6267",
@@ -4518,7 +4842,8 @@
             "copilot",
             "open-source",
             "gpt",
-            "framework"
+            "framework",
+            "gpt-vision"
         ]
     },
     {
