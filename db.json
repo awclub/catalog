@@ -101,7 +101,8 @@
             "ide",
             "programming",
             "open-source"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "44743ab4-007d-438a-a63d-849cf7547529",
@@ -241,11 +242,12 @@
             "foundational",
             "multimodal",
             "google"
-        ]
+        ],
+        "rank": 4
     },
     {
         "id": "b870d2d0-fed3-4802-90a7-bef562d05a8e",
-        "name": "Copilot Pro ",
+        "name": "Copilot Pro",
         "url": "https://www.microsoft.com/en-us/store/b/copilotpro",
         "description": {
             "ru": "Премиум-подписка на Copilot от Microsoft. Стоит 20 долларов и предоставляет приоритетный доступ к новейшим моделям ИИ, таким как GPT-4 и GPT-4 Turbo. Она также включает возможность создания ИИ-изображений с помощью DALL-E 3. Нативно интегрирована в продукты Microsoft такие как Windows, Microsoft 365 и т.д. Наиболее полный конкурент ChatGPT. Заявляется, что в Copilot Pro нет ограничений на количество сообщений в час в чатах.",
@@ -394,7 +396,8 @@
             "content",
             "productivity",
             "voice"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "0336a546-89f3-4be8-9459-c42098ee9ec0",
@@ -477,7 +480,8 @@
             "llm",
             "api",
             "local"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "76dd63ff-a4b0-4cd4-8f77-92226527e2ef",
@@ -1239,7 +1243,8 @@
             "openai",
             "chat",
             "multimodal"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "6890e060-4ce6-4cad-ab16-7a41dc59eccd",
@@ -2459,7 +2464,8 @@
             "programming",
             "agents",
             "framework"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "a640550a-2cdf-4ae3-94c7-fcb44b788f63",
@@ -2479,7 +2485,8 @@
         "tags": [
             "search",
             "llm"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "fea6982c-ebe9-41dd-a9a1-fd66d2f693a0",
@@ -3257,7 +3264,8 @@
             "programming",
             "chat",
             "ide"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "5f8bb73e-dc1b-4c8e-bcdf-4debcab71338",
