@@ -43,7 +43,7 @@ const formattedUrl = function (url) {
 					/>
 				</svg>
 			</a>
-			<ServiceRating :rank="serviceItem.rank" />
+			<ServiceRating :rank="serviceItem.rank ?? 0" />
 		</div>
 		<p>{{ serviceItem.description[$i18n.locale] }}</p>
 		<p>

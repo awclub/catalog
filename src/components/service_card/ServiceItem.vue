@@ -42,7 +42,7 @@ onBeforeMount(() => {
 		>
 			<h3>{{ service.name }}</h3>
 		</a>
-		<ServiceRating :rank="service.rank" />
+		<ServiceRating :rank="service.rank ?? 0" />
 		<p>{{ service.description[$i18n.locale] }}</p>
 		<p>
 			{{ $t('mentionedIn') }}:
