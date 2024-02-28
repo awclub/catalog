@@ -37,17 +37,17 @@ const handleResetRank = () => {
 			<auto-complete-input
 				:placeholder="$t('searchTagsPlaceholder')"
 				:available-items="tags"
-				:already-selected-items="tagsStore.tags"
+				:already-selected-items="tagsStore.getSelectedTags"
 				:on-select="tagsStore.selectTag"
 			/>
 			<div class="selected-tags">
 				<TagList
-					:items="tagsStore.tags"
+					:items="tagsStore.getSelectedTags"
 					:on-tag-click="tagsStore.unSelectTag"
 				/>
 			</div>
 			<input
-				v-show="tagsStore.tags.length"
+				v-show="tagsStore.getSelectedTags.length"
 				class="reset-button"
 				type="button"
 				title="reset"

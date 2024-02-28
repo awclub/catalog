@@ -19,19 +19,14 @@ export const useCurrentLangStore = defineStore('currentLangStore', () => {
 	// state
 	const currentLang = ref(defaultLang(rootFilterStore.lang));
 
-	// getters
-	const getCurrentLang = computed(() => currentLang.value);
-
 	// actions
 	function setCurrentLang(lang) {
-		this.currentLang = lang;
+		currentLang.value = lang;
 		i18n.global.locale = lang;
 		rootFilterStore.setLang(lang);
 	}
 
 	return {
-		currentLang,
-		getCurrentLang,
 		setCurrentLang,
 	}
 });

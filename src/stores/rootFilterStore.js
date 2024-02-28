@@ -3,30 +3,35 @@ import { defineStore } from "pinia";
 const KEYWORDS = {
 	LANG: 'currentLanguage',
 	ORDER: 'sortingOrder',
+	TAGS: 'selectedTags',
 };
 
 const _initState = () => {
-	return Object.values(KEYWORDS)
-		.reduce((state, key) => ({
-			...state,
-			[key]: localStorage.getItem(key)
-		}), {})
+	return {
+		[ KEYWORDS.LANG ]: localStorage.getItem( KEYWORDS.LANG ),
+		[ KEYWORDS.ORDER ]: localStorage.getItem( KEYWORDS.ORDER ),
+		[ KEYWORDS.TAGS ]: JSON.parse(localStorage.getItem( KEYWORDS.TAGS )) || [],
+	};
 };
 
-const _saveChanged = (key, value) => localStorage.setItem(key, value);
+const _saveChanges = (key, value) => localStorage.setItem(key, value);
 
 export const useRootFilterStore = defineStore('rootFilterStore', ({
 	state: () => _initState(),
 	getters: {
 		lang: state => state[KEYWORDS.LANG],
 		order: state => state[KEYWORDS.ORDER],
+		tags: state => state[KEYWORDS.TAGS],
 	},
 	actions: {
 		setLang(lang) {
-			_saveChanged(KEYWORDS.LANG, lang);
+			_saveChanges(KEYWORDS.LANG, lang);
 		},
 		setOrder(order) {
-			_saveChanged(KEYWORDS.ORDER, order);
+			_saveChanges(KEYWORDS.ORDER, order);
+		},
+		setTags(tags) {
+			_saveChanges(KEYWORDS.TAGS, JSON.stringify(tags || []));
 		}
 	}
 }));
