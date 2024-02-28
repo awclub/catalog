@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
 
-const KEYWORDS = {
+export const KEYWORDS = {
 	LANG: 'currentLanguage',
 	ORDER: 'sortingOrder',
 	TAGS: 'selectedTags',

@@ -1,6 +1,6 @@
-import { computed, ref } from "vue";
 import { defineStore } from "pinia";
 import i18n from "../i18n/index.js";
+import { ref } from "vue";
 import { useRootFilterStore } from "./rootFilterStore.js";
 
 const defaultLang = (savedLang) => {
