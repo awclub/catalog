@@ -6,15 +6,23 @@ import { onBeforeMount } from "vue";
 import { useRoute } from "vue-router";
 import { useSearchStore } from "../stores/searchStore.js";
 import { watchEffect } from 'vue';
+import {useTagsStore} from "../stores/tagsStore.js";
 
 const route = useRoute();
 const { t } = i18n.global;
+const tagsStore = useTagsStore();
 const searchStore = useSearchStore();
 const { search } = route.query;
 
 onBeforeMount(() => {
 	if (search?.length) {
 		searchStore.setSearchText(search);
+	}
+
+	if (route.query.tags?.length) {
+		const tags = route.query.tags.split(',');
+
+		tags.forEach(tag => tagsStore.selectTag(tag));
 	}
 });
 
