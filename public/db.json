@@ -876,8 +876,8 @@
         "name": "VEED.IO",
         "url": "https://www.veed.io/",
         "description": {
-            "ru": "Сервис, выравнивает направление взгляда человека на видео. Работает очень похоже на Nvidia AR SDK Eye Contact, но работает как подписочный сервис. Незаменимая штука для тех, кто изпользует скринридеры при создании контента.",
-            "en": "A service that aligns the direction of a person's gaze in a video. Works very similar to Nvidia AR SDK Eye Contact, but works as a subscription service. An indispensable thing for those who use screen readers when creating content."
+            "ru": "Сервиc по редактированию и обработке видео. Умеет выравнивать направление взгляда и очишать аудио от шумов, создавать видео-аватаров, добавлять эффекты к видео. Есть подписка.",
+            "en": "A service for editing and processing videos. It can align the direction of the gaze and clean up the audio from noise, create video avatars, add effects to the video. There is a subscription."
         },
         "mentions": [
             {
@@ -2846,20 +2846,20 @@
         ]
     },
     {
-        "id": "a06373cb-c592-406d-a077-056a4ace1b98",
+        "id": "2d7021c5-7e7f-4c62-bb54-11df92f051e1",
         "name": "Amazon CodeWhisperer",
         "url": "https://aws.amazon.com/codewhisperer/",
         "description": {
-            "en": "Free autocomplete for code from Amazon. A good analog of Github Copilot. Also able to do securitized code scanning and reference tracking.",
-            "ru": "Бесплатный автокомплит для кода от Amazon. Хороший аналог Github Copilot. Также способен делать секьюрити-сканирование кода и следить за референсами."
+            "en": "Amazon CodeWhisperer generates code suggestions ranging from snippets to full functions in real time in the IDE based on your comments and existing code. It also supports CLI completions and natural-language-to-bash translation in the command line. A good alternative to Github Copilot. Also capable of security scanning and reference tracking.",
+            "ru": "Amazon CodeWhisperer генерирует предложения кода в реальном времени, начиная от фрагментов и заканчивая полными функциями, в среде разработки на основе ваших комментариев и существующего кода. Также он поддерживает авто-дополнение в интерфейсе командной строки и перевод естественного языка в команды bash. Хороший аналог Github Copilot. Также способен делать секьюрити-сканирование кода и следить за референсами."
         },
         "mentions": [
             {
-                "episodeUrl": "hhttps://www.youtube.com/watch?v=pRMdKRsZHyU&t=10565s",
+                "episodeUrl": "https://youtu.be/pRMdKRsZHyU?t=10585",
                 "episodeName": "AIA Podcast #9"
             }
         ],
-        "date": "2023-06-02",
+        "date": "2023-06-06",
         "tags": [
             "productivity",
             "amazon",
@@ -2867,7 +2867,8 @@
             "copilot",
             "programming",
             "security"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "395af83a-6895-411d-bea3-b65489c41183",
@@ -4113,26 +4114,6 @@
         "tags": [
             "programming",
             "catalog"
-        ]
-    },
-    {
-        "id": "2d7021c5-7e7f-4c62-bb54-11df92f051e1",
-        "name": "Amazon CodeWhisperer",
-        "url": "https://aws.amazon.com/codewhisperer/",
-        "description": {
-            "en": "Amazon CodeWhisperer generates code suggestions ranging from snippets to full functions in real time in the IDE based on your comments and existing code. It also supports CLI completions and natural-language-to-bash translation in the command line.",
-            "ru": "Amazon CodeWhisperer генерирует предложения кода в реальном времени, начиная от фрагментов и заканчивая полными функциями, в среде разработки на основе ваших комментариев и существующего кода. Также он поддерживает авто-дополнение в интерфейсе командной строки и перевод естественного языка в команды bash."
-        },
-        "mentions": [
-            {
-                "episodeUrl": "https://youtu.be/pRMdKRsZHyU?t=10585",
-                "episodeName": "AIA Podcast #9"
-            }
-        ],
-        "date": "2023-06-06",
-        "tags": [
-            "copilot",
-            "programming"
         ]
     },
     {
