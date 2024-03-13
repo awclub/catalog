@@ -1,9 +1,461 @@
 [
     {
+        "id": "f5430375-7567-4a3f-b24d-1ef386db8ab2",
+        "name": "Greptile",
+        "url": "https://app.greptile.com/",
+        "description": {
+            "en": "AI Chat with your GitHub repositories to understand, navigate, and generate code faster.",
+            "ru": "ИИ-чат с вашими репозиториями GitHub, чтобы быстрее понимать, ориентироваться и генерировать код."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=EMYX9ey5b7s&t=6530s",
+                "episodeName": "AIA Podcast #29"
+            }
+        ],
+        "date": "2024-03-09",
+        "tags": [
+            "open-source",
+            "programming",
+            "productivity",
+            "github"
+        ],
+        "rank": 5
+    },
+    {
+        "id": "fe1975b0-1af9-4acb-b173-80a0de04ed13",
+        "name": "bloop",
+        "url": "https://github.com/BloopAI/bloop",
+        "description": {
+            "en": "ChatGPT for your code. Ask questions in natural language, search for code and generate patches using your existing codebase as context.",
+            "ru": "ChatGPT для вашего кода. Задавайте вопросы на естественном языке, ищите код и правте его, используя существующую кодовую базу в качестве контекста."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=EMYX9ey5b7s&t=6530s",
+                "episodeName": "AIA Podcast #29"
+            }
+        ],
+        "date": "2024-03-09",
+        "tags": [
+            "open-source",
+            "programming",
+            "productivity"
+        ]
+    },
+    {
+        "id": "926331e3-9cc9-4378-af1d-99b3f89b7652",
+        "name": "Galileo AI",
+        "url": "https://www.usegalileo.ai/explore",
+        "description": {
+            "en": "UI generation platform for easy and fast design ideation. The service can generate interfaces with the ability to export to Figma.",
+            "ru": "Платформа для генерации пользовательских интерфейсов, позволяющая легко и быстро придумывать дизайн. Сервис может генерировать интерфейсы с возможностью экспорта в Figma."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=EMYX9ey5b7s&t=6530s",
+                "episodeName": "AIA Podcast #29"
+            }
+        ],
+        "date": "2024-03-09",
+        "tags": [
+            "ui",
+            "frontend",
+            "design"
+        ]
+    },
+    {
+        "id": "1ad8fc99-a6a0-431c-838f-e03243b0fbc1",
+        "name": "Cursor",
+        "url": "https://cursor.sh",
+        "description": {
+            "en": "AI-first Code Editor or IDE, designed for pair-programming with AI. Based on VS Code.",
+            "ru": "Редактор кода (IDE) с ИИ-интегрированными инструменитами, предназначенный для парного программирования с искусственным интеллектом. Основан на VS Code."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=EMYX9ey5b7s&t=6530s",
+                "episodeName": "AIA Podcast #29"
+            }
+        ],
+        "date": "2024-03-09",
+        "tags": [
+            "ide",
+            "productivity",
+            "programming"
+        ]
+    },
+    {
+        "id": "497efd71-347a-4dff-9a91-0d0667b11cb2",
+        "name": "Discover Daily Podcast",
+        "url": "https://discoverdaily.ai/",
+        "description": {
+            "en": "An AI podcast generated from Perplexity's Discover feed and brought to life by the voices of ElevenLabs. ",
+            "ru": "ИИ-подкаст, генерируемый на основе ленты Perplexity's Discover и оживленный голосами ElevenLabs."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=EMYX9ey5b7s&t=6530s",
+                "episodeName": "AIA Podcast #29"
+            }
+        ],
+        "date": "2024-03-09",
+        "tags": [
+            "podcasts",
+            "perplexity"
+        ],
+        "rank": 5
+    },
+    {
+        "id": "f0706b6a-6876-4e4a-8bac-59a2d13aeeff",
+        "name": "Open-Source AI Cookbook",
+        "url": "https://github.com/huggingface/cookbook/tree/main",
+        "description": {
+            "en": "Github-repo that contains community-driven practical examples of building AI applications and solving various tasks with AI using open-source tools and models.",
+            "ru": "Github-репозиторий, содержащий созданные сообществом практические примеры создания приложений ИИ и решения различных задач с помощью ИИ с использованием инструментов и моделей с открытым исходным кодом."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=EMYX9ey5b7s&t=6530s",
+                "episodeName": "AIA Podcast #29"
+            }
+        ],
+        "date": "2024-03-09",
+        "tags": [
+            "productivity",
+            "huggingface"
+        ]
+    },
+    {
+        "id": "6dd34b8d-412d-46be-877f-0e4bd9f0b4e5",
+        "name": "Genie: Generative Interactive Environments",
+        "url": "https://huggingface.co/papers/2402.15391",
+        "description": {
+            "en": "The first generative model trained in an unsupervised manner from unlabelled Internet videos. The model can be prompted to generate an endless variety of action-controllable virtual worlds described through text, synthetic images, photographs, and even sketches. In simple words: it can generate almost on the fly the next frame of video, depending on what you pressed on the keyboard. The first contender for foundational world model.",
+            "ru": "Первая генеративная модель, обучаемая на основе немаркированных видеороликов из интернета. Модель можно попросить сгенерировать бесконечное множество управляемых действием виртуальных миров, описанных с помощью текста, синтетических изображений, фотографий и даже эскизов. Простыми словами: она может генерировать практически на лету следующий кадр видео, в зависимости от того, что вы нажали на клавиатуре. Первый претендент на foundational world model."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=EMYX9ey5b7s&t=5500s",
+                "episodeName": "AIA Podcast #29"
+            }
+        ],
+        "date": "2024-03-09",
+        "tags": [
+            "paper",
+            "model",
+            "deepmind",
+            "multimodal",
+            "foundational",
+            "world model"
+        ],
+        "rank": 5
+    },
+    {
+        "id": "0b86941f-7711-4fdf-80c6-9fb20ca5e959",
+        "name": "Project Music GenAI Control",
+        "url": "https://blog.adobe.com/en/publish/2024/02/28/adobe-research-audio-creation-editing",
+        "description": {
+            "en": "An experimental work from Adobe Research, editing toolthat allows creators to generate music from text prompts, and then have fine-grained control to edit that audio for their precise needs.",
+            "ru": "Экспериментальная разработка от Adobe Research, инструмент редактирования, который позволяет криэйторам генерировать музыку по промптам, а затем тонко контролировать и редактировать сгенерированное аудио для своих нужд."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=EMYX9ey5b7s&t=0s",
+                "episodeName": "AIA Podcast #29"
+            }
+        ],
+        "date": "2024-03-09",
+        "tags": [
+            "adobe",
+            "music",
+            "text-to-music"
+        ]
+    },
+    {
+        "id": "b8cc66ec-40b6-4c36-a297-138d7f057265",
+        "name": "TripoSR",
+        "url": "https://stability.ai/news/triposr-3d-generation",
+        "description": {
+            "en": "A model capable of quickly generating 3D objects from a single image. Developed by Stbility AI and Tripo AI.",
+            "ru": "Модель, способная быстро генерировать 3D-объекты по одному изображению. Разработана компаниями Stbility AI и Tripo AI."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=EMYX9ey5b7s&t=0s",
+                "episodeName": "AIA Podcast #29"
+            }
+        ],
+        "date": "2024-03-09",
+        "tags": [
+            "stabilityai",
+            "model",
+            "image-to-3D",
+            "3d"
+        ]
+    },
+    {
+        "id": "80b8863e-6b36-43e9-8ceb-26733dd81532",
+        "name": "Emote Portrait Alive",
+        "url": "https://humanaigc.github.io/emote-portrait-alive/",
+        "description": {
+            "en": "A service from Alibaba Group capable of generating expressive portrait videos using the Audio2Video diffusion model in weak conditions. Converts audio + images into a \"live emotional\" avatar. So far only exists as a scientific publication.",
+            "ru": "Сервис от Alibaba Group способный генерировать выразительные портретные видео с помощью модели диффузии Audio2Video в слабых условиях. Преобразовывает аудио + изображения в \"живой эмоциональный\" аватар. Пока существует только  в виде научной публикации."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=EMYX9ey5b7s&t=0s",
+                "episodeName": "AIA Podcast #29"
+            }
+        ],
+        "date": "2024-03-09",
+        "tags": [
+            "alibaba",
+            "audio-to-video",
+            "animation",
+            "diffusion",
+            "video",
+            "paper"
+        ]
+    },
+    {
+        "id": "62452e23-828c-4329-b07e-1499ed4d6721",
+        "name": "NVIDIA AI Foundation Models",
+        "url": "https://catalog.ngc.nvidia.com/ai-foundation-models",
+        "description": {
+            "en": "A sandbox with AI models, allowing you to run them for free right from your browser, and running on Nvidia hardware.",
+            "ru": "Песочница с ИИ-моделями, позволяющая бесплатно работать с ними прямо из вашего браузера, и работающая на железе Nvidia."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=EMYX9ey5b7s&t=0s",
+                "episodeName": "AIA Podcast #29"
+            }
+        ],
+        "date": "2024-03-09",
+        "tags": [
+            "llm",
+            "diffusion",
+            "sandbox",
+            "nvidia"
+        ]
+    },
+    {
+        "id": "619b3abe-f93a-48f4-a72c-f1b6d96087aa",
+        "name": "Chat with RTX",
+        "url": "https://www.nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/",
+        "description": {
+            "en": "Free software that allows you to run LLM locally on computers with NVIDIA 30/40-series graphics cards and 16GB or more RAM. Through it you can interact with documents on your computer through a convenient chatbot interface in private mode. Working with documents means \"talking\" to almost any text documents and notes, transcribing YouTube videos, and even performing some programming tasks.",
+            "ru": "Бесплатное ПО, позволяющее запускать LLM локально на компьютерах с видеокартами NVIDIA 30/40-серии и оперативной памятью от 16Гб и больше. Через него вы можете взаимодействовать с документами на вашем компьютере через удобный чат-бот интерфейс в приватном режиме. Под работой с документами подразумевается «разговор» с практически любыми текстовыми документами и заметками, транскрибация видео на YouTube и даже выполнение некоторых задач по программированию."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=EMYX9ey5b7s&t=0s",
+                "episodeName": "AIA Podcast #29"
+            }
+        ],
+        "date": "2024-03-09",
+        "tags": [
+            "llm",
+            "private",
+            "nvidia"
+        ]
+    },
+    {
+        "id": "8d8d6bd6-e8f6-4f01-8963-e0178388b2ed",
+        "name": "Intel NPU Acceleration Library",
+        "url": "https://github.com/intel/intel-npu-acceleration-library",
+        "description": {
+            "en": "A Python library designed to boost the efficiency of your applications by leveraging the power of the Intel Neural Processing Unit (NPU) to perform high-speed computations on compatible hardware.",
+            "ru": "Python-библиотека, предназначенная для повышения эффективности ваших приложений за счет использования возможностей нейропроцессора Intel для выполнения высокоскоростных вычислений на совместимом оборудовании."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=EMYX9ey5b7s&t=0s",
+                "episodeName": "AIA Podcast #29"
+            }
+        ],
+        "date": "2024-03-09",
+        "tags": [
+            "library",
+            "llm",
+            "programming",
+            "intel",
+            "open-source"
+        ]
+    },
+    {
+        "id": "1c77d876-e30c-4ddc-bf06-66a9e76910ca",
+        "name": "VS Code Speech",
+        "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-speech",
+        "description": {
+            "en": "A VS Code extension to bring speech-to-text and other voice capabilities to VS Code.",
+            "ru": "Расширение для VS Code, позволяющее использовать речь в тексте и другие голосовые возможности в VS Code."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=EMYX9ey5b7s&t=0s",
+                "episodeName": "AIA Podcast #29"
+            }
+        ],
+        "date": "2024-03-09",
+        "tags": [
+            "programming",
+            "extension",
+            "ide",
+            "microsoft",
+            "speech"
+        ]
+    },
+    {
+        "id": "c7ea5fd7-0f72-4dbd-8ef4-b2fddd875bf5",
+        "name": "Mistral Le Chat",
+        "url": "https://chat.mistral.ai/chat",
+        "description": {
+            "ru": "Чат-интерфейс с доступом к моделям компании Mistral AI.",
+            "en": "Chat interface to the company's Mistral AI models"
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=EMYX9ey5b7s&t=1522s",
+                "episodeName": "AIA Podcast #29"
+            }
+        ],
+        "date": "2024-03-09",
+        "tags": [
+            "productivity",
+            "llm",
+            "chat",
+            "mistral"
+        ]
+    },
+    {
+        "id": "adbc1dfb-8615-4759-919f-02091f498e3c",
+        "name": "Mistral La Plateforme",
+        "url": "https://console.mistral.ai/",
+        "description": {
+            "ru": "API с доступом к моделям компании Mistral AI.",
+            "en": "API with access to the company's Mistral AI models."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=EMYX9ey5b7s&t=1522s",
+                "episodeName": "AIA Podcast #29"
+            }
+        ],
+        "date": "2024-03-09",
+        "tags": [
+            "programming",
+            "productivity",
+            "api",
+            "llm",
+            "mistral"
+        ]
+    },
+    {
+        "id": "9db78c50-8648-4d1c-903a-3596188df7dd",
+        "name": "Mistral Large",
+        "url": "https://mistral.ai/news/mistral-large/",
+        "description": {
+            "en": "Closed LLM from Mistral AI. As of marat 2024 is their largest model. Runs at the GPT-3.5 level",
+            "ru": "Закрытая LLM от компании Mistral AI. На момент марат 2024 года является их самой большой моделью. Работает на уровне GPT-3.5"
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=EMYX9ey5b7s&t=1522s",
+                "episodeName": "AIA Podcast #29"
+            }
+        ],
+        "date": "2024-03-09",
+        "tags": [
+            "llm",
+            "model",
+            "mistral"
+        ]
+    },
+    {
+        "id": "e8039595-3d0a-4c4c-990a-e4c699ebd4d5",
+        "name": "Claude",
+        "url": "https://claude.ai/chats",
+        "description": {
+            "en": "Chat interface to Anthropic's models. Available in the USA (also workable by VPN)",
+            "ru": "Чат-интерфейс к моделям компании Anthropic. Доступна в США (также работает по VPN)."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=Ga5QqPYOTWc",
+                "episodeName": "AIA Podcast #3"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=C79FV_YujSg&t=3845s",
+                "episodeName": "AIA Podcast #12"
+            },
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=EMYX9ey5b7s&t=858s",
+                "episodeName": "AIA Podcast #29"
+            }
+        ],
+        "date": "2024-03-09",
+        "tags": [
+            "chat",
+            "productivity",
+            "assistant",
+            "llm",
+            "anthropic"
+        ],
+        "rank": 4
+    },
+    {
+        "id": "4f563597-5288-43d3-b481-0ba0a78d6f99",
+        "name": "Claude 3",
+        "url": "https://www.anthropic.com/news/claude-3-family",
+        "description": {
+            "en": "Athropic's LLM family in three versions: Haiku, Sonnet, Opus. The Opus model outperforms GPT-4 in a number of ways. Context size - from 200k to 1M tokens.",
+            "ru": "Семейство LLM от Athropic в трех версиях: Haiku, Sonnet, Opus. Модель Opus обходит GPT-4 по ряду параметров. Размер контекста - от 200к до 1М токенов."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=EMYX9ey5b7s&t=858s",
+                "episodeName": "AIA Podcast #29"
+            }
+        ],
+        "date": "2024-03-09",
+        "tags": [
+            "llm",
+            "model",
+            "anthropic"
+        ],
+        "rank": 5
+    },
+    {
+        "id": "145987b4-a1a8-44d2-8194-9882f204d09a",
+        "name": "Claude API",
+        "url": "https://console.anthropic.com",
+        "description": {
+            "en": "API from Athropic, providing access to the LLM family: Claude 2, Claude 3, etc.",
+            "ru": "API от Athropic, обеспечивающий доступ к семейству LLM: Clude 2, Claude 3 и т.д."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=EMYX9ey5b7s&t=858s",
+                "episodeName": "AIA Podcast #29"
+            }
+        ],
+        "date": "2024-03-09",
+        "tags": [
+            "productivity",
+            "programming",
+            "api",
+            "llm",
+            "anthropic"
+        ],
+        "rank": 5
+    },
+    {
         "id": "b8db4d59-eddc-4a81-a3f6-994a8795f10e",
         "name": "Cleanvoice AI",
         "url": "https://cleanvoice.ai/",
-        "description": { 
+        "description": {
             "en": "An online AI software tool that aims to improve the quality of recorded speech that may be badly muffled, reverberated, full of artifacts, tinny, etc. and convert it to a studio-grade, professional level.",
             "ru": "Онлайн ИИ-инструмент, предназначенный для улучшения качества записанной речи, которая может быть сильно приглушена, реверберирована, полна артефактов и т.д., и преобразования ее до студийного качества."
         },
@@ -136,7 +588,7 @@
         "url": "https://github.com/LargeWorldModel/LWM",
         "description": {
             "en": "An general-purpose large-context multimodal opensource autoregressive model. It is trained on a large dataset of diverse long videos and books using RingAttention, and can perform language, image, and video understanding and generation.",
-            "ru": "Мультимодальная авторегрессионная модель с большим контекстом и открытым исходным кодом. Обучена на большом наборе разнообразных длинных видео и книг с использованием RingAttention, и может понимать контекст и генерировать текст, изображений и видео."
+            "ru": "Мультимодальная авторегрессионная модель с большим контекстом и открытым исходным кодом. Обучена на большом наборе разнообразных длинных видео и книг с использованием RingAttention, и может понимать контекст и генерировать текст, изображения и видео."
         },
         "mentions": [
             {
@@ -396,7 +848,8 @@
         "tags": [
             "chat",
             "llm",
-            "sandbox"
+            "sandbox",
+            "perplexity"
         ]
     },
     {
@@ -780,7 +1233,9 @@
         ],
         "date": "2024-01-27",
         "tags": [
-            "llm", "chat", "stanford"
+            "llm",
+            "chat",
+            "stanford"
         ]
     },
     {
@@ -802,7 +1257,7 @@
             "programming",
             "llm",
             "api",
-            "local"
+            "private"
         ],
         "rank": 5
     },
@@ -845,7 +1300,7 @@
         "tags": [
             "llm",
             "interface",
-            "local",
+            "private",
             "open-source"
         ]
     },
@@ -867,7 +1322,7 @@
         "tags": [
             "llm",
             "interface",
-            "local",
+            "private",
             "open-source"
         ]
     },
@@ -2599,8 +3054,8 @@
         "name": "Poe",
         "url": "https://poe.com",
         "description": {
-            "en": "A platform from Quora's CEO that gives one-stop access via UI and API to multiple LLMs, including Antropic's Claude, OpenAI's GPT, and others. The platform also provides the ability to create AI bots. It has a paid subscription.",
-            "ru": "Платформа от СЕО Quora, которая дает единый доступ через UI и API к множеству LLM, в том числе Claude от Antropic, GPT от OpenAI и другим. Также платформа предоставляет возможность создавать ИИ-ботов. Имеет платную подписку."
+            "en": "A platform from Quora's CEO that gives one-stop access via UI and API to multiple LLMs, including Anthropic's Claude, OpenAI's GPT, and others. The platform also provides the ability to create AI bots. It has a paid subscription.",
+            "ru": "Платформа от СЕО Quora, которая дает единый доступ через UI и API к множеству LLM, в том числе Claude от Anthropic, GPT от OpenAI и другим. Также платформа предоставляет возможность создавать ИИ-ботов. Имеет платную подписку."
         },
         "mentions": [
             {
@@ -2821,7 +3276,9 @@
         "date": "2023-06-02",
         "tags": [
             "search",
-            "llm"
+            "llm",
+            "productivity",
+            "perplexity"
         ],
         "rank": 5
     },
@@ -2842,7 +3299,8 @@
         "date": "2023-06-02",
         "tags": [
             "productivity",
-            "open-source"
+            "open-source",
+            "private"
         ]
     },
     {
@@ -3105,7 +3563,8 @@
         "date": "2023-06-18",
         "tags": [
             "productivity",
-            "open-source"
+            "open-source",
+            "private"
         ]
     },
     {
@@ -3426,8 +3885,8 @@
         "name": "Claude 2",
         "url": "https://www.anthropic.com/index/claude-2",
         "description": {
-            "en": "LLM from Antropic, has 200k context window, which is the largest at the moment. GPT-4 competitor. You could try it through Poe.com.",
-            "ru": "LLM от Antropic, имеет 200k контекстное окно, что является наибольшим на данный момент. Конкурент GPT-4. Можно попробовать через Poe.com."
+            "en": "LLM from Anthropic, has 200k context window, which is the largest at the moment. GPT-4 competitor. You could try it through Poe.com.",
+            "ru": "LLM от Anthropic, имеет 200k контекстное окно, что является наибольшим на данный момент. Конкурент GPT-4. Можно попробовать через Poe.com."
         },
         "mentions": [
             {
@@ -3439,7 +3898,7 @@
         "tags": [
             "llm",
             "model",
-            "antropic"
+            "anthropic"
         ],
         "rank": 5
     },
@@ -3612,8 +4071,8 @@
         "name": "Claude Instant",
         "url": "https://www.anthropic.com/index/releasing-claude-instant-1-2",
         "description": {
-            "en": "Antropic's LLM, a lighter version of the Claude 2 model, but just as powerful. You can try it through Poe.com.",
-            "ru": "LLM от Antropic, облегченная версия модели Claude 2, но не уступает ей по мощности. Можно попробовать через Poe.com."
+            "en": "Anthropic's LLM, a lighter version of the Claude 2 model, but just as powerful. You can try it through Poe.com.",
+            "ru": "LLM от Anthropic, облегченная версия модели Claude 2, но не уступает ей по мощности. Можно попробовать через Poe.com."
         },
         "mentions": [
             {
@@ -3623,7 +4082,7 @@
         ],
         "date": "2023-08-12",
         "tags": [
-            "antropic",
+            "anthropic",
             "model",
             "llm"
         ]
@@ -3822,7 +4281,7 @@
         "tags": [
             "llm",
             "model",
-            "china"
+            "alibaba"
         ]
     },
     {
@@ -4007,7 +4466,8 @@
         "tags": [
             "llm",
             "model",
-            "open-source"
+            "open-source",
+            "mistral"
         ]
     },
     {
@@ -4223,7 +4683,7 @@
         "tags": [
             "llm",
             "model",
-            "china"
+            "alibaba"
         ]
     },
     {
@@ -4365,7 +4825,8 @@
         "tags": [
             "llm",
             "model",
-            "open-source"
+            "open-source",
+            "mistral"
         ]
     },
     {
@@ -4443,7 +4904,8 @@
             {
                 "episodeUrl": "https://youtu.be/96aG4F9EAiE",
                 "episodeName": "AIA Podcast #22"
-            },{
+            },
+            {
                 "episodeUrl": "https://youtu.be/RF15q9WrbDo",
                 "episodeName": "AIA Special #7"
             }
@@ -4607,7 +5069,7 @@
         "tags": [
             "deepfake",
             "open-source",
-            "local"
+            "private"
         ]
     },
     {
@@ -4833,7 +5295,7 @@
         "url": "https://github.com/deepseek-ai/deepseek-coder/",
         "description": {
             "en": "An opsensor-based LLM for programming. 1.3B, 5.7B, 6.7B and 33B paramaters.",
-            "ru": "Открытая LLM для программирования. 1.3B, 5.7B, 6.7B и 33B парамтеров."
+            "ru": "Открытая LLM для программирования. 1.3B, 5.7B, 6.7B и 33B параметров."
         },
         "mentions": [
             {
@@ -4846,8 +5308,7 @@
             "programming",
             "llm",
             "model",
-            "open-source",
-            "local"
+            "open-source"
         ]
     },
     {
@@ -4888,7 +5349,7 @@
         "tags": [
             "llm",
             "interface",
-            "local"
+            "private"
         ]
     },
     {
