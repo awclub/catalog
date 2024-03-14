@@ -53,7 +53,7 @@ const setInput = (e) => {
 
 @media screen and (max-width: 814px) {
   .search-container {
-    width: 100%;
+    width: calc(100% - 50px);
     display: block;
   }
 }

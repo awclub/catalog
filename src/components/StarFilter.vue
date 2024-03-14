@@ -17,7 +17,7 @@ export default {
 	mounted() {
 		const ranksStore = useRanksStore();
 
-		this.rank = ranksStore.rank;
+		this.rank = ranksStore.getSelectedRanks;
 	},
 	methods: {
 		setRank(newRank) {

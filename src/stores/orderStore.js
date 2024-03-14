@@ -1,11 +1,11 @@
+import { computed, ref } from "vue";
 import { defineStore } from "pinia";
-
-const ORDER_KEY = 'sortingOrder';
+import { useRootFilterStore } from "./rootFilterStore.js";
 
 export const DIRECTION = {
 	ASC: 'ASC',
 	DESC: 'DESC'
-}
+};
 
 // Comparator should sort the items by ASC always. DESC will be applied in runtime.
 const ORDERS = [
@@ -21,19 +21,17 @@ const ORDERS = [
 	}
 ];
 
-const _parseSavedState = () => {
-	const state = localStorage.getItem(ORDER_KEY);
+const DEFAULT_ORDER = [ 'date', DIRECTION.DESC ];
 
+const _parseSavedState = (state) => {
 	if (!state) {
-		return [ 'date', DIRECTION.DESC ];
+		return DEFAULT_ORDER;
 	}
 
 	const parts = state.split('-');
 
 	if (parts.length !== 2) {
-		localStorage.removeItem(ORDER_KEY);
-
-		return [ 'date', DIRECTION.DESC ];
+		return DEFAULT_ORDER;
 	}
 
 	const direction = (DIRECTION.DESC.toLowerCase() === parts[1].toLowerCase()) ? DIRECTION.DESC : DIRECTION.ASC;
@@ -41,56 +39,62 @@ const _parseSavedState = () => {
 	return [ parts[0], direction ];
 };
 
-const _buildInitialViewSettings = () => {
-	const defaultSettings = ORDERS.reduce((obj, order) => {
-		obj[order.key] = DIRECTION.ASC;
-
-		return obj;
-	}, {});
-	const [ field, direction ] = _parseSavedState();
+const _buildInitialViewSettings = (savedState) => {
+	const defaultSettings = ORDERS.reduce((obj, order) => ({
+		...obj,
+		[order.key]: DIRECTION.ASC
+	}), {});
+	const [ field, direction ] = _parseSavedState(savedState);
 
 	defaultSettings[field] = direction;
 
 	return defaultSettings;
-}
+};
 
 const _reverted = (direction) => {
 	return direction === DIRECTION.ASC ? DIRECTION.DESC : DIRECTION.ASC;
-}
+};
 
-export const useOrderStore = defineStore('orderStore', {
-	state: () => ({
-		orders: ORDERS,
-		orderViewSettings: _buildInitialViewSettings() || {},
-		selectedOrder: _parseSavedState()[0]
-	}),
-	getters: {
-		getOrderViewSettings: state => state.orderViewSettings,
-		getOrders: state => state.orders,
-		getSelectedOrder: state => state.selectedOrder,
-		getSelectedComparator: state => {
-			const comparator = ORDERS.find(order => order.key === state.selectedOrder).comparator;
+export const useOrderStore = defineStore('orderStore', () => {
+	const rootFilterStore = useRootFilterStore();
 
-			if (state.orderViewSettings[state.selectedOrder] === DIRECTION.ASC) {
-				return comparator;
-			}
+	// state
+	const orderViewSettings = ref(_buildInitialViewSettings(rootFilterStore.order) || {});
+	const selectedOrder = ref(_parseSavedState(rootFilterStore.order)[0]);
 
-			return (first, second) => -comparator(first, second);
+	// getters
+	const getOrderViewSettings = computed(() => orderViewSettings.value);
+	const getSelectedOrder = computed(() => selectedOrder.value);
+	const getSelectedComparator = computed(() => {
+		const comparator = ORDERS.find(order => order.key === selectedOrder.value).comparator;
+
+		if (orderViewSettings.value[selectedOrder.value] === DIRECTION.ASC) {
+			return comparator;
 		}
-	},
-	actions: {
-		toggleOrder(orderKey) {
-			if (this.selectedOrder === orderKey) {
-				// just revert direction
-				this.orderViewSettings = {
-					...this.orderViewSettings,
-					[orderKey]: _reverted(this.orderViewSettings[orderKey])
-				}
-			} else {
-				this.selectedOrder = orderKey;
-			}
 
-			localStorage.setItem(ORDER_KEY, `${this.selectedOrder}-${this.orderViewSettings[this.selectedOrder]}`)
+		return (first, second) => -comparator(first, second);
+	});
+
+	// actions
+	const toggleOrder = (orderKey) => {
+		if (selectedOrder.value === orderKey) {
+			// just revert direction
+			orderViewSettings.value = {
+				...orderViewSettings.value,
+				[orderKey]: _reverted(orderViewSettings.value[orderKey])
+			};
+		} else {
+			selectedOrder.value = orderKey;
 		}
-	},
+
+		rootFilterStore.setOrder(`${selectedOrder.value}-${orderViewSettings.value[selectedOrder.value]}`);
+	};
+
+	return {
+		getOrderViewSettings,
+		getOrders: ORDERS,
+		getSelectedComparator,
+		getSelectedOrder,
+		toggleOrder
+	};
 })
