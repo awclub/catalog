@@ -4,6 +4,7 @@ export const KEYWORDS = {
 	LANG: 'currentLanguage',
 	ORDER: 'sortingOrder',
 	TAGS: 'selectedTags',
+	RANK: 'selectedRanks',
 };
 
 const _initState = () => {
@@ -11,6 +12,7 @@ const _initState = () => {
 		[ KEYWORDS.LANG ]: localStorage.getItem( KEYWORDS.LANG ),
 		[ KEYWORDS.ORDER ]: localStorage.getItem( KEYWORDS.ORDER ),
 		[ KEYWORDS.TAGS ]: JSON.parse(localStorage.getItem( KEYWORDS.TAGS )) || [],
+		[ KEYWORDS.RANK ]: localStorage.getItem( KEYWORDS.RANK ) || '0',
 	};
 };
 
@@ -22,6 +24,7 @@ export const useRootFilterStore = defineStore('rootFilterStore', ({
 		lang: state => state[KEYWORDS.LANG],
 		order: state => state[KEYWORDS.ORDER],
 		tags: state => state[KEYWORDS.TAGS],
+		rank: state => state[KEYWORDS.RANK],
 	},
 	actions: {
 		setLang(lang) {
@@ -32,6 +35,9 @@ export const useRootFilterStore = defineStore('rootFilterStore', ({
 		},
 		setTags(tags) {
 			_saveChanges(KEYWORDS.TAGS, JSON.stringify(tags || []));
+		},
+		setRank(rank) {
+			_saveChanges(KEYWORDS.RANK, rank);
 		}
 	}
 }));
