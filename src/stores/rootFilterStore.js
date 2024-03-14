@@ -5,14 +5,22 @@ export const KEYWORDS = {
 	ORDER: 'sortingOrder',
 	TAGS: 'selectedTags',
 	RANK: 'selectedRanks',
-	TEXT: 'searchText'
+	TEXT: 'search'
 };
 
+const EXPORTED_KEYWORDS = [
+	KEYWORDS.RANK,
+	KEYWORDS.TAGS,
+	KEYWORDS.TEXT
+];
+
 const _initState = () => {
+	console.log('_initState');
+
 	return {
 		[ KEYWORDS.LANG ]: localStorage.getItem( KEYWORDS.LANG ),
 		[ KEYWORDS.ORDER ]: localStorage.getItem( KEYWORDS.ORDER ),
-		[ KEYWORDS.TAGS ]: JSON.parse(localStorage.getItem( KEYWORDS.TAGS )) || [],
+		[ KEYWORDS.TAGS ]: localStorage.getItem( KEYWORDS.TAGS ) || '[]',
 		[ KEYWORDS.RANK ]: localStorage.getItem( KEYWORDS.RANK ) || '0',
 		[ KEYWORDS.TEXT ]: '',
 	};
@@ -30,6 +38,17 @@ export const useRootFilterStore = defineStore('rootFilterStore', ({
 		text: state => state[KEYWORDS.TEXT]
 	},
 	actions: {
+		importFilterState(query) {
+			console.log(query);
+			this[KEYWORDS.RANK] = query[KEYWORDS.RANK] || '0';
+			this[KEYWORDS.TEXT] = query[KEYWORDS.TEXT] || '';
+			this[KEYWORDS.TAGS] = query[KEYWORDS.TAGS] || '[]';
+		},
+		exportFilterState() {
+			const that = this;
+
+			return EXPORTED_KEYWORDS.reduce((prev, key) => ({ ...prev, [key]: that[key] }), {});
+		},
 		setLang(lang) {
 			this[ KEYWORDS.LANG ] = lang;
 			_saveChanges(KEYWORDS.LANG, lang);

@@ -6,7 +6,7 @@ export const useTagsStore = defineStore('tagsStore', () => {
 	const rootFilterStore = useRootFilterStore();
 
 	// state
-	const selectedTags = ref(rootFilterStore.tags);
+	const selectedTags = ref(JSON.parse(rootFilterStore.tags));
 
 	// getters
 	const getSelectedTags = computed(() => selectedTags.value);

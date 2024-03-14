@@ -1,21 +1,18 @@
 <script setup>
+import { useRootFilterStore } from "../stores/rootFilterStore.js";
 import FilterComponent from "../components/search/FilterComponent.vue";
 import ServicesList from '../components/ServicesList.vue'
 import i18n from '../i18n/index.js'
 import { onBeforeMount } from "vue";
 import { useRoute } from "vue-router";
-import { useSearchStore } from "../stores/searchStore.js";
 import { watchEffect } from 'vue';
 
 const route = useRoute();
 const { t } = i18n.global;
-const searchStore = useSearchStore();
-const { search } = route.query;
+const rootFilterStore = useRootFilterStore();
 
 onBeforeMount(() => {
-	if (search?.length) {
-		searchStore.setSearchText(search);
-	}
+	rootFilterStore.importFilterState(route.query);
 });
 
 watchEffect(() => {
