@@ -15,13 +15,11 @@ const EXPORTED_KEYWORDS = [
 ];
 
 const _initState = () => {
-	console.log('_initState');
-
 	return {
 		[ KEYWORDS.LANG ]: localStorage.getItem( KEYWORDS.LANG ),
 		[ KEYWORDS.ORDER ]: localStorage.getItem( KEYWORDS.ORDER ),
-		[ KEYWORDS.TAGS ]: localStorage.getItem( KEYWORDS.TAGS ) || '[]',
-		[ KEYWORDS.RANK ]: localStorage.getItem( KEYWORDS.RANK ) || '0',
+		[ KEYWORDS.TAGS ]: JSON.parse(localStorage.getItem( KEYWORDS.TAGS ) || '[]'),
+		[ KEYWORDS.RANK ]: parseInt(localStorage.getItem( KEYWORDS.RANK ) || '0'),
 		[ KEYWORDS.TEXT ]: '',
 	};
 };
@@ -35,19 +33,16 @@ export const useRootFilterStore = defineStore('rootFilterStore', ({
 		order: state => state[KEYWORDS.ORDER],
 		tags: state => state[KEYWORDS.TAGS],
 		rank: state => state[KEYWORDS.RANK],
-		text: state => state[KEYWORDS.TEXT]
+		text: state => state[KEYWORDS.TEXT],
+		searchState: state => {
+			return EXPORTED_KEYWORDS.reduce((prev, key) => ({ ...prev, [key]: state[key] }), {});
+		},
 	},
 	actions: {
 		importFilterState(query) {
-			console.log(query);
-			this[KEYWORDS.RANK] = query[KEYWORDS.RANK] || '0';
+			this[KEYWORDS.RANK] = parseInt(query[KEYWORDS.RANK] || '0');
 			this[KEYWORDS.TEXT] = query[KEYWORDS.TEXT] || '';
-			this[KEYWORDS.TAGS] = query[KEYWORDS.TAGS] || '[]';
-		},
-		exportFilterState() {
-			const that = this;
-
-			return EXPORTED_KEYWORDS.reduce((prev, key) => ({ ...prev, [key]: that[key] }), {});
+			this[KEYWORDS.TAGS] = (query[KEYWORDS.TAGS] || '').split(',');
 		},
 		setLang(lang) {
 			this[ KEYWORDS.LANG ] = lang;

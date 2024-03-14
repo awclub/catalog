@@ -1,4 +1,7 @@
 <script setup>
+import { useRootFilterStore } from "../../stores/rootFilterStore.js";
+import { useBrowserLocation } from "@vueuse/core";
+import Sharing from "../../components/service_card/components/Sharing.vue";
 import AutoCompleteInput from "./AutoComplete.vue";
 import Search from "./Search.vue";
 import TagList from "../TagList.vue";
@@ -9,6 +12,9 @@ import { computed, onBeforeMount } from "vue";
 import { useRanksStore } from "../../stores/ranksStore.js";
 import StarFilter from "../../components/StarFilter.vue";
 
+const location = useBrowserLocation();
+
+const rootFilterStore = useRootFilterStore();
 const tagsStore = useTagsStore();
 const servicesStore = useServicesStore();
 const ranksStore = useRanksStore();
@@ -19,6 +25,10 @@ onBeforeMount(() => {
 
 const tags = computed(() => {
 	return servicesStore.getTags
+});
+
+const searchQuery = computed(() => {
+  return new URLSearchParams(rootFilterStore.searchState || {}).toString();
 });
 
 const handleRankUpdate = (newRank) => {
@@ -55,6 +65,11 @@ const handleResetRank = () => {
 				@click="tagsStore.resetTags"
 			>
 		</div>
+		<Sharing
+			:url="`${location.origin}/catalog/?${searchQuery}`"
+			class="sharing-positioning"
+			:close-delay="3000"
+		/>
 		<StarFilter @update:rank="handleRankUpdate" @reset-rank="handleResetRank" />
 	</div>
 </template>
@@ -62,6 +77,7 @@ const handleResetRank = () => {
 <style scoped>
 .filter-container {
   padding: 0 10px 10px;
+  position: relative;
 }
 
 .selected-tags-box {
@@ -95,6 +111,12 @@ const handleResetRank = () => {
   background-color: var(--reset-btn-bg-color-hover);
   color: var(--reset-btn-text-color);
   transition: 0.3s;
+}
+
+.sharing-positioning {
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
 </style>
 

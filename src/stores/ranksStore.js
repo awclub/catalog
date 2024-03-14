@@ -6,7 +6,7 @@ export const useRanksStore = defineStore('ranksStore', () => {
 	const rootFilterStore = useRootFilterStore();
 
 	// state
-	const selectedRank = ref(parseInt(rootFilterStore.rank));
+	const selectedRank = ref(rootFilterStore.rank);
 
 	// getters
 	const getSelectedRanks = computed(() => selectedRank.value);
