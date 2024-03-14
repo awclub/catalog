@@ -42,7 +42,9 @@ export const useRootFilterStore = defineStore('rootFilterStore', ({
 		importFilterState(query) {
 			this[KEYWORDS.RANK] = parseInt(query[KEYWORDS.RANK] || '0');
 			this[KEYWORDS.TEXT] = query[KEYWORDS.TEXT] || '';
-			this[KEYWORDS.TAGS] = (query[KEYWORDS.TAGS] || '').split(',');
+			this[KEYWORDS.TAGS] = (query[KEYWORDS.TAGS] || '')
+				.split(',')
+				.filter(value => Boolean(value));
 		},
 		setLang(lang) {
 			this[ KEYWORDS.LANG ] = lang;

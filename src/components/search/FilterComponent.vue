@@ -28,7 +28,7 @@ const tags = computed(() => {
 });
 
 const searchQuery = computed(() => {
-  return new URLSearchParams(rootFilterStore.searchState || {}).toString();
+	return new URLSearchParams(rootFilterStore.searchState || {}).toString();
 });
 
 const handleRankUpdate = (newRank) => {
