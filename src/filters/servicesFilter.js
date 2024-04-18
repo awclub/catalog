@@ -13,6 +13,7 @@ export const useServicesFilter = defineStore('servicesFilter', () => {
 
 	const _containsAllTags = (serviceTags, selectedTags = []) => {
 		serviceTags = serviceTags.map(tag => tag.toLowerCase());
+		selectedTags = selectedTags.map(tag => tag.toLowerCase());
 
 		return selectedTags.every(tag => serviceTags.includes(tag));
 	}
