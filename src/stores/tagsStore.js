@@ -1,30 +1,39 @@
+import { computed, ref } from "vue";
 import { defineStore } from "pinia";
+import { useRootFilterStore } from "./rootFilterStore.js";
 
-const LOCAL_STORAGE_TAGS_KEY = 'selectedTags';
+export const useTagsStore = defineStore('tagsStore', () => {
+	const rootFilterStore = useRootFilterStore();
 
-export const useTagsStore = defineStore('tagsStore', {
-	state: () => ({
-		tags: JSON.parse(localStorage.getItem(LOCAL_STORAGE_TAGS_KEY)) || []
-	}),
-	getters: {
-		getSelectedTags(state) {
-			return state.tags;
-		}
-	},
-	actions: {
-		selectTag(tagName) {
-			if (!this.tags.includes(tagName)) {
-				this.tags = [ ...this.tags, tagName ];
-				localStorage.setItem(LOCAL_STORAGE_TAGS_KEY, JSON.stringify(this.tags));
-			}
-		},
-		unSelectTag(tagName) {
-			this.tags = this.tags.filter(tag => tag !== tagName);
-			localStorage.setItem(LOCAL_STORAGE_TAGS_KEY, JSON.stringify(this.tags));
-		},
-		resetTags() {
-			this.tags = [];
-			localStorage.setItem(LOCAL_STORAGE_TAGS_KEY, '[]');
+	// state
+	const selectedTags = ref(rootFilterStore.tags);
+
+	// getters
+	const getSelectedTags = computed(() => selectedTags.value);
+
+	// actions
+	function selectTag(tagName) {
+		if (!selectedTags.value.includes(tagName)) {
+			selectedTags.value = [...selectedTags.value, tagName];
+			rootFilterStore.setTags(selectedTags.value);
 		}
 	}
+
+	function unSelectTag(tagName) {
+		selectedTags.value = selectedTags.value.filter(tag => tag !== tagName);
+		rootFilterStore.setTags(selectedTags.value);
+	}
+
+	function resetTags() {
+		selectedTags.value = [];
+		rootFilterStore.setTags([]);
+	}
+
+	return {
+		getSelectedTags,
+		selectTag,
+		unSelectTag,
+		resetTags
+	};
+
 });

@@ -1,11 +1,11 @@
 import { defineStore } from "pinia";
 import i18n from "../i18n/index.js";
+import { ref } from "vue";
+import { useRootFilterStore } from "./rootFilterStore.js";
 
-export const LANG_KEY = 'currentLanguage';
-
-const defaultLang = () => {
+const defaultLang = (savedLang) => {
 	// default language is English,
-	let defaultLangTemp = localStorage.getItem(LANG_KEY)
+	const defaultLangTemp = savedLang
     || (['ru', 'uk', 'be'].some(lang => navigator.language.startsWith(lang)) ? 'ru' : 'en');
 
 	i18n.global.locale = defaultLangTemp;
@@ -13,20 +13,20 @@ const defaultLang = () => {
 	return defaultLangTemp;
 };
 
-export const useCurrentLangStore = defineStore('currentLangStore', {
-	state: () => ({
-		currentLang: defaultLang()
-	}),
-	getters: {
-		getCurrentLang(state) {
-			return state.currentLang
-		}
-	},
-	actions: {
-		setCurrentLang(lang) {
-			this.currentLang = lang;
-			i18n.global.locale = lang;
-			localStorage.setItem(LANG_KEY, lang);
-		}
+export const useCurrentLangStore = defineStore('currentLangStore', () => {
+	const rootFilterStore = useRootFilterStore();
+
+	// state
+	const currentLang = ref(defaultLang(rootFilterStore.lang));
+
+	// actions
+	function setCurrentLang(lang) {
+		currentLang.value = lang;
+		i18n.global.locale = lang;
+		rootFilterStore.setLang(lang);
+	}
+
+	return {
+		setCurrentLang,
 	}
 });

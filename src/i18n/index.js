@@ -1,8 +1,9 @@
+import { KEYWORDS } from "../stores/rootFilterStore.js";
 import { createI18n } from 'vue-i18n';
 
 const i18n = createI18n({
 	// default locale
-	locale: localStorage.getItem('currentLanguage'),
+	locale: localStorage.getItem(KEYWORDS.LANG),
 	globalInjection: true,
 	legacy: true,
 	// translations

@@ -1,24 +1,30 @@
+import { useRootFilterStore } from "./rootFilterStore.js";
 import { defineStore } from "pinia";
+import { computed, ref } from "vue";
 
-const LOCAL_STORAGE_RANK_KEY  = 'selectedRanks';
+export const useRanksStore = defineStore('ranksStore', () => {
+	const rootFilterStore = useRootFilterStore();
 
-export const useRanksStore = defineStore('ranksStore', {
-	state: () => ({
-		rank: JSON.parse(localStorage.getItem(LOCAL_STORAGE_RANK_KEY)) || 0,
-	}),
-	getters: {
-		getSelectedRanks(state) {
-			return state.rank;
-		}
-	},
-	actions: {
-		setRank(newRank) {
-			this.rank = newRank;
-			localStorage.setItem(LOCAL_STORAGE_RANK_KEY, JSON.stringify(newRank));
-		},
-		resetRank() {
-			this.rank = 0;
-			localStorage.setItem(LOCAL_STORAGE_RANK_KEY, '0');
-		}
+	// state
+	const selectedRank = ref(rootFilterStore.rank);
+
+	// getters
+	const getSelectedRanks = computed(() => selectedRank.value);
+
+	// actions
+	function setRank(newRank) {
+		selectedRank.value = newRank;
+		rootFilterStore.setRank(newRank);
 	}
+
+	function resetRank() {
+		selectedRank.value = 0;
+		rootFilterStore.setRank(0);
+	}
+
+	return {
+		getSelectedRanks,
+		setRank,
+		resetRank
+	};
 });
