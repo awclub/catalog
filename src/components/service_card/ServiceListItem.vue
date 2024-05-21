@@ -21,12 +21,12 @@ const formattedUrl = function (url) {
 
 <template>
 	<div class="service-item">
-		<Sharing
-			:url="`${location.origin}/catalog/${formattedUrl(serviceItem.id)}`"
-			class="sharing-positioning"
-			:close-delay="3000"
-		/>
 		<div class="service-header">
+			<Sharing
+				:url="`${location.origin}/catalog/${formattedUrl(serviceItem.id)}`"
+				class="sharing-positioning"
+				:close-delay="3000"
+			/>
 			<RouterLink :to="`${formattedUrl(serviceItem.id)}`">
 				<h3>{{ serviceItem.name }}</h3>
 			</RouterLink>
@@ -43,7 +43,7 @@ const formattedUrl = function (url) {
 					/>
 				</svg>
 			</a>
-			<ServiceRating :rank="serviceItem.rank ?? 0" />
+			<ServiceRating :rank="serviceItem.rank ?? 0"/>
 		</div>
 		<p>{{ serviceItem.description[$i18n.locale] }}</p>
 		<p>
@@ -70,17 +70,17 @@ const formattedUrl = function (url) {
 
 <style scoped>
 .service-item {
-    position: relative;
-    border: 1px solid var(--service-item-border-color);
-    border-radius: 10px;
-    padding: 5px 25px 25px 25px;
-    background-color: var(--service-item-bg-color);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s;
+  position: relative;
+  border: 1px solid var(--service-item-border-color);
+  border-radius: 10px;
+  padding: 12px 25px 25px 25px;
+  background-color: var(--service-item-bg-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
 
-    @media screen and (max-width: 640px) {
-        width: 100%;
-    }
+  @media screen and (max-width: 640px) {
+    width: 100%;
+  }
 }
 
 .service-header {
@@ -88,60 +88,59 @@ const formattedUrl = function (url) {
 }
 
 .service-item h3 {
-    margin: 10px 0 0 0;
-    padding: 0;
-    font-size: 1.2em;
-    display: inline-block;
-    font-weight: bold;
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 1.2em;
+  display: inline;
+  font-weight: bold;
 }
 
 .date {
-    position: absolute;
-    right: 5px;
-    bottom: 5px;
-    color: rgb(128, 128, 128)
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  color: rgb(128, 128, 128)
 }
 
 p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .sharing-positioning {
-    position: absolute;
-    right: 10px;
-    top: 10px;
+  float: right;
+  border: none !important;
+  position: relative;
+  right: -12px;
+  top: 12px;
 }
 
 .open-in-new-tab {
-    margin: 0 0 0 5px;
-    cursor: pointer;
-	position: relative;
+  margin: 0 0 0 10px;
+  cursor: pointer;
+  position: relative;
 }
 
 .open-in-new-tab svg {
-	position: absolute;
-	bottom: 3px;
-    right: -22px;
-    transition: 0.3s;
-    color: var(--copy-to-clipboard-btn-color);
-	filter: invert(42%) sepia(39%) saturate(0%) hue-rotate(318deg) brightness(93%) contrast(95%);
+  transition: 0.3s;
+  color: var(--copy-to-clipboard-btn-color);
+  filter: invert(42%) sepia(39%) saturate(0%) hue-rotate(318deg) brightness(93%) contrast(95%);
 }
 
 .open-in-new-tab:hover svg {
-    filter: invert(81%) sepia(2%) saturate(10%) hue-rotate(42deg) brightness(102%) contrast(95%);
+  filter: invert(81%) sepia(2%) saturate(10%) hue-rotate(42deg) brightness(102%) contrast(95%);
 }
 
 .mention-link::after {
-    content: ",";
-	margin-right: 5px;
+  content: ",";
+  margin-right: 5px;
 }
 
 .mention-link:last-child::after {
-    content: "";
-	margin-right: 0px;
+  content: "";
+  margin-right: 0px;
 }
 </style>
