@@ -93,6 +93,7 @@ const formattedUrl = function (url) {
   font-size: 1.2em;
   display: inline;
   font-weight: bold;
+  word-break: break-word;
 }
 
 .date {
