@@ -31,18 +31,20 @@ onBeforeMount(() => {
 		v-else
 		class="service-item"
 	>
-		<Sharing
-			:url="`${location.href}`"
-			class="sharing-positioning"
-			:close-delay="3000"
-		/>
-		<a
-			:href="service.url"
-			target="_blank"
-		>
-			<h3>{{ service.name }}</h3>
-		</a>
-		<ServiceRating :rank="service.rank ?? 0" />
+		<div class="service-header">
+			<Sharing 
+				:url="`${location.href}`"
+				class="sharing-positioning"
+				:close-delay="3000"
+			/>
+			<a
+				:href="service.url"
+				target="_blank"
+			>
+				<h3>{{ service.name }}</h3>
+			</a>
+			<ServiceRating :rank="service.rank ?? 0" />
+		</div>
 		<p>{{ service.description[$i18n.locale] }}</p>
 		<p>
 			{{ $t('mentionedIn') }}:
@@ -75,7 +77,7 @@ onBeforeMount(() => {
 	border: 1px solid var(--service-item-border-color);
 	border-radius: 10px;
 	margin: 10px;
-	padding: 5px 25px 25px 25px;
+	padding: 12px 25px 25px 25px;
 	background-color: var(--service-item-bg-color);
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	transition: background-color 0.3s;
@@ -85,8 +87,9 @@ onBeforeMount(() => {
 	margin: 10px 0 0 0;
 	padding: 0;
 	font-size: 1.2em;
-	display: inline-block;
+	display: inline;
 	font-weight: bold;
+  word-break: break-word;
 }
 
 .date {
@@ -117,18 +120,20 @@ p {
 }
 
 .sharing-positioning {
-    position: absolute;
-    right: 10px;
-    top: 10px;
+  float: right;
+  border: none !important;
+  position: relative;
+  right: -12px;
+  top: 12px;
 }
 
 .mention-link::after {
-    content: ",";
+  content: ",";
 	margin-right: 5px;
 }
 
 .mention-link:last-child::after {
-    content: "";
+  content: "";
 	margin-right: 0px;
 }
 </style>
