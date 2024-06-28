@@ -5414,5 +5414,28 @@
             "software engineer"
         ],
         "rank": 1
+    },
+    {
+        "id": "1c546a00-65da-40fb-b049-9d5887d16db2",
+        "name": "SWE-agent",
+        "url": "https://github.com/princeton-nlp/SWE-agent",
+        "description": {
+            "en": "SWE-agent takes a GitHub issue and tries to automatically fix it, using GPT-4, or your LM of choice. It solves 12.47% of bugs in the SWE-bench evaluation set and takes just 1 minute to run.",
+            "ru": "SWE-agent берет задачу на GitHub и автоматически выполняет её с помощью GPT-4 или другой LLM. В тестовом наборе SWE-bench решает 12.47% ошибок; время выполенения сосатвляет всего 1 минуту."
+        },
+        "mentions": {
+            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+            "episodeName": "AIA Podcast #31"
+        },
+        "date": "2024-06-29",
+        "tags": [
+            "github",
+            "copilot",
+            "assistant",
+            "agents",
+            "gpt",
+            "software engineer"
+        ],
+        "rank": 1
     }
 ]
