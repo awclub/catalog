@@ -5372,5 +5372,25 @@
             "interface",
             "catalog"
         ]
+    },
+    {
+        "id": "49ef3dfe-bcc4-4905-ad33-d91b5fb4bdbf",
+        "name": "StabilityAudio 2.0",
+        "url": "https://stableaudio.com",
+        "description": {
+            "en": "Stable Audio 2.0, developed by Stability AI, represents a significant advancement in AI-generated audio technology. This model is capable of producing high-quality, full tracks with coherent musical structures up to three minutes in length at 44.1kHz stereo. It introduces several new features and improvements over its predecessor, Stable Audio 1.0.",
+            "ru": "Stable Audio 2.0, разработанный Stability AI, представляет собой значительный шаг вперед в технологии генерации аудио с помощью ИИ. Эта модель способна создавать высококачественные, полные треки с согласованной музыкальной структурой до трех минут длиной при 44,1 кГц стерео. Она вводит несколько новых функций и улучшений по сравнению с предшественником, Stable Audio 1.0."
+        },
+        "mentions": {
+            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+            "episodeName": "AIA Podcast #31"
+        },
+        "date": "2024-06-29",
+        "tags": [
+            "stabilityai",
+            "music",
+            "audio"
+        ],
+        "rank": 1
     }
 ]
