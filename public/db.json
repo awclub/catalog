@@ -5437,5 +5437,27 @@
             "software engineer"
         ],
         "rank": 1
+    },
+    {
+        "id": "a33a83b8-2377-4371-89e6-0dbd0538f363",
+        "name": "CodeRabbit",
+        "url": "https://coderabbit.ai",
+        "description": {
+            "en": "CodeRabbit is an AI-driven platform designed to revolutionize the code review process. It offers automated, line-by-line feedback on code changes, suggesting improvements and corrections to enhance code efficiency and robustness. The platform significantly reduces the time and effort required for manual code reviews by providing insightful feedback and enabling contextual conversations within GitHub's comment threads",
+            "ru": "CodeRabbit — платформа на основе ИИ, обещающая революцию в процессе проверки кода. Она предлагает автоматическую построчную обратную связь по изменениям в коде, предлагает улучшения и исправления направленные на  повышение эффективности и надежности. Платформа значительно сокращает время и усилия, необходимые для ручных проверок, предоставляя возможность использовать комментарии GitHub."
+        },
+        "mentions": {
+            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+            "episodeName": "AIA Podcast #31"
+        },
+        "date": "2024-06-29",
+        "tags": [
+            "codereview",
+            "github",
+            "ai",
+            "productivity",
+            "assistant"
+        ],
+        "rank": 1
     }
 ]
