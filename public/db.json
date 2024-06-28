@@ -5459,5 +5459,26 @@
             "assistant"
         ],
         "rank": 1
+    },
+    {
+        "id": "e9335882-c665-43e5-b3b3-996d4c0dea15",
+        "name": "Command R+",
+        "url": "https://txt.cohere.com/command-r-plus-microsoft-azure",
+        "description": {
+            "en": "Command R+ is a state-of-the-art RAG-optimized model designed to tackle enterprise-grade workloads, and is available first on Microsoft Azure",
+            "ru": "Command R+ — передовая модель, оптимизированная для RAG, предназначенная для корпоративных задач, доступна на Microsoft Azure."
+        },
+        "mentions": {
+            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+            "episodeName": "AIA Podcast #31"
+        },
+        "date": "2024-06-29",
+        "tags": [
+            "RAG",
+            "enterprise",
+            "Azure",
+            "model"
+        ],
+        "rank": 1
     }
 ]
