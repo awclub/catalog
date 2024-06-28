@@ -5389,7 +5389,8 @@
         "tags": [
             "stabilityai",
             "music",
-            "audio"
+            "audio",
+            "model"
         ],
         "rank": 1
     },
@@ -5477,6 +5478,29 @@
             "RAG",
             "enterprise",
             "Azure",
+            "model"
+        ],
+        "rank": 1
+    },
+    {
+        "id": "e621d56f-d280-4efa-9865-9e9992e43f5c",
+        "name": "VoiceCraft",
+        "url": "https://github.com/jasonppy/VoiceCraft",
+        "description": {
+            "en": "VoiceCraft is a token infilling neural codec language model, that achieves state-of-the-art performance on both speech editing and zero-shot text-to-speech (TTS) on in-the-wild data including audiobooks, internet videos, and podcasts. To clone or edit an unseen voice, VoiceCraft needs only a few seconds of reference.",
+            "ru": "VoiceCraft - это нейронная модель, которая редактирует речь и преобразует текст в речь (TTS). Для клонирования или редактирования незнакомого голоса VoiceCraft требуется всего несколько секунд."
+        },
+        "mentions": {
+            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+            "episodeName": "AIA Podcast #31"
+        },
+        "date": "2024-06-29",
+        "tags": [
+            "voice",
+            "speech",
+            "text-to-speech",
+            "cloning",
+            "tts",
             "model"
         ],
         "rank": 1
