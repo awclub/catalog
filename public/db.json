@@ -5392,5 +5392,27 @@
             "audio"
         ],
         "rank": 1
+    },
+    {
+        "id": "055893ad-4b0e-4908-b222-9ba0d903550f",
+        "name": "devika",
+        "url": "https://github.com/stitionai/devika",
+        "description": {
+            "en": "Devika is an Agentic AI Software Engineer that can understand high-level human instructions, break them down into steps, research relevant information, and write code to achieve the given objective. Devika aims to be a competitive open-source alternative to Devin by Cognition AI.",
+            "ru": "Devika — агентный ИИ-программист, способный понимать человеческие инструкции, разбивать их на этапы, искать информацию и писать код для достижения цели. Devika стремится стать конкурентоспособной open-source альтернативой Devin от Cognition AI."
+        },
+        "mentions": {
+            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+            "episodeName": "AIA Podcast #31"
+        },
+        "date": "2024-06-29",
+        "tags": [
+            "agents",
+            "open-source",
+            "programming",
+            "ai",
+            "software engineer"
+        ],
+        "rank": 1
     }
 ]
