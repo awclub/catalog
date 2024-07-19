@@ -5391,8 +5391,7 @@
             "music",
             "audio",
             "model"
-        ],
-        "rank": 1
+        ]
     },
     {
         "id": "055893ad-4b0e-4908-b222-9ba0d903550f",
@@ -5413,8 +5412,7 @@
             "programming",
             "ai",
             "software engineer"
-        ],
-        "rank": 1
+        ]
     },
     {
         "id": "1c546a00-65da-40fb-b049-9d5887d16db2",
@@ -5436,8 +5434,7 @@
             "agents",
             "gpt",
             "software engineer"
-        ],
-        "rank": 1
+        ]
     },
     {
         "id": "a33a83b8-2377-4371-89e6-0dbd0538f363",
@@ -5458,8 +5455,7 @@
             "ai",
             "productivity",
             "assistant"
-        ],
-        "rank": 1
+        ]
     },
     {
         "id": "e9335882-c665-43e5-b3b3-996d4c0dea15",
@@ -5479,8 +5475,7 @@
             "enterprise",
             "Azure",
             "model"
-        ],
-        "rank": 1
+        ]
     },
     {
         "id": "e621d56f-d280-4efa-9865-9e9992e43f5c",
@@ -5502,7 +5497,6 @@
             "cloning",
             "tts",
             "model"
-        ],
-        "rank": 1
+        ]
     }
 ]
