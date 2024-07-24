@@ -5372,5 +5372,131 @@
             "interface",
             "catalog"
         ]
+    },
+    {
+        "id": "49ef3dfe-bcc4-4905-ad33-d91b5fb4bdbf",
+        "name": "StabilityAudio 2.0",
+        "url": "https://stableaudio.com",
+        "description": {
+            "en": "Stable Audio 2.0, developed by Stability AI, represents a significant advancement in AI-generated audio technology. This model is capable of producing high-quality, full tracks with coherent musical structures up to three minutes in length at 44.1kHz stereo. It introduces several new features and improvements over its predecessor, Stable Audio 1.0.",
+            "ru": "Stable Audio 2.0, разработанный Stability AI, представляет собой значительный шаг вперед в технологии генерации аудио с помощью ИИ. Эта модель способна создавать высококачественные, полные треки с согласованной музыкальной структурой до трех минут длиной при 44,1 кГц стерео. Она вводит несколько новых функций и улучшений по сравнению с предшественником, Stable Audio 1.0."
+        },
+        "mentions": {
+            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+            "episodeName": "AIA Podcast #31"
+        },
+        "date": "2024-06-29",
+        "tags": [
+            "stabilityai",
+            "music",
+            "audio",
+            "model"
+        ]
+    },
+    {
+        "id": "055893ad-4b0e-4908-b222-9ba0d903550f",
+        "name": "devika",
+        "url": "https://github.com/stitionai/devika",
+        "description": {
+            "en": "Devika is an Agentic AI Software Engineer that can understand high-level human instructions, break them down into steps, research relevant information, and write code to achieve the given objective. Devika aims to be a competitive open-source alternative to Devin by Cognition AI.",
+            "ru": "Devika — агентный ИИ-программист, способный понимать человеческие инструкции, разбивать их на этапы, искать информацию и писать код для достижения цели. Devika стремится стать конкурентоспособной open-source альтернативой Devin от Cognition AI."
+        },
+        "mentions": {
+            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+            "episodeName": "AIA Podcast #31"
+        },
+        "date": "2024-06-29",
+        "tags": [
+            "agents",
+            "open-source",
+            "programming",
+            "ai",
+            "software engineer"
+        ]
+    },
+    {
+        "id": "1c546a00-65da-40fb-b049-9d5887d16db2",
+        "name": "SWE-agent",
+        "url": "https://github.com/princeton-nlp/SWE-agent",
+        "description": {
+            "en": "SWE-agent takes a GitHub issue and tries to automatically fix it, using GPT-4, or your LM of choice. It solves 12.47% of bugs in the SWE-bench evaluation set and takes just 1 minute to run.",
+            "ru": "SWE-agent берет задачу на GitHub и автоматически выполняет её с помощью GPT-4 или другой LLM. В тестовом наборе SWE-bench решает 12.47% ошибок; время выполенения сосатвляет всего 1 минуту."
+        },
+        "mentions": {
+            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+            "episodeName": "AIA Podcast #31"
+        },
+        "date": "2024-06-29",
+        "tags": [
+            "github",
+            "copilot",
+            "assistant",
+            "agents",
+            "gpt",
+            "software engineer"
+        ]
+    },
+    {
+        "id": "a33a83b8-2377-4371-89e6-0dbd0538f363",
+        "name": "CodeRabbit",
+        "url": "https://coderabbit.ai",
+        "description": {
+            "en": "CodeRabbit is an AI-driven platform designed to revolutionize the code review process. It offers automated, line-by-line feedback on code changes, suggesting improvements and corrections to enhance code efficiency and robustness. The platform significantly reduces the time and effort required for manual code reviews by providing insightful feedback and enabling contextual conversations within GitHub's comment threads",
+            "ru": "CodeRabbit — платформа на основе ИИ, обещающая революцию в процессе проверки кода. Она предлагает автоматическую построчную обратную связь по изменениям в коде, предлагает улучшения и исправления направленные на  повышение эффективности и надежности. Платформа значительно сокращает время и усилия, необходимые для ручных проверок, предоставляя возможность использовать комментарии GitHub."
+        },
+        "mentions": {
+            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+            "episodeName": "AIA Podcast #31"
+        },
+        "date": "2024-06-29",
+        "tags": [
+            "codereview",
+            "github",
+            "ai",
+            "productivity",
+            "assistant"
+        ]
+    },
+    {
+        "id": "e9335882-c665-43e5-b3b3-996d4c0dea15",
+        "name": "Command R+",
+        "url": "https://txt.cohere.com/command-r-plus-microsoft-azure",
+        "description": {
+            "en": "Command R+ is a state-of-the-art RAG-optimized model designed to tackle enterprise-grade workloads, and is available first on Microsoft Azure",
+            "ru": "Command R+ — передовая модель, оптимизированная для RAG, предназначенная для корпоративных задач, доступна на Microsoft Azure."
+        },
+        "mentions": {
+            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+            "episodeName": "AIA Podcast #31"
+        },
+        "date": "2024-06-29",
+        "tags": [
+            "RAG",
+            "enterprise",
+            "Azure",
+            "model"
+        ]
+    },
+    {
+        "id": "e621d56f-d280-4efa-9865-9e9992e43f5c",
+        "name": "VoiceCraft",
+        "url": "https://github.com/jasonppy/VoiceCraft",
+        "description": {
+            "en": "VoiceCraft is a token infilling neural codec language model, that achieves state-of-the-art performance on both speech editing and zero-shot text-to-speech (TTS) on in-the-wild data including audiobooks, internet videos, and podcasts. To clone or edit an unseen voice, VoiceCraft needs only a few seconds of reference.",
+            "ru": "VoiceCraft - это нейронная модель, которая редактирует речь и преобразует текст в речь (TTS). Для клонирования или редактирования незнакомого голоса VoiceCraft требуется всего несколько секунд."
+        },
+        "mentions": {
+            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+            "episodeName": "AIA Podcast #31"
+        },
+        "date": "2024-06-29",
+        "tags": [
+            "voice",
+            "speech",
+            "text-to-speech",
+            "cloning",
+            "tts",
+            "model"
+        ]
     }
 ]
