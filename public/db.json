@@ -5639,6 +5639,95 @@
             "enhancement"
         ],
         "rank": 0
+    },
+    {
+        "id": "8a3de9e2-7c5f-4a4a-87d7-30adbe98b5b3",
+        "name": "DeepSeek-Coder-V2",
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct",
+        "description": {
+            "en": "DeepSeek-Coder-V2 is the first open-source model that surpasses GPT4-Turbo in coding and mathematics. It outperforms models like Claude3-Opus, Gemini-1.5Pro, and Codestral in coding and solving mathematical problems. The model supports 338 programming languages and has a context length of 128 KB. It is fully open-source and comes in two versions: 230B and 16B.",
+            "ru": "DeepSeek-Coder-V2 - первая модель с открытым исходным кодом, превосходящая GPT4-Turbo в кодировании и математике. По многим бенчмаркам модель превосходит GPT4-Turbo, Claude3-Opus, Gemini-1.5Pro и Codestral в задачах написания кода и решении математических задач. Поддерживает 338 языков программирования, длина контекста 128 КБ. Полностью открытый исходный код, существует в двух версиях: 230B и 16B."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/N4RjgKmzMZ8?si=JmzFmxUIavHDdMUE",
+                "episodeName": "AIA Podcast #36"
+            }
+        ],
+        "date": "2024-06-27",
+        "tags": ["gpt", "open-source", "programming", "maths", "model"],
+        "rank": 0
+    },
+    {
+        "id": "fa6f5f76-c4e2-4c17-b2bb-5989d62d4b41",
+        "name": "Modelscope",
+        "url": "https://www.modelscope.cn/",
+        "description": {
+            "en": "Modelscope by Alibaba Cloud provides access to over five thousand models, many of which are of Chinese origin. The service has now launched an English version.",
+            "ru": "Modelscope от Alibaba Cloud предоставляет доступ к более чем пяти тысячам моделей, многие из которых китайского производства. Сервис теперь доступен на английском языке."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/N4RjgKmzMZ8?si=JmzFmxUIavHDdMUE",
+                "episodeName": "AIA Podcast #36"
+            }
+        ],
+        "date": "2024-06-27",
+        "tags": ["alibaba", "cloud", "open-source", "ai"],
+        "rank": 0
+    },
+    {
+        "id": "3db9ff6c-81d0-456f-b86e-9bf3f89e9eab",
+        "name": "LiveBench",
+        "url": "https://livebench.ai",
+        "description": {
+            "en": "LiveBench is an open-source LLM benchmark developed in collaboration with Yann LeCun. It evaluates models in categories like instruction following, data analysis, reasoning, mathematics, and coding. Claude 3.5 Sonet leads in programming.",
+            "ru": "LiveBench — опенсорсный бенчмарк LLM, разработанный совместно с Яном Ликуном. Оценивает модели по таким категориям, как следование инструкциям, анализ данных, рассуждения, математика и кодирование. Claude 3.5 Sonet лидирует в программировании."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/N4RjgKmzMZ8?si=JmzFmxUIavHDdMUE",
+                "episodeName": "AIA Podcast #36"
+            }
+        ],
+        "date": "2024-06-27",
+        "tags": ["benchmark", "open-source", "llm", "maths", "programming"],
+        "rank": 0
+    },
+    {
+        "id": "7c39d712-bbf4-4e7c-9803-1d72ff1a3ef9",
+        "name": "Websim",
+        "url": "https://websim.ai/",
+        "description": {
+            "en": "Websim is a viral site that generates websites and canvas applications based on a single prompt. It has gained popularity for its ease of use and creative potential.",
+            "ru": "Websim — завирусившийся сайт, который генерирует сайты и canvas-приложения по одному запросу. Он стал популярным благодаря своей простоте и креативному потенциалу."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/N4RjgKmzMZ8?si=JmzFmxUIavHDdMUE",
+                "episodeName": "AIA Podcast #36"
+            }
+        ],
+        "date": "2024-06-27",
+        "tags": ["website builder", "ai", "ui"],
+        "rank": 0
+    },
+    {
+        "id": "2b89b2c3-632f-44b8-bfed-947d8dcb8d57",
+        "name": "LLM101n",
+        "url": "https://github.com/karpathy/LLM101n?tab=readme-ov-file",
+        "description": {
+            "en": "LLM101n is a comprehensive course on creating AI storytellers, using various technologies like Assembly, C, Python, PyTorch, and JAX. The course was announced by Andrej Karpathy.",
+            "ru": "LLM101n — полноценный курс по созданию ИИ-сторителлеров, использующий различные технологии, такие как Assembly, C, Python, PyTorch и JAX. Курс был анонсирован Андреем Карпатым."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/N4RjgKmzMZ8?si=JmzFmxUIavHDdMUE",
+                "episodeName": "AIA Podcast #36"
+            }
+        ],
+        "date": "2024-06-27",
+        "tags": ["gpt", "open-source", "programming", "storytelling"],
+        "rank": 0
     }
-
 ]
