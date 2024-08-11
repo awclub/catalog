@@ -17,5 +17,8 @@ module.exports = {
 	},
 	parserOptions: {
 		"ecmaVersion": 15
-	}
+	},
+	ignorePatterns: [
+		'checkDb.js'
+	]
 }
