@@ -5498,5 +5498,49 @@
             "tts",
             "model"
         ]
+    },
+    {
+        "id": "8b6a1d5c-05c6-4d3d-b3c2-7194cbbf8b17",
+        "name": "Stable Fast 3D",
+        "url": "https://stability.ai/news/introducing-stable-fast-3d",
+        "description": {
+            "en": "Stable Fast 3D is an open-source model developed by StabilityAI for converting images into 3D objects. This tool allows users to generate 3D assets from 2D images efficiently, making it a valuable resource for creators and developers working in fields like game development, animation, and virtual reality.",
+            "ru": "Stable Fast 3D — это опенсорсная модель, разработанная StabilityAI, для преобразования изображений в 3D-объекты. Этот инструмент позволяет пользователям эффективно создавать 3D-ресурсы из 2D-изображений, что делает его ценным ресурсом для создателей и разработчиков, работающих в таких областях, как разработка игр, анимация и виртуальная реальность."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/uzYTSHpTK-g?si=NNtITcdQZil75AeZ",
+                "episodeName": "AIA Podcast #39"
+            }
+        ],
+        "date": "2024-08-10",
+        "tags": [
+            "open-source",
+            "image-to-3D",
+            "stabilityai"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "dbd0a63b-1b1a-4bba-8326-43f6bc1e2b2c",
+        "name": "alphaXiv",
+        "url": "https://alphaxiv.org/",
+        "description": {
+            "en": "alphaXiv is a discussion platform created by Stanford students for discussing papers from arXiv. The project offers a space for researchers and academics to share thoughts and engage in intellectual discourse, enhancing the collaborative nature of scientific exploration.",
+            "ru": "alphaXiv — это дискуссионная платформа, созданная студентами Стэнфорда для обсуждения статей с arXiv. Проект предоставляет пространство для исследователей и академиков, где они могут делиться мыслями и участвовать в интеллектуальных дискуссиях, усиливая кооперативный характер научных исследований."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/uzYTSHpTK-g?si=NNtITcdQZil75AeZ",
+                "episodeName": "AIA Podcast #39"
+            }
+        ],
+        "date": "2024-08-10",
+        "tags": [
+            "science",
+            "community",
+            "stanford"
+        ],
+        "rank": 0
     }
 ]
