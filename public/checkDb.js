@@ -1,4 +1,4 @@
-import data from './db.json'  assert { type: 'json' };
+import data from './db.json' assert { type: 'json' };
 
 /**
  * @param services {{id: string, name: string}[]} List of services to check the uniqueness by id field
