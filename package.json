@@ -8,7 +8,8 @@
     "build": "npm run lint && vite build",
     "preview": "npm run lint && vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
+    "format": "prettier --write src/",
+    "check-db": "node ./public/checkDb.js"
   },
   "dependencies": {
     "@vueuse/core": "^10.7.1",
