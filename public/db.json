@@ -5877,7 +5877,7 @@
     {
         "id": "a7d1b0f8-4e5c-4110-b07a-23c3c653fae6",
         "name": "Granite Code Models",
-        "url": "",
+        "url": "https://huggingface.co/collections/ibm-granite/granite-code-models-6624c5cec322e4c148c8b330",
         "description": {
             "en": "Granite Code Models are a series of code models developed by IBM, available in various sizes ranging from 3 to 34 billion parameters. They are trained on code and text datasets, including GitHub and BigCode Stack, with context windows between 2000 to 8000 tokens. Licensed under Apache 2.0, they can be used in commercial products.",
             "ru": "Granite Code Models — серия моделей для работы с кодом, разработанных IBM, доступных в размерах от 3 до 34 миллиардов параметров. Обучены на наборах данных, включая GitHub и BigCode Stack, с контекстными окнами от 2000 до 8000 токенов. Лицензия Apache 2.0 позволяет использовать их в коммерческих продуктах."
@@ -5931,7 +5931,7 @@
     {
         "id": "bcf9d205-5cf7-4765-b0a7-fc42f8d1550f",
         "name": "Awesome AI for Programmers",
-        "url": "https://github.com/rodion-m/awesome_ai_for_programmers?tab=readme-ov-file#%D1%87%D0%B0%D1%82-%D0%B1%D0%BE%D1%82%D1%8B",
+        "url": "https://github.com/rodion-m/awesome_ai_for_programmers",
         "description": {
             "en": "Awesome AI for Programmers is a comprehensive collection of AI tools for developers, curated by Radion. It includes numerous use cases and practical applications for AI in programming.",
             "ru": "Awesome AI for Programmers — это обширная коллекция инструментов ИИ для разработчиков, созданная Радионом. Включает в себя множество примеров использования и практических приложений ИИ в программировании."
