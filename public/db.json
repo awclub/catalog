@@ -5765,5 +5765,95 @@
         "date": "2024-06-13",
         "tags": ["open-source", "ai", "fine-tuning", "Mistral", "model"],
         "rank": 0
+    },
+    {
+        "id": "0c730b0d-5d4a-49f5-8b9e-5dcf6b8a35d0",
+        "name": "Blend",
+        "url": "https://github.com/HigherOrderCO/Bend",
+        "description": {
+            "en": "A new programming language designed for parallel code execution. It is a subset of Python and bears a strong resemblance to Mojo.",
+            "ru": "Новый язык программирования, предназначенный для параллельного выполнения кода. Является подмножеством Python и очень похож на Mojo."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/YviUjwxbRKM?si=ohUMpJZiqjWHVgL4",
+                "episodeName": "AIA Podcast #34"
+            }
+        ],
+        "date": "2024-05-31",
+        "tags": ["programming", "language"],
+        "rank": 0
+    },
+    {
+        "id": "e7e0283b-bef8-4b70-9201-80c1cb1df9d6",
+        "name": "Llama 3 from Scratch",
+        "url": "https://github.com/naklecha/llama3-from-scratch",
+        "description": {
+            "en": "A GitHub repository created by an enthusiast detailing step-by-step instructions on how Llama 3 is structured, allowing for near-complete implementation of this LLM.",
+            "ru": "GitHub-репозиторий, созданный энтузиастом, с пошаговыми инструкциями по структуре Llama 3, позволяющими почти полностью реализовать эту LLM."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/YviUjwxbRKM?si=ohUMpJZiqjWHVgL4",
+                "episodeName": "AIA Podcast #34"
+            }
+        ],
+        "date": "2024-05-31",
+        "tags": ["open-source", "model", "programming"],
+        "rank": 0
+    },
+    {
+        "id": "c0e70771-6ed3-4725-a400-4b89a0fa0867",
+        "name": "Dataherald",
+        "url": "https://github.com/Dataherald/dataherald",
+        "description": {
+            "en": "Open-source engine for interacting with databases using Natural Language-to-SQL models. It supports data schemes, vector storages, and task schedulers.",
+            "ru": "Опенсорсный движок для взаимодействия с базами данных, используя модели Natural Language-to-SQL. Поддерживает схемы данных, векторные хранилища и планировщики задач."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/YviUjwxbRKM?si=ohUMpJZiqjWHVgL4",
+                "episodeName": "AIA Podcast #34"
+            }
+        ],
+        "date": "2024-05-31",
+        "tags": ["open-source", "nlp", "database"],
+        "rank": 0
+    },
+    {
+        "id": "af85e437-e0d1-4b8e-8378-02e4fda4e807",
+        "name": "Aya 23",
+        "url": "https://cohere.com/blog/aya23",
+        "description": {
+            "en": "A family of multilingual models developed by C4AI, a non-profit subsidiary of Cohere. Available in 8B and 35B versions, supporting 101 languages.",
+            "ru": "Семейство мультиязыковых моделей, разработанных C4AI, некоммерческой дочерней компанией Cohere. Доступны в версиях 8B и 35B, поддерживающих 101 язык."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/YviUjwxbRKM?si=ohUMpJZiqjWHVgL4",
+                "episodeName": "AIA Podcast #34"
+            }
+        ],
+        "date": "2024-05-31",
+        "tags": ["model", "multimodal", "open-source"],
+        "rank": 0
+    },
+    {
+        "id": "6587f2e1-ecf3-4d72-8664-1fe1d5d5b50e",
+        "name": "LlamaIndex",
+        "url": "https://github.com/ragapp/ragapp",
+        "description": {
+            "en": "A simple tool for setting up Retrieval-Augmented Generation (RAG) on your files, working via Docker with OpenAI API.",
+            "ru": "Простой инструмент для настройки Retrieval-Augmented Generation (RAG) на ваших файлах, работающий через Docker с API OpenAI."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/YviUjwxbRKM?si=ohUMpJZiqjWHVgL4",
+                "episodeName": "AIA Podcast #34"
+            }
+        ],
+        "date": "2024-05-31",
+        "tags": ["RAG", "open-source", "programming"],
+        "rank": 0
     }
 ]
