@@ -5248,7 +5248,7 @@
         "name": "CodeRabbit",
         "url": "https://coderabbit.ai/",
         "description": {
-            "en": "Assistant in the creation and management of pulrequests, smart codereviews.",
+            "en": "Assistant in the creation and management of pull requests, smart codereviews.",
             "ru": "Помощник в создании и управлении пулреквестами, умный кодревью."
         },
         "mentions": [
@@ -5381,11 +5381,13 @@
             "en": "Stable Audio 2.0, developed by Stability AI, represents a significant advancement in AI-generated audio technology. This model is capable of producing high-quality, full tracks with coherent musical structures up to three minutes in length at 44.1kHz stereo. It introduces several new features and improvements over its predecessor, Stable Audio 1.0.",
             "ru": "Stable Audio 2.0, разработанный Stability AI, представляет собой значительный шаг вперед в технологии генерации аудио с помощью ИИ. Эта модель способна создавать высококачественные, полные треки с согласованной музыкальной структурой до трех минут длиной при 44,1 кГц стерео. Она вводит несколько новых функций и улучшений по сравнению с предшественником, Stable Audio 1.0."
         },
-        "mentions": {
-            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
-            "episodeName": "AIA Podcast #31"
-        },
-        "date": "2024-06-29",
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+                "episodeName": "AIA Podcast #31"
+            }
+        ],
+        "date": "2024-04-05",
         "tags": [
             "stabilityai",
             "music",
@@ -5401,11 +5403,13 @@
             "en": "Devika is an Agentic AI Software Engineer that can understand high-level human instructions, break them down into steps, research relevant information, and write code to achieve the given objective. Devika aims to be a competitive open-source alternative to Devin by Cognition AI.",
             "ru": "Devika — агентный ИИ-программист, способный понимать человеческие инструкции, разбивать их на этапы, искать информацию и писать код для достижения цели. Devika стремится стать конкурентоспособной open-source альтернативой Devin от Cognition AI."
         },
-        "mentions": {
-            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
-            "episodeName": "AIA Podcast #31"
-        },
-        "date": "2024-06-29",
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+                "episodeName": "AIA Podcast #31"
+            }
+        ],
+        "date": "2024-04-05",
         "tags": [
             "agents",
             "open-source",
@@ -5422,11 +5426,13 @@
             "en": "SWE-agent takes a GitHub issue and tries to automatically fix it, using GPT-4, or your LM of choice. It solves 12.47% of bugs in the SWE-bench evaluation set and takes just 1 minute to run.",
             "ru": "SWE-agent берет задачу на GitHub и автоматически выполняет её с помощью GPT-4 или другой LLM. В тестовом наборе SWE-bench решает 12.47% ошибок; время выполенения сосатвляет всего 1 минуту."
         },
-        "mentions": {
-            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
-            "episodeName": "AIA Podcast #31"
-        },
-        "date": "2024-06-29",
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+                "episodeName": "AIA Podcast #31"
+            }
+        ],
+        "date": "2024-04-05",
         "tags": [
             "github",
             "copilot",
@@ -5444,11 +5450,13 @@
             "en": "CodeRabbit is an AI-driven platform designed to revolutionize the code review process. It offers automated, line-by-line feedback on code changes, suggesting improvements and corrections to enhance code efficiency and robustness. The platform significantly reduces the time and effort required for manual code reviews by providing insightful feedback and enabling contextual conversations within GitHub's comment threads",
             "ru": "CodeRabbit — платформа на основе ИИ, обещающая революцию в процессе проверки кода. Она предлагает автоматическую построчную обратную связь по изменениям в коде, предлагает улучшения и исправления направленные на  повышение эффективности и надежности. Платформа значительно сокращает время и усилия, необходимые для ручных проверок, предоставляя возможность использовать комментарии GitHub."
         },
-        "mentions": {
-            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
-            "episodeName": "AIA Podcast #31"
-        },
-        "date": "2024-06-29",
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+                "episodeName": "AIA Podcast #31"
+            }
+        ],
+        "date": "2024-04-05",
         "tags": [
             "codereview",
             "github",
@@ -5465,11 +5473,13 @@
             "en": "Command R+ is a state-of-the-art RAG-optimized model designed to tackle enterprise-grade workloads, and is available first on Microsoft Azure",
             "ru": "Command R+ — передовая модель, оптимизированная для RAG, предназначенная для корпоративных задач, доступна на Microsoft Azure."
         },
-        "mentions": {
-            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
-            "episodeName": "AIA Podcast #31"
-        },
-        "date": "2024-06-29",
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+                "episodeName": "AIA Podcast #31"
+            }
+        ],
+        "date": "2024-04-05",
         "tags": [
             "RAG",
             "enterprise",
@@ -5485,11 +5495,13 @@
             "en": "VoiceCraft is a token infilling neural codec language model, that achieves state-of-the-art performance on both speech editing and zero-shot text-to-speech (TTS) on in-the-wild data including audiobooks, internet videos, and podcasts. To clone or edit an unseen voice, VoiceCraft needs only a few seconds of reference.",
             "ru": "VoiceCraft - это нейронная модель, которая редактирует речь и преобразует текст в речь (TTS). Для клонирования или редактирования незнакомого голоса VoiceCraft требуется всего несколько секунд."
         },
-        "mentions": {
-            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
-            "episodeName": "AIA Podcast #31"
-        },
-        "date": "2024-06-29",
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+                "episodeName": "AIA Podcast #31"
+            }
+        ],
+        "date": "2024-04-05",
         "tags": [
             "voice",
             "speech",
@@ -5498,5 +5510,614 @@
             "tts",
             "model"
         ]
+    },
+    {
+        "id": "8b6a1d5c-05c6-4d3d-b3c2-7194cbbf8b17",
+        "name": "Stable Fast 3D",
+        "url": "https://stability.ai/news/introducing-stable-fast-3d",
+        "description": {
+            "en": "Stable Fast 3D is an open-source model developed by StabilityAI for converting images into 3D objects. This tool allows users to generate 3D assets from 2D images efficiently, making it a valuable resource for creators and developers working in fields like game development, animation, and virtual reality.",
+            "ru": "Stable Fast 3D — это опенсорсная модель, разработанная StabilityAI, для преобразования изображений в 3D-объекты. Этот инструмент позволяет пользователям эффективно создавать 3D-ресурсы из 2D-изображений, что делает его ценным ресурсом для создателей и разработчиков, работающих в таких областях, как разработка игр, анимация и виртуальная реальность."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/uzYTSHpTK-g?si=NNtITcdQZil75AeZ",
+                "episodeName": "AIA Podcast #39"
+            }
+        ],
+        "date": "2024-08-10",
+        "tags": [
+            "open-source",
+            "image-to-3D",
+            "stabilityai"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "dbd0a63b-1b1a-4bba-8326-43f6bc1e2b2c",
+        "name": "alphaXiv",
+        "url": "https://alphaxiv.org/",
+        "description": {
+            "en": "alphaXiv is a discussion platform created by Stanford students for discussing papers from arXiv. The project offers a space for researchers and academics to share thoughts and engage in intellectual discourse, enhancing the collaborative nature of scientific exploration.",
+            "ru": "alphaXiv — это дискуссионная платформа, созданная студентами Стэнфорда для обсуждения статей с arXiv. Проект предоставляет пространство для исследователей и академиков, где они могут делиться мыслями и участвовать в интеллектуальных дискуссиях, усиливая кооперативный характер научных исследований."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/uzYTSHpTK-g?si=NNtITcdQZil75AeZ",
+                "episodeName": "AIA Podcast #39"
+            }
+        ],
+        "date": "2024-08-10",
+        "tags": [
+            "science",
+            "community",
+            "stanford"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "3f2de63d-7bfc-4b10-b759-c4b8653928ad",
+        "name": "LangChain",
+        "url": "https://www.langchain.com/langchain",
+        "description": {
+            "en": "LangChain is a framework for building applications with large language models (LLMs) that can interact with external data, APIs, and other systems.",
+            "ru": "LangChain — это фреймворк для создания приложений с использованием больших языковых моделей (LLM), которые могут взаимодействовать с внешними данными, API и другими системами."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/iTs8x5LBuqo?si=9njZTJR4smHKLDt0",
+                "episodeName": "AIA Podcast #38"
+            }
+        ],
+        "date": "2024-07-24",
+        "tags": ["framework", "api", "llm"],
+        "rank": 0
+    },
+    {
+        "id": "89d0630e-bd0b-4e94-8fc2-26ebdc3513a3",
+        "name": "LangSmith",
+        "url": "https://www.langchain.com/langsmith",
+        "description": {
+            "en": "LangSmith is a toolkit that extends LangChain, providing advanced tools for model evaluation, debugging, and monitoring.",
+            "ru": "LangSmith — это набор инструментов, расширяющий возможности LangChain, предоставляя продвинутые инструменты для оценки моделей, отладки и мониторинга."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/iTs8x5LBuqo?si=9njZTJR4smHKLDt0",
+                "episodeName": "AIA Podcast #38"
+            }
+        ],
+        "date": "2024-07-24",
+        "tags": ["framework", "monitoring", "debugging", "llm"],
+        "rank": 0
+    },
+    {
+        "id": "92f1b36d-b2a8-47f0-880e-12c765a9b90c",
+        "name": "LangGraph",
+        "url": "https://www.langchain.com/langgraph",
+        "description": {
+            "en": "LangGraph provides a graphical interface for designing workflows and data interactions using LLMs.",
+            "ru": "LangGraph предоставляет графический интерфейс для проектирования рабочих процессов и взаимодействия с данными с использованием LLM."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/iTs8x5LBuqo?si=9njZTJR4smHKLDt0",
+                "episodeName": "AIA Podcast #38"
+            }
+        ],
+        "date": "2024-07-24",
+        "tags": ["framework", "ui", "llm"],
+        "rank": 0
+    },
+    {
+        "id": "f82f8a1c-9cbe-4cbb-9f55-d01c73914c12",
+        "name": "Exo",
+        "url": "https://github.com/exo-explore/exo",
+        "description": {
+            "en": "Exo is an open-source platform for exploring and visualizing high-dimensional data, particularly in the context of machine learning models.",
+            "ru": "Exo — это платформа с открытым исходным кодом для исследования и визуализации данных высокой размерности, особенно в контексте моделей машинного обучения."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/iTs8x5LBuqo?si=9njZTJR4smHKLDt0",
+                "episodeName": "AIA Podcast #38"
+            }
+        ],
+        "date": "2024-07-24",
+        "tags": [
+            "machine learning",
+            "visualization",
+            "open-source"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "d19a2c9d-d232-4f21-bf64-1c95cb7e1e5b",
+        "name": "Auphonic",
+        "url": "https://auphonic.com",
+        "description": {
+            "en": "Auphonic is an online audio post-production web service that automatically improves the quality of your audio files. It removes background noise, adjusts loudness levels, and optimizes your audio files for the best possible sound.",
+            "ru": "Auphonic - это онлайн-сервис для пост-обработки аудио, который автоматически улучшает качество ваших аудиофайлов. Он удаляет фоновый шум, регулирует уровень громкости и оптимизирует аудиофайлы для наилучшего звучания."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/a5XVJf4dLQo?si=pK5U7uP85D1A5NLT",
+                "episodeName": "AIA Podcast #37"
+            }
+        ],
+        "date": "2024-07-12",
+        "tags": [
+            "audio",
+            "enhancement"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "8a3de9e2-7c5f-4a4a-87d7-30adbe98b5b3",
+        "name": "DeepSeek-Coder-V2",
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct",
+        "description": {
+            "en": "DeepSeek-Coder-V2 is the first open-source model that surpasses GPT4-Turbo in coding and mathematics. It outperforms models like Claude3-Opus, Gemini-1.5Pro, and Codestral in coding and solving mathematical problems. The model supports 338 programming languages and has a context length of 128 KB. It is fully open-source and comes in two versions: 230B and 16B.",
+            "ru": "DeepSeek-Coder-V2 - первая модель с открытым исходным кодом, превосходящая GPT4-Turbo в кодировании и математике. По многим бенчмаркам модель превосходит GPT4-Turbo, Claude3-Opus, Gemini-1.5Pro и Codestral в задачах написания кода и решении математических задач. Поддерживает 338 языков программирования, длина контекста 128 КБ. Полностью открытый исходный код, существует в двух версиях: 230B и 16B."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/N4RjgKmzMZ8?si=JmzFmxUIavHDdMUE",
+                "episodeName": "AIA Podcast #36"
+            }
+        ],
+        "date": "2024-06-27",
+        "tags": ["gpt", "open-source", "programming", "maths", "model"],
+        "rank": 0
+    },
+    {
+        "id": "fa6f5f76-c4e2-4c17-b2bb-5989d62d4b41",
+        "name": "Modelscope",
+        "url": "https://www.modelscope.cn/",
+        "description": {
+            "en": "Modelscope by Alibaba Cloud provides access to over five thousand models, many of which are of Chinese origin. The service has now launched an English version.",
+            "ru": "Modelscope от Alibaba Cloud предоставляет доступ к более чем пяти тысячам моделей, многие из которых китайского производства. Сервис теперь доступен на английском языке."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/N4RjgKmzMZ8?si=JmzFmxUIavHDdMUE",
+                "episodeName": "AIA Podcast #36"
+            }
+        ],
+        "date": "2024-06-27",
+        "tags": ["alibaba", "cloud", "open-source", "ai"],
+        "rank": 0
+    },
+    {
+        "id": "3db9ff6c-81d0-456f-b86e-9bf3f89e9eab",
+        "name": "LiveBench",
+        "url": "https://livebench.ai",
+        "description": {
+            "en": "LiveBench is an open-source LLM benchmark developed in collaboration with Yann LeCun. It evaluates models in categories like instruction following, data analysis, reasoning, mathematics, and coding. Claude 3.5 Sonet leads in programming.",
+            "ru": "LiveBench — опенсорсный бенчмарк LLM, разработанный совместно с Яном Ликуном. Оценивает модели по таким категориям, как следование инструкциям, анализ данных, рассуждения, математика и кодирование. Claude 3.5 Sonet лидирует в программировании."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/N4RjgKmzMZ8?si=JmzFmxUIavHDdMUE",
+                "episodeName": "AIA Podcast #36"
+            }
+        ],
+        "date": "2024-06-27",
+        "tags": ["benchmark", "open-source", "llm", "maths", "programming"],
+        "rank": 0
+    },
+    {
+        "id": "7c39d712-bbf4-4e7c-9803-1d72ff1a3ef9",
+        "name": "Websim",
+        "url": "https://websim.ai/",
+        "description": {
+            "en": "Websim is a viral site that generates websites and canvas applications based on a single prompt. It has gained popularity for its ease of use and creative potential.",
+            "ru": "Websim — завирусившийся сайт, который генерирует сайты и canvas-приложения по одному запросу. Он стал популярным благодаря своей простоте и креативному потенциалу."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/N4RjgKmzMZ8?si=JmzFmxUIavHDdMUE",
+                "episodeName": "AIA Podcast #36"
+            }
+        ],
+        "date": "2024-06-27",
+        "tags": ["website builder", "ai", "ui"],
+        "rank": 0
+    },
+    {
+        "id": "2b89b2c3-632f-44b8-bfed-947d8dcb8d57",
+        "name": "LLM101n",
+        "url": "https://github.com/karpathy/LLM101n?tab=readme-ov-file",
+        "description": {
+            "en": "LLM101n is a comprehensive course on creating AI storytellers, using various technologies like Assembly, C, Python, PyTorch, and JAX. The course was announced by Andrej Karpathy.",
+            "ru": "LLM101n — полноценный курс по созданию ИИ-сторителлеров, использующий различные технологии, такие как Assembly, C, Python, PyTorch и JAX. Курс был анонсирован Андреем Карпатым."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/N4RjgKmzMZ8?si=JmzFmxUIavHDdMUE",
+                "episodeName": "AIA Podcast #36"
+            }
+        ],
+        "date": "2024-06-27",
+        "tags": ["gpt", "open-source", "programming", "storytelling"],
+        "rank": 0
+    },
+    {
+        "id": "7a8c1e9a-1f3e-4f6c-bd4b-2a3b9d5f9c56",
+        "name": "Asana AI Teammates",
+        "url": "https://asana.com",
+        "description": {
+            "en": "Asana has introduced AI Teammates, AI-powered assistants that understand the context of your project and workflow. They can provide advice, insights, assign tasks, and dynamically determine task workflows, enhancing project management efficiency.",
+            "ru": "Asana представила AI Teammates, ИИ-ассистентов, которые понимают контекст вашего проекта и рабочего процесса. Они могут давать советы, инсайты, назначать задачи и динамически определять рабочий процесс задач, повышая эффективность управления проектами."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/qC63WcND6bc?si=vkqjg7RzbEZ-J3BP",
+                "episodeName": "AIA Podcast #35"
+            }
+        ],
+        "date": "2024-06-13",
+        "tags": ["ai", "productivity", "assistant"],
+        "rank": 0
+    },
+    {
+        "id": "e3b4d7a2-7f8a-4d5b-9e4f-6c3b8e9f7c41",
+        "name": "Mistral Fine-Tuning Tool",
+        "url": "https://github.com/mistralai/mistral-finetune",
+        "description": {
+            "en": "Mistral has released an open-source tool for fine-tuning their models, including Mistral 7B, 8x7B, 8x22B, and added serverless fine-tuning capabilities to their API platform, la Plateform. The tool supports models like Mistral Small and offers flexible options for custom model training.",
+            "ru": "Mistral выпустили опенсорсный инструмент для тонкой настройки своих моделей, включая Mistral 7B, 8x7B, 8x22B, и добавили возможность serverless файнтюнинга в свой API, la Plateform. Инструмент поддерживает такие модели, как Mistral Small, и предлагает гибкие возможности для кастомного обучения моделей."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/qC63WcND6bc?si=vkqjg7RzbEZ-J3BP",
+                "episodeName": "AIA Podcast #35"
+            }
+        ],
+        "date": "2024-06-13",
+        "tags": ["open-source", "ai", "fine-tuning", "Mistral", "model"],
+        "rank": 0
+    },
+    {
+        "id": "0c730b0d-5d4a-49f5-8b9e-5dcf6b8a35d0",
+        "name": "Blend",
+        "url": "https://github.com/HigherOrderCO/Bend",
+        "description": {
+            "en": "A new programming language designed for parallel code execution. It is a subset of Python and bears a strong resemblance to Mojo.",
+            "ru": "Новый язык программирования, предназначенный для параллельного выполнения кода. Является подмножеством Python и очень похож на Mojo."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/YviUjwxbRKM?si=ohUMpJZiqjWHVgL4",
+                "episodeName": "AIA Podcast #34"
+            }
+        ],
+        "date": "2024-05-31",
+        "tags": ["programming", "language"],
+        "rank": 0
+    },
+    {
+        "id": "e7e0283b-bef8-4b70-9201-80c1cb1df9d6",
+        "name": "Llama 3 from Scratch",
+        "url": "https://github.com/naklecha/llama3-from-scratch",
+        "description": {
+            "en": "A GitHub repository created by an enthusiast detailing step-by-step instructions on how Llama 3 is structured, allowing for near-complete implementation of this LLM.",
+            "ru": "GitHub-репозиторий, созданный энтузиастом, с пошаговыми инструкциями по структуре Llama 3, позволяющими почти полностью реализовать эту LLM."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/YviUjwxbRKM?si=ohUMpJZiqjWHVgL4",
+                "episodeName": "AIA Podcast #34"
+            }
+        ],
+        "date": "2024-05-31",
+        "tags": ["open-source", "model", "programming"],
+        "rank": 0
+    },
+    {
+        "id": "c0e70771-6ed3-4725-a400-4b89a0fa0867",
+        "name": "Dataherald",
+        "url": "https://github.com/Dataherald/dataherald",
+        "description": {
+            "en": "Open-source engine for interacting with databases using Natural Language-to-SQL models. It supports data schemes, vector storages, and task schedulers.",
+            "ru": "Опенсорсный движок для взаимодействия с базами данных, используя модели Natural Language-to-SQL. Поддерживает схемы данных, векторные хранилища и планировщики задач."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/YviUjwxbRKM?si=ohUMpJZiqjWHVgL4",
+                "episodeName": "AIA Podcast #34"
+            }
+        ],
+        "date": "2024-05-31",
+        "tags": ["open-source", "nlp", "database"],
+        "rank": 0
+    },
+    {
+        "id": "af85e437-e0d1-4b8e-8378-02e4fda4e807",
+        "name": "Aya 23",
+        "url": "https://cohere.com/blog/aya23",
+        "description": {
+            "en": "A family of multilingual models developed by C4AI, a non-profit subsidiary of Cohere. Available in 8B and 35B versions, supporting 101 languages.",
+            "ru": "Семейство мультиязыковых моделей, разработанных C4AI, некоммерческой дочерней компанией Cohere. Доступны в версиях 8B и 35B, поддерживающих 101 язык."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/YviUjwxbRKM?si=ohUMpJZiqjWHVgL4",
+                "episodeName": "AIA Podcast #34"
+            }
+        ],
+        "date": "2024-05-31",
+        "tags": ["model", "multimodal", "open-source"],
+        "rank": 0
+    },
+    {
+        "id": "6587f2e1-ecf3-4d72-8664-1fe1d5d5b50e",
+        "name": "LlamaIndex",
+        "url": "https://github.com/ragapp/ragapp",
+        "description": {
+            "en": "A simple tool for setting up Retrieval-Augmented Generation (RAG) on your files, working via Docker with OpenAI API.",
+            "ru": "Простой инструмент для настройки Retrieval-Augmented Generation (RAG) на ваших файлах, работающий через Docker с API OpenAI."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/YviUjwxbRKM?si=ohUMpJZiqjWHVgL4",
+                "episodeName": "AIA Podcast #34"
+            }
+        ],
+        "date": "2024-05-31",
+        "tags": ["RAG", "open-source", "programming"],
+        "rank": 0
+    },
+    {
+        "id": "b1d0f9c1-0244-4888-b5b3-5c98b4b7c17f",
+        "name": "Llama 3 8B",
+        "url": "https://huggingface.co/PrunaAI/Llama-3-8B-Instruct-Gradient-1048k-GGUF-smashed",
+        "description": {
+            "en": "Llama 3 8B is a large language model offering a context window of up to 1 million tokens. It is designed for extensive text processing tasks and provides advanced language understanding and generation capabilities.",
+            "ru": "Llama 3 8B — это большая языковая модель, предлагающая контекстное окно до 1 миллиона токенов. Она предназначена для обработки больших объемов текста и предоставляет расширенные возможности понимания и генерации языка."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/GMDqCnVxMpQ?si=hvQNEc27N1wpPYxZ",
+                "episodeName": "AIA Podcast #33"
+            }
+        ],
+        "date": "2024-05-16",
+        "tags": ["llm", "huggingface", "text-to-text", "gpt", "open-source"],
+        "rank": 0
+    },
+    {
+        "id": "a7d1b0f8-4e5c-4110-b07a-23c3c653fae6",
+        "name": "Granite Code Models",
+        "url": "https://huggingface.co/collections/ibm-granite/granite-code-models-6624c5cec322e4c148c8b330",
+        "description": {
+            "en": "Granite Code Models are a series of code models developed by IBM, available in various sizes ranging from 3 to 34 billion parameters. They are trained on code and text datasets, including GitHub and BigCode Stack, with context windows between 2000 to 8000 tokens. Licensed under Apache 2.0, they can be used in commercial products.",
+            "ru": "Granite Code Models — серия моделей для работы с кодом, разработанных IBM, доступных в размерах от 3 до 34 миллиардов параметров. Обучены на наборах данных, включая GitHub и BigCode Stack, с контекстными окнами от 2000 до 8000 токенов. Лицензия Apache 2.0 позволяет использовать их в коммерческих продуктах."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/GMDqCnVxMpQ?si=hvQNEc27N1wpPYxZ",
+                "episodeName": "AIA Podcast #33"
+            }
+        ],
+        "date": "2024-05-16",
+        "tags": ["ibm", "code", "llm", "programming", "open-source"],
+        "rank": 0
+    },
+    {
+        "id": "95c4fae3-c635-4d3a-ae89-e3b89077f7fa",
+        "name": "Open WebUI",
+        "url": "https://github.com/open-webui/open-webui",
+        "description": {
+            "en": "Open WebUI is an open-source, extensible, and feature-rich self-hosted WebUI designed for offline operation. It supports various LLM runners, including Ollama and OpenAI-compatible APIs, and is built using Svelte.",
+            "ru": "Open WebUI — это опенсорсный, расширяемый и функционально богатый саморазмещаемый WebUI, предназначенный для работы в автономном режиме. Поддерживает различные движки LLM, включая Ollama и OpenAI-совместимые API, и написан на Svelte."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/GMDqCnVxMpQ?si=hvQNEc27N1wpPYxZ",
+                "episodeName": "AIA Podcast #33"
+            }
+        ],
+        "date": "2024-05-16",
+        "tags": ["webui", "open-source", "llm", "self-hosted", "interface"],
+        "rank": 0
+    },
+    {
+        "id": "cf5cb1e9-0d9a-4c02-bc7e-7b6d0e5b51a0",
+        "name": "Morphic Search",
+        "url": "https://www.morphic.sh",
+        "description": {
+            "en": "Morphic Search is an open-source search engine built on Llama 3. It provides a powerful search experience tailored for LLM-generated content.",
+            "ru": "Morphic Search — это опенсорсный поисковик, построенный на Llama 3. Он предоставляет мощный поисковый опыт, ориентированный на контент, созданный LLM."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/GMDqCnVxMpQ?si=hvQNEc27N1wpPYxZ",
+                "episodeName": "AIA Podcast #33"
+            }
+        ],
+        "date": "2024-05-16",
+        "tags": ["search", "llm", "open-source", "gpt"],
+        "rank": 0
+    },
+    {
+        "id": "bcf9d205-5cf7-4765-b0a7-fc42f8d1550f",
+        "name": "Awesome AI for Programmers",
+        "url": "https://github.com/rodion-m/awesome_ai_for_programmers",
+        "description": {
+            "en": "Awesome AI for Programmers is a comprehensive collection of AI tools for developers, curated by Radion. It includes numerous use cases and practical applications for AI in programming.",
+            "ru": "Awesome AI for Programmers — это обширная коллекция инструментов ИИ для разработчиков, созданная Радионом. Включает в себя множество примеров использования и практических приложений ИИ в программировании."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/GMDqCnVxMpQ?si=hvQNEc27N1wpPYxZ",
+                "episodeName": "AIA Podcast #33"
+            }
+        ],
+        "date": "2024-05-16",
+        "tags": ["ai", "programming", "catalog", "open-source"],
+        "rank": 0
+    },
+    {
+        "id": "fd44c8c7-0e54-4f0b-89df-264bb8fbd5a1",
+        "name": "Udio",
+        "url": "https://www.udio.com",
+        "description": {
+            "en": "Udio is an AI-powered platform designed for seamless audio management and enhancement. It allows users to manage, edit, and enhance their audio content efficiently with advanced AI-driven tools.",
+            "ru": "Udio — это платформа на основе ИИ, предназначенная для удобного управления и улучшения аудиоконтента. Она позволяет пользователям эффективно управлять, редактировать и улучшать их аудиоматериалы с помощью передовых инструментов на базе ИИ."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/DOt4kbQmNk4?si=Otd3MvZaEb_JqFkH",
+                "episodeName": "AIA Podcast #32"
+            }
+        ],
+        "date": "2024-04-18",
+        "tags": ["audio", "ai", "enhancement"],
+        "rank": 0
+    },
+    {
+        "id": "d21b7a4e-7b55-4f9d-a0df-7eabc4f27e0a",
+        "name": "Sonauto",
+        "url": "https://sonauto.ai",
+        "description": {
+            "en": "Sonauto is an AI-powered platform designed for creating and enhancing audio content. It provides advanced tools for generating, editing, and optimizing audio, making it ideal for content creators and audio professionals.",
+            "ru": "Sonauto — это платформа на основе ИИ, предназначенная для создания и улучшения аудиоконтента. Она предоставляет передовые инструменты для генерации, редактирования и оптимизации звука, что делает её идеальной для контент-криэйторов и аудиопрофессионалов."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/DOt4kbQmNk4?si=Otd3MvZaEb_JqFkH",
+                "episodeName": "AIA Podcast #32"
+            }
+        ],
+        "date": "2024-04-18",
+        "tags": ["audio", "ai", "enhancement"],
+        "rank": 0
+    },
+    {
+        "id": "d58b8a95-5fd4-432e-9251-5454b003ae3c",
+        "name": "Pictory.ai",
+        "url": "https://pictory.ai/api",
+        "description": {
+            "en": "Pictory.ai is a video creation platform that converts text into videos. It offers audio synchronization, a vast library of stock videos, and extensive customization options, making it a superior alternative to InVideo.",
+            "ru": "Pictory.ai — это платформа для создания видео из текста. Она предлагает синхронизацию с аудио, огромную библиотеку стоковых видео и обширные возможности кастомизации, что делает её лучшей альтернативой InVideo."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/loK0phK9nsA?si=q0GHFDvgJKUP3uam",
+                "episodeName": "AIA Podcast #30"
+            }
+        ],
+        "date": "2024-03-21",
+        "tags": ["text-to-video", "video", "ai"],
+        "rank": 0
+    },
+    {
+        "id": "f082e9cb-3657-4b5f-a3d0-4b31b06d0f1e",
+        "name": "Amazon Q",
+        "url": "https://aws.amazon.com",
+        "description": {
+            "en": "Amazon Q is a coding assistant from Amazon, similar to GitHub Copilot Chat, designed as an extension to CodeWhisperer for enhanced code completion and generation.",
+            "ru": "Amazon Q — это помощник для написания кода от Amazon, аналогичный GitHub Copilot Chat, предназначенный как дополнение к CodeWhisperer для улучшенной генерации и завершения кода."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/loK0phK9nsA?si=q0GHFDvgJKUP3uam",
+                "episodeName": "AIA Podcast #30"
+            }
+        ],
+        "date": "2024-03-21",
+        "tags": ["ai", "assistant", "amazon", "copilot", "programming"],
+        "rank": 0
+    },
+    {
+        "id": "bbc0481d-3b7e-4ac3-bd23-b3d7379da4e2",
+        "name": "Ollama",
+        "url": "https://ollama.com/",
+        "description": {
+            "en": "Ollama is a platform for running machine learning models locally, providing a solution for deploying advanced models without relying on cloud services.",
+            "ru": "Ollama — это платформа для локального запуска моделей машинного обучения, предлагающая решение для развертывания продвинутых моделей без использования облачных сервисов."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/loK0phK9nsA?si=q0GHFDvgJKUP3uam",
+                "episodeName": "AIA Podcast #30"
+            }
+        ],
+        "date": "2024-03-21",
+        "tags": ["local", "model", "machine learning"],
+        "rank": 0
+    },
+    {
+        "id": "10fca562-e663-40a5-8d72-0f8c6c2759a3",
+        "name": "Coqui.ai",
+        "url": "https://github.com/coqui-ai/TTS/",
+        "description": {
+            "en": "Coqui.ai is an advanced Text-to-Speech (TTS) library, enabling local generation of high-quality speech synthesis.",
+            "ru": "Coqui.ai — это продвинутая библиотека для синтеза речи (TTS), позволяющая локально генерировать высококачественные голосовые озвучки."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/loK0phK9nsA?si=q0GHFDvgJKUP3uam",
+                "episodeName": "AIA Podcast #30"
+            }
+        ],
+        "date": "2024-03-21",
+        "tags": ["tts", "ai", "local", "speech"],
+        "rank": 0
+    },
+    {
+        "id": "b88c6714-ef91-44bb-a82e-693d7f414b68",
+        "name": "Silero",
+        "url": "https://github.com/snakers4/silero-models",
+        "description": {
+            "en": "Silero offers a collection of speech synthesis and recognition models, focused on local and efficient performance for various AI-driven applications.",
+            "ru": "Silero предлагает коллекцию моделей для синтеза и распознавания речи, ориентированных на локальную и эффективную работу в различных приложениях, управляемых ИИ."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/loK0phK9nsA?si=q0GHFDvgJKUP3uam",
+                "episodeName": "AIA Podcast #30"
+            }
+        ],
+        "date": "2024-03-21",
+        "tags": ["tts", "ai", "speech recognition", "local"],
+        "rank": 0
+    },
+    {
+        "id": "761f051c-9d44-4d7d-99ec-bd93a5932a2e",
+        "name": "Qwen-1.5 72B",
+        "url": "https://qwenlm.github.io/blog/qwen1.5/",
+        "description": {
+            "en": "Qwen-1.5 72B is a highly powerful open-source AI model, recognized for its exceptional capabilities across various tasks.",
+            "ru": "Qwen-1.5 72B — это мощнейшая опенсорсная модель ИИ, известная своими выдающимися возможностями в различных задачах."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/loK0phK9nsA?si=q0GHFDvgJKUP3uam",
+                "episodeName": "AIA Podcast #30"
+            }
+        ],
+        "date": "2024-03-21",
+        "tags": ["ai", "model", "open-source"],
+        "rank": 0
+    },
+    {
+        "id": "b87fcbff-8e18-4609-859f-13e0d3ef61f5",
+        "name": "C4AI Command-R",
+        "url": "https://huggingface.co/CohereForAI/c4ai-command-r-v01",
+        "description": {
+            "en": "C4AI Command-R is a specialized AI model designed for enterprise-level tasks, optimized for robust and efficient performance.",
+            "ru": "C4AI Command-R — это специализированная модель ИИ, предназначенная для выполнения задач на уровне предприятия, оптимизированная для надёжной и эффективной работы."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/loK0phK9nsA?si=q0GHFDvgJKUP3uam",
+                "episodeName": "AIA Podcast #30"
+            }
+        ],
+        "date": "2024-03-21",
+        "tags": ["ai", "enterprise", "model"],
+        "rank": 0
     }
 ]
