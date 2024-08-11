@@ -5542,5 +5542,77 @@
             "stanford"
         ],
         "rank": 0
+    },
+    {
+        "id": "3f2de63d-7bfc-4b10-b759-c4b8653928ad",
+        "name": "LangChain",
+        "url": "https://www.langchain.com/langchain",
+        "description": {
+            "en": "LangChain is a framework for building applications with large language models (LLMs) that can interact with external data, APIs, and other systems.",
+            "ru": "LangChain — это фреймворк для создания приложений с использованием больших языковых моделей (LLM), которые могут взаимодействовать с внешними данными, API и другими системами."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/iTs8x5LBuqo?si=9njZTJR4smHKLDt0",
+                "episodeName": "AIA Podcast #38"
+            }
+        ],
+        "date": "2024-07-24",
+        "tags": ["framework", "api", "llm"],
+        "rank": 0
+    },
+    {
+        "id": "89d0630e-bd0b-4e94-8fc2-26ebdc3513a3",
+        "name": "LangSmith",
+        "url": "https://www.langchain.com/langsmith",
+        "description": {
+            "en": "LangSmith is a toolkit that extends LangChain, providing advanced tools for model evaluation, debugging, and monitoring.",
+            "ru": "LangSmith — это набор инструментов, расширяющий возможности LangChain, предоставляя продвинутые инструменты для оценки моделей, отладки и мониторинга."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/iTs8x5LBuqo?si=9njZTJR4smHKLDt0",
+                "episodeName": "AIA Podcast #38"
+            }
+        ],
+        "date": "2024-07-24",
+        "tags": ["framework", "monitoring", "debugging", "llm"],
+        "rank": 0
+    },
+    {
+        "id": "92f1b36d-b2a8-47f0-880e-12c765a9b90c",
+        "name": "LangGraph",
+        "url": "https://www.langchain.com/langgraph",
+        "description": {
+            "en": "LangGraph provides a graphical interface for designing workflows and data interactions using LLMs.",
+            "ru": "LangGraph предоставляет графический интерфейс для проектирования рабочих процессов и взаимодействия с данными с использованием LLM."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/iTs8x5LBuqo?si=9njZTJR4smHKLDt0",
+                "episodeName": "AIA Podcast #38"
+            }
+        ],
+        "date": "2024-07-24",
+        "tags": ["framework", "ui", "llm"],
+        "rank": 0
+    },
+    {
+        "id": "f82f8a1c-9cbe-4cbb-9f55-d01c73914c12",
+        "name": "Exo",
+        "url": "https://github.com/exo-explore/exo",
+        "description": {
+            "en": "Exo is an open-source platform for exploring and visualizing high-dimensional data, particularly in the context of machine learning models.",
+            "ru": "Exo — это платформа с открытым исходным кодом для исследования и визуализации данных высокой размерности, особенно в контексте моделей машинного обучения."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/iTs8x5LBuqo?si=9njZTJR4smHKLDt0",
+                "episodeName": "AIA Podcast #38"
+            }
+        ],
+        "date": "2024-07-24",
+        "tags": ["machine learning", "visualization", "open-source"],
+        "rank": 0
     }
 ]
