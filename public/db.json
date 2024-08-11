@@ -5381,10 +5381,12 @@
             "en": "Stable Audio 2.0, developed by Stability AI, represents a significant advancement in AI-generated audio technology. This model is capable of producing high-quality, full tracks with coherent musical structures up to three minutes in length at 44.1kHz stereo. It introduces several new features and improvements over its predecessor, Stable Audio 1.0.",
             "ru": "Stable Audio 2.0, разработанный Stability AI, представляет собой значительный шаг вперед в технологии генерации аудио с помощью ИИ. Эта модель способна создавать высококачественные, полные треки с согласованной музыкальной структурой до трех минут длиной при 44,1 кГц стерео. Она вводит несколько новых функций и улучшений по сравнению с предшественником, Stable Audio 1.0."
         },
-        "mentions": {
-            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
-            "episodeName": "AIA Podcast #31"
-        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+                "episodeName": "AIA Podcast #31"
+            }
+        ],
         "date": "2024-04-05",
         "tags": [
             "stabilityai",
@@ -5401,10 +5403,12 @@
             "en": "Devika is an Agentic AI Software Engineer that can understand high-level human instructions, break them down into steps, research relevant information, and write code to achieve the given objective. Devika aims to be a competitive open-source alternative to Devin by Cognition AI.",
             "ru": "Devika — агентный ИИ-программист, способный понимать человеческие инструкции, разбивать их на этапы, искать информацию и писать код для достижения цели. Devika стремится стать конкурентоспособной open-source альтернативой Devin от Cognition AI."
         },
-        "mentions": {
-            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
-            "episodeName": "AIA Podcast #31"
-        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+                "episodeName": "AIA Podcast #31"
+            }
+        ],
         "date": "2024-04-05",
         "tags": [
             "agents",
@@ -5422,10 +5426,12 @@
             "en": "SWE-agent takes a GitHub issue and tries to automatically fix it, using GPT-4, or your LM of choice. It solves 12.47% of bugs in the SWE-bench evaluation set and takes just 1 minute to run.",
             "ru": "SWE-agent берет задачу на GitHub и автоматически выполняет её с помощью GPT-4 или другой LLM. В тестовом наборе SWE-bench решает 12.47% ошибок; время выполенения сосатвляет всего 1 минуту."
         },
-        "mentions": {
-            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
-            "episodeName": "AIA Podcast #31"
-        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+                "episodeName": "AIA Podcast #31"
+            }
+        ],
         "date": "2024-04-05",
         "tags": [
             "github",
@@ -5444,10 +5450,12 @@
             "en": "CodeRabbit is an AI-driven platform designed to revolutionize the code review process. It offers automated, line-by-line feedback on code changes, suggesting improvements and corrections to enhance code efficiency and robustness. The platform significantly reduces the time and effort required for manual code reviews by providing insightful feedback and enabling contextual conversations within GitHub's comment threads",
             "ru": "CodeRabbit — платформа на основе ИИ, обещающая революцию в процессе проверки кода. Она предлагает автоматическую построчную обратную связь по изменениям в коде, предлагает улучшения и исправления направленные на  повышение эффективности и надежности. Платформа значительно сокращает время и усилия, необходимые для ручных проверок, предоставляя возможность использовать комментарии GitHub."
         },
-        "mentions": {
-            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
-            "episodeName": "AIA Podcast #31"
-        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+                "episodeName": "AIA Podcast #31"
+            }
+        ],
         "date": "2024-04-05",
         "tags": [
             "codereview",
@@ -5465,10 +5473,12 @@
             "en": "Command R+ is a state-of-the-art RAG-optimized model designed to tackle enterprise-grade workloads, and is available first on Microsoft Azure",
             "ru": "Command R+ — передовая модель, оптимизированная для RAG, предназначенная для корпоративных задач, доступна на Microsoft Azure."
         },
-        "mentions": {
-            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
-            "episodeName": "AIA Podcast #31"
-        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+                "episodeName": "AIA Podcast #31"
+            }
+        ],
         "date": "2024-04-05",
         "tags": [
             "RAG",
@@ -5485,10 +5495,12 @@
             "en": "VoiceCraft is a token infilling neural codec language model, that achieves state-of-the-art performance on both speech editing and zero-shot text-to-speech (TTS) on in-the-wild data including audiobooks, internet videos, and podcasts. To clone or edit an unseen voice, VoiceCraft needs only a few seconds of reference.",
             "ru": "VoiceCraft - это нейронная модель, которая редактирует речь и преобразует текст в речь (TTS). Для клонирования или редактирования незнакомого голоса VoiceCraft требуется всего несколько секунд."
         },
-        "mentions": {
-            "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
-            "episodeName": "AIA Podcast #31"
-        },
+        "mentions": [
+            {
+                "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
+                "episodeName": "AIA Podcast #31"
+            }
+        ],
         "date": "2024-04-05",
         "tags": [
             "voice",
@@ -5980,6 +5992,132 @@
         ],
         "date": "2024-04-18",
         "tags": ["audio", "ai", "enhancement"],
+        "rank": 0
+    },
+    {
+        "id": "d58b8a95-5fd4-432e-9251-5454b003ae3c",
+        "name": "Pictory.ai",
+        "url": "https://pictory.ai/api",
+        "description": {
+            "en": "Pictory.ai is a video creation platform that converts text into videos. It offers audio synchronization, a vast library of stock videos, and extensive customization options, making it a superior alternative to InVideo.",
+            "ru": "Pictory.ai — это платформа для создания видео из текста. Она предлагает синхронизацию с аудио, огромную библиотеку стоковых видео и обширные возможности кастомизации, что делает её лучшей альтернативой InVideo."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/loK0phK9nsA?si=q0GHFDvgJKUP3uam",
+                "episodeName": "AIA Podcast #30"
+            }
+        ],
+        "date": "2024-03-21",
+        "tags": ["text-to-video", "video", "ai"],
+        "rank": 0
+    },
+    {
+        "id": "f082e9cb-3657-4b5f-a3d0-4b31b06d0f1e",
+        "name": "Amazon Q",
+        "url": "https://aws.amazon.com",
+        "description": {
+            "en": "Amazon Q is a coding assistant from Amazon, similar to GitHub Copilot Chat, designed as an extension to CodeWhisperer for enhanced code completion and generation.",
+            "ru": "Amazon Q — это помощник для написания кода от Amazon, аналогичный GitHub Copilot Chat, предназначенный как дополнение к CodeWhisperer для улучшенной генерации и завершения кода."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/loK0phK9nsA?si=q0GHFDvgJKUP3uam",
+                "episodeName": "AIA Podcast #30"
+            }
+        ],
+        "date": "2024-03-21",
+        "tags": ["ai", "assistant", "amazon", "copilot", "programming"],
+        "rank": 0
+    },
+    {
+        "id": "bbc0481d-3b7e-4ac3-bd23-b3d7379da4e2",
+        "name": "Ollama",
+        "url": "https://ollama.com/",
+        "description": {
+            "en": "Ollama is a platform for running machine learning models locally, providing a solution for deploying advanced models without relying on cloud services.",
+            "ru": "Ollama — это платформа для локального запуска моделей машинного обучения, предлагающая решение для развертывания продвинутых моделей без использования облачных сервисов."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/loK0phK9nsA?si=q0GHFDvgJKUP3uam",
+                "episodeName": "AIA Podcast #30"
+            }
+        ],
+        "date": "2024-03-21",
+        "tags": ["local", "model", "machine learning"],
+        "rank": 0
+    },
+    {
+        "id": "10fca562-e663-40a5-8d72-0f8c6c2759a3",
+        "name": "Coqui.ai",
+        "url": "https://github.com/coqui-ai/TTS/",
+        "description": {
+            "en": "Coqui.ai is an advanced Text-to-Speech (TTS) library, enabling local generation of high-quality speech synthesis.",
+            "ru": "Coqui.ai — это продвинутая библиотека для синтеза речи (TTS), позволяющая локально генерировать высококачественные голосовые озвучки."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/loK0phK9nsA?si=q0GHFDvgJKUP3uam",
+                "episodeName": "AIA Podcast #30"
+            }
+        ],
+        "date": "2024-03-21",
+        "tags": ["tts", "ai", "local", "speech"],
+        "rank": 0
+    },
+    {
+        "id": "b88c6714-ef91-44bb-a82e-693d7f414b68",
+        "name": "Silero",
+        "url": "https://github.com/snakers4/silero-models",
+        "description": {
+            "en": "Silero offers a collection of speech synthesis and recognition models, focused on local and efficient performance for various AI-driven applications.",
+            "ru": "Silero предлагает коллекцию моделей для синтеза и распознавания речи, ориентированных на локальную и эффективную работу в различных приложениях, управляемых ИИ."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/loK0phK9nsA?si=q0GHFDvgJKUP3uam",
+                "episodeName": "AIA Podcast #30"
+            }
+        ],
+        "date": "2024-03-21",
+        "tags": ["tts", "ai", "speech recognition", "local"],
+        "rank": 0
+    },
+    {
+        "id": "761f051c-9d44-4d7d-99ec-bd93a5932a2e",
+        "name": "Qwen-1.5 72B",
+        "url": "https://qwenlm.github.io/blog/qwen1.5/",
+        "description": {
+            "en": "Qwen-1.5 72B is a highly powerful open-source AI model, recognized for its exceptional capabilities across various tasks.",
+            "ru": "Qwen-1.5 72B — это мощнейшая опенсорсная модель ИИ, известная своими выдающимися возможностями в различных задачах."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/loK0phK9nsA?si=q0GHFDvgJKUP3uam",
+                "episodeName": "AIA Podcast #30"
+            }
+        ],
+        "date": "2024-03-21",
+        "tags": ["ai", "model", "open-source"],
+        "rank": 0
+    },
+    {
+        "id": "b87fcbff-8e18-4609-859f-13e0d3ef61f5",
+        "name": "C4AI Command-R",
+        "url": "https://huggingface.co/CohereForAI/c4ai-command-r-v01",
+        "description": {
+            "en": "C4AI Command-R is a specialized AI model designed for enterprise-level tasks, optimized for robust and efficient performance.",
+            "ru": "C4AI Command-R — это специализированная модель ИИ, предназначенная для выполнения задач на уровне предприятия, оптимизированная для надёжной и эффективной работы."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/loK0phK9nsA?si=q0GHFDvgJKUP3uam",
+                "episodeName": "AIA Podcast #30"
+            }
+        ],
+        "date": "2024-03-21",
+        "tags": ["ai", "enterprise", "model"],
         "rank": 0
     }
 ]
