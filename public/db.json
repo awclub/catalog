@@ -5248,7 +5248,7 @@
         "name": "CodeRabbit",
         "url": "https://coderabbit.ai/",
         "description": {
-            "en": "Assistant in the creation and management of pulrequests, smart codereviews.",
+            "en": "Assistant in the creation and management of pull requests, smart codereviews.",
             "ru": "Помощник в создании и управлении пулреквестами, умный кодревью."
         },
         "mentions": [
@@ -5385,7 +5385,7 @@
             "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
             "episodeName": "AIA Podcast #31"
         },
-        "date": "2024-06-29",
+        "date": "2024-04-05",
         "tags": [
             "stabilityai",
             "music",
@@ -5405,7 +5405,7 @@
             "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
             "episodeName": "AIA Podcast #31"
         },
-        "date": "2024-06-29",
+        "date": "2024-04-05",
         "tags": [
             "agents",
             "open-source",
@@ -5426,7 +5426,7 @@
             "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
             "episodeName": "AIA Podcast #31"
         },
-        "date": "2024-06-29",
+        "date": "2024-04-05",
         "tags": [
             "github",
             "copilot",
@@ -5448,7 +5448,7 @@
             "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
             "episodeName": "AIA Podcast #31"
         },
-        "date": "2024-06-29",
+        "date": "2024-04-05",
         "tags": [
             "codereview",
             "github",
@@ -5469,7 +5469,7 @@
             "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
             "episodeName": "AIA Podcast #31"
         },
-        "date": "2024-06-29",
+        "date": "2024-04-05",
         "tags": [
             "RAG",
             "enterprise",
@@ -5489,7 +5489,7 @@
             "episodeUrl": "https://www.youtube.com/watch?v=0GXy99OPMTU",
             "episodeName": "AIA Podcast #31"
         },
-        "date": "2024-06-29",
+        "date": "2024-04-05",
         "tags": [
             "voice",
             "speech",
