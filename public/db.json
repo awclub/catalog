@@ -5612,7 +5612,33 @@
             }
         ],
         "date": "2024-07-24",
-        "tags": ["machine learning", "visualization", "open-source"],
+        "tags": [
+            "machine learning",
+            "visualization",
+            "open-source"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "d19a2c9d-d232-4f21-bf64-1c95cb7e1e5b",
+        "name": "Auphonic",
+        "url": "https://auphonic.com",
+        "description": {
+            "en": "Auphonic is an online audio post-production web service that automatically improves the quality of your audio files. It removes background noise, adjusts loudness levels, and optimizes your audio files for the best possible sound.",
+            "ru": "Auphonic - это онлайн-сервис для пост-обработки аудио, который автоматически улучшает качество ваших аудиофайлов. Он удаляет фоновый шум, регулирует уровень громкости и оптимизирует аудиофайлы для наилучшего звучания."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/a5XVJf4dLQo?si=pK5U7uP85D1A5NLT",
+                "episodeName": "AIA Podcast #37"
+            }
+        ],
+        "date": "2024-07-12",
+        "tags": [
+            "audio",
+            "enhancement"
+        ],
         "rank": 0
     }
+
 ]
