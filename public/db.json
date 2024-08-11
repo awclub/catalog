@@ -5945,5 +5945,41 @@
         "date": "2024-05-16",
         "tags": ["ai", "programming", "catalog", "open-source"],
         "rank": 0
+    },
+    {
+        "id": "fd44c8c7-0e54-4f0b-89df-264bb8fbd5a1",
+        "name": "Udio",
+        "url": "https://www.udio.com",
+        "description": {
+            "en": "Udio is an AI-powered platform designed for seamless audio management and enhancement. It allows users to manage, edit, and enhance their audio content efficiently with advanced AI-driven tools.",
+            "ru": "Udio — это платформа на основе ИИ, предназначенная для удобного управления и улучшения аудиоконтента. Она позволяет пользователям эффективно управлять, редактировать и улучшать их аудиоматериалы с помощью передовых инструментов на базе ИИ."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/DOt4kbQmNk4?si=Otd3MvZaEb_JqFkH",
+                "episodeName": "AIA Podcast #32"
+            }
+        ],
+        "date": "2024-04-18",
+        "tags": ["audio", "ai", "enhancement"],
+        "rank": 0
+    },
+    {
+        "id": "d21b7a4e-7b55-4f9d-a0df-7eabc4f27e0a",
+        "name": "Sonauto",
+        "url": "https://sonauto.ai",
+        "description": {
+            "en": "Sonauto is an AI-powered platform designed for creating and enhancing audio content. It provides advanced tools for generating, editing, and optimizing audio, making it ideal for content creators and audio professionals.",
+            "ru": "Sonauto — это платформа на основе ИИ, предназначенная для создания и улучшения аудиоконтента. Она предоставляет передовые инструменты для генерации, редактирования и оптимизации звука, что делает её идеальной для контент-криэйторов и аудиопрофессионалов."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/DOt4kbQmNk4?si=Otd3MvZaEb_JqFkH",
+                "episodeName": "AIA Podcast #32"
+            }
+        ],
+        "date": "2024-04-18",
+        "tags": ["audio", "ai", "enhancement"],
+        "rank": 0
     }
 ]
