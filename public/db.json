@@ -5729,5 +5729,41 @@
         "date": "2024-06-27",
         "tags": ["gpt", "open-source", "programming", "storytelling"],
         "rank": 0
+    },
+    {
+        "id": "7a8c1e9a-1f3e-4f6c-bd4b-2a3b9d5f9c56",
+        "name": "Asana AI Teammates",
+        "url": "https://asana.com",
+        "description": {
+            "en": "Asana has introduced AI Teammates, AI-powered assistants that understand the context of your project and workflow. They can provide advice, insights, assign tasks, and dynamically determine task workflows, enhancing project management efficiency.",
+            "ru": "Asana представила AI Teammates, ИИ-ассистентов, которые понимают контекст вашего проекта и рабочего процесса. Они могут давать советы, инсайты, назначать задачи и динамически определять рабочий процесс задач, повышая эффективность управления проектами."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/qC63WcND6bc?si=vkqjg7RzbEZ-J3BP",
+                "episodeName": "AIA Podcast #35"
+            }
+        ],
+        "date": "2024-06-13",
+        "tags": ["ai", "productivity", "assistant"],
+        "rank": 0
+    },
+    {
+        "id": "e3b4d7a2-7f8a-4d5b-9e4f-6c3b8e9f7c41",
+        "name": "Mistral Fine-Tuning Tool",
+        "url": "https://github.com/mistralai/mistral-finetune",
+        "description": {
+            "en": "Mistral has released an open-source tool for fine-tuning their models, including Mistral 7B, 8x7B, 8x22B, and added serverless fine-tuning capabilities to their API platform, la Plateform. The tool supports models like Mistral Small and offers flexible options for custom model training.",
+            "ru": "Mistral выпустили опенсорсный инструмент для тонкой настройки своих моделей, включая Mistral 7B, 8x7B, 8x22B, и добавили возможность serverless файнтюнинга в свой API, la Plateform. Инструмент поддерживает такие модели, как Mistral Small, и предлагает гибкие возможности для кастомного обучения моделей."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/qC63WcND6bc?si=vkqjg7RzbEZ-J3BP",
+                "episodeName": "AIA Podcast #35"
+            }
+        ],
+        "date": "2024-06-13",
+        "tags": ["open-source", "ai", "fine-tuning", "Mistral", "model"],
+        "rank": 0
     }
 ]
