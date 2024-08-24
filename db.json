@@ -1,5 +1,159 @@
 [
     {
+        "id": "c3b6fc5d-d097-47df-8307-66c4b6a9c58b",
+        "name": "zero1cine.com",
+        "url": "https://zero1cine.com",
+        "description": {
+            "en": "Zero1cine is a platform hosting a collection of the best AI-generated films. Initially designed to inspire filmmakers with AI-generated works, the platform is also available for regular users to enjoy these creative AI generations.",
+            "ru": "Zero1cine — это платформа, на которой находится коллекция лучших фильмов, сгенерированных ИИ. Изначально созданная для вдохновения кинематографистов работами нейросети, платформа также доступна для обычных пользователей, чтобы насладиться этими творениями ИИ."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/aENCvTWJvBY",
+                "episodeName": "AIA Podcast #40"
+            }
+        ],
+        "date": "2024-08-24",
+        "tags": [
+            "ai",
+            "video",
+            "movies"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "2bc5cbf1-f8b2-4f70-9912-f6b8e9441eb6",
+        "name": "noisee.ai",
+        "url": "https://noisee.ai",
+        "description": {
+            "en": "Noisee.ai transforms music into visual sequences, creating a unique fusion of sound and imagery.",
+            "ru": "Noisee.ai превращает музыку в видеоряд, создавая уникальное слияние звука и изображения."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/aENCvTWJvBY",
+                "episodeName": "AIA Podcast #40"
+            }
+        ],
+        "date": "2024-08-24",
+        "tags": [
+            "ai",
+            "audio-to-video",
+            "music"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "a6fd5b61-3e1d-43d2-a2df-10b48248ef0e",
+        "name": "Ideogram",
+        "url": "https://ideogram.ai",
+        "description": {
+            "en": "Ideogram is an image generator that creates visuals based on user inputs.",
+            "ru": "Ideogram — это генератор картинок, который создает изображения на основе вводимых пользователем данных."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/aENCvTWJvBY",
+                "episodeName": "AIA Podcast #40"
+            }
+        ],
+        "date": "2024-08-24",
+        "tags": [
+            "ai",
+            "text-to-image"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "8128b1b7-ea7f-46fa-b47a-31e9f5e68b89",
+        "name": "D-ID",
+        "url": "https://www.d-id.com",
+        "description": {
+            "en": "D-ID offers a new translator with voice cloning and lip-sync features. It supports the Russian language.",
+            "ru": "D-ID предлагает новый транслейтер с функцией клонирования голоса и липсинка. Поддерживает русский язык."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/aENCvTWJvBY",
+                "episodeName": "AIA Podcast #40"
+            }
+        ],
+        "date": "2024-08-24",
+        "tags": [
+            "ai",
+            "translation",
+            "voice",
+            "lipsync"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "5063df10-babc-43a6-b7e6-97df002ff548",
+        "name": "Deep-Live-Cam",
+        "url": "https://github.com/hacksider/Deep-Live-Cam/tree/main",
+        "description": {
+            "en": "Deep-Live-Cam provides online deepfake creation of unreal quality on your computer.",
+            "ru": "Deep-Live-Cam предлагает создание дипфейков нереального качества онлайн на вашем компьютере."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/aENCvTWJvBY",
+                "episodeName": "AIA Podcast #40"
+            }
+        ],
+        "date": "2024-08-24",
+        "tags": [
+            "ai",
+            "deepfake",
+            "video"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "4d5977db-5e24-4cf2-ae23-cd61e79e2491",
+        "name": "avante.nvim",
+        "url": "https://github.com/yetone/avante.nvim",
+        "description": {
+            "en": "Avante.nvim is a Cursor IDE designed for neovim.",
+            "ru": "Avante.nvim — это IDE Cursor, разработанная для neovim."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/aENCvTWJvBY",
+                "episodeName": "AIA Podcast #40"
+            }
+        ],
+        "date": "2024-08-24",
+        "tags": [
+            "ai",
+            "ide",
+            "programming"
+        ],
+        "rank": 5
+    },
+    {
+        "id": "4a02ac89-5d3f-4a94-b3f1-7c630d8a87f4",
+        "name": "Zed AI",
+        "url": "https://zed.dev/ai",
+        "description": {
+            "en": "Zed AI is positioning itself as a competitor to Cursor, offering advanced IDE features.",
+            "ru": "Zed AI позиционирует себя как конкурент Cursor, предлагая продвинутые функции IDE."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/aENCvTWJvBY",
+                "episodeName": "AIA Podcast #40"
+            }
+        ],
+        "date": "2024-08-24",
+        "tags": [
+            "ai",
+            "ide",
+            "programming"
+        ],
+        "rank": 0
+    },
+    {
         "id": "f5430375-7567-4a3f-b24d-1ef386db8ab2",
         "name": "Greptile",
         "url": "https://app.greptile.com/",
@@ -5570,7 +5724,11 @@
             }
         ],
         "date": "2024-07-24",
-        "tags": ["framework", "api", "llm"],
+        "tags": [
+            "framework",
+            "api",
+            "llm"
+        ],
         "rank": 0
     },
     {
@@ -5588,7 +5746,12 @@
             }
         ],
         "date": "2024-07-24",
-        "tags": ["framework", "monitoring", "debugging", "llm"],
+        "tags": [
+            "framework",
+            "monitoring",
+            "debugging",
+            "llm"
+        ],
         "rank": 0
     },
     {
@@ -5606,7 +5769,11 @@
             }
         ],
         "date": "2024-07-24",
-        "tags": ["framework", "ui", "llm"],
+        "tags": [
+            "framework",
+            "ui",
+            "llm"
+        ],
         "rank": 0
     },
     {
@@ -5667,7 +5834,13 @@
             }
         ],
         "date": "2024-06-27",
-        "tags": ["gpt", "open-source", "programming", "maths", "model"],
+        "tags": [
+            "gpt",
+            "open-source",
+            "programming",
+            "maths",
+            "model"
+        ],
         "rank": 0
     },
     {
@@ -5685,7 +5858,12 @@
             }
         ],
         "date": "2024-06-27",
-        "tags": ["alibaba", "cloud", "open-source", "ai"],
+        "tags": [
+            "alibaba",
+            "cloud",
+            "open-source",
+            "ai"
+        ],
         "rank": 0
     },
     {
@@ -5703,7 +5881,13 @@
             }
         ],
         "date": "2024-06-27",
-        "tags": ["benchmark", "open-source", "llm", "maths", "programming"],
+        "tags": [
+            "benchmark",
+            "open-source",
+            "llm",
+            "maths",
+            "programming"
+        ],
         "rank": 0
     },
     {
@@ -5721,7 +5905,11 @@
             }
         ],
         "date": "2024-06-27",
-        "tags": ["website builder", "ai", "ui"],
+        "tags": [
+            "website builder",
+            "ai",
+            "ui"
+        ],
         "rank": 0
     },
     {
@@ -5739,7 +5927,12 @@
             }
         ],
         "date": "2024-06-27",
-        "tags": ["gpt", "open-source", "programming", "storytelling"],
+        "tags": [
+            "gpt",
+            "open-source",
+            "programming",
+            "storytelling"
+        ],
         "rank": 0
     },
     {
@@ -5757,7 +5950,11 @@
             }
         ],
         "date": "2024-06-13",
-        "tags": ["ai", "productivity", "assistant"],
+        "tags": [
+            "ai",
+            "productivity",
+            "assistant"
+        ],
         "rank": 0
     },
     {
@@ -5775,7 +5972,13 @@
             }
         ],
         "date": "2024-06-13",
-        "tags": ["open-source", "ai", "fine-tuning", "Mistral", "model"],
+        "tags": [
+            "open-source",
+            "ai",
+            "fine-tuning",
+            "Mistral",
+            "model"
+        ],
         "rank": 0
     },
     {
@@ -5793,7 +5996,10 @@
             }
         ],
         "date": "2024-05-31",
-        "tags": ["programming", "language"],
+        "tags": [
+            "programming",
+            "language"
+        ],
         "rank": 0
     },
     {
@@ -5811,7 +6017,11 @@
             }
         ],
         "date": "2024-05-31",
-        "tags": ["open-source", "model", "programming"],
+        "tags": [
+            "open-source",
+            "model",
+            "programming"
+        ],
         "rank": 0
     },
     {
@@ -5829,7 +6039,11 @@
             }
         ],
         "date": "2024-05-31",
-        "tags": ["open-source", "nlp", "database"],
+        "tags": [
+            "open-source",
+            "nlp",
+            "database"
+        ],
         "rank": 0
     },
     {
@@ -5847,7 +6061,11 @@
             }
         ],
         "date": "2024-05-31",
-        "tags": ["model", "multimodal", "open-source"],
+        "tags": [
+            "model",
+            "multimodal",
+            "open-source"
+        ],
         "rank": 0
     },
     {
@@ -5865,7 +6083,11 @@
             }
         ],
         "date": "2024-05-31",
-        "tags": ["RAG", "open-source", "programming"],
+        "tags": [
+            "RAG",
+            "open-source",
+            "programming"
+        ],
         "rank": 0
     },
     {
@@ -5883,7 +6105,13 @@
             }
         ],
         "date": "2024-05-16",
-        "tags": ["llm", "huggingface", "text-to-text", "gpt", "open-source"],
+        "tags": [
+            "llm",
+            "huggingface",
+            "text-to-text",
+            "gpt",
+            "open-source"
+        ],
         "rank": 0
     },
     {
@@ -5901,7 +6129,13 @@
             }
         ],
         "date": "2024-05-16",
-        "tags": ["ibm", "code", "llm", "programming", "open-source"],
+        "tags": [
+            "ibm",
+            "code",
+            "llm",
+            "programming",
+            "open-source"
+        ],
         "rank": 0
     },
     {
@@ -5919,7 +6153,13 @@
             }
         ],
         "date": "2024-05-16",
-        "tags": ["webui", "open-source", "llm", "self-hosted", "interface"],
+        "tags": [
+            "webui",
+            "open-source",
+            "llm",
+            "self-hosted",
+            "interface"
+        ],
         "rank": 0
     },
     {
@@ -5937,7 +6177,12 @@
             }
         ],
         "date": "2024-05-16",
-        "tags": ["search", "llm", "open-source", "gpt"],
+        "tags": [
+            "search",
+            "llm",
+            "open-source",
+            "gpt"
+        ],
         "rank": 0
     },
     {
@@ -5955,7 +6200,12 @@
             }
         ],
         "date": "2024-05-16",
-        "tags": ["ai", "programming", "catalog", "open-source"],
+        "tags": [
+            "ai",
+            "programming",
+            "catalog",
+            "open-source"
+        ],
         "rank": 0
     },
     {
@@ -5973,7 +6223,11 @@
             }
         ],
         "date": "2024-04-18",
-        "tags": ["audio", "ai", "enhancement"],
+        "tags": [
+            "audio",
+            "ai",
+            "enhancement"
+        ],
         "rank": 0
     },
     {
@@ -5991,7 +6245,11 @@
             }
         ],
         "date": "2024-04-18",
-        "tags": ["audio", "ai", "enhancement"],
+        "tags": [
+            "audio",
+            "ai",
+            "enhancement"
+        ],
         "rank": 0
     },
     {
@@ -6009,7 +6267,11 @@
             }
         ],
         "date": "2024-03-21",
-        "tags": ["text-to-video", "video", "ai"],
+        "tags": [
+            "text-to-video",
+            "video",
+            "ai"
+        ],
         "rank": 0
     },
     {
@@ -6027,7 +6289,13 @@
             }
         ],
         "date": "2024-03-21",
-        "tags": ["ai", "assistant", "amazon", "copilot", "programming"],
+        "tags": [
+            "ai",
+            "assistant",
+            "amazon",
+            "copilot",
+            "programming"
+        ],
         "rank": 0
     },
     {
@@ -6045,7 +6313,11 @@
             }
         ],
         "date": "2024-03-21",
-        "tags": ["local", "model", "machine learning"],
+        "tags": [
+            "local",
+            "model",
+            "machine learning"
+        ],
         "rank": 0
     },
     {
@@ -6063,7 +6335,12 @@
             }
         ],
         "date": "2024-03-21",
-        "tags": ["tts", "ai", "local", "speech"],
+        "tags": [
+            "tts",
+            "ai",
+            "local",
+            "speech"
+        ],
         "rank": 0
     },
     {
@@ -6081,7 +6358,12 @@
             }
         ],
         "date": "2024-03-21",
-        "tags": ["tts", "ai", "speech recognition", "local"],
+        "tags": [
+            "tts",
+            "ai",
+            "speech recognition",
+            "local"
+        ],
         "rank": 0
     },
     {
@@ -6099,7 +6381,11 @@
             }
         ],
         "date": "2024-03-21",
-        "tags": ["ai", "model", "open-source"],
+        "tags": [
+            "ai",
+            "model",
+            "open-source"
+        ],
         "rank": 0
     },
     {
@@ -6117,7 +6403,11 @@
             }
         ],
         "date": "2024-03-21",
-        "tags": ["ai", "enterprise", "model"],
+        "tags": [
+            "ai",
+            "enterprise",
+            "model"
+        ],
         "rank": 0
     }
 ]
