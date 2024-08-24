@@ -129,7 +129,7 @@
             "ide",
             "programming"
         ],
-        "rank": 5
+        "rank": 0
     },
     {
         "id": "4a02ac89-5d3f-4a94-b3f1-7c630d8a87f4",
@@ -237,7 +237,8 @@
             "ide",
             "productivity",
             "programming"
-        ]
+        ],
+        "rank": 5
     },
     {
         "id": "497efd71-347a-4dff-9a91-0d0667b11cb2",
