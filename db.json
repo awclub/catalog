@@ -1,5 +1,74 @@
 [
     {
+        "id": "c08c3f63-fb10-4c23-ae69-d536b32f5e27",
+        "name": "Pinokio",
+        "url": "https://pinokio.computer",
+        "description": {
+            "en": "Pinokio is an AI browser that enables users to install, run, and automate AI applications on their local computer with just a few clicks. It consolidates a library of open-source AI tools and models, simplifying the installation process through one-click scripts. Pinokio allows users to manage various AI engines, including language models and image generators, without needing to configure dependencies or environments.",
+            "ru": "Pinokio — это браузер для ИИ, который позволяет пользователям устанавливать, запускать и автоматизировать приложения на базе ИИ на своем компьютере. Он объединяет библиотеку с открытыми ИИ инструментами и моделями, упрощая процесс установки через скрипты с одним кликом. Pinokio позволяет управлять различными ИИ инструментами, такими как языковые модели и генераторы изображений, без необходимости настройки зависимостей и окружений."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/udXFf5O5-0o",
+                "episodeName": "AIA Podcast #41"
+            }
+        ],
+        "date": "2024-09-08",
+        "tags": [
+            "ai",
+            "browser",
+            "open-source",
+            "automation"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "4f58b489-833e-4147-9bcf-6c9d7a645207",
+        "name": "DiagramGPT",
+        "url": "https://www.eraser.io/diagramgpt",
+        "description": {
+            "en": "DiagramGPT by Eraser is a tool designed to automatically create diagrams from text descriptions. It leverages GPT technology to transform natural language inputs into structured diagrams, enhancing productivity for users who need visual representations of processes, workflows, or data flows.",
+            "ru": "DiagramGPT от Eraser — это инструмент для автоматического создания диаграмм из текстовых описаний. Он использует технологию GPT для преобразования естественного языка в структурированные диаграммы, улучшая производительность пользователей, которым нужны визуальные представления процессов, рабочих потоков или потоков данных."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/udXFf5O5-0o",
+                "episodeName": "AIA Podcast #41"
+            }
+        ],
+        "date": "2024-09-08",
+        "tags": [
+            "ai",
+            "productivity",
+            "visualization",
+            "diagram"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "acb77139-c009-4413-9cf5-9b29d620bc41",
+        "name": "GITPMOJI",
+        "url": "https://github.com/Fl0p/gitpmoji",
+        "description": {
+            "en": "GITPMOJI is a GitHub tool that simplifies commit messages by using emojis to represent different types of changes in the code. This visual approach enhances readability and helps developers quickly understand the purpose of each commit.",
+            "ru": "GITPMOJI — это инструмент на GitHub, который упрощает сообщения о коммитах, используя эмодзи для обозначения различных типов изменений в коде. Этот визуальный подход улучшает читаемость и помогает разработчикам быстро понять цель каждого коммита."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/udXFf5O5-0o",
+                "episodeName": "AIA Podcast #41"
+            }
+        ],
+        "date": "2024-09-08",
+        "tags": [
+            "github",
+            "programming",
+            "emoji",
+            "git"
+        ],
+        "rank": 0
+    },
+    {
         "id": "c3b6fc5d-d097-47df-8307-66c4b6a9c58b",
         "name": "zero1cine.com",
         "url": "https://zero1cine.com",
