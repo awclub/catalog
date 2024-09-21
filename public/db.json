@@ -1,5 +1,137 @@
 [
     {
+        "id": "6f1adfbd-1096-4455-8038-0a945bc2b9fd",
+        "name": "Replit Agent",
+        "url": "https://docs.replit.com/replitai/agent",
+        "description": {
+            "en": "Replit Agent is an AI-powered assistant that simplifies software development. It understands natural language prompts to help create web-based applications from scratch, enabling users of all skill levels to build, prototype, and deploy apps quickly. It excels in 0-to-1 prototyping and streamlines technology selection, progress tracking, and collaboration.",
+            "ru": "Replit Agent — это ИИ-инструмент, упрощающий процесс разработки ПО. Он понимает запросы на естественном языке и помогает создавать веб-приложения с нуля, позволяя пользователям всех уровней навыков быстро разрабатывать, прототипировать и разворачивать приложения. Особенно эффективен для быстрого прототипирования и выбора технологий."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/8VRoKOIFKL0",
+                "episodeName": "AIA Podcast #43"
+            }
+        ],
+        "date": "2024-09-21",
+        "tags": [
+            "ai",
+            "assistant",
+            "programming",
+            "gpt"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "7c34527f-bfd8-45ba-938d-9c267d923e7c",
+        "name": "Kling AI",
+        "url": "https://klingai.com",
+        "description": {
+            "ru": "Kling AI — text-to-video сервис из Китая. Умеет генерировать видео по текстовому промпту или по изображению.",
+            "en": "Kling AI is a Chinese text-to-video service. It can generate videos from a text prompt or an image."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/8VRoKOIFKL0",
+                "episodeName": "AIA Podcast #43"
+            }
+        ],
+        "date": "2024-09-21",
+        "tags": [
+            "ai",
+            "video",
+            "text-to-video"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "1d2fa7a1-7336-489a-9c32-e99f09b56561",
+        "name": "Lazy.so",
+        "url": "https://lazy.so",
+        "description": {
+            "en": "Lazy.so is a service that allows you to make notes from anywhere in your laptop or phone. With AI, it can turn screenshots into notes. All notes are stored centrally in the service and are marked by AI. There is support for commands and hotkeys.",
+            "ru": "Lazy.so —  сервис, позволяющий делать заметки из любого места в вашем ноутбуке или телефоне. С помощью ИИ может превращать в заметки даже скриншоты. Все заметки храняться централизованно в сервисе, и помечаются ИИ. Есть поддержка команд и горячих клавишь."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/8VRoKOIFKL0",
+                "episodeName": "AIA Podcast #43"
+            }
+        ],
+        "date": "2024-09-21",
+        "tags": [
+            "productivity",
+            "automation"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "a4313d7c-ea2b-4f98-85b2-7820f6111d57",
+        "name": "Melodio",
+        "url": "https://www.melodio.ai",
+        "description": {
+            "ru": "Melodio.ai — потоковое ИИ-радио на основе ваших предпочтений. Есть приложения для Android и iOS.",
+            "en": "Melodio.ai is a streaming AI radio based on your preferences. There are applications for Android and iOS."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/8VRoKOIFKL0",
+                "episodeName": "AIA Podcast #43"
+            }
+        ],
+        "date": "2024-09-21",
+        "tags": [
+            "audio",
+            "radio",
+            "music"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "a612b57a-841e-4dd7-83fd-1482e2da68d9",
+        "name": "NotebookLM",
+        "url": "https://notebooklm.google.com",
+        "description": {
+            "ru": "NotebookLM — сервис от Google по созданию аудио-подкастов из текстовых документов и файлов. Обладает отличным механизмом озвучки, превращая ваш текст в подкаст на двух ведущих.",
+            "en": "NotebookLM is a Google service for creating audio podcasts from text documents and files. It has an excellent voiceover mechanism, turning your text into a podcast with two hosts."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/8VRoKOIFKL0",
+                "episodeName": "AIA Podcast #43"
+            }
+        ],
+        "date": "2024-09-21",
+        "tags": [
+            "podcast",
+            "productivity",
+            "google"
+        ],
+        "rank": 5
+    },
+    {
+        "id": "ef993dc8-1b7a-4aaf-a125-73de6313b6c0",
+        "name": "Illuminate",
+        "url": "https://illuminate.google.com/home",
+        "description": {
+            "en": "Illuminate is an AI-powered podcast generation tool by Google, designed to help users convert scientific papers into audio podcasts with AI-powered hosts.",
+            "ru": "Illuminate — это инструмент для создания аудио-подкаста от Google, который помогает пользователям превращать научные статьи в аудио-подкасты с помощью ИИ-ведущих."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/8VRoKOIFKL0",
+                "episodeName": "AIA Podcast #43"
+            }
+        ],
+        "date": "2024-09-21",
+        "tags": [
+            "podcast",
+            "science",
+            "google"
+        ],
+        "rank": 0
+    },
+    {
         "id": "c08c3f63-fb10-4c23-ae69-d536b32f5e27",
         "name": "Pinokio",
         "url": "https://pinokio.computer",
