@@ -1,5 +1,98 @@
 [
     {
+        "id": "f9bb5e34-7dcf-4d5f-8d35-48b456b81275",
+        "name": "PearAI",
+        "url": "https://trypear.ai/",
+        "description": {
+            "en": "PearAI is a new AI-first IDE focused on enhancing software development through artificial intelligence. It integrates AI-driven features directly into the coding process, optimizing productivity for developers.",
+            "ru": "PearAI — это новая AI-first IDE, направленная на улучшение разработки программного обеспечения с помощью искусственного интеллекта. Она интегрирует ИИ-функции непосредственно в процесс написания кода, повышая производительность разработчиков."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/BaWLo5qvAZI",
+                "episodeName": "AIA Podcast #44"
+            }
+        ],
+        "date": "2024-10-05",
+        "tags": [
+            "ai",
+            "ide",
+            "programming",
+            "software engineer"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "7a4e8b77-7c11-4d2f-80b9-5667f498f8d9",
+        "name": "Chat macOS",
+        "url": "https://github.com/huggingface/chat-macOS/",
+        "description": {
+            "en": "Chat macOS is an open-source chatbot powered by Hugging Face, designed for macOS systems. It allows users to interact with AI models natively on their Mac devices, enabling seamless conversation and task automation.",
+            "ru": "Chat macOS — это open-source чат-бот от Hugging Face, разработанный для систем macOS. Он позволяет пользователям взаимодействовать с ИИ-моделями прямо на устройствах Mac, обеспечивая бесперебойное общение и автоматизацию задач."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/BaWLo5qvAZI",
+                "episodeName": "AIA Podcast #44"
+            }
+        ],
+        "date": "2024-10-05",
+        "tags": [
+            "ai",
+            "chat",
+            "macos",
+            "huggingface"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "2a8b3cd4-9b7e-4e36-8741-85b89b3fd45e",
+        "name": "Hailuo AI Video",
+        "url": "https://hailuoai.video/",
+        "description": {
+            "en": "Hailuo AI Video is an AI-powered platform for video creation and editing. It enables users to leverage artificial intelligence to automate video production workflows, making it easier to generate high-quality content.",
+            "ru": "Hailuo AI Video — это платформа для создания и редактирования видео с поддержкой искусственного интеллекта. Она позволяет пользователям автоматизировать процессы видеопроизводства, облегчая создание высококачественного контента."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/BaWLo5qvAZI",
+                "episodeName": "AIA Podcast #44"
+            }
+        ],
+        "date": "2024-10-05",
+        "tags": [
+            "ai",
+            "video",
+            "content",
+            "automation"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "c39c65d1-11a5-471e-84d7-f4b5cba23993",
+        "name": "How2Draw",
+        "url": "https://huggingface.co/glif/how2draw",
+        "description": {
+            "en": "How2Draw is a creative AI tool hosted by Hugging Face that helps users learn and improve their drawing skills. By generating step-by-step drawing guides, it assists in mastering various artistic techniques.",
+            "ru": "How2Draw — это креативный ИИ-инструмент на Hugging Face, который помогает пользователям учиться и улучшать свои навыки рисования. Создавая пошаговые руководства по рисованию, он помогает освоить различные художественные техники."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/BaWLo5qvAZI",
+                "episodeName": "AIA Podcast #44"
+            }
+        ],
+        "date": "2024-10-05",
+        "tags": [
+            "ai",
+            "art",
+            "huggingface",
+            "graphics",
+            "education"
+        ],
+        "rank": 0
+    },
+    {
         "id": "6f1adfbd-1096-4455-8038-0a945bc2b9fd",
         "name": "Replit Agent",
         "url": "https://docs.replit.com/replitai/agent",
