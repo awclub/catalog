@@ -6,7 +6,7 @@ defineProps({
 </script>
 
 <template>
-	<div class="tags">
+	<div v-if="items && items.length > 0" class="tags">
 		<span
 			v-for="tag in [...items].sort((a, b) => a.localeCompare(b))"
 			:key="tag"

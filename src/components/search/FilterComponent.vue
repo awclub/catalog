@@ -57,7 +57,7 @@ const handleResetRank = () => {
 				/>
 			</div>
 			<input
-				v-show="tagsStore.getSelectedTags.length"
+				v-show="tagsStore.getSelectedTags && tagsStore.getSelectedTags.length > 0"
 				class="reset-button"
 				type="button"
 				title="reset"

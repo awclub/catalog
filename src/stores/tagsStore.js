@@ -26,7 +26,7 @@ export const useTagsStore = defineStore('tagsStore', () => {
 
 	function resetTags() {
 		selectedTags.value = [];
-		rootFilterStore.setTags([]);
+		rootFilterStore.setTags(selectedTags.value);
 	}
 
 	return {

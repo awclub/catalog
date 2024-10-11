@@ -16,11 +16,11 @@ const EXPORTED_KEYWORDS = [
 
 const _initState = () => {
 	return {
-		[ KEYWORDS.LANG ]: localStorage.getItem( KEYWORDS.LANG ),
-		[ KEYWORDS.ORDER ]: localStorage.getItem( KEYWORDS.ORDER ),
-		[ KEYWORDS.TAGS ]: JSON.parse(localStorage.getItem( KEYWORDS.TAGS ) || '[]'),
-		[ KEYWORDS.RANK ]: parseInt(localStorage.getItem( KEYWORDS.RANK ) || '0'),
-		[ KEYWORDS.TEXT ]: '',
+		[ KEYWORDS.LANG ]: localStorage.getItem( KEYWORDS.LANG ) || 'en',
+		[ KEYWORDS.ORDER ]: localStorage.getItem( KEYWORDS.ORDER ) || 'date-DESC',
+		[ KEYWORDS.TAGS ]: JSON.parse(localStorage.getItem( KEYWORDS.TAGS )) || [],
+		[ KEYWORDS.RANK ]: parseInt(localStorage.getItem( KEYWORDS.RANK ) || '0', 10),
+		[ KEYWORDS.TEXT ]: localStorage.getItem( KEYWORDS.TEXT ) || '',
 	};
 };
 
@@ -40,11 +40,13 @@ export const useRootFilterStore = defineStore('rootFilterStore', ({
 	},
 	actions: {
 		importFilterState(query) {
-			this[KEYWORDS.RANK] = parseInt(query[KEYWORDS.RANK] || '0');
-			this[KEYWORDS.TEXT] = query[KEYWORDS.TEXT] || '';
-			this[KEYWORDS.TAGS] = (query[KEYWORDS.TAGS] || '')
-				.split(',')
-				.filter(value => Boolean(value));
+			this[KEYWORDS.RANK] = parseInt(query[KEYWORDS.RANK] || localStorage.getItem(KEYWORDS.RANK) || '0', 10);
+			this[KEYWORDS.TEXT] = query[KEYWORDS.TEXT] || localStorage.getItem(KEYWORDS.TEXT) || '';
+			this[KEYWORDS.TAGS] = query[KEYWORDS.TAGS]
+				? query[KEYWORDS.TAGS].split(',').filter(Boolean)
+				: JSON.parse(localStorage.getItem(KEYWORDS.TAGS) || '[]');
+			this[KEYWORDS.LANG] = query[KEYWORDS.LANG] || localStorage.getItem(KEYWORDS.LANG) || 'en';
+			this[KEYWORDS.ORDER] = query[KEYWORDS.ORDER] || localStorage.getItem(KEYWORDS.ORDER) || 'date-DESC';
 		},
 		setLang(lang) {
 			this[ KEYWORDS.LANG ] = lang;
@@ -55,8 +57,8 @@ export const useRootFilterStore = defineStore('rootFilterStore', ({
 			_saveChanges(KEYWORDS.ORDER, order);
 		},
 		setTags(tags) {
-			this[ KEYWORDS.TAGS ] = tags;
-			_saveChanges(KEYWORDS.TAGS, JSON.stringify(tags || []));
+			this[ KEYWORDS.TAGS ] = tags === null ? [] : (Array.isArray(tags) ? tags : []);
+			_saveChanges(KEYWORDS.TAGS, JSON.stringify(this[KEYWORDS.TAGS]));
 		},
 		setRank(rank) {
 			this[ KEYWORDS.RANK ] = rank;
@@ -64,7 +66,7 @@ export const useRootFilterStore = defineStore('rootFilterStore', ({
 		},
 		setSearchText(text) {
 			this[ KEYWORDS.TEXT ] = text;
-			// we don't store the search text in localStorage, on the other side we need to have searchText in this cumulative store.
+			_saveChanges(KEYWORDS.TEXT, text);
 		}
 	}
 }));
