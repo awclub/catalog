@@ -1,5 +1,118 @@
 [
     {
+        "id": "e7b8f9c2-4d6a-4f3b-9a2e-1c2d3e4f5a6b",
+        "name": "Logo Galleria",
+        "url": "https://logogalleria.com",
+        "description": {
+            "en": "Logo Galleria is an AI-powered online tool that enables users to quickly and easily create unique logos for their brands without the need for design skills.",
+            "ru": "Logo Galleria — это онлайн-инструмент на основе ИИ, который позволяет пользователям быстро и легко создавать уникальные логотипы для своих брендов без необходимости в дизайнерских навыках."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/BZ4nFDVI7HQ",
+                "episodeName": "AIA Podcast #47"
+            }
+        ],
+        "date": "2024-11-17",
+        "tags": [
+            "ai",
+            "design",
+            "logo",
+            "branding"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "a1b2c3d4-e5f6-7a8b-9c0d-e1f2a3b4c5d6",
+        "name": "AugmentCode",
+        "url": "https://www.augmentcode.com",
+        "description": {
+            "en": "AugmentCode is a browser extension designed to enhance coding productivity by integrating AI-powered code suggestions and improvements directly into the development environment.",
+            "ru": "AugmentCode — это расширение для браузера, предназначенное для повышения продуктивности кодирования путем интеграции предложений и улучшений кода на основе ИИ непосредственно в среду разработки."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/BZ4nFDVI7HQ",
+                "episodeName": "AIA Podcast #47"
+            }
+        ],
+        "date": "2024-11-17",
+        "tags": [
+            "ai",
+            "extension",
+            "productivity",
+            "coding"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "f1e2d3c4-b5a6-7c8d-9e0f-a1b2c3d4e5f6",
+        "name": "Zencoder AI",
+        "url": "https://zencoder.ai",
+        "description": {
+            "en": "Zencoder AI is an IDE extension (VSCode, JetBrains IDEs) that uses AI to help developers write and optimize code (codecompletion, AI-chats). The RepoGrokking mechanism allows the tool to work well with code context.",
+            "ru": "Zencoder AI — это расширение для IDE (VSCode, JetBrains IDEs), использующее ИИ для помощи разработчикам в написании и оптимизации кода (codecompletion, ИИ-чаты). Механизм RepoGrokking позволяет инструменту отлично работать с контекстом кода."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/BZ4nFDVI7HQ",
+                "episodeName": "AIA Podcast #47"
+            }
+        ],
+        "date": "2024-11-17",
+        "tags": [
+            "ai",
+            "extension",
+            "coding",
+            "optimization"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "c1d2e3f4-a5b6-7c8d-9e0f-a1b2c3d4e5f6",
+        "name": "Windsurf IDE",
+        "url": "https://codeium.com/windsurf",
+        "description": {
+            "en": "Windsurf is a new Integrated Development Environment (IDE) developed by Codeium, offering advanced features and AI integrations to enhance the coding experience for developers.",
+            "ru": "Windsurf — это новая интегрированная среда разработки (IDE), разработанная компанией Codeium, предлагающая продвинутые функции и интеграции с ИИ для улучшения процесса кодирования для разработчиков."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/BZ4nFDVI7HQ",
+                "episodeName": "AIA Podcast #47"
+            }
+        ],
+        "date": "2024-11-17",
+        "tags": [
+            "ide",
+            "development",
+            "coding"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "b1c2d3e4-f5a6-7b8c-9d0e-a1b2c3d4e5f6",
+        "name": "Nous Chat",
+        "url": "https://nousresearch.com",
+        "description": {
+            "en": "Nous Chat is a free AI chatbot developed by Nous Research, utilizing their Hermes 3-70B model based on Llama 3.1. It offers high-speed responses, source link references, and a 'geeky' user interface, aiming to create 'unrestricted' models that are more conversational than ChatGPT.",
+            "ru": "Nous Chat — это бесплатный ИИ-чатбот, разработанный компанией Nous Research, использующий их модель Hermes 3-70B на основе Llama 3.1. Он предлагает высокоскоростные ответы, ссылки на источники и 'гиковский' пользовательский интерфейс, стремясь создавать 'неограниченные' модели, которые более разговорчивы, чем ChatGPT."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/BZ4nFDVI7HQ",
+                "episodeName": "AIA Podcast #47"
+            }
+        ],
+        "date": "2024-11-17",
+        "tags": [
+            "chatbot",
+            "llm",
+            "open-source"
+        ],
+        "rank": 0
+    },
+    {
         "id": "e7b8f2c3-4a1d-4f6b-9c2d-1a2b3c4d5e6f",
         "name": "OpenScholar",
         "url": "https://openscholar.allen.ai/",
