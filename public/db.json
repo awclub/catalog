@@ -1,5 +1,27 @@
 [
     {
+        "id": "e7b8f9a2-3c4d-4f6b-9a1e-2d3c4d5f6b7a",
+        "name": "Auto_Jobs_Applier_AIHawk",
+        "url": "https://github.com/feder-cr/Auto_Jobs_Applier_AIHawk",
+        "description": {
+            "en": "Auto_Jobs_Applier_AIHawk is an AI-powered tool that automates the job application process. It enables users to apply for multiple job positions in an automated and personalized manner, enhancing efficiency and increasing the chances of securing employment.",
+            "ru": "Auto_Jobs_Applier_AIHawk — это инструмент на основе ИИ, автоматизирующий процесс подачи заявок на работу. Он позволяет пользователям подавать заявки на множество вакансий автоматически и персонализированно, повышая эффективность и увеличивая шансы на трудоустройство."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/00WzrAOhbh8",
+                "episodeName": "AIA Podcast #45"
+            }
+        ],
+        "date": "2024-10-19",
+        "tags": [
+            "automation",
+            "job application",
+            "open-source"
+        ],
+        "rank": 0
+    },
+    {
         "id": "e7b8f9c2-3d4a-4f6b-9a2b-1c2d3e4f5a6b",
         "name": "Orchestrator",
         "url": "https://github.com/mc-bench/orchestrator",
