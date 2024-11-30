@@ -1,5 +1,70 @@
 [
     {
+        "id": "e7b8f2c3-4a1d-4f6b-9c2d-1a2b3c4d5e6f",
+        "name": "OpenScholar",
+        "url": "https://openscholar.allen.ai/",
+        "description": {
+            "en": "OpenScholar is a retrieval-augmented language model developed by the Allen Institute for AI and the University of Washington. It synthesizes information from over 45 million open-access scientific papers to provide accurate, citation-backed responses to user queries.",
+            "ru": "OpenScholar — это модель языка с дополнением поиска, разработанная Институтом искусственного интеллекта Аллена и Вашингтонским университетом. Она синтезирует информацию из более чем 45 миллионов научных работ с открытым доступом, предоставляя точные ответы с указанием источников на запросы пользователей."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/TZZd3wy3IGc",
+                "episodeName": "AIA Podcast #48"
+            }
+        ],
+        "date": "2024-11-30",
+        "tags": [
+            "search",
+            "science"
+        ],
+        "rank": 5
+    },
+    {
+        "id": "a1b2c3d4-e5f6-7a8b-9c0d-e1f2a3b4c5d6",
+        "name": "Palmier",
+        "url": "https://www.palmier.io/",
+        "description": {
+            "en": "Palmier is a VS Code extension for IDE, allowing you to tell who, when, and how changed the selected code snippet based on your conversations with AI-chats (supported by Cursor and GitHub Copilot chats). The information is provided through LLM processing in a convenient summarized form.",
+            "ru": "Palmier — это расширение для VS Code based IDE, позволяющее на основании истории коммитов и ваших диалогов с ИИ-чатами (поддерживается Cursor и GitHub Copilot чаты) рассказывает кто, когда и как правил выделенный кусок кода. Информация выдается через обработку LLM в удобном саммаризированом виде"
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/TZZd3wy3IGc",
+                "episodeName": "AIA Podcast #48"
+            }
+        ],
+        "date": "2024-11-30",
+        "tags": [
+            "git",
+            "development",
+            "productivity"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "f1e2d3c4-b5a6-7c8d-9e0f-a1b2c3d4e5f6",
+        "name": "Make Real",
+        "url": "https://makereal.tldraw.com/",
+        "description": {
+            "en": "Make Real is an AI-powered prototyping tool that transforms sketches into functional web interfaces. Users can draw interface designs or diagrams on an infinite canvas, and the tool converts these sketches into HTML and CSS code, which can be downloaded for further use.",
+            "ru": "Make Real — это инструмент прототипирования на основе ИИ, который преобразует эскизы в функциональные веб-интерфейсы. Пользователи могут рисовать дизайны интерфейсов или диаграммы на бесконечном холсте, и инструмент преобразует эти эскизы в код HTML и CSS, который можно скачать для дальнейшего использования."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/TZZd3wy3IGc",
+                "episodeName": "AIA Podcast #48"
+            }
+        ],
+        "date": "2024-11-30",
+        "tags": [
+            "design",
+            "prototyping",
+            "ui"
+        ],
+        "rank": 5
+    },
+    {
         "id": "f9bb5e34-7dcf-4d5f-8d35-48b456b81275",
         "name": "PearAI",
         "url": "https://trypear.ai/",
