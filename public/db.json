@@ -1,5 +1,28 @@
 [
     {
+        "id": "e7b8f9c2-3d4a-4f6b-9a2b-1c2d3e4f5a6b",
+        "name": "Orchestrator",
+        "url": "https://github.com/mc-bench/orchestrator",
+        "description": {
+            "en": "Orchestrator is an open-source platform that facilitates the benchmarking of language models by automating the process of generating structures in Minecraft. Users can deploy the platform, initiate an agent based on the model under evaluation, and have the agent construct a building within Minecraft according to a given prompt. This allows for direct comparison of outputs across different language models.",
+            "ru": "Orchestrator — это платформа с открытым исходным кодом, которая упрощает бенчмаркинг языковых моделей, автоматизируя процесс создания структур в Minecraft. Пользователи могут установить платформу, запустить агента на основе оцениваемой модели, и агент построит здание в Minecraft согласно заданному запросу. Это позволяет напрямую сравнивать результаты различных языковых моделей."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/YmBOi3LvZXw",
+                "episodeName": "AIA Podcast #46"
+            }
+        ],
+        "date": "2024-11-03",
+        "tags": [
+            "open-source",
+            "benchmark",
+            "minecraft",
+            "agents"
+        ],
+        "rank": 0
+    },
+    {
         "id": "e7b8f9c2-4d6a-4f3b-9a2e-1c2d3e4f5a6b",
         "name": "Logo Galleria",
         "url": "https://logogalleria.com",
@@ -15,7 +38,6 @@
         ],
         "date": "2024-11-17",
         "tags": [
-            "ai",
             "design",
             "logo",
             "branding"
@@ -38,10 +60,10 @@
         ],
         "date": "2024-11-17",
         "tags": [
-            "ai",
             "extension",
-            "productivity",
-            "coding"
+            "coding",
+            "ide",
+            "development"
         ],
         "rank": 0
     },
@@ -61,10 +83,10 @@
         ],
         "date": "2024-11-17",
         "tags": [
-            "ai",
             "extension",
             "coding",
-            "optimization"
+            "ide",
+            "development"
         ],
         "rank": 5
     },
