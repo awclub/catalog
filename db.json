@@ -1,5 +1,100 @@
 [
     {
+        "id": "e3b0c442-98fc-1c14-9af0-4e4b85a7e0a0",
+        "name": "OpenMagic",
+        "url": "https://omagic.ai/welcome",
+        "description": {
+            "en": "OpenMagic is an AI-powered platform that enables users to create studio-quality VFX videos in minutes from their phone or laptop without the need for expensive agencies. By selecting a template and adding personal assets, users can quickly generate high-quality videos with professional visuals, enhancing content reach and shareability across social media platforms.",
+            "ru": "OpenMagic — это платформа на основе ИИ, позволяющая создавать видео с визуальными эффектами студийного качества за считанные минуты с помощью телефона или ноутбука без необходимости обращения к дорогим агентствам. Выбирая шаблон и добавляя личные материалы, пользователи могут быстро создавать высококачественные видео с профессиональной графикой, повышая охват и привлекательность контента в социальных сетях."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/A6okwk7F1d8",
+                "episodeName": "AIA Podcast #100"
+            }
+        ],
+        "date": "2024-12-28",
+        "tags": [
+            "video",
+            "ai",
+            "vfx",
+            "content",
+            "social media"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "e3b0c442-98fc-1c14-9af0-4e4b85a7e0a1",
+        "name": "Midjourney Patchwork",
+        "url": "https://patchwork.midjourney.com",
+        "description": {
+            "en": "Midjourney's Patchwork is a collaborative, AI-supported infinite canvas designed for creating fictional worlds. It assists users in developing story ideas, collaborating on coherent settings, and assembling visual stories from images and text. Patchwork serves as a versatile tool for writers, designers, and game developers involved in world-building and storytelling.",
+            "ru": "Patchwork от Midjourney — это совместный бесконечный холст с поддержкой ИИ, предназначенный для создания вымышленных миров. Он помогает пользователям развивать идеи для сюжетов, совместно работать над целостными настройками и собирать визуальные истории из изображений и текста. Patchwork служит универсальным инструментом для писателей, дизайнеров и разработчиков игр, занимающихся созданием миров и повествованием."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/A6okwk7F1d8",
+                "episodeName": "AIA Podcast #100"
+            }
+        ],
+        "date": "2024-12-28",
+        "tags": [
+            "ai",
+            "collaboration",
+            "worldbuilding",
+            "storytelling",
+            "design"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "e1e9caa6-7cde-4a61-a4c3-9b44e39c2c69",
+        "name": "WorldLabs",
+        "url": "https://www.worldlabs.ai/blog",
+        "description": {
+            "en": "WorldLabs offers an AI platform capable of converting any image into an explorable interactive 3D environment.",
+            "ru": "WorldLabs предоставляет платформу ИИ, которая может преобразовать любое изображение в исследуемую интерактивную 3D-среду."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/y2647HAmbU0",
+                "episodeName": "AIA Podcast #49"
+            }
+        ],
+        "date": "2024-12-28",
+        "tags": [
+            "ai",
+            "3d",
+            "interactive",
+            "image-to-3D"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "f947ae36-bb11-4c0f-a5e2-5c51d6fcda13",
+        "name": "Exa",
+        "url": "https://exa.ai/",
+        "description": {
+            "en": "Exa provides business-grade search and web crawling capabilities to access any web data efficiently.",
+            "ru": "Exa предоставляет возможности поиска и веб-сканирования корпоративного уровня для эффективного доступа к любым веб-данным."
+        },
+        "mentions": [
+            {
+                "episodeUrl": "https://youtu.be/y2647HAmbU0",
+                "episodeName": "AIA Podcast #49"
+            }
+        ],
+        "date": "2024-12-28",
+        "tags": [
+            "ai",
+            "search",
+            "business",
+            "web",
+            "data"
+        ],
+        "rank": 0
+    },
+    {
         "id": "e7b8f9a2-3c4d-4f6b-9a1e-2d3c4d5f6b7a",
         "name": "Auto_Jobs_Applier_AIHawk",
         "url": "https://github.com/feder-cr/Auto_Jobs_Applier_AIHawk",
