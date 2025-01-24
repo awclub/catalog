@@ -1,3 +1,6 @@
+import { isOrDefault, not, numberOrNull, oneOf, parseJson } from "../utils/utils.js";
+import { ALL_LANGS } from "../stores/currentLangStore.js";
+import { ALL_ORDERS } from "../stores/orderStore.js";
 import { defineStore } from "pinia";
 
 export const KEYWORDS = {
@@ -16,10 +19,30 @@ const EXPORTED_KEYWORDS = [
 
 const _initState = () => {
 	return {
-		[ KEYWORDS.LANG ]: localStorage.getItem( KEYWORDS.LANG ) || 'en',
-		[ KEYWORDS.ORDER ]: localStorage.getItem( KEYWORDS.ORDER ) || 'date-DESC',
-		[ KEYWORDS.TAGS ]: JSON.parse(localStorage.getItem( KEYWORDS.TAGS )) || [],
-		[ KEYWORDS.RANK ]: parseInt(localStorage.getItem( KEYWORDS.RANK ) || '0', 10),
+		[ KEYWORDS.LANG ]: isOrDefault(
+			localStorage.getItem( KEYWORDS.LANG ),
+			oneOf(ALL_LANGS),
+			'en',
+			() => localStorage.setItem(KEYWORDS.LANG, 'en')
+		),
+		[ KEYWORDS.ORDER ]: isOrDefault(
+			localStorage.getItem( KEYWORDS.ORDER ),
+			oneOf(ALL_ORDERS),
+			'date-DESC',
+			() => localStorage.setItem(KEYWORDS.ORDER, 'date-DESC')
+		),
+		[ KEYWORDS.TAGS ]: isOrDefault(
+			parseJson(localStorage.getItem( KEYWORDS.TAGS )),
+			Array.isArray,
+			[],
+			() => localStorage.setItem(KEYWORDS.TAGS, '[]')
+		),
+		[ KEYWORDS.RANK ]: isOrDefault(
+			parseInt(numberOrNull(localStorage.getItem( KEYWORDS.RANK ))),
+			not(isNaN),
+			0,
+			() => localStorage.setItem(KEYWORDS.RANK, '0')
+		),
 		[ KEYWORDS.TEXT ]: localStorage.getItem( KEYWORDS.TEXT ) || '',
 	};
 };
@@ -40,13 +63,33 @@ export const useRootFilterStore = defineStore('rootFilterStore', ({
 	},
 	actions: {
 		importFilterState(query) {
-			this[KEYWORDS.RANK] = parseInt(query[KEYWORDS.RANK] || localStorage.getItem(KEYWORDS.RANK) || '0', 10);
+			this[KEYWORDS.RANK] = isOrDefault(
+				numberOrNull(parseInt(query[KEYWORDS.RANK] || localStorage.getItem(KEYWORDS.RANK) || '0', 10)),
+				not(isNaN),
+				0,
+				() => localStorage.setItem(KEYWORDS.RANK, '0')
+			);
 			this[KEYWORDS.TEXT] = query[KEYWORDS.TEXT] || localStorage.getItem(KEYWORDS.TEXT) || '';
-			this[KEYWORDS.TAGS] = query[KEYWORDS.TAGS]
-				? query[KEYWORDS.TAGS].split(',').filter(Boolean)
-				: JSON.parse(localStorage.getItem(KEYWORDS.TAGS) || '[]');
-			this[KEYWORDS.LANG] = query[KEYWORDS.LANG] || localStorage.getItem(KEYWORDS.LANG) || 'en';
-			this[KEYWORDS.ORDER] = query[KEYWORDS.ORDER] || localStorage.getItem(KEYWORDS.ORDER) || 'date-DESC';
+			this[KEYWORDS.TAGS] = isOrDefault(
+				query[KEYWORDS.TAGS]
+					? query[KEYWORDS.TAGS].split(',').filter(Boolean)
+					: parseJson(localStorage.getItem(KEYWORDS.TAGS)),
+				Array.isArray,
+				[],
+				() => localStorage.setItem(KEYWORDS.TAGS, '[]')
+			);
+			this[KEYWORDS.LANG] = isOrDefault(
+				query[KEYWORDS.LANG] || localStorage.getItem(KEYWORDS.LANG),
+				oneOf(ALL_LANGS),
+				'en',
+				() => localStorage.setItem(KEYWORDS.LANG, 'en')
+			);
+			this[KEYWORDS.ORDER] = isOrDefault(
+				query[KEYWORDS.ORDER] || localStorage.getItem(KEYWORDS.ORDER),
+				oneOf(ALL_ORDERS),
+				'date-DESC',
+				() => localStorage.setItem(KEYWORDS.ORDER, 'date-DESC')
+			);
 		},
 		setLang(lang) {
 			this[ KEYWORDS.LANG ] = lang;
