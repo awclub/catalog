@@ -7021,5 +7021,41 @@
             "model"
         ],
         "rank": 0
+    },
+    {
+        "id": "9c8b8b0d-ae6b-4c1f-8b2a-1d4f7d4d9b3a",
+        "name": "LatentSync",
+        "url": "https://github.com/bytedance/LatentSync",
+        "description": {
+            "en": "ByteDance released an open-source lipsync model for synchronizing lip movements with audio. Requires a GPU with 6.5 GB memory. Processes short videos with a single face, 5–10 seconds long, at 25 frames per second and 16 kHz audio.",
+            "ru": "ByteDance выпустили опенсорсную липсинк-модель (модель для синхронизации движения губ с аудио). Для запуска понадобится GPU с 6.5 Гб памяти. Модель обрабатывает короткие видео с одним лицом в кадре, длиной 5–10 секунд, с частотой 25 кадров в секунду и частотой аудио 16 кГц."
+        },
+        "mentions": [],
+        "date": "2023-10-09",
+        "tags": [
+            "open-source",
+            "lipsync",
+            "audio",
+            "video",
+            "bytedance"
+        ],
+        "rank": 0
+    },
+    {
+        "id": "f1b3d5f2-8b29-4c5b-bb8e-9f9a4b1f8a6e",
+        "name": "Explore Agent Recipes",
+        "url": "",
+        "description": {
+            "en": "A set of visualized recipes for improving LLM responses by Together AI, inspired by Anthropic's article on Workflows and Agents.",
+            "ru": "Набор визуализированных рецептов по улучшению ответов от ЛЛМ от Together AI, вдохновленное статьей Антропиков про Воркфловы и Агенты."
+        },
+        "mentions": [],
+        "date": "2023-10-09",
+        "tags": [
+            "agents",
+            "llm",
+            "visualization"
+        ],
+        "rank": 0
     }
 ]
