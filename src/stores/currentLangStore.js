@@ -3,6 +3,8 @@ import i18n from "../i18n/index.js";
 import { ref } from "vue";
 import { useRootFilterStore } from "./rootFilterStore.js";
 
+export const ALL_LANGS = ['ru', 'uk', 'be', 'en'];
+
 const defaultLang = (savedLang) => {
 	// default language is English,
 	const defaultLangTemp = savedLang

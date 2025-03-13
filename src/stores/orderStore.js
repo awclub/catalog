@@ -21,6 +21,11 @@ const ORDERS = [
 	}
 ];
 
+export const ALL_ORDERS = ORDERS.flatMap(
+	order => Object.values(DIRECTION)
+		.map((direction) => (`${direction}-${order.key}`))
+);
+
 const DEFAULT_ORDER = [ 'date', DIRECTION.DESC ];
 
 const _parseSavedState = (state) => {
