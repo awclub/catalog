@@ -10,7 +10,9 @@ export const oneOf = (...args) => value => args.includes(value);
 
 export const not = predicate => value => !predicate(value);
 
-export const numberOrNull = value => isNaN(value) ? null : value;
+export const numberOrNull = value => {
+	return isNaN(value) ? null : value;
+}
 
 export const parseJson = json => {
 	try {
